@@ -1,0 +1,22 @@
+diff --git a/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/ManageSyncSettings.java b/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/ManageSyncSettings.java
+index 95c4dd94fadbbb56304bb0536e91eefbd14bae86..181dd93eea8696b366f13df9c5b11a30f71655c9 100644
+--- a/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/ManageSyncSettings.java
++++ b/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/ManageSyncSettings.java
+@@ -24,7 +24,7 @@ import androidx.appcompat.app.AppCompatActivity;
+ import androidx.fragment.app.DialogFragment;
+ import androidx.fragment.app.FragmentManager;
+ import androidx.fragment.app.FragmentTransaction;
+-import androidx.preference.CheckBoxPreference;
++import org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference;
+ import androidx.preference.Preference;
+ import androidx.preference.PreferenceCategory;
+ import androidx.preference.PreferenceFragmentCompat;
+@@ -360,7 +360,7 @@ public class ManageSyncSettings extends PreferenceFragmentCompat
+                         .getIdentityManager(Profile.getLastUsedRegularProfile())
+                         .getPrimaryAccountInfo(ConsentLevel.SYNC));
+         // May happen if account is removed from the device while this screen is shown.
+-        if (signedInAccountName == null) {
++        if (false) {
+             if (getActivity() != null) getActivity().finish();
+             return;
+         }

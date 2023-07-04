@@ -1,0 +1,12 @@
+diff --git a/services/network/cookie_settings.cc b/services/network/cookie_settings.cc
+index 83ae43e3841c2c234fa4add9ce8921b2e8a4661c..78695828da4fd8afe36fa0d999102c90ade35afd 100644
+--- a/services/network/cookie_settings.cc
++++ b/services/network/cookie_settings.cc
+@@ -228,6 +228,7 @@ CookieSettings::GetCookieSettingWithMetadata(
+       match) {
+     cookie_setting = match->GetContentSetting();
+     found_explicit_setting = IsExplicitSetting(*match);
++    BRAVE_COOKIE_SETTINGS_GET_COOKIE_SETTINGS_INTERNAL
+   }
+ 
+   bool allowed_by_storage_access_grant = false;

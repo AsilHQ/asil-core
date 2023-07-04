@@ -1,0 +1,81 @@
+# Copyright (c) 2019 The Asil Authors. All rights reserved.
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at https://mozilla.org/MPL/2.0/.
+
+import("//brave/components/p3a/buildflags.gni")
+import("//build/buildflag_header.gni")
+
+buildflag_header("buildflags") {
+  header = "buildflags.h"
+  flags = [ "BRAVE_P3A_ENABLED=$brave_p3a_enabled" ]
+}
+
+static_library("p3a") {
+  sources = [
+    "brave_p2a_protocols.cc",
+    "brave_p2a_protocols.h",
+    "brave_p3a_log_store.cc",
+    "brave_p3a_log_store.h",
+    "brave_p3a_scheduler.cc",
+    "brave_p3a_scheduler.h",
+    "brave_p3a_service.cc",
+    "brave_p3a_service.h",
+    "brave_p3a_switches.h",
+    "brave_p3a_uploader.cc",
+    "brave_p3a_uploader.h",
+    "brave_p3a_utils.h",
+    "histograms_braveizer.cc",
+    "histograms_braveizer.h",
+    "metric_log_type.cc",
+    "metric_log_type.h",
+    "metric_names.h",
+    "p3a_message.cc",
+    "p3a_message.h",
+    "pref_names.cc",
+    "pref_names.h",
+  ]
+
+  deps = [
+    "//base",
+    "//brave/components/brave_stats/browser",
+    "//brave/components/p3a:buildflags",
+    "//brave/components/p3a_utils",
+    "//brave/components/version_info",
+    "//brave/vendor/brave_base",
+    "//components/metrics",
+    "//components/prefs",
+    "//services/network/public/cpp",
+    "//url",
+  ]
+
+  if (is_ios) {
+    deps += [ "//ios/web/public/thread" ]
+  } else {
+    deps += [
+      "//content/public/browser",
+      "//content/public/common",
+    ]
+  }
+}
+
+source_set("unit_tests") {
+  testonly = true
+  sources = [
+    "brave_p2a_protocols_unittest.cc",
+    "brave_p3a_service_unittest.cc",
+    "metric_names_unittest.cc",
+  ]
+  deps = [
+    "//base/test:test_support",
+    "//brave/components/p3a",
+    "//components/prefs:test_support",
+    "//net:net",
+    "//services/network:test_support",
+    "//services/network/public/cpp",
+    "//testing/gtest",
+  ]
+  if (!is_ios) {
+    deps += [ "//content/test:test_support" ]
+  }
+}

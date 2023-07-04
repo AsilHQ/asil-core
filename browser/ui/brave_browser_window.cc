@@ -1,0 +1,34 @@
+/* Copyright (c) 2022 The Asil Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+#include "brave/browser/ui/brave_browser_window.h"
+
+// Provide a base implementation (important for `TestBrowserWindow ` in tests)
+// For real implementation, see `BraveBrowserView`.
+
+speedreader::SpeedreaderBubbleView* BraveBrowserWindow::ShowSpeedreaderBubble(
+    speedreader::SpeedreaderTabHelper* tab_helper,
+    bool is_enabled) {
+  return nullptr;
+}
+
+gfx::Rect BraveBrowserWindow::GetShieldsBubbleRect() {
+  return gfx::Rect();
+}
+
+// static
+BraveBrowserWindow* BraveBrowserWindow::From(BrowserWindow* window) {
+  return static_cast<BraveBrowserWindow*>(window);
+}
+
+#if defined(TOOLKIT_VIEWS)
+sidebar::Sidebar* BraveBrowserWindow::InitSidebar() {
+  return nullptr;
+}
+
+bool BraveBrowserWindow::HasSelectedURL() const {
+  return false;
+}
+#endif

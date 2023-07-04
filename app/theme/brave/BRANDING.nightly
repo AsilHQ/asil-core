@@ -1,0 +1,10 @@
+COMPANY_FULLNAME=Asil Software, Inc.
+COMPANY_SHORTNAME=Asil Software
+PRODUCT_FULLNAME=Asil Browser Nightly
+PRODUCT_SHORTNAME=Asil Nightly
+PRODUCT_INSTALLER_FULLNAME=Asil Installer
+PRODUCT_INSTALLER_SHORTNAME=Asil Installer
+COPYRIGHT=Copyright 2016 The Asil Authors. All rights reserved.
+MAC_BUNDLE_ID=com.asil.Browser.nightly
+MAC_CREATOR_CODE=Cr24
+MAC_TEAM_ID=KL8N8XSYF4

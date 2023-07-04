@@ -1,0 +1,57 @@
+diff --git a/chrome/browser/resources/settings/privacy_page/personalization_options.html b/chrome/browser/resources/settings/privacy_page/personalization_options.html
+index aad9cef9ec72a3535af7264b748be053b7ac8422..eede11d9c54bf2a2f954629358ea6f3aad8f122d 100644
+--- a/chrome/browser/resources/settings/privacy_page/personalization_options.html
++++ b/chrome/browser/resources/settings/privacy_page/personalization_options.html
+@@ -13,6 +13,7 @@
+         padding-inline-start: 0;
+       }
+     </style>
++<if expr="_google_chrome">
+ <if expr="not is_chromeos">
+     <!-- Signout is not supported yet on lacros, https://crbug.com/1217645 -->
+     <settings-toggle-button id="signinAllowedToggle"
+@@ -26,6 +27,7 @@
+         no-set-pref>
+     </settings-toggle-button>
+ </if><!-- not chromeos and not lacros -->
++</if>
+     <template is="dom-if" if="[[showSearchSuggestToggle_()]]" restamp>
+       <settings-toggle-button id="searchSuggestToggle"
+           class="hr"
+@@ -43,6 +45,7 @@
+         on-click="onMetricsReportingLinkClick_" external>
+     </cr-link-row>
+ </if><!-- chromeos -->
++</if><!-- _google_chrome -->
+ <if expr="not chromeos_ash">
+     <settings-toggle-button id="metricsReportingControl"
+         class="hr"
+@@ -58,13 +61,14 @@
+       </template>
+     </settings-toggle-button>
+ </if><!-- not chromeos -->
+-</if><!-- _google_chrome -->
++<if expr="_google_chrome">
+     <settings-toggle-button id="urlCollectionToggle"
+         class="hr"
+         pref="{{prefs.url_keyed_anonymized_data_collection.enabled}}"
+         label="$i18n{urlKeyedAnonymizedDataCollection}"
+         sub-label="$i18n{urlKeyedAnonymizedDataCollectionDesc}">
+     </settings-toggle-button>
++</if>
+ <if expr="_google_chrome">
+ <if expr="not chromeos_ash">
+     <settings-toggle-button id="spellCheckControl"
+@@ -107,6 +111,7 @@
+       </settings-toggle-button>
+     </template>
+ 
++<if expr="_google_chrome">
+     <template is="dom-if" if="[[showSignoutDialog_]]" restamp>
+       <settings-signout-dialog sync-status="[[syncStatus]]"
+           on-close="onSignoutDialogClosed_">
+@@ -124,3 +129,4 @@
+           on-close="onRelaunchDialogClose"></relaunch-confirmation-dialog>
+     </template>
+ </if>
++</if>

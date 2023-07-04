@@ -1,0 +1,386 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="iw">
+<translation id="1026101648481255140">המשך בהתקנה</translation>
+<translation id="7099479769133613710">‏הפעלה מחדש לצורך עדכון ‎&amp;ChromeOS</translation>
+<translation id="1065672644894730302">לא הייתה אפשרות לקרוא את ההעדפות שלך. ייתכן שחלק מהתכונות לא יהיו זמינות ושינויים בהעדפות לא יישמרו.</translation>
+<translation id="2796517443093885402">‏Asil עוזר להגן עליך מפני פרצות באבטחת המידע, תוספים לא תקינים ועוד</translation>
+<translation id="5918095577778020936">‏Asil רוצה לייצא את הסיסמאות שלך. יש להקליד את הסיסמה שלך ל-Windows כדי לאפשר זאת.</translation>
+<translation id="5468853758063275923">‏Asil מוגדר כדפדפן ברירת המחדל</translation>
+<translation id="8522292744959221145">‏כדי לבדוק אם שאר הסיסמאות מוגנות מפני פרצות באבטחת מידע ובעיות אבטחה אחרות, <ph name="BEGIN_LINK"/>יש להיכנס ל-Asil<ph name="END_LINK"/>.</translation>
+<translation id="8541922081612557424">‏על Asil</translation>
+<translation id="1203500561924088507">תודה שהתקנת. עליך להפעיל מחדש את הדפדפן לפני השימוש ב-<ph name="BUNDLE_NAME"/>.</translation>
+<translation id="8905049883018921395">‏כשההגדרה מופעלת, Asil מפנה מקום בזיכרון שמוקצה לכרטיסיות לא פעילות. כך, לכרטיסיות הפעילות ולאפליקציות אחרות יש יותר משאבים מהמחשב ו-Asil פועל מהר. כשחוזרים לכרטיסיות הלא פעילות, הן מופעלות מחדש באופן אוטומטי. <ph name="BEGIN_LINK"/>מידע נוסף<ph name="END_LINK"/></translation>
+<translation id="4658574652223735641">‏Asil פועל מהר יותר בזכות מצב החיסכון בזיכרון</translation>
+<translation id="4798342026247191171">‏הגדרת הפרופיל החדש שלך ב-Asil</translation>
+<translation id="113959764510199339">‏Asil מנסה להציג סיסמאות.</translation>
+<translation id="8132634101975074716">‏נכנסת ל-Asil!</translation>
+<translation id="4168469784091952813">‏אפשר ליהנות מהמיטב של Asil</translation>
+<translation id="5147525139567260139">‏שיתוף כרטיסיית Asil</translation>
+<translation id="1530633922026945685">‏Asil זקוק להרשאת גישה למצלמה כדי ליצור מפה תלת-ממדית של הסביבה שלך</translation>
+<translation id="4449148723378534338">‏בדיקה של אמצעי הבקרה החשובים ביותר על פרטיות ואבטחה ב-Asil</translation>
+<translation id="1640672724030957280">מוריד...</translation>
+<translation id="5616153642055197778">‏גרסה חדשה ובטוחה יותר של Asil זמינה כעת.</translation>
+<translation id="5846727201643228411">‏יש לך אפשרות לראות ולהסיר את תחומי העניין שלפיהם האתרים מציגים לך את המודעות. ההערכה של תחומי העניין ב-Asil מתבססת על היסטוריית הגלישה שלך מהזמן האחרון.</translation>
+<translation id="6797402139308059782">‏התרה ל-Asil לפעול ברקע</translation>
+<translation id="5875673934455379806">‏התקנת Asil מחדש</translation>
+<translation id="6888366668010117849">‏אתרים יכולים לשמור מידע ב-Asil לגבי תחומי העניין שלך. לדוגמה, אם ביקרת באתר כדי לקנות נעליים למרתון, האתר עשוי להגדיר 'ריצת מרתון' כתחום עניין שלך. לאחר מכן, בביקור באתר שונה, למשל כדי להירשם למרוץ, יכול להיות שתוצג לך מודעה לנעלי ריצה על סמך תחומי העניין שלך.</translation>
+<translation id="4528406859989804913">‏נכנסת עם חשבון מנוהל שנותן למנהל המערכת שלו שליטה על הפרופיל שלך ב-Asil. הנתונים שלך ב-Asil, כגון אפליקציות, סימניות, היסטוריה, סיסמאות והגדרות אחרות ייקשרו באופן קבוע ל-<ph name="USER_NAME"/>. ניתן למחוק את הנתונים האלה באמצעות לוח הבקרה של חשבונות Asil, אבל אי אפשר לשייך את הנתונים האלה לחשבון אחר. לחלופין, באפשרותך ליצור פרופיל חדש כדי לשמור את הנתונים הקיימים שלך ב-Asil בנפרד.<ph name="LEARN_MORE"/></translation>
+<translation id="1649714546770135458">‏כיבוי הגדרה זו יאפשר לך להיכנס לאתרי Asil, כמו Gmail, בלי להיכנס אל Asil</translation>
+<translation id="189297655255130768">‏Asil אינו מגיב. להפעיל מחדש עכשיו?</translation>
+<translation id="4035053306113201399">‏צריך להפעיל מחדש את ChromeOS כדי להחיל את העדכון הזה.</translation>
+<translation id="1953553007165777902">מתבצעת הורדה… יש עוד <ph name="MINUTE"/> דק'</translation>
+<translation id="1775322105159056176">‏ב-Asil לא ניתן לקבוע או להגדיר את דפדפן ברירת המחדל</translation>
+<translation id="9220324636239049437">‏הפעולה הזו תמחק פריט אחד מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל Asil עם <ph name="USER_EMAIL"/>.</translation>
+<translation id="2018879682492276940">ההתקנה נכשלה. יש לנסות שוב.</translation>
+<translation id="831418749472885028">‏כדי לבדוק אם שאר הסיסמאות מוגנות מפני פרצות באבטחת מידע ובעיות אבטחה אחרות, <ph name="BEGIN_LINK"/>יש להיכנס ל-Asil<ph name="END_LINK"/>.</translation>
+<translation id="5499149312981370855">‏בוחרים אם לכלול את ההיסטוריה ב-Asil להתאמה אישית מדויקת יותר בשירותי Asil</translation>
+<translation id="849607431499549468">‏מידע על האופן שבו Asil מנהל את אישורי הבסיס שלו</translation>
+<translation id="142389341645668510">‏התאמה אישית של Asil</translation>
+<translation id="2174917724755363426">ההתקנה לא הושלמה. להמשיך בביטול?</translation>
+<translation id="8745514854244955877">‏Asil – כניסה לרשת – <ph name="PAGE_TITLE"/></translation>
+<translation id="5659384504794665581">‏אם משתפים מחשב, חברים ובני משפחה יכולים לגלוש בנפרד ולהגדיר את Asil בדיוק כפי שהם רוצים.</translation>
+<translation id="7810992039564280750">‏המערכת בודקת כתובות URL בעזרת רשימה של אתרים לא בטוחים ששמורה ב-Asil. אם באתר כלשהו מתבצע ניסיון לגנוב את הסיסמה שלך, או אם המערכת מזהה הורדה של קובץ מזיק, Asil עשוי גם לשלוח כתובות URL לבדיקה באמצעות 'גלישה בטוחה'. הנתונים שנשלחים לבדיקה כוללים ביטים מתוכן של דפים.</translation>
+<translation id="9095263438435683933">‏כדי לשלוח מספר מכאן לטלפון Android, יש להיכנס ל-Asil בשני המכשירים.</translation>
+<translation id="3813272600615358652">‏התוסף שינה את הדף שמוצג כשמפעילים את Asil.</translation>
+<translation id="2359808026110333948">המשך</translation>
+<translation id="8418845734693287262">‏לא בוצע סנכרון של הנתונים שלך ב-ChromeOS כי פרטי הכניסה לחשבון לא מעודכנים.</translation>
+<translation id="2576129394594491151">‏התוסף "<ph name="EXTENSION_NAME"/>" שינה את הדף שמוצג כשמפעילים את Asil.</translation>
+<translation id="1248225940185478633">‏נדרשות הרשאות גישה למצלמה ולמיקרופון ב-Asil עבור האתר הזה</translation>
+<translation id="6078442581074612226">‏ב-Asil</translation>
+<translation id="2485422356828889247">הסרת התקנה</translation>
+<translation id="7798069806040634998">‏Asil זקוק לגישה לאחסון כדי להוריד קבצים</translation>
+<translation id="8447483940522230788">Asil Helper</translation>
+<translation id="7291143854620707672">‏המנהל של פרופיל העבודה יכול להסיר נתוני Asil שמופקים בזמן השימוש בפרופיל (כמו יצירת סימניות, היסטוריה, סיסמאות והגדרות נוספות). <ph name="LEARN_MORE"/></translation>
+<translation id="6252796827759111076">‏המשך השימוש ב-Asil</translation>
+<translation id="7387051847644272380">‏במהלך ההתקנה ארעה שגיאה של מערכת ההפעלה. יש להוריד שוב את Asil.</translation>
+<translation id="2648689842065142443">‏אם משתפים מכשיר, חברים ובני משפחה יכולים לגלוש בנפרד ולהגדיר את Asil בדיוק כפי שהם רוצים</translation>
+<translation id="5926459996518749366">‏קובץ הארכיון הזה נחסם על ידי Asil כי הוא עלול להסתיר תוכנה זדונית</translation>
+<translation id="6384359666082467439">‏ברוך בואך אל Asil, <ph name="ACCOUNT_FIRST_NAME"/></translation>
+<translation id="6791166902140255175">‏כרטיסייה של Asil</translation>
+<translation id="8372880274820509128">‏לשיפור האבטחה, Asil יצפין את הנתונים.</translation>
+<translation id="2770231113462710648">שינוי דפדפן ברירת המחדל ל:</translation>
+<translation id="2799223571221894425">הפעלה מחדש</translation>
+<translation id="3783547330001921298">‏ייווצר פרופיל Asil חדש בשביל <ph name="USER_EMAIL_ADDRESS"/>.</translation>
+<translation id="777113543093865885">‏הסרה מ-Asil...</translation>
+<translation id="5265419033369521352">‏מגינה עליך ב-Asil ועשויה לשפר את רמת האבטחה באפליקציות אחרות של Asil. ההגנה הזו פעילה רק אם נכנסים לחשבון.</translation>
+<translation id="2885378588091291677">מנהל המשימות</translation>
+<translation id="2176825726964012531">‏מידע על &amp;Asil‏</translation>
+<translation id="2915996080311180594">הפעלה מחדש מאוחר יותר</translation>
+<translation id="2928420929544864228">ההתקנה הושלמה.</translation>
+<translation id="8208853227947884571">‏Asil‏ מעודכן</translation>
+<translation id="5122472867956731189">‏אם באתר כלשהו מתבצע ניסיון לגנוב את הסיסמה שלך, או אם המערכת מזהה הורדה של קובץ מזיק, Asil עשוי גם לשלוח כתובות URL לבדיקה באמצעות 'גלישה בטוחה'. הנתונים שנשלחים לבדיקה כוללים ביטים מתוכן של דפים</translation>
+<translation id="2953892977076487219">‏Asil מנסה לערוך את הסיסמאות.</translation>
+<translation id="7982250592423354843">{NUM_DEVICES,plural, =1{‏Asil מחובר להתקן HID}one{‏Asil מחובר להתקני HID}two{‏Asil מחובר להתקני HID}other{‏Asil מחובר להתקני HID}}</translation>
+<translation id="8755404239607088219">‏Asil לא יכול לבדוק את הסיסמאות שלך. כדאי לנסות שוב מאוחר יותר.</translation>
+<translation id="8880183781256147665">‏מתבצעת הוספה ל-Asil...</translation>
+<translation id="3038232873781883849">בהמתנה להתקנה…</translation>
+<translation id="7918740962659365265">‏עזרה בשיפור Asil על ידי שליחת <ph name="UMA_LINK"/> ודוחות קריסה אל Asil</translation>
+<translation id="5320085753638900910">‏היסטוריית הגלישה שלך משפיעה על המודעות שמוצגות לך ועל תחומי העניין המשוערים שמופיעים בהמשך. כדי להגן על הפרטיות שלך, מתבצעת ב-Asil מחיקה אוטומטית של תחומי העניין שלך על בסיס מתחלף מדי חודש. תחומי עניין שלא הוסרו עוברים רענון.</translation>
+<translation id="7365690458036015383">‏המתקין לא הצליח לבטל את דחיסת הארכיון. יש להוריד שוב את Asil.</translation>
+<translation id="8919461291440820124">‏Asil משתמש במיקרופון שלך.</translation>
+<translation id="4805806622840861220">‏הפעלה מחדש של Asil</translation>
+<translation id="1742948938503172561">‏התאמה אישית של פרופיל Asil החדש</translation>
+<translation id="1477146545787277177">‏וואו! Asil קרס. להפעיל מחדש עכשיו?</translation>
+<translation id="7503098128120083822">‏Asil רוצה לייצא את הסיסמאות שלך.</translation>
+<translation id="2585240446624043880">‏Asil אינו יכול לקרוא ולכתוב בספריית הנתונים שלו: <ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="2423637317249323944">‏מותקנת גרסה <ph name="PRODUCT_VERSION"/> של Asil</translation>
+<translation id="3286538390144397061">הפעל מחדש כעת</translation>
+<translation id="2339258256897053758">‏המפתחות של Asil API חסרים. פונקציונליות מסוימת של Asil תהיה מושבתת.</translation>
+<translation id="8926637909431618259">‏המשך הפעלת יישומים ברקע כאשר Asil סגור</translation>
+<translation id="2711887072399498551">‏כבר קיים פרופיל Asil עם החשבון הזה</translation>
+<translation id="2645435784669275700">ChromeOS</translation>
+<translation id="2297290224191497273">‏לעבור לפרופיל קיים של Asil?</translation>
+<translation id="3412460710772753638">עדכון במנהל הסיסמאות במכשיר הזה</translation>
+<translation id="616005907576404509">{COUNT,plural, =1{‏בהתאם להגדרה של האדמין, Asil ייסגר אם הוא לא פעיל במשך יותר מדקה.}one{‏בהתאם להגדרה של האדמין, Asil ייסגר אם הוא לא פעיל במשך יותר מ-# דקות.}two{‏בהתאם להגדרה של האדמין, Asil ייסגר אם הוא לא פעיל במשך יותר מ-# דקות.}other{‏בהתאם להגדרה של האדמין, Asil ייסגר אם הוא לא פעיל במשך יותר מ-# דקות.}}</translation>
+<translation id="2450003541323895471">‏באמצעות פרופילים ב-Asil, מפרידים את כל הפריטים ב-Asil. יוצרים פרופילים המיועדים לחברים ולבני משפחה או פרופילים נפרדים לעבודה ולבילויים בשעות הפנאי.</translation>
+<translation id="9216183508558772570">‏אם מערכת Asil תזהה שנכנסת עם סיסמה שנחשפה, היא תתריע לך על כך</translation>
+<translation id="5853262807109651878">‏פעולה זו תמחק <ph name="ITEMS_COUNT"/> פריטים מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, יש להיכנס אל Asil עם <ph name="USER_EMAIL"/>.</translation>
+<translation id="2024972335338126423">‏ניתן לעבור בין פרופילים של Asil באמצעות <ph name="SHORTCUT"/></translation>
+<translation id="8703492925273919597">‏יש לסגור את כל חלונות Asil ולנסות שוב.</translation>
+<translation id="4061445349373849749">‏כדי להגן על הפרטיות שלך, תחומי עניין שהוגדרו לפני יותר מ-4 שבועות נמחקים אוטומטית. עם המשך הגלישה, תחום עניין כלשהו עשוי להופיע שוב ברשימה. יש גם אפשרות להסיר תחומי עניין מ-Asil כדי שלא יילקחו בחשבון.</translation>
+<translation id="691208314680168371">‏היסטוריית הגלישה – תיעוד האתרים שביקרת בהם באמצעות Asil במכשיר הזה.</translation>
+<translation id="1384923383737428730">‏יש במחשב שלך תוכנה מזיקה. Asil יכול להסיר אותה, לשחזר את ההגדרות שלך ולהשבית תוספים כדי שהדפדפן יחזור שוב לפעולה רגילה.</translation>
+<translation id="1073077513148817424">‏כבר מחובר חשבון אחר. כדי להפריד בין פעילויות גלישה, Asil יכול ליצור עבורך פרופיל משלך.</translation>
+<translation id="7029305463989165490">‏כדי לשלוח מספר מ-<ph name="ORIGIN"/> לטלפון Android שלך, צריך להיכנס אל Asil בשני המכשירים.</translation>
+<translation id="4304059894777924102">‏Asil לא יכול לבדוק את הסיסמאות שלך. יש לבדוק את החיבור לאינטרנט.</translation>
+<translation id="2100587595569959771">‏מידע נוסף על ההתאמה האישית של המודעות ב-Asil</translation>
+<translation id="1807774211756215222">‏פתיחת הקישור ב&amp;כרטיסיית Asil חדשה</translation>
+<translation id="7453070689008684791">‏Asil ייגש ל-Drive שלך כדי להציג הצעות בשורת כתובת האתר</translation>
+<translation id="2106568569080763501">‏Asil מאפשר לך ללחוץ על מספר טלפון באינטרנט ולהתקשר אליו באמצעות Skype!</translation>
+<translation id="2401189691232800402">‏מערכת ChromeOS</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Asil</translation>
+<translation id="3744202345691150878">‏קבלת עזרה בנושא ChromeOS</translation>
+<translation id="6009720635797285369">‏אפשר לקבל את הנתונים של <ph name="ACCOUNT_EMAIL"/> ולשמור אותם בדפדפן Asil</translation>
+<translation id="6315734375101223238">‏התאמה אישית וניהול של Asil נחוצה פעולה שלך - יש ללחוץ לקבלת פרטים נוספים.</translation>
+<translation id="7130675370997202556">‏יש ללחוץ על השם שלך כדי לפתוח את Asil ולהתחיל לגלוש.</translation>
+<translation id="4920958997042285125">‏המשתמש <ph name="EXISTING_USER"/> כבר מחובר לפרופיל Asil הזה. כדי להפריד בין פעילויות גלישה, Asil יכול ליצור עבורך פרופיל משלך.</translation>
+<translation id="2337217774418822704">‏החשבון שלך מנוהל על ידי <ph name="MANAGER_NAME"/>. האדמין שלך יכול לראות ולערוך את הפרופיל הזה של דפדפן Asil ואת הנתונים שלו, כמו סימניות, היסטוריה וסיסמאות.</translation>
+<translation id="8090497651549769448">‏Asil מנסה להעתיק את הסיסמאות. כדי לאפשר למערכת לעשות זאת, יש להזין את הסיסמה שלך ל-Windows.</translation>
+<translation id="7133557675784723900">‏ההמלצה של Asil היא לסרוק את הקובץ הזה כי הוא עלול להיות מסוכן</translation>
+<translation id="1152920704813762236">‏מידע על ChromeOS</translation>
+<translation id="3703994572283698466">‏השימוש ב-ChromeOS מתאפשר בזכות <ph name="BEGIN_LINK_CROS_OSS"/>תוכנות קוד פתוח<ph name="END_LINK_CROS_OSS"/> נוספות כמו <ph name="BEGIN_LINK_LINUX_OSS"/>סביבת הפיתוח של Linux<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6056473803837713617">‏דיווח על <ph name="BEGIN_LINK"/>ההגדרות הנוכחיות<ph name="END_LINK"/> יעזור לשפר את Asil</translation>
+<translation id="4050175100176540509">הגרסה החדשה כוללת שיפורי בטיחות חשובים ותכונות חדשות.</translation>
+<translation id="4148957013307229264">מתקין...</translation>
+<translation id="4658486203392098459">‏<ph name="PAGE_TITLE"/> – כניסה לרשת – Asil</translation>
+<translation id="2871190378186459992">‏אפליקציות, משחקים, תוספים ועיצובים מעולים בשביל Asil.</translation>
+<translation id="5757460455745382269">‏זו השפה שבה מוצג ממשק המשתמש של Asil</translation>
+<translation id="4222932583846282852">מבטל…</translation>
+<translation id="1853997773668795891">‏האם לקשר את הנתונים שלך ב-Asil לחשבון זה?</translation>
+<translation id="3262506503470845422">‏עזרה בנושא Asil</translation>
+<translation id="7691786510374174420">‏ההתקנה נכשלה בשל שגיאה לא צפויה. אם Asil פועל כעת, יש לסגור אותו ולנסות שוב.</translation>
+<translation id="4304713468139749426">מנהל הסיסמאות</translation>
+<translation id="4334294535648607276">ההורדה הושלמה.</translation>
+<translation id="1068681683510904753">‏לפי דרישת <ph name="MANAGER"/>, יש לקרוא את התנאים וההגבלות הבאים ולהסכים להם לפני השימוש במכשיר הזה. תנאים אלה לא מרחיבים, משנים או מגבילים את התנאים של ChromeOS.</translation>
+<translation id="9183662282810237335">‏לסגור את Asil בכל זאת?</translation>
+<translation id="4065288863231444640">‏Asil יכול לפעול ברקע</translation>
+<translation id="8148611988012584308">‏התאמה אישית ושליטה ב-Asil</translation>
+<translation id="4427306783828095590">עם ההגנה המשופרת, החסימה של פישינג ותוכנות זדוניות מקיפה יותר</translation>
+<translation id="7084397798469173252">‏ברוך בואך אל Asil. נפתח חלון חדש בדפדפן</translation>
+<translation id="2633397153656205379">‏Asil לא התעדכן, משהו השתבש. <ph name="BEGIN_LINK"/>לטיפול בבעיות בעדכון של Asil ובעדכונים שנכשלו<ph name="END_LINK"/></translation>
+<translation id="3679799810790990472">‏להמשיך בפרופיל Asil חדש?</translation>
+<translation id="4567424176335768812">נכנסת למערכת בתור <ph name="USER_EMAIL_ADDRESS"/>. כעת יש לך אפשרות לגשת אל הסימניות, ההיסטוריה והגדרות אחרות שלך בכל המכשירים שבהם התחברת לחשבון.</translation>
+<translation id="4594305310729380060">שמירה למנהל הסיסמאות במכשיר הזה</translation>
+<translation id="300669147395456190">‏יישומי Asil</translation>
+<translation id="4970880042055371251">‏גרסת ChromeOS</translation>
+<translation id="2182657378556811785">‏העדכון כמעט הושלם! הפעל מחדש את Asil‏ כדי לסיים את העדכון.</translation>
+<translation id="7402642357351265733">‏אם בנוסף ישותפו דוחות שימוש ב-Asil, הדוחות האלה יכללו את כתובות ה-URL שבהן ביקרת</translation>
+<translation id="8142245354207161805">‏נראה שהפרופיל נמצא בשימוש על ידי תהליך Asil אחר (<ph name="PROCESS_ID"/>) במחשב אחר (<ph name="HOST_NAME"/>)‏. Asil נעל את הפרופיל כדי שלא ייפגם. אם וידאת שאף תהליך אחר אינו משתמש בפרופיל זה, אפשר את נעילת הפרופיל ולהפעיל את Asil מחדש.</translation>
+<translation id="4680828127924988555">ביטול ההתקנה</translation>
+<translation id="847561904663814268">‏מישהו נכנס בעבר ל-Asil מהמחשב הזה כ-<ph name="ACCOUNT_EMAIL_LAST"/>. יש ליצור משתמש חדש ל-Asil כדי לשמור על פרטיות המידע שלך.</translation>
+<translation id="3834935463915107022">‏לסגור את Asil בכל זאת?</translation>
+<translation id="8668413672647811944">‏בוצע עדכון אבטחה מיוחד של Asil. עכשיו עליך להפעיל מחדש ואנחנו נשחזר את הכרטיסיות.</translation>
+<translation id="5857638389580847844">‏יש לך אפשרות לשנות את הבחירה בכל שלב בהגדרות של Asil. גרסאות הניסיון יפעלו במקביל לשיטה הנוכחית של הצגת המודעות, אז השינויים לא יורגשו מיד.</translation>
+<translation id="4823369970559443694">‏Asil לא יכול לבדוק את הסיסמאות שלך. יש לנסות שוב בעוד 24 שעות או <ph name="BEGIN_LINK"/>לבדוק את הסיסמאות בחשבון Asil<ph name="END_LINK"/>.</translation>
+<translation id="215320507915280336">‏נעשה כאן שימוש בבדיקת האיות של חיפוש Asil. הטקסט המוקלד בדפדפן נשלח אל Asil. אפשר לשנות את ההתנהגות הזו בכל שלב דרך ההגדרות.</translation>
+<translation id="1912973375560256099">‏כלל נכנס עבור Asil על מנת לאפשר תנועת mDNS.</translation>
+<translation id="711601904575862069">‏הפעלה מחדש לצורך עדכון &amp;Asil</translation>
+<translation id="8797356639448065696">‏Asil נמצא במצב רקע.</translation>
+<translation id="7406627712452599344">‏אורחים יכולים להשתמש ב-Asil בלי להשאיר דבר מאחור.</translation>
+<translation id="5952898964075639679">‏הוספת החשבון שלך ל-Asil</translation>
+<translation id="8112581848375017126">‏אנחנו בודקים תכונות חדשות ב-Asil שמאפשרות לאתרים לספק את אותה חוויית הגלישה תוך שימוש בפחות פרטים אישיים</translation>
+<translation id="9078804073692109646">‏אין סיסמאות שמורות. Asil יכול לבדוק את הסיסמאות שלך רק אם שמרת אותן.</translation>
+<translation id="729580998737807583">‏המשתמש <ph name="EXISTING_USER"/> כבר מחובר לפרופיל Asil הזה. ייווצר פרופיל Asil חדש בשביל <ph name="USER_EMAIL_ADDRESS"/>.</translation>
+<translation id="8586264863973514035">‏כדי להחיל את השינויים שביצעת, יש להפעיל מחדש את Asil</translation>
+<translation id="300369155175407115">‏כשגרסאות הניסיון פעילות, ובמקרים שבהם צורפת באופן אקראי לגרסת ניסיון פעילה ב-Asil, היסטוריית הגלישה שלך משפיעה על המודעות שמוצגות לך ועל תחומי העניין המשוערים שמופיעים בהמשך. כדי להגן על הפרטיות שלך, מתבצעת ב-Asil מחיקה של תחומי העניין שלך על בסיס מתחלף מדי חודש.</translation>
+<translation id="7708394612738038097">‏הכניסה שלך מתבצעת באמצעות חשבון מנוהל שמעניק למנהל המערכת שלו שליטה על הפרופיל שלך ב-Asil. הנתונים שלך ב-Asil, כגון יישומים, סימניות, היסטוריה, סיסמאות והגדרות אחרות ייקשרו באופן קבוע ל-<ph name="USER_NAME"/>. ניתן למחוק את הנתונים האלה באמצעות לוח הבקרה של חשבונות Asil, אבל לא ניתן לשייך את הנתונים האלה לחשבון אחר. <ph name="LEARN_MORE"/></translation>
+<translation id="1786715389543715322">‏מתבצע עדכון של Asil‏ (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="7021823858304886493">‏התרת כניסה אל Asil</translation>
+<translation id="5536657158619734169">‏גרסה חדשה של Asil זמינה כעת.</translation>
+<translation id="5267531627648004734">‏להסיר מ-‏Asil‏</translation>
+<translation id="2783637305317815247">{0,plural, =0{‏Asil נסגר עכשיו.}=1{‏Asil ייסגר בעוד שנייה.}one{‏Asil ייסגר בעוד # שניות.}two{‏Asil ייסגר בעוד # שניות.}other{‏Asil ייסגר בעוד # שניות.}}</translation>
+<translation id="239760341987199724">‏הגדרת Asil כדפדפן ברירת המחדל שלך</translation>
+<translation id="1403270718080126244">‏<ph name="PAGE_TITLE"/> - Asil בגרסת בטא</translation>
+<translation id="894936507076470937">‏יכול להיות ש-Asil לא יפעל כראוי כי הוא כבר לא נתמך בגרסה הזו של Linux</translation>
+<translation id="696826782632239602">‏Asil זקוק לגישה למיקום שלך כדי לשתף אותו עם האתר הזה</translation>
+<translation id="3809116188788099368">‏כדי להגן על הפרטיות שלך, תחומי עניין שהוגדרו לפני יותר מ-4 שבועות נמחקים אוטומטית. עם המשך הגלישה, תחום עניין כלשהו עשוי להופיע שוב ברשימה. אם ב-Asil הוגדר תחום עניין שגוי או שאינך רוצה לראות מודעות מסוימות, יש לך אפשרות להסיר תחומי עניין.</translation>
+<translation id="1744365871163268756">‏יש להמתין בזמן ש-Asil מתקין את עדכוני המערכת האחרונים.</translation>
+<translation id="3861679447659630159">‏Asil מנסה לערוך את הסיסמאות. כדי לאפשר זאת, יש להזין את הסיסמה שלך ל-Windows.</translation>
+<translation id="232381795826373334">‏פתיחה של קובצי PDF ב-Asil</translation>
+<translation id="5381032481466106256">‏כשההגדרה מופעלת, תתבצע יציאה גם מ-Asil</translation>
+<translation id="1026406809507858026">{0,plural, =0{‏יש עדכון ל-Asil}=1{‏יש עדכון ל-Asil}one{‏עדכון של Asil זמין כבר # ימים}two{‏עדכון של Asil זמין כבר # ימים}other{‏עדכון של Asil זמין כבר # ימים}}</translation>
+<translation id="95624393026532554">‏כדי להשתמש ב-Asil יש צורך ב-Windows מגרסה 7 ואילך.</translation>
+<translation id="5646769069113654257">‏יש להפעיל מחדש את Asil</translation>
+<translation id="2335583906071111058">‏הצגת Asil בשפה זו</translation>
+<translation id="7207456302801184289">‏ברוכים הבאים ל-Asil‏</translation>
+<translation id="8054200348483755053">‏מערכת Asil גילתה שהפריטים האלה מכילים תוכנה זדונית:</translation>
+<translation id="5895138241574237353">הפעלה מחדש</translation>
+<translation id="5903106910045431592"><ph name="PAGE_TITLE"/> – כניסה לרשת</translation>
+<translation id="5924017743176219022">מתבצעת התחברות לאינטרנט…</translation>
+<translation id="5941711191222866238">מזעור</translation>
+<translation id="3613110494561632737">‏אם צורפת באופן אקראי לגרסת ניסיון פעילה ב-Asil, היסטוריית הגלישה שלך משפיעה על המודעות שמוצגות לך ועל תחומי העניין המשוערים שמופיעים בהמשך. כדי להגן על הפרטיות שלך, מתבצעת ב-Asil מחיקה של תחומי העניין שלך על בסיס מתחלף מדי חודש. תחומי עניין שלא הוסרו עוברים רענון.</translation>
+<translation id="3598551856834560515">‏יש לעדכן את Asil כדי להתחיל את הסנכרון</translation>
+<translation id="5225261774087485064">‏באתרים רבים נהוג לשמור את תחומי העניין שלך כדי להתאים אישית את חוויית הגלישה בהם. בנוסף, אתרים יכולים לשמור מידע ב-Asil לגבי תחומי העניין שלך.</translation>
+<translation id="6003112304606738118">מתבצעת הורדה… יש עוד <ph name="HOURS"/> שע'</translation>
+<translation id="6040143037577758943">סגירה</translation>
+<translation id="505042220086416644">‏גרסה חדשה של Asil זמינה, והיא מהירה יותר מאי פעם.</translation>
+<translation id="9071554113102421877">‏&amp;פתיחה ב-Asil</translation>
+<translation id="7861579472672677409">‏<ph name="EXTENSION_NAME"/> נוסף ל-‏Asil‏</translation>
+<translation id="3693188491491843187">‏שיפור המהירות ב-Asil</translation>
+<translation id="608006075545470555">הוספת פרופיל עבודה לדפדפן זה</translation>
+<translation id="5849446944780602366">‏כדי להתאים אישית את Asil ולשלוט בו טוב יותר, כדאי להוריד את העדכון החדש.</translation>
+<translation id="7433698744896946664">‏מתן הרשאה לתוסף להציג בקשות גישה בסרגל הכלים של Asil</translation>
+<translation id="492209281555538239">‏הסיסמה הזאת תישמר על ידי Asil בחשבון Asil שלך. אין צורך לזכור אותה.</translation>
+<translation id="4168372721886011198">‏<ph name="FILE_NAME"/> מסוכן, ולכן Asil חסם אותו.</translation>
+<translation id="7006260220514217183">‏הגלישה הבטוחה כבויה. ההמלצה של Asil היא להפעיל אותה.</translation>
+<translation id="4060970194201477024">‏כאן ניתן לעבור בין פרופילים של Asil</translation>
+<translation id="4368341489795135329">‏יש לוודא שנכנסת ל-Asil ב-<ph name="TARGET_DEVICE_NAME"/> שלך ולשלוח שוב.</translation>
+<translation id="8320964054148936490">‏במחשב זה קיימת כבר גרסה מתקדמת יותר של Asil. אם התוכנה אינה פועלת, יש להסיר את ההתקנה של Asil ולנסות שוב.</translation>
+<translation id="3574823187131579180">{0,plural, =0{‏Asil יופעל מחדש עכשיו}=1{‏Asil יופעל מחדש בעוד שנייה אחת}one{‏Asil יופעל מחדש בעוד # שניות}two{‏Asil יופעל מחדש בעוד # שניות}other{‏Asil יופעל מחדש בעוד # שניות}}</translation>
+<translation id="5980269616827212166">‏נדרשת הרשאת גישה לאחסון ב-Asil כדי להוריד קבצים</translation>
+<translation id="7651600795135059130">‏המערכת בודקת כתובות URL בעזרת רשימה של אתרים לא בטוחים ששמורה ב-Asil</translation>
+<translation id="5019879183386042809">‏יש להפוך את Asil לדפדפן ברירת המחדל</translation>
+<translation id="428541510811554120">‏Asil לא יכול לחפש עדכונים. יש לבדוק את החיבור לאינטרנט.</translation>
+<translation id="7445061995866044926">‏האם לצאת מ-Asil?</translation>
+<translation id="6273793429163604305">למקומות…</translation>
+<translation id="6806912298071949921">‏התאמה אישית של פרופיל Asil</translation>
+<translation id="3792238845239580301">‏בחירת שם לפרופיל Asil שלך</translation>
+<translation id="3561569806301739367">‏<ph name="FILE_NAME"/> עלול להיות מסוכן, ולכן Asil חסם אותו.</translation>
+<translation id="3205074487970075628">‏Asil משתמש במצלמה שלך.</translation>
+<translation id="7470405854261046555">‏הקובץ הזה מסוכן ולכן הוא נחסם על ידי Asil</translation>
+<translation id="6327105987658262776">אין עדכונים זמינים.</translation>
+<translation id="1819119299840995223">‏מתבצעת כרגע פעולה אחרת ב-Asil. כדאי לנסות שוב מאוחר יותר.</translation>
+<translation id="8616874628011103667">‏קל יותר כעת להשתמש ב-Asil באמצעות חשבון Asil שלך ובמחשבים משותפים.</translation>
+<translation id="335632367599648646">‏ברצונך באמת להסיר את התקנת Asil?</translation>
+<translation id="4867486350347355096">‏<ph name="BEGIN_BOLD"/>איך אנחנו משתמשים בנתונים האלה:<ph name="END_BOLD"/> Asil יכול להעריך מהם תחומי העניין שלך. לאחר מכן, אתר שבו ביקרת יכול לשלוח בקשה ל-Asil כדי לגלות מהם תחומי העניין שלך ולהתאים אישית את המודעות שמוצגות לך.</translation>
+<translation id="6373767849825830651">‏Asil הוא דפדפן אינטרנט המפעיל דפי אינטרנט ואפליקציות במהירות הבזק. זהו דפדפן מהיר, יציב וקל לשימוש שמאפשר לך לגלוש באינטרנט בצורה מאובטחת יותר הודות להגנה מפני תוכנות זדוניות ופישינג המובנית ב-Asil.</translation>
+<translation id="2139300032719313227">‏הפעלה מחדש של ChromeOS</translation>
+<translation id="1684121725014454063">‏ברוך בואך לפרופילים של Asil</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{‏Asil יבצע אתחול בעוד שנייה אחת}one{‏Asil יבצע אתחול בעוד # שניות}two{‏Asil יבצע אתחול בעוד # שניות}other{‏Asil יבצע אתחול בעוד # שניות}}</translation>
+<translation id="2675662665675552980">‏הגדרה זו גם קובעת איזה דף מוצג כשמפעילים את Asil.</translation>
+<translation id="5590013613412457132">‏הסרה של התקנת Asil</translation>
+<translation id="8646609321956191980">‏בכל פרופיל מאוחסנים נתוני Asil משלו כמו סימניות, היסטוריה, סיסמאות ועוד</translation>
+<translation id="2312399718665761438">‏Asil שולח את הטקסט שמוקלד בשדות טקסט ל-Asil כדי לתקן שגיאות כתיב</translation>
+<translation id="3507835409099344374">‏מעבר אל הגדרות ההודעות של Asil</translation>
+<translation id="9156965752763025780">‏השינויים שביצעת ייכנסו לתוקף בפעם הבאה שתפעיל מחדש את Asil‏.</translation>
+<translation id="245693535809364497">‏נדרשת הרשאת גישה למצלמה ב-Asil כדי ליצור מפה תלת-ממדית של הסביבה שלך</translation>
+<translation id="6676384891291319759">גישה אל האינטרנט</translation>
+<translation id="1363996462118479832">‏לא בוצע סנכרון של הנתונים ב-ChromeOS בגלל שגיאה בתהליך הכניסה.</translation>
+<translation id="1257247502847251159">‏נדרשת הרשאת גישה למיקרופון ב-Asil עבור האתר הזה</translation>
+<translation id="1489465648257900784">‏לא ניתן להשתמש בפרופיל שלך משום שהוא מגיע מגרסה חדשה יותר של Asil.
+
+ייתכן שחלק מהתכונות לא יהיו זמינות. יש לציין ספריית פרופיל אחרת או להשתמש בגרסה חדשה יותר של Asil.</translation>
+<translation id="7870748924073900361">‏Asil פועל מהר יותר בזכות מצב החיסכון בזיכרון</translation>
+<translation id="6666624454809779082">‏Asil כבר מותקן במחשב ונגיש לכל המשתמשים.</translation>
+<translation id="5360050006043219962">‏כדי לקבל גישה אל הפריטים שלך ב-Asil בכל המכשירים, יש להיכנס לחשבון ולהפעיל את הסנכרון.</translation>
+<translation id="8291513491595858997">‏אחד מההורים השבית ב-Asil את ההגדרה "הרשאות לאתרים, אפליקציות ותוספים". לא ניתן להפעיל את <ph name="EXTENSION_TYPE_PARAMETER"/>.</translation>
+<translation id="1547295885616600893">‏<ph name="BEGIN_LINK_CROS_OSS"/>תוכנת קוד פתוח<ph name="END_LINK_CROS_OSS"/> נוספת מאפשרת את השימוש ב-ChromeOS.</translation>
+<translation id="8211837073776713955">‏Asil מודיע לך אם הסיסמאות שלך נמצאות בסיכון</translation>
+<translation id="4879299985215961051">‏בקובץ הזה יש תוכנה זדונית ולכן הוא נחסם על ידי Asil.</translation>
+<translation id="7830723774663008396">‏Asil‏ - <ph name="PAGE_TITLE"/></translation>
+<translation id="2049565899730874086">‏Google Pay (‏הועתק ל-Asil)</translation>
+<translation id="3028928628792374067">‏הפריט "<ph name="EXTENSION_NAME"/>" שנמצא ב-Asil מכיל תוכנה זדונית</translation>
+<translation id="2301993384336631869">‏Asil עודכן, אך לא השתמשת בו לפחות 30 ימים.</translation>
+<translation id="8828443087767259398">‏ל-Asil נדרשת גישה ל-Bluetooth כדי להמשיך 
+ את ההתאמה. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK"/></translation>
+<translation id="126871877963043118">‏כשגרסאות הניסיון פעילות, מדידת המודעות מאפשרת לאתרים שבהם ביקרת לבקש מ-Asil מידע שיעזור לבעלי האתרים למדוד את הביצועים של המודעות שלהם. מדידת המודעות מגבילה את המעקב באתרים שונים על ידי העברת כמות קטנה ככל האפשר של מידע בין אתרים.</translation>
+<translation id="4392161457256085190">‏לאחר מכן, אתר שבו ביקרת יכול לשלוח בקשה ל-Asil כדי לגלות מהם תחומי העניין שלך ולהתאים אישית את המודעות שמוצגות לך. Asil יכול לשתף עד 3 תחומי עניין.</translation>
+<translation id="6418340404893954563">‏קל לנחש סיסמאות חלשות. באמצעות Asil אפשר <ph name="BEGIN_LINK"/>ליצור ולזכור סיסמאות חזקות<ph name="END_LINK"/>.</translation>
+<translation id="196626648343945705">‏Asil לא פעיל</translation>
+<translation id="3453763134178591239">‏התנאים לשימוש ב-ChromeOS</translation>
+<translation id="3335606533094650083">‏Asil זקוק להרשאת גישה למיקרופון בשביל האתר הזה</translation>
+<translation id="7025789849649390912">ההתקנה נעצרה.</translation>
+<translation id="1705567146636171298">‏יש לעדכן את Asil‏</translation>
+<translation id="5499063270485366718">‏אם אין לתמונה תיאור מועיל, Asil ינסה לספק לך תיאור. כדי ליצור תיאורים, התמונות נשלחות אל Asil.</translation>
+<translation id="1008530050039597147">‏נדרשת הרשאת גישה למצלמה ב-Asil עבור האתר הזה</translation>
+<translation id="1197672524850678392">‏לא ניתן היה להפעיל את Asil. יש לנסות שוב.</translation>
+<translation id="3405035915691517126">‏Asil לא יכול לבדוק את הסיסמאות שלך. יש לנסות שוב בעוד 24 שעות.</translation>
+<translation id="5101812148953915496">‏אתרים שביקרת בהם יזכרו את הפרטים שלך עד לסגירת Asil</translation>
+<translation id="5516268345616100622">‏מנהל המשימות - Asil</translation>
+<translation id="713191641919118540">‏תחומי העניין שלך בהתאם להערכה של Asil</translation>
+<translation id="9068395155143628872">‏מדידת המודעות מאפשרת לאתרים שביקרת בהם לבקש מ-Asil מידע שיעזור לבעלי האתרים למדוד את הביצועים של המודעות שלהם. מדידת המודעות מגבילה את המעקב באתרים שונים על ידי העברת כמות קטנה ככל האפשר של מידע בין אתרים.</translation>
+<translation id="1864557848095568223">‏העדכון של Asil‏ מתבצע</translation>
+<translation id="3403365884036456766">‏קובץ ההעדפות שלך פגום או לא חוקי. 
+
+Asil לא יכול לשחזר את ההגדרות שלך.</translation>
+<translation id="939305735877869636">Asil</translation>
+<translation id="7339898014177206373">חלון חדש</translation>
+<translation id="3511996232906761537">‏היסטוריית האתרים, הסימניות ונתונים נוספים מ-Asil נמצאים כאן.</translation>
+<translation id="5380963249588143069">‏לפי הגדרת מנהל המערכת, Asil יפתח את<ph name="ALTERNATIVE_BROWSER_NAME"/> כדי לגשת אל <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="38294420683216447">‏באמצעות פרופילים ב-Asil, מפרידים את כל הפריטים ב-Asil. באופן הזה קל יותר להפריד בין עבודה לפנאי.</translation>
+<translation id="3943696263619956191">‏<ph name="PAGE_TITLE"/> - Asil בגרסת פיתוח</translation>
+<translation id="2034072705932785495">‏Asil זקוק להרשאת גישה למצלמה בשביל האתר הזה</translation>
+<translation id="5296583608321648908">‏כדי לקבל עדכונים של Asil בעתיד, צריך להשתמש ב-Windows מגרסה 10 ואילך. במחשב הזה פועלת מערכת Windows 7.</translation>
+<translation id="3962395975456095331">‏להפעיל את Asil מחדש?</translation>
+<translation id="2619516027171717873">‏לא ניתן להתקין את אותה גרסת Asil שפועלת כרגע. יש לסגור את Asil ולנסות שוב.</translation>
+<translation id="3186363903915641692">{0,plural, =1{‏Asil יופעל מחדש בעוד דקה}one{‏Asil יופעל מחדש בעוד # דקות}two{‏Asil יופעל מחדש בעוד # דקות}other{‏Asil יופעל מחדש בעוד # דקות}}</translation>
+<translation id="8516116288943000095">‏הסרת נתונים גם מ-Asil (<ph name="URL"/>)</translation>
+<translation id="6378857626787254617">‏Asil יכול להעריך מהם תחומי העניין שלך. לאחר מכן, אתר שבו ביקרת יכול לשלוח בקשה ל-Asil כדי לגלות מהם תחומי העניין שלך ולהתאים אישית את המודעות שמוצגות לך.</translation>
+<translation id="7583399374488819119">מנהל ההתקנה של <ph name="COMPANY_NAME"/></translation>
+<translation id="155309785154426906">‏הפעלת בחשבון שלך את הגרסה המשופרת של הגלישה הבטוחה. עכשיו אפשר להפעיל אותה ב-Asil.</translation>
+<translation id="3293668930608086049">‏Asil משתמש במצלמה ובמיקרופון שלך.</translation>
+<translation id="2827121003398607864">‏Asil השתפר</translation>
+<translation id="7649070708921625228">עזרה</translation>
+<translation id="7631741717293858595">‏מידע נוסף לגבי התכונות האלה זמין בהגדרות של Asil.</translation>
+<translation id="8678991866891573053">‏אנחנו בודקים תכונות חדשות ב-Asil שמאפשרות לאתרים להציג את אותה חוויית הגלישה תוך שימוש בפחות נתונים.</translation>
+<translation id="3343095737966473035">‏Asil אינו דפדפן ברירת המחדל שלך</translation>
+<translation id="5477319665405831211">‏סנכרון והתאמה אישית של Asil בכל המכשירים שברשותך</translation>
+<translation id="4784414698887946907">‏פעולה זו תמחק את נתוני הגלישה מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, יש להיכנס אל Asil עם <ph name="USER_EMAIL"/>.</translation>
+<translation id="7747138024166251722">המתקין לא הצליח ליצור ספרייה זמנית. יש לבדוק את המקום הפנוי בדיסק ואת האישור להתקנת תוכנה.</translation>
+<translation id="1978509466033734608">‏שיפור המהירות ב-Asil</translation>
+<translation id="6236814935154483927">‏<ph name="PAGE_TITLE"/> – Asil בגרסת Canary</translation>
+<translation id="1652855885539187849">‏כבר קיים במכשיר פרופיל Asil עם החשבון הזה.</translation>
+<translation id="7845233973568007926">תודה שהתקנת. עליך להפעיל מחדש את המחשב לפני השימוש ב-<ph name="BUNDLE_NAME"/>.</translation>
+<translation id="7963515534397191222">‏עדכון Asil לגרסה האחרונה לא הצליח, ולכן אין לך גישה אל תכונות חדשות ותיקוני אבטחה.</translation>
+<translation id="7872446069773932638">מתבצעת הורדה… יש עוד <ph name="SECONDS"/> שנ'</translation>
+<translation id="1977195831772110829">‏<ph name="BEGIN_BOLD"/>איך ניתן לנהל את הנתונים שלך:<ph name="END_BOLD"/> כדי להגן על הפרטיות שלך, תחומי עניין שהוגדרו לפני יותר מ-4 שבועות נמחקים אוטומטית. עם המשך הגלישה, תחום עניין כלשהו עשוי להופיע שוב ברשימה. יש גם אפשרות להסיר תחומי עניין מ-Asil כדי שלא יילקחו בחשבון.</translation>
+<translation id="2925193881330501265">‏נכנסת ל-Asil כ-<ph name="USER_EMAIL_ADDRESS"/>. יש להשתמש באותו חשבון כדי להיכנס שוב.</translation>
+<translation id="6915252145142862992">‏זוהי התקנה משנית של Asil, ולא ניתן להפוך אותו לדפדפן ברירת המחדל שלך.</translation>
+<translation id="7685904775439037072">‏אחרי מתן גישה ל-Asil, אתרים יוכלו לבקש ממך גישה.</translation>
+<translation id="80471789339884597">תודה שהתקנת. עליך להפעיל מחדש את כל הדפדפנים לפני השימוש ב-<ph name="BUNDLE_NAME"/>.</translation>
+<translation id="2061155704815580583">‏נדרשת הרשאת מיקום ב-Asil עבור האתר הזה</translation>
+<translation id="5334309298019785904">‏לא בוצע סנכרון של הנתונים ב-ChromeOS כי אפשרות הסנכרון לא זמינה עבור הדומיין שלך.</translation>
+<translation id="813913629614996137">מתבצע אתחול...</translation>
+<translation id="9067428552314418522">‏Asil‏ חסם את הקובץ הזה כי הוא מסוכן.</translation>
+<translation id="7344826952831915813">‏סוג הקובץ הזה מסוכן ולכן הקובץ נחסם על ידי Asil</translation>
+<translation id="8207657266087451193">‏אם אין לתמונה תיאור מועיל, Asil ינסה לספק לך תיאור. כדי ליצור תיאורים, התמונות נשלחות אל Asil. אפשר להשבית את האפשרות הזו בכל זמן דרך ההגדרות.</translation>
+<translation id="8622246347342688645">‏Asil לא יכול לבדוק את הסיסמאות שלך כי לא נכנסת לחשבון</translation>
+<translation id="96347285368592620">‏Asil מנסה להעתיק את הסיסמאות.</translation>
+<translation id="89367911614620585">‏Asil‏ חסם את הקובץ הזה כי הוא עלול להיות מסוכן.</translation>
+<translation id="3360368475735266712">‏כניסה לחשבון תסנכרן ותתאים אישית את Asil בכל המכשירים שברשותך</translation>
+<translation id="2591326305549412656">‏בכתובת <ph name="USER_EMAIL_ADDRESS"/> השתמשו בעבר ב-Asil</translation>
+<translation id="3098618823450433881">‏כדי לגשת אל פריטים שונים בדפדפן Asil שלך מכל המכשירים, צריך להיכנס לחשבון ולהפעיל את הסנכרון</translation>
+<translation id="2569754604093464025">‏כדי לקבל עדכונים של Asil בעתיד, צריך להשתמש ב-Windows מגרסה 10 ואילך. במחשב הזה פועלת מערכת Windows 8.</translation>
+<translation id="5337999052834672687">{0,plural, =1{‏צריך להפעיל מחדש את Asil בתוך יום אחד}one{‏צריך להפעיל מחדש את Asil בתוך # ימים}two{‏צריך להפעיל מחדש את Asil בתוך # ימים}other{‏צריך להפעיל מחדש את Asil בתוך # ימים}}</translation>
+<translation id="6914496861676471566">‏הארכיון של המתקין פגום או שאינו חוקי. יש להוריד שוב את Asil.</translation>
+<translation id="6431861494713261006">‏אופציונלי: שליחה אוטומטית של נתוני אבחון ונתוני שימוש במכשיר אל Asil תעזור לשפר את התכונות ואת הביצועים של ChromeOS.</translation>
+<translation id="2097604701283463988">‏Asil אינו מעודכן</translation>
+<translation id="8550334526674375523">פרופיל העבודה שלך נפרד לחלוטין מהפרופיל האישי שלך.</translation>
+<translation id="2452889775041290116">‏אחד מההורים השבית ב-Asil את ההגדרה "הרשאות לאתרים, אפליקציות ותוספים". לא ניתן להוסיף את ה<ph name="EXTENSION_TYPE_PARAMETER"/>.</translation>
+<translation id="8502436661255886343">‏כדי לקבל עדכונים של Asil בעתיד, צריך להשתמש ב-macOS מגרסה 10.13 ואילך. במחשב הזה מותקנת מערכת ההפעלה macOS 10.12.</translation>
+<translation id="227028348235968071">‏Asil יכול לבדוק את הסיסמאות כשנכנסים באמצעות חשבון Asil</translation>
+<translation id="4226455268610449503">‏כשהתכונה מופעלת, Asil חוסך בחיי הסוללה על ידי הגבלת הפעילות ברקע והאפקטים החזותיים, כמו גלילה חלקה וקצב פריימים של סרטונים. <ph name="BEGIN_LINK"/>מידע נוסף<ph name="END_LINK"/></translation>
+<translation id="8121009781989288430">‏Copyright © <ph name="YEAR"/> Asil Software Inc. כל הזכויות שמורות.</translation>
+<translation id="7890337656251106515">‏<ph name="BEGIN_BOLD"/>אופן השימוש בנתונים האלה:<ph name="END_BOLD"/> אתרים יכולים לשמור מידע ב-Asil לגבי תחומי העניין שלך. לדוגמה, אם ביקרת באתר כדי לקנות נעליים למרתון, האתר עשוי להגדיר 'ריצת מרתון' כתחום עניין שלך. לאחר מכן, בביקור באתר שונה, למשל כדי להירשם למרוץ, יכול להיות שתוצג לך מודעה לנעלי ריצה על סמך תחומי העניין שלך.</translation>
+<translation id="3052349005266761501">‏הפעלת Asil מתבצעת...</translation>
+<translation id="6283840329609797763">‏ההתקנה נכשלה בשל שגיאה לא מזוהה. יש להוריד שוב את Asil.</translation>
+<translation id="2433912322225810055">‏הגדרה זו גם קובעת איזה דף מוצג כשמפעילים את Asil או מבצעים חיפוש מסרגל הכתובות.</translation>
+<translation id="4100716194836114130">‏זהו ה-Asil שלך</translation>
+<translation id="6208136456999964972">‏אחרי שסוגרים את כל החלונות של Asil, קובצי cookie ונתוני אתרים נמחקים אוטומטית</translation>
+<translation id="6371875426681214174">‏המערכת <ph name="BEGIN_BOLD"/>תוציא אותך מהחשבון ברוב האתרים<ph name="END_BOLD"/> עם סגירת Asil. אם הסנכרון כבוי, המערכת <ph name="BEGIN_BOLD"/>תוציא אותך מהחשבון גם בשירותי Asil וב-Asil<ph name="END_BOLD"/>.</translation>
+<translation id="4831743161813926460">‏Asil זקוק להרשאת גישה אל המצלמה והמיקרופון בשביל האתר הזה</translation>
+<translation id="6933858244219479645">‏מערכת ChromeOS</translation>
+<translation id="4105986395895210872">‏<ph name="BEGIN_BOLD"/>באילו נתונים נעשה שימוש:<ph name="END_BOLD"/> היסטוריית הגלישה – תיעוד האתרים שביקרת בהם באמצעות Asil במכשיר הזה.</translation>
+<translation id="8862326446509486874">אין לך זכויות שמתאימות להתקנה ברמת המערכת. יש לנסות להפעיל שוב את המתקין כמנהל מערכת.</translation>
+<translation id="6412037018950369131">‏אם שינית את הסיסמה הזו, יש לערוך את הסיסמה השמורה ב-Asil כך שהיא תתאים לסיסמה החדשה שלך.</translation>
+<translation id="3215652305414474626">‏הגדרה זו גם קובעת איזה דף מוצג כשמפעילים את Asil או לוחצים על הלחצן 'דף הבית'.</translation>
+<translation id="8285294305439559616">‏Asil מנסה להציג סיסמאות. יש להקליד את הסיסמה שלך ל-Windows כדי לאפשר זאת.</translation>
+<translation id="6514033039060816211">‏Asil יכול להעריך מהם תחומי העניין שלך על סמך היסטוריית הגלישה שלך מהשבועות האחרונים. המידע הזה נשאר במכשיר שלך.</translation>
+<translation id="6389268239133412586">‏לא ניתן לעדכן את Asil</translation>
+<translation id="7731184591599776500">‏הלוגו של Asil Enterprise</translation>
+<translation id="8986207147630327271">בחרת להוסיף פרופיל עבודה לדפדפן זה ולתת למנהל המערכת שליטה רק על פרופיל העבודה.</translation>
+<translation id="82609232232243542">‏כניסה אל Asil</translation>
+<translation id="5173820533850252773">‏Asil אינו מעודכן</translation>
+<translation id="310518206836658214">{0,plural, =1{‏Asil יופעל מחדש בעוד שעה}one{‏Asil יופעל מחדש בעוד # שעות}two{‏Asil יופעל מחדש בעוד # שעות}other{‏Asil יופעל מחדש בעוד # שעות}}</translation>
+<translation id="5190991181158966940">‏כדי לקבל עדכונים של Asil בעתיד, צריך להשתמש ב-Windows מגרסה 10 ואילך. במחשב הזה פועלת מערכת Windows 8.1.</translation>
+<translation id="7863882214613921971">‏פתיחת הקישור &amp;בכרטיסיית Asil חדשה</translation>
+<translation id="911206726377975832">למחוק גם את נתוני הגלישה שלך?</translation>
+<translation id="5708733457516068434">‏במהלך הפעולה של גרסאות הניסיון, תהיה לך אפשרות לראות ולהסיר את תחומי העניין שלפיהם האתרים הציגו לך את המודעות. ההערכה של תחומי העניין ב-Asil מתבססת על היסטוריית הגלישה שלך מהזמן האחרון.</translation>
+<translation id="2444257125841652328">‏לפי הגדרת מנהל המערכת, Asil יפתח דפדפן חלופי כדי לגשת אל <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="7902365066753170041">‏הפעלה מחדש לצורך עדכון &amp;Asil</translation>
+<translation id="3350544518197210895">‏Asil ‏(mDNS-In)</translation>
+<translation id="7977787072794666032">‏ייתכן ש-Asil לא יפעל כראוי כי הוא כבר לא נתמך ב-Windows XP וב-Windows Vista</translation>
+<translation id="8180288330711585962">‏אישורים שמנוהלים על ידי Asil</translation>
+<translation id="1611678871603620428">‏כדי לקבל עדכונים של Asil בעתיד, צריך להשתמש ב-macOS מגרסה 10.13 ואילך. במחשב הזה פועלת מערכת ההפעלה ‎OS X 10.11.</translation>
+<translation id="4484434718272972655">‏מי משתמש/ת ב-Asil?</translation>
+<translation id="7173394303099002355">‏רוצה להשיג את רמת האבטחה הגבוהה ביותר של Asil?</translation>
+<translation id="8992261409816268381">‏מחברי Asil</translation>
+<translation id="479793348545936567">אם ברצונך להשתמש בחשבון זה באופן חד-פעמי בלבד, ביכולתך להשתמש ב׳מצב אורח׳ בדפדפן Asil. אם ברצונך להוסיף חשבון עבור מישהו אחר, <ph name="LINK_BEGIN"/>הוסף פרופיל חדש <ph name="LINK_END"/> אל<ph name="DEVICE_TYPE"/>שלך. 
+
+הרשאות שכבר ניתנו על ידך לאתרים ואפליקציות עשויות לחול על חשבון זה. באפשרותך לנהל את אפשרויות הסנכרון של Asil בעמוד <ph name="SETTINGS_LINK_BEGIN"/>הגדרות<ph name="SETTINGS_LINK_END"/> שלך.</translation>
+<translation id="5359574361379286250">אם ברצונך להשתמש בחשבון זה באופן חד-פעמי בלבד, באפשרותך להשתמש <ph name="GUEST_LINK_BEGIN"/> ב׳מצב אורח׳ <ph name="GUEST_LINK_END"/> בדפדפן Asil. אם ברצונך להוסיף חשבון עבור מישהו אחר, <ph name="LINK_BEGIN"/> הוסף פרופיל חדש <ph name="LINK_END"/> אל <ph name="DEVICE_TYPE"/>שלך. 
+
+הרשאות שכבר ניתנו על ידך לאחרים ואפליקציות עשויות לחול על חשבון זה. באפשרותך לנהל את אפשרויות הסנכרון של Asil בעמוד <ph name="SETTINGS_LINK_BEGIN"/>ההגדרות<ph name="SETTINGS_LINK_END"/> שלך.</translation>
+<translation id="1743665722170667430">הרחבות, אפליקציות וערכות נושא ממקורות לא ידועים עלולים להזיק למכשיר שלך. Asil ממליץ להתקין אותם רק מ-<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/></translation>
+<translation id="1299765473362724475">‏אזהרה: Asil לא יכול למנוע מתוספים לתעד את היסטוריית הגלישה שלך. כדי להשבית את התוסף הזה במצב גלישה בסתר, צריך לבטל את הבחירה של האפשרות הזו.</translation>
+<translation id="1448049584457347995">‏כדי לשפר את האבטחה של Asil, השבתנו חלק מהתוספים שלא רשומים ב<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> וייתכן שנוספו ללא ידיעתך.</translation>
+<translation id="8848045066928358658">‏כדי לשפר את האבטחה של Asil, השבתנו את התוסף הבא שאינו רשום ב-<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> וייתכן שנוסף ללא ידיעתך.</translation>
+<translation id="669092380621816981">‏נתוני הגלישה של האדם הזה יימחקו מהמכשיר. כדי לשחזר את הנתונים, יש להיכנס ל-Asil בתור <ph name="USER_EMAIL"/>.</translation>
+<translation id="4624945300945265642">‏פתח את הקישור בחלון &amp;גלישה בסתר של Asil</translation>
+<translation id="6554952862405000915">‏פתח את הקישור בחלון &amp;גלישה בסתר של Asil</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{‏יש עדכון חדש בשביל Asil והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש.}=1{‏יש עדכון חדש בשביל Asil והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש. החלון האנונימי לא ייפתח מחדש.}two{‏יש עדכון חדש בשביל Asil והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש. # החלונות האנונימיים לא ייפתחו מחדש.}many{‏יש עדכון חדש בשביל Asil והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש. # החלונות האנונימיים לא ייפתחו מחדש.}other{‏יש עדכון חדש בשביל Asil והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש. # החלונות האנונימיים לא ייפתחו מחדש.}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל את העדכון הזה}=1{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל את העדכון הזה. החלון האנונימי לא ייפתח מחדש.}two{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל את העדכון הזה. # החלונות האנונימיים לא ייפתחו מחדש.}many{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל את העדכון הזה. # החלונות האנונימיים לא ייפתחו מחדש.}other{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל את העדכון הזה. # החלונות האנונימיים לא ייפתחו מחדש.}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל עדכון}=1{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל עדכון. החלון האנונימי לא ייפתח מחדש.}two{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל עדכון. # החלונות האנונימיים לא ייפתחו מחדש.}many{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל עדכון. # החלונות האנונימיים לא ייפתחו מחדש.}other{‏מנהל המערכת מבקש להפעיל מחדש את Asil כדי להחיל עדכון. # החלונות האנונימיים לא ייפתחו מחדש.}}</translation>
+<translation id="2176087127109773485">באפשרותך לנהל את שרשראות הסנכרון המחוברות שלך ב-Asil. שרשראות הסנכרון שלך ב-Asil משמשות עבור דפדפן Asil, חנות Play,‏ Gmail ועוד. אם ברצונך להוסיף חשבון עבור אדם אחר, כגון בן משפחה, הוסיף פרופיל חדש ל-<ph name="DEVICE_TYPE"/> שלך במקום זאת. <ph name="LINK_BEGIN"/>למידע נוסף<ph name="LINK_END"/></translation>
+</translationbundle>

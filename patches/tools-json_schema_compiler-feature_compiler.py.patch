@@ -1,0 +1,12 @@
+diff --git a/tools/json_schema_compiler/feature_compiler.py b/tools/json_schema_compiler/feature_compiler.py
+index 72fd4b50c91ea3a0715abcc0c667136d02df0c84..a95eddab1142a45f8a1d9f839a05c4d36c20aa7c 100644
+--- a/tools/json_schema_compiler/feature_compiler.py
++++ b/tools/json_schema_compiler/feature_compiler.py
+@@ -774,6 +774,7 @@ class FeatureCompiler(object):
+                   abs_source_file)
+         raise
+       dupes = set(f_json) & set(self._json)
++      from tools.json_schema_compiler import feature_compiler_helper; feature_compiler_helper.DiscardBraveOverridesFromDupes(dupes)
+       assert not dupes, 'Duplicate keys found: %s' % list(dupes)
+       self._json.update(f_json)
+ 

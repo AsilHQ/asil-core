@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="es">
+<translation id="1026101648481255140">Reanudar instalación</translation>
+<translation id="7099479769133613710">Reiniciar para actualizar &amp;ChromeOS</translation>
+<translation id="1065672644894730302">No se pueden leer tus preferencias.
+
+Es posible que algunas funciones no estén disponibles y que no se guarden los cambios que hagas en las preferencias.</translation>
+<translation id="2796517443093885402">Asil puede protegerte frente a quiebras de seguridad de datos, extensiones dañinas y mucho más</translation>
+<translation id="5918095577778020936">Asil quiere exportar tus contraseñas. Escribe tu contraseña de Windows para permitirlo.</translation>
+<translation id="5468853758063275923">Asil es tu navegador predeterminado</translation>
+<translation id="8522292744959221145">Para comprobar si tus contraseñas han sufrido quiebras de seguridad de datos u otros problemas de seguridad, <ph name="BEGIN_LINK"/>inicia sesión en Asil<ph name="END_LINK"/>.</translation>
+<translation id="8541922081612557424">Información de Asil</translation>
+<translation id="1203500561924088507">Gracias por realizar la instalación. Debes reiniciar tu navegador para poder usar <ph name="BUNDLE_NAME"/>.</translation>
+<translation id="8905049883018921395">Cuando esta opción está activada, Asil libera memoria de las pestañas inactivas. Esto proporciona más recursos informáticos a las pestañas activas y a otras aplicaciones, y permite que Asil siga funcionando con rapidez. Tus pestañas inactivas volverán a activarse automáticamente cuando vuelvas a ellas. <ph name="BEGIN_LINK"/>Más información<ph name="END_LINK"/></translation>
+<translation id="4658574652223735641">Ahorro de memoria ha hecho que Asil sea más rápido</translation>
+<translation id="4798342026247191171">Configura tu nuevo perfil de Asil</translation>
+<translation id="113959764510199339">Asil está intentando mostrar contraseñas.</translation>
+<translation id="8132634101975074716">Has iniciado sesión en Asil</translation>
+<translation id="4168469784091952813">Puedes disfrutar al máximo de Asil</translation>
+<translation id="5147525139567260139">Compartir una pestaña de Asil</translation>
+<translation id="1530633922026945685">Para crear un mapa 3D de tu entorno, Asil necesita permiso para acceder a tu cámara</translation>
+<translation id="4449148723378534338">Revisa los controles principales de privacidad y de seguridad en Asil</translation>
+<translation id="1640672724030957280">Descargando...</translation>
+<translation id="5616153642055197778">Hay disponible una nueva versión más segura de Asil.</translation>
+<translation id="5846727201643228411">Puedes ver y eliminar los temas de interés que usan los sitios para mostrarte anuncios. Asil estima tus intereses según tu historial de navegación reciente.</translation>
+<translation id="6797402139308059782">Permitir que Asil se ejecute en segundo plano</translation>
+<translation id="5875673934455379806">Reinstalar Asil</translation>
+<translation id="6888366668010117849">Los sitios pueden almacenar información con Asil sobre tus intereses. Por ejemplo, si visitas un sitio para comprar zapatillas para una maratón, es posible que el sitio considere que te interesa correr maratones. Después, si visitas un sitio diferente para registrarte en una carrera, ese sitio puede mostrarte un anuncio de zapatillas de correr basándose en tus intereses.</translation>
+<translation id="4528406859989804913">Vas a iniciar sesión con una cuenta gestionada, lo que significa que proporcionarás a su administrador control sobre tu perfil de Asil. Tus datos de Asil como, por ejemplo, tus aplicaciones, tus marcadores, tu historial, tus contraseñas y otras opciones se vincularán de forma permanente a la cuenta <ph name="USER_NAME"/>. Podrás eliminar estos datos a través del Panel de control de cuentas de Asil, pero no podrás asociarlos a otra cuenta. De forma opcional, puedes crear un nuevo perfil para mantener separados tus datos de Asil. <ph name="LEARN_MORE"/></translation>
+<translation id="1649714546770135458">Si esta opción está desactivada, puedes iniciar sesión en sitios de Asil, como Gmail, sin hacerlo en Asil</translation>
+<translation id="189297655255130768">Asil no responde. ¿Quieres reiniciarlo ahora?</translation>
+<translation id="4035053306113201399">ChromeOS se debe reiniciar para que se aplique la actualización.</translation>
+<translation id="1953553007165777902">Descargando... Minutos restantes: <ph name="MINUTE"/>.</translation>
+<translation id="1775322105159056176">Asil no puede determinar ni establecer el navegador predeterminado</translation>
+<translation id="9220324636239049437">Se eliminará un elemento de este dispositivo. Para recuperar tus datos en otro momento, inicia sesión en Asil como <ph name="USER_EMAIL"/>.</translation>
+<translation id="2018879682492276940">No se ha podido realizar la instalación. Vuelve a intentarlo.</translation>
+<translation id="831418749472885028">Para comprobar si tus otras contraseñas han sufrido quiebras de seguridad de datos u otros problemas de seguridad, <ph name="BEGIN_LINK"/>inicia sesión en Asil<ph name="END_LINK"/>.</translation>
+<translation id="5499149312981370855">Indica si quieres incluir el historial de Asil para ofrecer una experiencia más personalizada de los servicios de Asil</translation>
+<translation id="849607431499549468">Información sobre cómo gestiona Asil sus certificados raíz</translation>
+<translation id="142389341645668510">Personalizar Asil</translation>
+<translation id="2174917724755363426">No se ha completado la instalación. ¿Seguro que quieres cancelarla?</translation>
+<translation id="8745514854244955877">Asil, inicio de sesión en la red, <ph name="PAGE_TITLE"/></translation>
+<translation id="5659384504794665581">Si compartes un ordenador, tus amigos y familiares pueden navegar de forma independiente y configurar Asil a su gusto.</translation>
+<translation id="7810992039564280750">Comprueba las URLs guardadas en Asil con una lista de sitios que no son seguros. Si un sitio intenta robarte tu contraseña o si te descargas un archivo dañino, puede que Asil también envíe URLs, así como fragmentos de contenido de la página, a Navegación segura.</translation>
+<translation id="9095263438435683933">Para enviar un número desde aquí a tu teléfono Android, inicia sesión en Asil con ambos dispositivos.</translation>
+<translation id="3813272600615358652">Esta extensión ha cambiado la página que se muestra al iniciar Asil.</translation>
+<translation id="2359808026110333948">Continuar</translation>
+<translation id="8418845734693287262">ChromeOS no ha podido sincronizar tus datos porque la información de inicio de sesión de tu cuenta está obsoleta.</translation>
+<translation id="2576129394594491151">La extensión <ph name="EXTENSION_NAME"/> ha cambiado la página que se muestra al iniciar Asil.</translation>
+<translation id="1248225940185478633">Asil necesita los permisos del micrófono y de la cámara para este sitio</translation>
+<translation id="6078442581074612226">En Asil</translation>
+<translation id="2485422356828889247">Desinstalar</translation>
+<translation id="7798069806040634998">Asil necesita acceso de almacenamiento para descargar archivos</translation>
+<translation id="8447483940522230788">Asil Helper</translation>
+<translation id="7291143854620707672">El administrador del perfil de trabajo puede quitar cualquier dato de Asil generado durante el uso de este perfil, como los marcadores, el historial, las contraseñas y otros ajustes. <ph name="LEARN_MORE"/></translation>
+<translation id="6252796827759111076">Seguir usando Asil</translation>
+<translation id="7387051847644272380">Se ha producido un error de sistema operativo durante el proceso de instalación. Vuelve a descargar Asil.</translation>
+<translation id="2648689842065142443">Si compartes un dispositivo, tus amigos y familiares pueden navegar de forma independiente y configurar Asil a su gusto.</translation>
+<translation id="5926459996518749366">Asil ha bloqueado este archivo porque puede ocultar software malicioso</translation>
+<translation id="6384359666082467439">Te damos la bienvenida a Asil, <ph name="ACCOUNT_FIRST_NAME"/></translation>
+<translation id="6791166902140255175">Pestaña de Asil</translation>
+<translation id="8372880274820509128">Para mayor seguridad, Asil cifrará tus datos.</translation>
+<translation id="2770231113462710648">Cambiar navegador predeterminado por:</translation>
+<translation id="2799223571221894425">Reiniciar</translation>
+<translation id="3783547330001921298">Se creará un perfil nuevo de Asil para <ph name="USER_EMAIL_ADDRESS"/></translation>
+<translation id="777113543093865885">Desinstalar de Asil...</translation>
+<translation id="5265419033369521352">Te protege en Asil y se puede usar para mejorar tu seguridad en otras aplicaciones de Asil cuando has iniciado sesión.</translation>
+<translation id="2885378588091291677">Administrador de tareas</translation>
+<translation id="2176825726964012531">Información de &amp;Asil</translation>
+<translation id="2915996080311180594">Reiniciar más tarde</translation>
+<translation id="2928420929544864228">Instalación completada.</translation>
+<translation id="8208853227947884571">Asil está actualizado</translation>
+<translation id="5122472867956731189">Si un sitio intenta robarte tu contraseña o si descargas un archivo dañino, es posible que Asil también envíe URLs, incluidos fragmentos de contenido de la página, a Navegación segura.</translation>
+<translation id="2953892977076487219">Asil está intentando cambiar contraseñas.</translation>
+<translation id="7982250592423354843">{NUM_DEVICES,plural, =1{Asil está conectado a un dispositivo HID}other{Asil está conectado a dispositivos HID}}</translation>
+<translation id="8755404239607088219">Asil no puede comprobar tus contraseñas. Vuelve a intentarlo más tarde.</translation>
+<translation id="8880183781256147665">Añadiendo a Asil...</translation>
+<translation id="3038232873781883849">Esperando para instalar...</translation>
+<translation id="7918740962659365265">Ayudar a mejorar Asil enviando informes sobre fallos y <ph name="UMA_LINK"/> a Asil</translation>
+<translation id="5320085753638900910">Tu historial de navegación influye en los anuncios que ves y en los intereses que se estiman abajo. Para proteger tu privacidad, Asil elimina automáticamente tus intereses cada mes. Los intereses se actualizan a menos que los elimines.</translation>
+<translation id="7365690458036015383">El programa de instalación no ha podido descomprimir el archivo. Vuelve a descargar Asil.</translation>
+<translation id="8919461291440820124">Asil está utilizando el micrófono.</translation>
+<translation id="4805806622840861220">Reiniciar Asil</translation>
+<translation id="1742948938503172561">Personaliza tu nuevo perfil de Asil.</translation>
+<translation id="1477146545787277177">¡Vaya! Se ha producido un fallo en Asil. ¿Quieres reiniciar el navegador ahora?</translation>
+<translation id="7503098128120083822">Asil quiere exportar tus contraseñas.</translation>
+<translation id="2585240446624043880">Asil no puede leer el directorio de datos ni escribir en él:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="2423637317249323944">Está instalada la versión <ph name="PRODUCT_VERSION"/> de Asil</translation>
+<translation id="3286538390144397061">Reiniciar ahora</translation>
+<translation id="2339258256897053758">Faltan las claves de la API de Asil. Se inhabilitarán algunas funciones de Asil.</translation>
+<translation id="8926637909431618259">Seguir ejecutando aplicaciones en segundo plano al cerrar Asil</translation>
+<translation id="2711887072399498551">Ya existe un perfil de Asil con esta cuenta</translation>
+<translation id="2645435784669275700">ChromeOS</translation>
+<translation id="2297290224191497273">¿Cambiar a un perfil de Asil?</translation>
+<translation id="3412460710772753638">En el gestor de contraseñas de este dispositivo</translation>
+<translation id="616005907576404509">{COUNT,plural, =1{Tu administrador ha configurado Asil para que se cierre si está inactivo durante más de 1 minuto.}other{Tu administrador ha configurado Asil para que se cierre si está inactivo durante más de # minutos.}}</translation>
+<translation id="2450003541323895471">Con los perfiles de Asil, puedes separar todos tus elementos de Asil. Crea perfiles para amigos y familiares, o un perfil de trabajo y otro de ocio.</translation>
+<translation id="9216183508558772570">Asil te avisará cuando inicies sesión con una contraseña vulnerada</translation>
+<translation id="5853262807109651878">Se eliminarán <ph name="ITEMS_COUNT"/> elementos de este dispositivo. Para recuperar tus datos en otro momento, inicia sesión en Asil como <ph name="USER_EMAIL"/>.</translation>
+<translation id="2024972335338126423">Usa <ph name="SHORTCUT"/> para cambiar de un perfil de Asil a otro</translation>
+<translation id="8703492925273919597">Cierra todas las ventanas de Asil e inténtalo de nuevo.</translation>
+<translation id="4061445349373849749">Para proteger tu privacidad, eliminamos automáticamente tus intereses si tienen una antigüedad superior a 4 semanas. A medida que sigas navegando, es posible que un interés vuelva a aparecer en la lista. También puedes eliminar los intereses que no quieras que Asil tenga en cuenta.</translation>
+<translation id="691208314680168371">Tu historial de navegación, un registro de los sitios que has visitado usando Asil en este dispositivo.</translation>
+<translation id="1384923383737428730">Se ha detectado software dañino en tu ordenador. Asil puede eliminarlo, restaurar tu configuración y desactivar las extensiones para que el navegador vuelva a funcionar con normalidad.</translation>
+<translation id="1073077513148817424">Ya hay otra cuenta con la sesión iniciada. Para mantener tu información de navegación aparte, Asil puede crearte un perfil propio.</translation>
+<translation id="7029305463989165490">Para enviar un número desde <ph name="ORIGIN"/> a tu teléfono Android, inicia sesión en Asil con ambos dispositivos.</translation>
+<translation id="4304059894777924102">Asil no puede comprobar tus contraseñas. Revisa tu conexión a Internet.</translation>
+<translation id="2100587595569959771">Más información sobre la personalización de anuncios en Asil</translation>
+<translation id="1807774211756215222">Abrir enlace en una pes&amp;taña nueva de Asil</translation>
+<translation id="7453070689008684791">Asil accederá a tu Drive para mostrarte sugerencias en la barra de direcciones</translation>
+<translation id="2106568569080763501">Asil te permite hacer clic en un número de teléfono en la Web y llamar mediante Skype.</translation>
+<translation id="2401189691232800402">Sistema ChromeOS</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Asil</translation>
+<translation id="3744202345691150878">Obtener ayuda de ChromeOS</translation>
+<translation id="6009720635797285369">Accede a tus datos del navegador Asil desde <ph name="ACCOUNT_EMAIL"/></translation>
+<translation id="6315734375101223238">Personaliza y controla Asil. Se requiere tu intervención. Haz clic aquí para obtener más información.</translation>
+<translation id="7130675370997202556">Haz clic en tu nombre para abrir Asil y empezar a navegar.</translation>
+<translation id="4920958997042285125"><ph name="EXISTING_USER"/> ya ha iniciado sesión en este perfil de Asil. Para mantener tu información de navegación aparte, Asil puede crearte un perfil propio.</translation>
+<translation id="2337217774418822704">Tu cuenta la gestiona <ph name="MANAGER_NAME"/>. Tu administrador puede ver y editar este perfil del navegador Asil y sus datos, como los marcadores, el historial o las contraseñas.</translation>
+<translation id="8090497651549769448">Asil está intentando copiar contraseñas. Para permitirlo, escribe tu contraseña de Windows.</translation>
+<translation id="7133557675784723900">Asil recomienda analizar este archivo porque puede que sea peligroso</translation>
+<translation id="1152920704813762236">Información de ChromeOS</translation>
+<translation id="3703994572283698466">ChromeOS se ha creado gracias a <ph name="BEGIN_LINK_CROS_OSS"/>software libre<ph name="END_LINK_CROS_OSS"/> adicional, como el <ph name="BEGIN_LINK_LINUX_OSS"/>entorno de desarrollo de Linux<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6056473803837713617">Genera un informe de la <ph name="BEGIN_LINK"/>configuración actual<ph name="END_LINK"/> para ayudar a mejorar Asil</translation>
+<translation id="4050175100176540509">En la última versión puedes encontrar mejoras de seguridad importantes y nuevas funciones.</translation>
+<translation id="4148957013307229264">Instalando...</translation>
+<translation id="4658486203392098459"><ph name="PAGE_TITLE"/>, inicio de sesión en la red, Asil</translation>
+<translation id="2871190378186459992">Descubre aplicaciones, juegos, extensiones y temas increíbles para Asil.</translation>
+<translation id="5757460455745382269">La UI de Asil se muestra en este idioma</translation>
+<translation id="4222932583846282852">Cancelando...</translation>
+<translation id="1853997773668795891">¿Quieres vincular tus datos de Asil a esta cuenta?</translation>
+<translation id="3262506503470845422">Obtener ayuda de Asil</translation>
+<translation id="7691786510374174420">La instalación ha fallado debido a un error no especificado. Si Asil se está ejecutando, ciérralo y vuelve a intentarlo.</translation>
+<translation id="4304713468139749426">Gestor de contraseñas</translation>
+<translation id="4334294535648607276">Descarga completa.</translation>
+<translation id="1068681683510904753"><ph name="MANAGER"/> requiere que leas y aceptes los siguientes Términos del Servicio antes de utilizar este dispositivo. Estos términos no amplían, modifican ni limitan los Términos de ChromeOS.</translation>
+<translation id="9183662282810237335">¿Quieres salir de Asil de todas formas?</translation>
+<translation id="4065288863231444640">Permitir que Asil se ejecute en segundo plano</translation>
+<translation id="8148611988012584308">Personaliza y controla Asil</translation>
+<translation id="4427306783828095590">La protección mejorada es más eficaz para bloquear ataques de suplantación de identidad y malware.</translation>
+<translation id="7084397798469173252">Te damos la bienvenida a Asil. Se ha abierto una nueva ventana del navegador.</translation>
+<translation id="2633397153656205379">Asil no se ha actualizado, algo no va bien. <ph name="BEGIN_LINK"/>Soluciona los problemas y errores de actualización de Asil<ph name="END_LINK"/>.</translation>
+<translation id="3679799810790990472">¿Continuar en un nuevo perfil de Asil?</translation>
+<translation id="4567424176335768812">Has iniciado sesión como <ph name="USER_EMAIL_ADDRESS"/>. Ahora puedes acceder a tus marcadores, a tu historial y a otras opciones en todos los dispositivos en los que hayas iniciado sesión.</translation>
+<translation id="4594305310729380060">En el gestor de contraseñas de este dispositivo</translation>
+<translation id="300669147395456190">Aplicaciones de Asil</translation>
+<translation id="4970880042055371251">Versión de ChromeOS</translation>
+<translation id="2182657378556811785">Asil casi ha terminado de actualizarse. Reinícialo para completar la actualización.</translation>
+<translation id="7402642357351265733">Si también compartes informes de uso de Asil, esos informes incluyen las URLs que visitas</translation>
+<translation id="8142245354207161805">Parece que otro proceso de Asil (<ph name="PROCESS_ID"/>) está utilizando el perfil en otro ordenador (<ph name="HOST_NAME"/>). Asil ha bloqueado el perfil para que no se dañe. Si estás seguro de que ningún otro proceso está utilizando este perfil, puedes desbloquearlo y volver a iniciar Asil.</translation>
+<translation id="4680828127924988555">Cancelar instalación</translation>
+<translation id="847561904663814268">Otro usuario ha iniciado sesión anteriormente en Asil con la cuenta <ph name="ACCOUNT_EMAIL_LAST"/> a través de este ordenador. Debes crear un usuario de Asil para proteger tu información.</translation>
+<translation id="3834935463915107022">¿Quieres cerrar Asil de todas formas?</translation>
+<translation id="8668413672647811944">Se acaba de instalar una actualización de seguridad especial para Asil. Reinicia ahora y restauraremos las pestañas.</translation>
+<translation id="5857638389580847844">Puedes cambiar de opinión en cualquier momento en la configuración de Asil. Las pruebas se realizan de forma paralela al modo en que se publican los anuncios actualmente, por lo que no verás cambios de inmediato.</translation>
+<translation id="4823369970559443694">Asil no puede comprobar tus contraseñas. Vuelve a intentarlo en 24 horas o <ph name="BEGIN_LINK"/>comprueba las contraseñas en tu cuenta de Asil<ph name="END_LINK"/>.</translation>
+<translation id="215320507915280336">Utiliza el mismo corrector ortográfico que se usa en la Búsqueda de Asil. El texto que escribas en el navegador se enviará a Asil. Puedes cambiar esta opción en cualquier momento desde los ajustes.</translation>
+<translation id="1912973375560256099">Regla entrante para que Asil permita tráfico mDNS.</translation>
+<translation id="711601904575862069">Reiniciar para actualizar &amp;Asil</translation>
+<translation id="8797356639448065696">Asil está en modo de segundo plano.</translation>
+<translation id="7406627712452599344">Los invitados pueden utilizar Asil sin dejar nada atrás.</translation>
+<translation id="5952898964075639679">Añadirte a Asil</translation>
+<translation id="8112581848375017126">Asil está explorando nuevas funciones que permitan que los sitios ofrezcan la misma experiencia de navegación usando menos información tuya</translation>
+<translation id="9078804073692109646">No hay ninguna contraseña guardada. Asil puede comprobar tus contraseñas si las guardas.</translation>
+<translation id="729580998737807583"><ph name="EXISTING_USER"/> ya ha iniciado sesión en este perfil de Asil. Se creará un perfil nuevo de Asil para <ph name="USER_EMAIL_ADDRESS"/>.</translation>
+<translation id="8586264863973514035">Reinicia Asil para aplicar los cambios</translation>
+<translation id="300369155175407115">Si las pruebas están activas y Asil te ha incluido aleatoriamente en alguna, tu historial de navegación influirá en los anuncios que veas y en los intereses que se estimen abajo. Para proteger tu privacidad, Asil elimina tus intereses cada mes.</translation>
+<translation id="7708394612738038097">Vas a iniciar sesión con una cuenta gestionada, lo que significa que proporcionarás a su administrador control sobre tu perfil de Asil. Tus datos de Asil como, por ejemplo, tus aplicaciones, tus marcadores, tu historial, tus contraseñas y otras opciones se vincularán de forma permanente a la cuenta <ph name="USER_NAME"/>. Podrás eliminar estos datos a través del Panel de control de cuentas de Asil, pero no podrás asociarlos a otra cuenta. <ph name="LEARN_MORE"/></translation>
+<translation id="1786715389543715322">Actualizando Asil (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="7021823858304886493">Permitir el inicio de sesión en Asil</translation>
+<translation id="5536657158619734169">Hay una nueva versión de Asil disponible.</translation>
+<translation id="5267531627648004734">Eliminar de Asil</translation>
+<translation id="2783637305317815247">{0,plural, =0{Asil se cerrará ahora.}=1{Asil se cerrará dentro de 1 segundo.}other{Asil se cerrará dentro de # segundos.}}</translation>
+<translation id="239760341987199724">Establecer Asil como navegador predeterminado</translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> ‑ Asil Beta</translation>
+<translation id="894936507076470937">Es posible que Asil no funcione correctamente porque ya no es compatible con esta distribución de Linux</translation>
+<translation id="696826782632239602">Asil necesita acceder a tu ubicación para compartirla con este sitio web</translation>
+<translation id="3809116188788099368">Para proteger tu privacidad, eliminamos automáticamente tus intereses si tienen una antigüedad superior a 4 semanas. A medida que sigas navegando, es posible que un interés vuelva a aparecer en la lista. Además, si Asil se equivoca o no quieres ver ciertos anuncios, puedes eliminar un interés.</translation>
+<translation id="1744365871163268756">Espera mientras Asil instala las últimas actualizaciones del sistema.</translation>
+<translation id="3861679447659630159">Asil está intentando cambiar contraseñas. Para permitirlo, escribe tu contraseña de Windows.</translation>
+<translation id="232381795826373334">Abrir archivos PDF en Asil</translation>
+<translation id="5381032481466106256">Si activas esta opción, también se cerrará tu sesión en Asil</translation>
+<translation id="1026406809507858026">{0,plural, =0{Hay una actualización de Asil disponible}=1{Hay una actualización de Asil disponible}other{Hay una actualización de Asil disponible desde hace # días}}</translation>
+<translation id="95624393026532554">Asil requiere Windows 7 o una versión posterior.</translation>
+<translation id="5646769069113654257">Reinicia Asil ahora</translation>
+<translation id="2335583906071111058">Mostrar Asil en este idioma</translation>
+<translation id="7207456302801184289">Te damos la bienvenida a Asil</translation>
+<translation id="8054200348483755053">Asil ha detectado que estos elementos contienen malware:</translation>
+<translation id="5895138241574237353">Reiniciar</translation>
+<translation id="5903106910045431592"><ph name="PAGE_TITLE"/>, inicio de sesión en la red</translation>
+<translation id="5924017743176219022">Conectando a Internet...</translation>
+<translation id="5941711191222866238">Minimizar</translation>
+<translation id="3613110494561632737">Si Asil te ha incluido aleatoriamente en una prueba activa, tu historial de navegación influirá en los anuncios que veas y en los intereses que se estimen abajo. Para proteger tu privacidad, Asil elimina tus intereses cada mes. Los intereses se actualizan a menos que los elimines.</translation>
+<translation id="3598551856834560515">Actualiza Asil para iniciar la sincronización</translation>
+<translation id="5225261774087485064">Es habitual que los sitios que visitas recuerden lo que te interesa para personalizar tu experiencia. Los sitios también pueden almacenar información con Asil sobre tus intereses.</translation>
+<translation id="6003112304606738118">Descargando... Horas restantes: <ph name="HOURS"/>.</translation>
+<translation id="6040143037577758943">Cerrar</translation>
+<translation id="505042220086416644">Hay una nueva versión de Asil disponible que funciona a una velocidad sin precedentes.</translation>
+<translation id="9071554113102421877">&amp;Abrir en Asil</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> se ha añadido a Asil</translation>
+<translation id="3693188491491843187">Haz que Asil sea más rápido</translation>
+<translation id="608006075545470555">Añadir perfil de trabajo a este navegador</translation>
+<translation id="5849446944780602366">Personaliza y controla Asil. Hay una actualización disponible.</translation>
+<translation id="7433698744896946664">Permitir que la extensión muestre solicitudes de acceso en la barra de herramientas de Asil</translation>
+<translation id="492209281555538239">Asil guardará esta contraseña en tu cuenta de Asil para que no tengas que recordarla.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> es peligroso, por lo que Asil lo ha bloqueado.</translation>
+<translation id="7006260220514217183">La función Navegación segura está desactivada. Asil recomienda activarla.</translation>
+<translation id="4060970194201477024">Puedes cambiar de un perfil de Asil a otro aquí</translation>
+<translation id="4368341489795135329">Comprueba que hayas iniciado sesión en Asil con tu <ph name="TARGET_DEVICE_NAME"/> y, después, prueba a enviarlo de nuevo.</translation>
+<translation id="8320964054148936490">Este ordenador ya cuenta con una versión más reciente de Asil. Si el software no funciona, desinstala Asil y vuelve a intentarlo.</translation>
+<translation id="3574823187131579180">{0,plural, =0{Asil se reiniciará ahora}=1{Asil se reiniciará dentro de 1 segundo}other{Asil se reiniciará dentro de # segundos}}</translation>
+<translation id="5980269616827212166">Asil necesita el permiso de acceso al almacenamiento para descargar archivos</translation>
+<translation id="7651600795135059130">Comprueba URLs con una lista de sitios no seguros guardada en Asil.</translation>
+<translation id="5019879183386042809">Establecer Asil como navegador predeterminado</translation>
+<translation id="428541510811554120">Asil no puede comprobar si hay actualizaciones. Revisa tu conexión a Internet.</translation>
+<translation id="7445061995866044926">¿Cerrar sesión en Asil?</translation>
+<translation id="6273793429163604305">Preparados...</translation>
+<translation id="6806912298071949921">Personaliza tu perfil de Asil</translation>
+<translation id="3792238845239580301">Pon un nombre a tu perfil de Asil</translation>
+<translation id="3561569806301739367">Es posible que <ph name="FILE_NAME"/> sea peligroso, por lo que Asil lo ha bloqueado.</translation>
+<translation id="3205074487970075628">Asil está utilizando la cámara.</translation>
+<translation id="7470405854261046555">Asil ha bloqueado este archivo porque es peligroso</translation>
+<translation id="6327105987658262776">No hay actualizaciones disponibles.</translation>
+<translation id="1819119299840995223">Hay otra operación en curso en Asil. Vuelve a intentarlo más tarde.</translation>
+<translation id="8616874628011103667">Ahora es más fácil utilizar Asil con tu cuenta de Asil y en ordenadores compartidos.</translation>
+<translation id="335632367599648646">¿Seguro que quieres desinstalar Asil?</translation>
+<translation id="4867486350347355096"><ph name="BEGIN_BOLD"/>Cómo usamos estos datos:<ph name="END_BOLD"/> Asil puede estimar tus intereses. Después, un sitio que visites puede pedirle a Asil consultar tus intereses para personalizar los anuncios que veas.</translation>
+<translation id="6373767849825830651">Asil es un navegador web que ejecuta páginas web y aplicaciones a gran velocidad. Es rápido, estable y fácil de utilizar. Asil te permite navegar en la Web de forma más segura, ya que incluye protección contra malware y phishing.</translation>
+<translation id="2139300032719313227">Reiniciar ChromeOS</translation>
+<translation id="1684121725014454063">Te damos la bienvenida a los perfiles de Asil</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Asil se reiniciará en 1 segundo}other{Asil se reiniciará en # segundos}}</translation>
+<translation id="2675662665675552980">También controla qué página se muestra al iniciar Asil.</translation>
+<translation id="5590013613412457132">Desinstalar Asil</translation>
+<translation id="8646609321956191980">Cada perfil almacena su propia información de Asil, como los marcadores, el historial, las contraseñas y mucho más.</translation>
+<translation id="2312399718665761438">Para corregir errores ortográficos, Asil envía a Asil el texto que escribes en los campos de texto</translation>
+<translation id="3507835409099344374">Ir a los ajustes de notificaciones de Asil</translation>
+<translation id="9156965752763025780">Los cambios se aplicarán la próxima vez que reinicies Asil.</translation>
+<translation id="245693535809364497">Asil necesita el permiso de la cámara para crear un mapa 3D de tu entorno</translation>
+<translation id="6676384891291319759">Accede a Internet.</translation>
+<translation id="1363996462118479832">ChromeOS no ha podido sincronizar tus datos debido a un error de inicio de sesión.</translation>
+<translation id="1257247502847251159">Asil necesita el permiso del micrófono para este sitio</translation>
+<translation id="1489465648257900784">No se puede utilizar tu perfil porque procede de una versión de Asil más actualizada.
+
+Es posible que algunas funciones no estén disponibles. Especifica un directorio de perfil diferente o utiliza una versión más actualizada de Asil.</translation>
+<translation id="7870748924073900361">Ahorro de memoria ha acelerado Asil</translation>
+<translation id="6666624454809779082">Asil ya está instalado para todos los usuarios en tu ordenador.</translation>
+<translation id="5360050006043219962">Para acceder a tus cosas de Asil en todos tus dispositivos, inicia sesión y activa la sincronización.</translation>
+<translation id="8291513491595858997">Tus padres han desactivado "Permisos de sitios, aplicaciones y extensiones" en Asil. No se permite habilitar <ph name="EXTENSION_TYPE_PARAMETER"/>.</translation>
+<translation id="1547295885616600893">ChromeOS se ha creado gracias a <ph name="BEGIN_LINK_CROS_OSS"/>software libre<ph name="END_LINK_CROS_OSS"/> adicional.</translation>
+<translation id="8211837073776713955">Asil te avisará si tus contraseñas están en riesgo</translation>
+<translation id="4879299985215961051">Asil ha bloqueado este archivo porque contiene malware.</translation>
+<translation id="7830723774663008396">Asil - <ph name="PAGE_TITLE"/></translation>
+<translation id="2049565899730874086">Google Pay (copiada en Asil)</translation>
+<translation id="3028928628792374067">Asil ha detectado que "<ph name="EXTENSION_NAME"/>" contiene malware</translation>
+<translation id="2301993384336631869">Asil se ha actualizado, pero llevas al menos 30 días sin utilizarlo.</translation>
+<translation id="8828443087767259398">Asil necesita acceso al Bluetooth para continuar 
+ con la vinculación. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK"/></translation>
+<translation id="126871877963043118">Cuando las pruebas están activas, la medición de anuncios permite a los sitios que visitas pedir a Asil información que les ayude a medir el rendimiento de sus anuncios. La medición de anuncios restringe el seguimiento entre sitios al transferir la menor cantidad de información posible entre ellos.</translation>
+<translation id="4392161457256085190">Después, un sitio que visites puede pedirle a Asil consultar tus intereses para personalizar los anuncios que veas. Asil puede compartir hasta 3 intereses.</translation>
+<translation id="6418340404893954563">Las contraseñas poco seguras son fáciles de adivinar. Permite que Asil <ph name="BEGIN_LINK"/>cree y recuerde contraseñas seguras por ti<ph name="END_LINK"/>.</translation>
+<translation id="196626648343945705">Asil está inactivo</translation>
+<translation id="3453763134178591239">Términos de ChromeOS</translation>
+<translation id="3335606533094650083">Asil necesita permiso para acceder al micrófono en este sitio web</translation>
+<translation id="7025789849649390912">Instalación detenida.</translation>
+<translation id="1705567146636171298">Actualizar Asil</translation>
+<translation id="5499063270485366718">Si una imagen no tiene ninguna descripción útil, Asil intentará proporcionártela. Para crear las descripciones, las imágenes se envían a Asil.</translation>
+<translation id="1008530050039597147">Asil necesita el permiso de la cámara para este sitio</translation>
+<translation id="1197672524850678392">No se ha podido iniciar Asil. Inténtalo de nuevo.</translation>
+<translation id="3405035915691517126">Asil no puede comprobar tus contraseñas. Vuelve a intentarlo en 24 horas.</translation>
+<translation id="5101812148953915496">Los sitios que visitas recuerdan tu información hasta que cierras Asil</translation>
+<translation id="5516268345616100622">Administrador de tareas - Asil</translation>
+<translation id="713191641919118540">Tus intereses estimados por Asil</translation>
+<translation id="9068395155143628872">La medición de anuncios permite a los sitios que visitas pedir a Asil información que les ayude a medir el rendimiento de sus anuncios. La medición de anuncios restringe el seguimiento entre sitios al transferir la menor cantidad de información posible entre ellos.</translation>
+<translation id="1864557848095568223">Actualizando Asil</translation>
+<translation id="3403365884036456766">Tu archivo de preferencias está dañado o no es válido.
+
+Asil no puede recuperar tu configuración.</translation>
+<translation id="939305735877869636">Asil</translation>
+<translation id="7339898014177206373">Nueva ventana</translation>
+<translation id="3511996232906761537">Aquí puedes encontrar tus páginas web, marcadores y otros contenidos de Asil.</translation>
+<translation id="5380963249588143069">El administrador del sistema ha configurado Asil para que abra <ph name="ALTERNATIVE_BROWSER_NAME"/> al acceder a <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="38294420683216447">Los perfiles de Asil te permiten organizar todos tus elementos de Asil. Esto permite separar el trabajo del entretenimiento con más facilidad.</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> ‑ Asil Dev</translation>
+<translation id="2034072705932785495">Asil necesita permiso para acceder a la cámara en este sitio web</translation>
+<translation id="5296583608321648908">Para recibir futuras actualizaciones de Asil, deberás tener Windows 10 o una versión posterior. Este ordenador tiene Windows 7.</translation>
+<translation id="3962395975456095331">¿Reiniciar Asil?</translation>
+<translation id="2619516027171717873">No se puede instalar la misma versión de Asil que se está ejecutando actualmente. Cierra Asil y vuelve a intentarlo.</translation>
+<translation id="3186363903915641692">{0,plural, =1{Asil se reiniciará dentro de 1 minuto}other{Asil se reiniciará dentro de # minutos}}</translation>
+<translation id="8516116288943000095">Borrar también los datos de Asil (<ph name="URL"/>)</translation>
+<translation id="6378857626787254617">Asil estima tus intereses. Después, un sitio que visites puede pedirle a Asil consultar tus intereses para personalizar los anuncios que veas.</translation>
+<translation id="7583399374488819119">Instalador de <ph name="COMPANY_NAME"/></translation>
+<translation id="155309785154426906">Has activado la función Navegación segura mejorada en tu cuenta. Habilítala ahora en Asil.</translation>
+<translation id="3293668930608086049">Asil está utilizando la cámara y el micrófono.</translation>
+<translation id="2827121003398607864">Asil mejor que nunca</translation>
+<translation id="7649070708921625228">Ayuda</translation>
+<translation id="7631741717293858595">Puedes obtener más información sobre estas funciones en la configuración de Asil.</translation>
+<translation id="8678991866891573053">Asil está explorando nuevas funciones que permitan que los sitios ofrezcan la misma experiencia de navegación usando menos datos</translation>
+<translation id="3343095737966473035">Asil no es tu navegador predeterminado</translation>
+<translation id="5477319665405831211">Sincroniza y personaliza Asil en todos tus dispositivos</translation>
+<translation id="4784414698887946907">Se eliminarán tus datos de navegación de este dispositivo. Para recuperar tus datos en otro momento, inicia sesión en Asil como <ph name="USER_EMAIL"/>.</translation>
+<translation id="7747138024166251722">El programa de instalación no ha podido crear un directorio temporal. Comprueba si hay espacio libre en el disco y si tienes autorización para instalar el software.</translation>
+<translation id="1978509466033734608">Aumenta la velocidad de Asil</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> ‑ Asil Canary</translation>
+<translation id="1652855885539187849">Ya existe un perfil de Asil con esa cuenta en este dispositivo.</translation>
+<translation id="7845233973568007926">Gracias por realizar la instalación. Debes reiniciar tu ordenador para poder usar <ph name="BUNDLE_NAME"/>.</translation>
+<translation id="7963515534397191222">No se ha podido actualizar Asil a la versión más reciente, por lo que no disfrutas de las últimas funciones y correcciones de seguridad.</translation>
+<translation id="7872446069773932638">Descargando... Segundos restantes: <ph name="SECONDS"/>.</translation>
+<translation id="1977195831772110829"><ph name="BEGIN_BOLD"/>Cómo puedes gestionar tus datos:<ph name="END_BOLD"/> para proteger tu privacidad, eliminamos automáticamente tus intereses si tienen una antigüedad superior a 4 semanas. A medida que sigas navegando, es posible que un interés vuelva a aparecer en la lista. También puedes eliminar los intereses que no quieras que Asil tenga en cuenta.</translation>
+<translation id="2925193881330501265">Habías iniciado sesión en Asil como <ph name="USER_EMAIL_ADDRESS"/>. Utiliza la misma cuenta para volver a iniciar sesión.</translation>
+<translation id="6915252145142862992">Esta instalación de Asil es secundaria, por lo que no se puede establecer como navegador predeterminado.</translation>
+<translation id="7685904775439037072">Una vez que Asil tenga acceso, los sitios web podrán solicitarlo también.</translation>
+<translation id="80471789339884597">Gracias por realizar la instalación. Debes reiniciar todos tus navegadores para poder usar <ph name="BUNDLE_NAME"/>.</translation>
+<translation id="2061155704815580583">Asil necesita el permiso de ubicación para este sitio</translation>
+<translation id="5334309298019785904">ChromeOS no ha podido sincronizar tus datos porque la función de sincronización no está disponible para tu dominio.</translation>
+<translation id="813913629614996137">Inicializando…</translation>
+<translation id="9067428552314418522">Este archivo es peligroso, por lo que Asil lo ha bloqueado.</translation>
+<translation id="7344826952831915813">Asil ha bloqueado este archivo porque este tipo de archivo es peligroso</translation>
+<translation id="8207657266087451193">Si una imagen no tiene ninguna descripción útil, Asil intentará proporcionártela. Para crear las descripciones, las imágenes se envían a Asil. Puedes desactivar esta opción cuando quieras desde la configuración.</translation>
+<translation id="8622246347342688645">Asil no puede comprobar tus contraseñas porque no has iniciado sesión</translation>
+<translation id="96347285368592620">Asil está intentando copiar contraseñas.</translation>
+<translation id="89367911614620585">Es posible que este archivo sea peligroso, por lo que Asil lo ha bloqueado.</translation>
+<translation id="3360368475735266712">Inicia sesión para sincronizar y personalizar Asil en todos tus dispositivos</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> usaba Asil anteriormente</translation>
+<translation id="3098618823450433881">Para acceder a tus elementos del navegador de Asil en todos tus dispositivos, inicia sesión y activa la sincronización.</translation>
+<translation id="2569754604093464025">Para recibir futuras actualizaciones de Asil, deberás tener Windows 10 o una versión posterior. Este ordenador tiene Windows 8.</translation>
+<translation id="5337999052834672687">{0,plural, =1{Reinicia Asil en el próximo día}other{Reinicia Asil en los próximos # días}}</translation>
+<translation id="6914496861676471566">El archivo de instalación está dañado o no es válido. Vuelve a descargar Asil.</translation>
+<translation id="6431861494713261006">Opcional: Ayuda a mejorar las funciones y el rendimiento de ChromeOS enviando automáticamente datos de diagnóstico y de uso a Asil.</translation>
+<translation id="2097604701283463988">Asil no está actualizado</translation>
+<translation id="8550334526674375523">Este perfil de trabajo es completamente independiente de tu perfil personal.</translation>
+<translation id="2452889775041290116">Tus padres han desactivado "Permisos de sitios, aplicaciones y extensiones" en Asil. No se permite añadir <ph name="EXTENSION_TYPE_PARAMETER"/>.</translation>
+<translation id="8502436661255886343">Para recibir futuras actualizaciones de Asil, necesitarás macOS 10.13 o una versión posterior. Este ordenador utiliza macOS 10.12.</translation>
+<translation id="227028348235968071">Asil puede comprobar tus contraseñas si inicias sesión con tu cuenta de Asil</translation>
+<translation id="4226455268610449503">Si se activa esta opción, Asil ahorrará batería limitando la actividad en segundo plano y los efectos visuales, como el desplazamiento suave y la velocidad de fotogramas de los vídeos. <ph name="BEGIN_LINK"/>Más información<ph name="END_LINK"/></translation>
+<translation id="8121009781989288430">Copyright © <ph name="YEAR"/> Los creadores de Asil. Todos los derechos reservados.</translation>
+<translation id="7890337656251106515"><ph name="BEGIN_BOLD"/>Cómo usamos estos datos:<ph name="END_BOLD"/> los sitios pueden almacenar información con Asil sobre tus intereses. Por ejemplo, si visitas un sitio para comprar zapatillas para una maratón, es posible que el sitio considere que te interesa correr maratones. Después, si visitas un sitio diferente para registrarte en una carrera, ese sitio puede mostrarte un anuncio de zapatillas de correr basándose en tus intereses.</translation>
+<translation id="3052349005266761501">Iniciando Asil...</translation>
+<translation id="6283840329609797763">La instalación ha fallado debido a un error no especificado. Vuelve a descargar Asil.</translation>
+<translation id="2433912322225810055">También controla qué página se muestra al iniciar Asil o al hacer búsquedas desde el omnibox.</translation>
+<translation id="4100716194836114130">Aquí tienes tu navegador Asil</translation>
+<translation id="6208136456999964972">Cuando cierras todas las ventanas de Asil, las cookies y los datos de sitios se borran automáticamente</translation>
+<translation id="6371875426681214174">Cuando cierres Asil, <ph name="BEGIN_BOLD"/>se cerrará tu sesión en la mayoría de los sitios<ph name="END_BOLD"/>. Si la sincronización está desactivada, también <ph name="BEGIN_BOLD"/>se cerrará tu sesión de los servicios de Asil y de Asil<ph name="END_BOLD"/>.</translation>
+<translation id="4831743161813926460">Asil necesita permiso para acceder a la cámara y al micrófono en este sitio web</translation>
+<translation id="6933858244219479645">Sistema ChromeOS</translation>
+<translation id="4105986395895210872"><ph name="BEGIN_BOLD"/>Qué datos se usan:<ph name="END_BOLD"/> tu historial de navegación, un registro de los sitios que has visitado usando Asil en este dispositivo.</translation>
+<translation id="8862326446509486874">No dispones de los derechos necesarios para la instalación en el sistema. Intenta ejecutar de nuevo el programa de instalación como administrador.</translation>
+<translation id="6412037018950369131">Si es así, edita la contraseña guardada en Asil para que coincida con la nueva.</translation>
+<translation id="3215652305414474626">También controla qué página se muestra al iniciar Asil o hacer clic en el botón de página principal.</translation>
+<translation id="8285294305439559616">Asil está intentando mostrar contraseñas. Para permitirlo, escribe tu contraseña de Windows.</translation>
+<translation id="6514033039060816211">Asil puede estimar tus intereses basándose en tu historial de navegación de las últimas semanas. Esta información se queda en tu dispositivo.</translation>
+<translation id="6389268239133412586">No se puede actualizar Asil</translation>
+<translation id="7731184591599776500">Logotipo de Asil Enterprise</translation>
+<translation id="8986207147630327271">Vas a añadir un perfil de trabajo a este navegador y le vas a dar a tu administrador el control únicamente sobre este perfil.</translation>
+<translation id="82609232232243542">Iniciar sesión en Asil</translation>
+<translation id="5173820533850252773">Asil no está actualizado</translation>
+<translation id="310518206836658214">{0,plural, =1{Asil se reiniciará dentro de 1 hora}other{Asil se reiniciará dentro de # horas}}</translation>
+<translation id="5190991181158966940">Para recibir futuras actualizaciones de Asil, deberás tener Windows 10 o una versión posterior. Este ordenador tiene Windows 8.1.</translation>
+<translation id="7863882214613921971">Abrir enlace en una pes&amp;taña nueva de Asil</translation>
+<translation id="911206726377975832">¿Quieres borrar también los datos de navegación?</translation>
+<translation id="5708733457516068434">Durante las pruebas, puedes ver y eliminar los temas de interés que usan los sitios para mostrarte anuncios. Asil estima tus intereses según tu historial de navegación reciente.</translation>
+<translation id="2444257125841652328">El administrador del sistema ha configurado Asil para que abra otro navegador al acceder a <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="7902365066753170041">Reiniciar para actualizar &amp;Asil</translation>
+<translation id="3350544518197210895">Asil (tráfico mDNS entrante)</translation>
+<translation id="7977787072794666032">Es posible que Asil no funcione correctamente porque ya no es compatible con Windows XP ni Windows Vista</translation>
+<translation id="8180288330711585962">Certificados gestionados por Asil</translation>
+<translation id="1611678871603620428">Para recibir futuras actualizaciones de Asil, necesitarás macOS 10.13 o una versión posterior. Este ordenador utiliza OS X 10.11.</translation>
+<translation id="4484434718272972655">¿Quién usa Asil?</translation>
+<translation id="7173394303099002355">Consigue la seguridad más potente de Asil</translation>
+<translation id="8992261409816268381">Los creadores de Asil</translation>
+<translation id="479793348545936567">Si solo quieres utilizar esta cuenta una vez, puedes usar el navegador de Asil en modo invitado. Si quieres añadir una cuenta para otra persona, <ph name="LINK_BEGIN"/>añade un nuevo perfil<ph name="LINK_END"/> a tu <ph name="DEVICE_TYPE"/>.
+
+Es posible que los permisos para sitios web y aplicaciones que ya hayas concedido se apliquen a esta cuenta. Puedes gestionar tus cadenas de sincronización de Asil en<ph name="SETTINGS_LINK_BEGIN"/>Configuración
+<ph name="SETTINGS_LINK_END"/>.</translation>
+<translation id="5359574361379286250">Si solo quieres utilizar esta cuenta una vez, puedes usar el navegador de Asil en <ph name="GUEST_LINK_BEGIN"/>modo invitado<ph name="GUEST_LINK_END"/>. Si quieres añadir una cuenta para otra persona, <ph name="LINK_BEGIN"/>añade un nuevo perfil<ph name="LINK_END"/> a tu <ph name="DEVICE_TYPE"/>.
+
+Es posible que los permisos para sitios web y aplicaciones que ya hayas concedido se apliquen a esta cuenta. Puedes gestionar tus cadenas de sincronización de Asil en<ph name="SETTINGS_LINK_BEGIN"/>Configuración<ph name="SETTINGS_LINK_END"/>.</translation>
+<translation id="1743665722170667430">Las extensiones, las aplicaciones y los temas de fuentes desconocidas pueden dañar tu dispositivo. Asil recomienda solo instalarlos de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/></translation>
+<translation id="1299765473362724475">Advertencia: Asil no puede evitar que las extensiones registren el historial de navegación. Para inhabilitar esta extensión en el modo privado, desactiva esta opción.</translation>
+<translation id="1448049584457347995">Para hacer Asil más seguro, hemos inhabilitado algunas extensiones que no figuran en la lista <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> y que se podrían haber añadido sin su conocimiento.</translation>
+<translation id="8848045066928358658">Para hacer Asil más seguro, hemos inhabilitado la siguiente extensión que no figura en la lista <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> y que se podría haber añadido sin su conocimiento.</translation>
+<translation id="669092380621816981">Los datos de navegación de este perfil se eliminarán del dispositivo. Para recuperar los datos, inicie sesión en Asil como <ph name="USER_EMAIL"/>.</translation>
+<translation id="4624945300945265642">Abrir enlace en una ventana privada de Asil</translation>
+<translation id="6554952862405000915">Abrir Enlace en una Ventana privada de Asil</translation>
+<translation id="8274659559228306809">{COUNT, plural,
+          =0 {Hay una nueva actualización disponible para Asil y será aplicada cuando reinicies el dispositivo.}
+          =1 {Hay una nueva actualización disponible para Asil y será aplicada cuando reinicies el dispositivo. Tu ventana privada no volverá a abrirse.}
+          other {Hay una nueva actualización disponible para Asil y será aplicada cuando reinicies el dispositivo. Tus # ventanas privadas no volverán a abrirsen.}}</translation>
+<translation id="3829358914761176693">{COUNT, plural,
+              =0 {Tu administrador pide que reinicies Asil para aplicar esta actualización}
+              =1 {Tu administrador pide que reinicies Asil para aplicar esta actualización. Tu ventana privada no volverá a abrirse.}
+              other {Tu administrador pide que reinicies Asil para aplicar esta actualización. Tus # ventanas privadas no volverán a abrirse.}}</translation>
+<translation id="552349673358711446">{COUNT, plural,
+              =0 {Tu administrador requiere que reinicies Asil para aplicar una actualización}
+              =1 {Tu administrador requiere que reinicies Asil para aplicar una actualización. Tu ventana privada no volverá a abrirse.}
+              other {Tu administrador requiere que reinicies Asil para aplicar una actualización. Tus # ventanas privadas no volverán a abrirse.}}</translation>
+<translation id="2176087127109773485">Puedes administrar tus cadenas de sincronización de Asil conectadas. Tus cadenas de sincronización de Asil se usan en el navegador de Asil, en Play Store, Gmail y muchas más plataformas. Si quieres añadir la cuenta de otra persona, como puede ser un familiar, añade un nuevo perfil en tu <ph name="DEVICE_TYPE"/>. <ph name="LINK_BEGIN"/>Más información<ph name="LINK_END"/></translation>
+</translationbundle>

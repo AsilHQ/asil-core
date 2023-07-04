@@ -1,0 +1,36 @@
+diff --git a/chrome/browser/importer/importer_list.cc b/chrome/browser/importer/importer_list.cc
+index b6cd6b3764f6358250759cb03d760d5d1df3eeb1..4ac095f5593b2d964ecce224284c21705a1608e5 100644
+--- a/chrome/browser/importer/importer_list.cc
++++ b/chrome/browser/importer/importer_list.cc
+@@ -163,20 +163,30 @@ std::vector<importer::SourceProfile> DetectSourceProfilesWorker(
+   if (shell_integration::IsFirefoxDefaultBrowser()) {
+     DetectFirefoxProfiles(locale, &profiles);
+     DetectBuiltinWindowsProfiles(&profiles);
++    DetectChromeProfiles(&profiles);
+   } else {
+     DetectBuiltinWindowsProfiles(&profiles);
+     DetectFirefoxProfiles(locale, &profiles);
++    DetectChromeProfiles(&profiles);
+   }
+ #elif BUILDFLAG(IS_MAC)
+   if (shell_integration::IsFirefoxDefaultBrowser()) {
+     DetectFirefoxProfiles(locale, &profiles);
+     DetectSafariProfiles(&profiles);
++    DetectChromeProfiles(&profiles);
+   } else {
+     DetectSafariProfiles(&profiles);
+     DetectFirefoxProfiles(locale, &profiles);
++    DetectChromeProfiles(&profiles);
+   }
+ #else
+-  DetectFirefoxProfiles(locale, &profiles);
++  if (shell_integration::IsFirefoxDefaultBrowser()) {
++    DetectFirefoxProfiles(locale, &profiles);
++    DetectChromeProfiles(&profiles);
++  } else {
++    DetectChromeProfiles(&profiles);
++    DetectFirefoxProfiles(locale, &profiles);
++  }
+ #endif
+   if (include_interactive_profiles) {
+     importer::SourceProfile bookmarks_profile;

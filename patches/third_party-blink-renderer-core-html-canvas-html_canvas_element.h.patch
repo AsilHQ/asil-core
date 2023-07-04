@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/core/html/canvas/html_canvas_element.h b/third_party/blink/renderer/core/html/canvas/html_canvas_element.h
+index 5b737de8de4380fb62734a613cbe8c92423ec877..578fefa354951501fd1e40c16a27efeb8e869901 100644
+--- a/third_party/blink/renderer/core/html/canvas/html_canvas_element.h
++++ b/third_party/blink/renderer/core/html/canvas/html_canvas_element.h
+@@ -312,6 +312,7 @@ class CORE_EXPORT HTMLCanvasElement final
+ 
+   bool IsPlaceholder() const override { return IsOffscreenCanvasRegistered(); }
+ 
++  BRAVE_HTML_CANVAS_ELEMENT_H_
+  protected:
+   void DidMoveToNewDocument(Document& old_document) override;
+ 

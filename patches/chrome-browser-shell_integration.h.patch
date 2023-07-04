@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/shell_integration.h b/chrome/browser/shell_integration.h
+index ac58e8cb287ec924d06d3acefdc1932880e90a8a..3abc296b80df992688c7d23b742ff2f45e70d07c 100644
+--- a/chrome/browser/shell_integration.h
++++ b/chrome/browser/shell_integration.h
+@@ -253,6 +253,7 @@ class DefaultBrowserWorker : public DefaultWebClientWorker {
+   DefaultBrowserWorker(const DefaultBrowserWorker&) = delete;
+   DefaultBrowserWorker& operator=(const DefaultBrowserWorker&) = delete;
+ 
++  BRAVE_DEFAULT_BROWSER_WORKER_H
+  protected:
+   ~DefaultBrowserWorker() override;
+ 

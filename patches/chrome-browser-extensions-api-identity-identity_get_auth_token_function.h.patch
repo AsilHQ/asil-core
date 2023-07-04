@@ -1,0 +1,45 @@
+diff --git a/chrome/browser/extensions/api/identity/identity_get_auth_token_function.h b/chrome/browser/extensions/api/identity/identity_get_auth_token_function.h
+index 72f83840c5fe943ada4fd7e4a2c65c4112fcc734..cc8464aaf8f0d46e2f07b7d5c66ea450dc9fb40e 100644
+--- a/chrome/browser/extensions/api/identity/identity_get_auth_token_function.h
++++ b/chrome/browser/extensions/api/identity/identity_get_auth_token_function.h
+@@ -58,6 +58,7 @@ class IdentityGetAuthTokenError;
+ // successfully, getAuthToken proceeds to the non-interactive flow.
+ class IdentityGetAuthTokenFunction : public ExtensionFunction,
+                                      public GaiaRemoteConsentFlow::Delegate,
++                                     public WebAuthFlow::Delegate,
+                                      public IdentityMintRequestQueue::Request,
+                                      public signin::IdentityManager::Observer,
+                                      public OAuth2MintTokenFlow::Delegate {
+@@ -82,6 +83,11 @@ class IdentityGetAuthTokenFunction : public ExtensionFunction,
+   void OnGaiaRemoteConsentFlowApproved(const std::string& consent_result,
+                                        const std::string& gaia_id) override;
+ 
++  // Used only if Google API keys aren't set up.
++  // WebAuthFlow::Delegate implementation:
++  void OnAuthFlowFailure(WebAuthFlow::Failure failure) override;
++  void OnAuthFlowURLChange(const GURL& redirect_url) override;
++
+   // Starts a login access token request.
+   virtual void StartTokenKeyAccountAccessTokenRequest();
+ 
+@@ -198,6 +204,9 @@ class IdentityGetAuthTokenFunction : public ExtensionFunction,
+   void OnRemoteConsentSuccess(
+       const RemoteConsentResolutionData& resolution_data) override;
+ 
++  // Used only if Google API keys aren't set up.
++  void StartWebAuthFlow();
++
+ #if BUILDFLAG(IS_CHROMEOS)
+   // Starts a login access token request for device robot account. This method
+   // will be called only in Chrome OS for:
+@@ -246,6 +255,10 @@ class IdentityGetAuthTokenFunction : public ExtensionFunction,
+   // Added for debugging https://crbug.com/1091423.
+   bool remote_consent_approved_ = false;
+ 
++  // Used only if Google API keys aren't set up.
++  std::unique_ptr<WebAuthFlow> web_auth_flow_;
++  std::string redirect_scheme_;
++
+   // Invoked when IdentityAPI is shut down.
+   base::CallbackListSubscription identity_api_shutdown_subscription_;
+ 

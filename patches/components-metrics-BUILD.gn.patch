@@ -1,0 +1,12 @@
+diff --git a/components/metrics/BUILD.gn b/components/metrics/BUILD.gn
+index 05bf0885eee2059498c029a527a1ace929eb6921..370aa5e488b33e8e1b0709b1304428b2e9624650 100644
+--- a/components/metrics/BUILD.gn
++++ b/components/metrics/BUILD.gn
+@@ -253,6 +253,7 @@ static_library("metrics") {
+       "motherboard_metrics_provider.h",
+     ]
+   }
++  import("//brave/components/metrics/sources.gni") deps += brave_components_metrics_deps
+ }
+ 
+ # The component metrics provider is a separate target because it depends upon

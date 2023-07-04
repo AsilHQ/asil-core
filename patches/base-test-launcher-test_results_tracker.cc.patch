@@ -1,0 +1,12 @@
+diff --git a/base/test/launcher/test_results_tracker.cc b/base/test/launcher/test_results_tracker.cc
+index ea2aa1ee0fe12c2d4ca8abd035eac9ba51a72830..aa9eb0aec39c1d9390d248707bdb3066b1d849cc 100644
+--- a/base/test/launcher/test_results_tracker.cc
++++ b/base/test/launcher/test_results_tracker.cc
+@@ -151,6 +151,7 @@ TestResultsTracker::~TestResultsTracker() {
+                    : ""),
+               result.GetTestCaseName().c_str());
+       if (result.status != TestResult::TEST_SUCCESS) {
++        TEST_RESULTS_TRACKER_ADD_FAILURE_DETAILS
+         // The actual failure message is not propagated up to here, as it's too
+         // much work to escape it properly, and in case of failure, almost
+         // always one needs to look into full log anyway.

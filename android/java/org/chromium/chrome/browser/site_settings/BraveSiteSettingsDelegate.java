@@ -1,0 +1,33 @@
+/* Copyright (c) 2021 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+package org.chromium.chrome.browser.site_settings;
+
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+
+import org.chromium.base.Callback;
+import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.chrome.browser.app.BraveActivity;
+import org.chromium.chrome.browser.profiles.Profile;
+import org.chromium.chrome.browser.site_settings.ChromeSiteSettingsDelegate;
+import org.chromium.url.GURL;
+
+public class BraveSiteSettingsDelegate extends ChromeSiteSettingsDelegate {
+    public BraveSiteSettingsDelegate(Context context, Profile profile) {
+        super(context, profile);
+    }
+
+    @Override
+    public void getFaviconImageForURL(GURL faviconUrl, Callback<Drawable> callback) {
+        if (!faviconUrl.isValid()) {
+            callback.onResult(null);
+            return;
+        }
+
+        super.getFaviconImageForURL(faviconUrl, callback);
+    }
+}

@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/modules/mediastream/media_devices.cc b/third_party/blink/renderer/modules/mediastream/media_devices.cc
+index c43fa84a284e07bbbd363b2de3201da39e58a977..695d73dd2071757a0b2e21d3929196bf0af66334 100644
+--- a/third_party/blink/renderer/modules/mediastream/media_devices.cc
++++ b/third_party/blink/renderer/modules/mediastream/media_devices.cc
+@@ -859,6 +859,7 @@ void MediaDevices::DevicesEnumerated(
+     }
+   }
+ 
++  BRAVE_MEDIA_DEVICES_DEVICES_ENUMERATED
+   RecordEnumeratedDevices(result_tracker->GetScriptState(), media_devices);
+   // TODO(crbug.com/1395324): Remove this custom EnumerateDevices latency
+   // tracking by reverting crrev.com/c/3944912/ once the

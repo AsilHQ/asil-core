@@ -1,0 +1,12 @@
+diff --git a/components/sync/engine/BUILD.gn b/components/sync/engine/BUILD.gn
+index 87f53c818fa4efce2d3ca9ee61ff008684363c43..2e6a5266b24cebb8762ca3d11c2c792290ccfe01 100644
+--- a/components/sync/engine/BUILD.gn
++++ b/components/sync/engine/BUILD.gn
+@@ -156,6 +156,7 @@ static_library("engine") {
+     "traffic_logger.h",
+     "update_handler.h",
+   ]
++  import("//brave/components/sync/engine/sources.gni") sources += brave_components_sync_engine_sources
+ 
+   configs += [
+     # The target has >50 .cc files, so speed up the build with

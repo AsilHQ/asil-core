@@ -1,0 +1,12 @@
+diff --git a/components/os_crypt/key_storage_keyring.cc b/components/os_crypt/key_storage_keyring.cc
+index 531e66307032b77580ec717539416396addc2624..d6c265754a71ac58019e91425a586ab9e670c5a3 100644
+--- a/components/os_crypt/key_storage_keyring.cc
++++ b/components/os_crypt/key_storage_keyring.cc
+@@ -45,6 +45,7 @@ absl::optional<std::string> KeyStorageKeyring::GetKeyImpl() {
+   gchar* password_c = nullptr;
+   GnomeKeyringResult result =
+       GnomeKeyringLoader::gnome_keyring_find_password_sync_ptr(
++          BRAVE_KEY_STORAGE_KEYRING_GET_KEY_IMPL
+           &kSchema, &password_c, "application", application_name_.c_str(),
+           nullptr);
+   if (result == GNOME_KEYRING_RESULT_OK) {

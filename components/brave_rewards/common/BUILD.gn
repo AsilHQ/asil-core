@@ -1,0 +1,40 @@
+import("//mojo/public/tools/bindings/mojom.gni")
+
+source_set("features") {
+  sources = [
+    "features.cc",
+    "features.h",
+  ]
+
+  deps = [
+    "//base",
+    "//brave/components/brave_rewards/common/buildflags:buildflags",
+  ]
+}
+
+static_library("common") {
+  sources = [
+    "pref_names.cc",
+    "pref_names.h",
+    "rewards_flags.cc",
+    "rewards_flags.h",
+    "rewards_util.cc",
+    "rewards_util.h",
+    "url_constants.cc",
+    "url_constants.h",
+  ]
+
+  deps = [
+    ":features",
+    "//base",
+    "//brave/components/l10n/common",
+    "//components/prefs",
+    "//third_party/abseil-cpp:absl",
+  ]
+}
+
+mojom("mojom") {
+  sources = [ "brave_rewards_panel.mojom" ]
+
+  public_deps = [ "//mojo/public/mojom/base" ]
+}

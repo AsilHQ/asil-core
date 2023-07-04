@@ -1,0 +1,44 @@
+diff --git a/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarPhone.java b/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarPhone.java
+index c46f2e7d7f9428ee62ff675a536d8ad3171e5421..0b1d9adc3be698a38bef8876740f4fa4ce9407f6 100644
+--- a/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarPhone.java
++++ b/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarPhone.java
+@@ -395,6 +395,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
+         if (mOptionalButton != null) {
+             mOptionalButton.setBackgroundColorFilter(color);
+         }
++        BraveToolbarLayout.class.cast(this).updateModernLocationBarColorImpl(color);
+     }
+ 
+     private void updateModernLocationBarCorners() {
+@@ -562,6 +563,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
+                         EventConstants.PARTNER_HOME_PAGE_BUTTON_PRESSED);
+             }
+         }
++        BraveToolbarLayout.class.cast(this).onClickImpl(v);
+     }
+ 
+     @Override
+@@ -1016,6 +1018,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
+      * New Tab Page.
+      */
+     private void updateLocationBarLayoutForExpansionAnimation() {
++        if (!BraveToolbarLayout.class.cast(this).isLocationBarValid(mLocationBar)) return;
+         TraceEvent.begin("ToolbarPhone.updateLocationBarLayoutForExpansionAnimation");
+         if (mOptimizationsEnabled && isInTabSwitcherMode()) return;
+ 
+@@ -1326,6 +1329,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
+             canvas.restore();
+         }
+ 
++        BraveToolbarLayout.class.cast(this).drawAnimationOverlay(mToolbarButtonsContainer, canvas);
+         // Draw the tab stack button and associated text if necessary.
+         if (mTabSwitcherAnimationTabStackDrawable != null && mToggleTabStackButton != null
+                 && mUrlExpansionFraction != 1f) {
+@@ -2068,6 +2072,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
+         } else {
+             populateUrlClearExpansionAnimatorSet(animators);
+         }
++        if (!BraveToolbarLayout.class.cast(this).isLocationBarValid(mLocationBar)) return;
+         mUrlFocusLayoutAnimator = new AnimatorSet();
+         mUrlFocusLayoutAnimator.playTogether(animators);
+ 

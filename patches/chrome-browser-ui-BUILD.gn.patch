@@ -1,0 +1,30 @@
+diff --git a/chrome/browser/ui/BUILD.gn b/chrome/browser/ui/BUILD.gn
+index 8a5a38442d6e345afc3505a184451bb448180244..6ff5bd160260e01a4d555b59e231a2b2979f283e 100644
+--- a/chrome/browser/ui/BUILD.gn
++++ b/chrome/browser/ui/BUILD.gn
+@@ -666,6 +666,7 @@ static_library("ui") {
+     "//ui/webui",
+     "//v8:v8_version",
+   ]
++  deps+= [ "//brave/browser/ui" ]
+ 
+   # TODO(crbug/925153): Remove this circular dependency.
+   allow_circular_includes_from = [
+@@ -4013,10 +4014,13 @@ static_library("ui") {
+       ]
+       deps += [ "//google_update" ]
+     } else {
+-      sources += [
+-        "webui/help/version_updater_basic.cc",
+-        "webui/help/version_updater_basic.h",
+-      ]
++      if (!is_official_build) {
++        # In official build, //brave/browser/ui handles.
++        sources += [
++          "webui/help/version_updater_basic.cc",
++          "webui/help/version_updater_basic.h",
++        ]
++      }
+     }
+   } else {  # 'OS!="win"
+     if (toolkit_views) {

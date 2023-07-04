@@ -1,0 +1,385 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="lv">
+<translation id="1026101648481255140">Atsākt instalēšanu</translation>
+<translation id="7099479769133613710">Atkārtoti palaist, lai atjauninātu &amp;Asil OS</translation>
+<translation id="1065672644894730302">Jūsu preferences nevar nolasīt. Dažas funkcijas var nebūt pieejamas, un preferenču izmaiņas netiks saglabātas</translation>
+<translation id="2796517443093885402">Asil var palīdzēt aizsargāt jūs pret datu noplūdi, ļaunprātīgiem paplašinājumiem un citiem apdraudējumiem.</translation>
+<translation id="5918095577778020936">Pārlūkā Asil tiek mēģināts eksportēt jūsu paroles. Lai to atļautu, ievadiet savu Windows paroli.</translation>
+<translation id="5468853758063275923">Jūsu noklusējuma pārlūks ir Asil.</translation>
+<translation id="8522292744959221145">Lai pārbaudītu, vai jūsu paroles ir aizsargātas pret datu pārkāpumiem un citām drošības problēmām, <ph name="BEGIN_LINK"/>pierakstieties pārlūkā Asil<ph name="END_LINK"/>.</translation>
+<translation id="8541922081612557424">Par Asil</translation>
+<translation id="1203500561924088507">Pateicamies, ka veicāt instalēšanu. Pirms <ph name="BUNDLE_NAME"/> izmantošanas ir jārestartē pārlūkprogramma.</translation>
+<translation id="8905049883018921395">Ja funkcija ir ieslēgta, pārlūkā Asil neaktīvās cilnēs tiek atbrīvota atmiņa. Tādējādi aktīvajām cilnēm un citām lietotnēm tiek nodrošināts vairāk datora resursu un tiek uzlabots Asil darbības ātrums. Neaktīvās cilnes atkal tiek automātiski aktivizētas, kad tās atverat. <ph name="BEGIN_LINK"/>Uzziniet vairāk<ph name="END_LINK"/>.</translation>
+<translation id="4658574652223735641">Atmiņas taupīšana nodrošināja ātrāku Asil darbību</translation>
+<translation id="4798342026247191171">Jaunā Asil profila iestatīšana</translation>
+<translation id="113959764510199339">Asil mēģina rādīt paroles.</translation>
+<translation id="8132634101975074716">Esat pierakstījies operētājsistēmā Asil!</translation>
+<translation id="4168469784091952813">Varat pilnvērtīgi izmantot pārlūku Asil</translation>
+<translation id="5147525139567260139">Asil cilnes kopīgošana</translation>
+<translation id="1530633922026945685">Pārlūkam Asil ir nepieciešama atļauja piekļūt jūsu kamerai, lai varētu izveidot jūsu apkārtnes 3D karti</translation>
+<translation id="4449148723378534338">Pārskatiet svarīgākās konfidencialitātes un drošības vadīklas pārlūkā Asil.</translation>
+<translation id="1640672724030957280">Notiek lejupielāde...</translation>
+<translation id="5616153642055197778">Ir pieejama jauna un drošāka Asil versija.</translation>
+<translation id="5846727201643228411">Varat skatīt un noņemt interešu tēmas, kas vietnēs tiek izmantotas reklāmu rādīšanai. Pārlūkā Asil tiek aptuveni noteiktas jūsu intereses, ņemot vērā neseno pārlūkošanas vēsturi.</translation>
+<translation id="6797402139308059782">Ļaut Asil darboties fonā</translation>
+<translation id="5875673934455379806">Pārinstalēt Asil</translation>
+<translation id="6888366668010117849">Vietnes pārlūkā Asil var glabāt informāciju par jūsu interesēm. Piemēram, ja apmeklējat kādu vietni, lai iegādātos apavus maratona skriešanai, vietne var noteikt, ka interesējaties par maratonu skriešanu. Ja vēlāk apmeklēsiet citu vietni, lai reģistrētos sacensībām, šajā vietnē var tikt rādīta skriešanas apavu reklāma, pamatojoties uz jūsu interesēm.</translation>
+<translation id="4528406859989804913">Jūs pierakstāties ar pārvaldītu kontu, kura administrators var kontrolēt jūsu profilu. Jūsu Asil dati, piemēram, lietotnes, grāmatzīmes, vēsture, paroles un citi iestatījumi, tiks neatgriezeniski saistīti ar lietotāju <ph name="USER_NAME"/>. Varēsiet dzēst šos datus, izmantojot Asil kontu informācijas paneli, taču nevarēsiet šos datus saistīt ar citu kontu. Ja vēlaties, varat izveidot jaunu profilu, lai atsevišķi glabātu Asil datus. <ph name="LEARN_MORE"/></translation>
+<translation id="1649714546770135458">Ja izslēgsiet šo iestatījumu, varēsiet pierakstīties Asil vietnēs, piemēram, pakalpojumā Gmail, nepierakstoties pārlūkā Asil.</translation>
+<translation id="189297655255130768">Asil nereaģē. Vai restartēt to tūlīt?</translation>
+<translation id="4035053306113201399">Asil OS ir jārestartē, lai lietotu atjauninājumu.</translation>
+<translation id="1953553007165777902">Notiek lejupielāde... Atlikušais laiks: <ph name="MINUTE"/> minūte(-es).</translation>
+<translation id="1775322105159056176">Asil nevar noteikt vai iestatīt noklusējuma pārlūku.</translation>
+<translation id="9220324636239049437">Veicot šo darbību, no šīs ierīces tiks dzēsts 1 vienums. Lai vēlāk izgūtu datus, pierakstieties pārlūkā Asil kā <ph name="USER_EMAIL"/>.</translation>
+<translation id="2018879682492276940">Instalēšana neizdevās. Lūdzu, mēģiniet vēlreiz.</translation>
+<translation id="831418749472885028">Lai pārbaudītu, vai jūsu pārējās paroles ir aizsargātas pret datu pārkāpumiem un citām drošības problēmām, <ph name="BEGIN_LINK"/>pierakstieties pārlūkā Asil<ph name="END_LINK"/>.</translation>
+<translation id="5499149312981370855">Izvēlieties, vai iekļaut Asil vēsturi, lai iegūtu personalizētākas iespējas Asil pakalpojumos.</translation>
+<translation id="849607431499549468">Informācija par to, kā Asil pārvalda savus saknes sertifikātus</translation>
+<translation id="142389341645668510">Pielāgot pārlūkprogrammu Asil</translation>
+<translation id="2174917724755363426">Instalēšana nav pabeigta. Vai tiešām vēlaties atcelt?</translation>
+<translation id="8745514854244955877">Asil — pierakstīšanās tīklā — <ph name="PAGE_TITLE"/></translation>
+<translation id="5659384504794665581">Ja jūsu datoru izmanto arī jūsu draugi un ģimenes locekļi, viņi var iestatīt pārlūku Asil atbilstoši savām vēlmēm un pārlūkot saturu atsevišķos kontos.</translation>
+<translation id="7810992039564280750">Vietrāži URL tiek pārbaudīti, salīdzinot ar nedrošo vietņu sarakstu, kas ir saglabāts pārlūkprogrammā Asil. Ja kādā vietnē tiek mēģināts nozagt jūsu paroli vai ja jūs lejupielādējat kaitīgu failu, Asil var arī nosūtīt attiecīgos URL, tostarp lapas satura fragmentus, uz funkciju Droša pārlūkošana.</translation>
+<translation id="9095263438435683933">Lai nosūtītu numuru no šejienes uz savu Android tālruni, abās ierīcēs pierakstieties pārlūkā Asil.</translation>
+<translation id="3813272600615358652">Šis paplašinājums mainīja iestatījumu, kura lapa tiek parādīta, palaižot pārlūku Asil.</translation>
+<translation id="2359808026110333948">Turpināt</translation>
+<translation id="8418845734693287262">Asil OS nevarēja sinhronizēt jūsu datus, jo jūsu konta pierakstīšanās informācija ir novecojusi.</translation>
+<translation id="2576129394594491151">Paplašinājums “<ph name="EXTENSION_NAME"/>” mainīja iestatījumu, kura lapa tiek parādīta, palaižot pārlūku Asil.</translation>
+<translation id="1248225940185478633">Pārlūkam Asil ir nepieciešama atļauja izmantot kameru un mikrofonu šajā vietnē.</translation>
+<translation id="6078442581074612226">Pārlūkā Asil</translation>
+<translation id="2485422356828889247">Atinstalēt</translation>
+<translation id="7798069806040634998">Pārlūkam Asil ir nepieciešama piekļuve krātuvei, lai varētu lejupielādēt failus.</translation>
+<translation id="8447483940522230788">Asil palīgs</translation>
+<translation id="7291143854620707672">Darba profila administrators var noņemt šī profila lietošanas laikā ģenerētos Asil datus (piemēram, grāmatzīmes, vēsturi, paroles un citus iestatījumus). <ph name="LEARN_MORE"/></translation>
+<translation id="6252796827759111076">Turpināt lietot Asil</translation>
+<translation id="7387051847644272380">Instalācijas laikā radās operētājsistēmas kļūda. Lejupielādējiet Asil vēlreiz.</translation>
+<translation id="2648689842065142443">Ja ierīci izmanto arī jūsu draugi un ģimenes locekļi, viņi var iestatīt pārlūku Asil atbilstoši savām vēlmēm un pārlūkot saturu atsevišķos profilos.</translation>
+<translation id="5926459996518749366">Pārlūkā Asil šis arhīva fails tika bloķēts, jo tas var slēpt ļaunprātīgu programmatūru.</translation>
+<translation id="6384359666082467439">Laipni lūdzam pārlūkā Asil, <ph name="ACCOUNT_FIRST_NAME"/>!</translation>
+<translation id="6791166902140255175">Asil cilne</translation>
+<translation id="8372880274820509128">Papildu drošības nolūkos Asil šifrēs jūsu datus.</translation>
+<translation id="2770231113462710648">Mainīt noklusējuma pārlūkprogrammu uz:</translation>
+<translation id="2799223571221894425">Restartēt</translation>
+<translation id="3783547330001921298">Tādējādi tiks izveidots jauns Asil profils lietotājam <ph name="USER_EMAIL_ADDRESS"/>.</translation>
+<translation id="777113543093865885">Noņemšana no pārlūka Asil...</translation>
+<translation id="5265419033369521352">Tiek nodrošināta jūsu aizsardzība pārlūkprogrammā Asil. Šis režīms var tikt izmantots jūsu drošības uzlabošanai citās Asil lietotnēs, kad esat pierakstījies.</translation>
+<translation id="2885378588091291677">Uzdevumu pārvaldnieks</translation>
+<translation id="2176825726964012531">Par &amp;Asil</translation>
+<translation id="2915996080311180594">Restartēt vēlāk</translation>
+<translation id="2928420929544864228">Instalēšana pabeigta.</translation>
+<translation id="8208853227947884571">Asil ir atjaunināts</translation>
+<translation id="5122472867956731189">Ja kādā vietnē tiek mēģināts nozagt jūsu paroli vai ja jūs lejupielādējat kaitīgu failu, Asil var arī nosūtīt attiecīgos URL, tostarp lapas satura fragmentus, uz funkciju Droša pārlūkošana.</translation>
+<translation id="2953892977076487219">Asil mēģina rediģēt paroles.</translation>
+<translation id="7982250592423354843">{NUM_DEVICES,plural, =1{Pārlūkā Asil ir izveidots savienojums ar HID ierīci}zero{Pārlūkā Asil ir izveidots savienojums ar HID ierīcēm}one{Pārlūkā Asil ir izveidots savienojums ar HID ierīcēm}other{Pārlūkā Asil ir izveidots savienojums ar HID ierīcēm}}</translation>
+<translation id="8755404239607088219">Pārlūkprogrammā Asil nevar pārbaudīt jūsu paroles. Vēlāk mēģiniet vēlreiz.</translation>
+<translation id="8880183781256147665">Notiek pievienošana pārlūkam Asil...</translation>
+<translation id="3038232873781883849">Gaida, lai instalētu...</translation>
+<translation id="7918740962659365265">Palīdzēt uzlabot Asil, nosūtot Asil serveriem avāriju pārskatus un <ph name="UMA_LINK"/></translation>
+<translation id="5320085753638900910">Pārlūkošanas vēsture ietekmē to, kādas reklāmas jums tiek rādītas, un tālāk redzamās aptuveni noteiktās intereses. Lai aizsargātu jūsu konfidencialitāti, Asil automātiski katru mēnesi pakāpeniski dzēš jūsu intereses. Intereses var tikt atjaunotas, ja vien nenoņemat tās.</translation>
+<translation id="7365690458036015383">Instalēšanas programmai neizdevās atarhivēt arhīvu. Lejupielādējiet Asil vēlreiz.</translation>
+<translation id="8919461291440820124">Pārlūkā Asil tiek izmantots jūsu mikrofons.</translation>
+<translation id="4805806622840861220">Restartēt Asil</translation>
+<translation id="1742948938503172561">Pielāgojiet savu jauno Asil profilu.</translation>
+<translation id="1477146545787277177">Eh! Asil ir avarējis. Vai restartēt to tūlīt?</translation>
+<translation id="7503098128120083822">Pārlūkā Asil tiek mēģināts eksportēt jūsu paroles.</translation>
+<translation id="2585240446624043880">Asil nevar nolasīt savu datu direktoriju un ierakstīt tajā:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="2423637317249323944">Ir instalēta Asil versija <ph name="PRODUCT_VERSION"/></translation>
+<translation id="3286538390144397061">Restartēt tūlīt</translation>
+<translation id="2339258256897053758">Trūkst Asil API atslēgu. Tiks atspējotas dažas Asil funkcijas.</translation>
+<translation id="8926637909431618259">Turpināt lietotņu izpildi fonā, kad Asil ir aizvērts</translation>
+<translation id="2711887072399498551">Asil profils ar šādu kontu jau pastāv</translation>
+<translation id="2645435784669275700">Asil OS</translation>
+<translation id="2297290224191497273">Vai pāriet uz esošo Asil profilu?</translation>
+<translation id="3412460710772753638">Tā tiks atjaunināta Paroļu pārvaldniekā šajā ierīcē</translation>
+<translation id="616005907576404509">{COUNT,plural, =1{Administrators ir konfigurējis Asil, lai tas tiktu aizvērts, ja tas ir neaktīvs ilgāk par 1 minūti.}zero{Administrators ir konfigurējis Asil, lai tas tiktu aizvērts, ja tas ir neaktīvs ilgāk par # minūtēm.}one{Administrators ir konfigurējis Asil, lai tas tiktu aizvērts, ja tas ir neaktīvs ilgāk par # minūti.}other{Administrators ir konfigurējis Asil, lai tas tiktu aizvērts, ja tas ir neaktīvs ilgāk par # minūtēm.}}</translation>
+<translation id="2450003541323895471">Izmantojot Asil profilus, varat nodalīt visu savu Asil saturu. Izveidojiet profilus draugiem un ģimenes locekļiem vai nodaliet darba un izklaides saturu.</translation>
+<translation id="9216183508558772570">Ja pierakstīsieties ar uzlauztu paroli, pārlūkprogrammā Asil tiks parādīts paziņojums</translation>
+<translation id="5853262807109651878">Veicot šo darbību, no šīs ierīces tiks dzēsts(-i) <ph name="ITEMS_COUNT"/> vienums(-i). Lai vēlāk izgūtu datus, pierakstieties pārlūkā Asil kā <ph name="USER_EMAIL"/>.</translation>
+<translation id="2024972335338126423">Lai pārslēgtos starp Asil profiliem, izmantojiet īsinājumtaustiņu <ph name="SHORTCUT"/>.</translation>
+<translation id="8703492925273919597">Aizveriet visus Asil logus un mēģiniet vēlreiz.</translation>
+<translation id="4061445349373849749">Lai aizsargātu jūsu konfidencialitāti, mēs automātiski dzēšam intereses, kas ir glabātas ilgāk par četrām nedēļām. Intereses var tikt atkārtoti pievienotas sarakstam, kad turpināsiet pārlūkošanu. Varat arī noņemt intereses, ja nevēlaties, lai Asil tās apsvērtu.</translation>
+<translation id="691208314680168371">Jūsu pārlūkošanas vēsture, kurā tiek reģistrētas vietnes, ko šajā ierīcē apmeklējat ar pārlūku Asil.</translation>
+<translation id="1384923383737428730">Jūsu datorā ir kaitīga programmatūra. Pārlūkprogramma Asil var to noņemt, atjaunot jūsu iestatījumus un atspējot paplašinājumus, lai atkal pareizi darbotos.</translation>
+<translation id="1073077513148817424">Jūs jau esat pierakstījies citā kontā. Lai atdalītu pārlūkošanu, pārlūkā Asil varat sev izveidot atsevišķu profilu.</translation>
+<translation id="7029305463989165490">Lai nosūtītu numuru no vietnes <ph name="ORIGIN"/> uz savu Android tālruni, abās ierīcēs pierakstieties pārlūkā Asil.</translation>
+<translation id="4304059894777924102">Pārlūkprogrammā Asil nevar pārbaudīt jūsu paroles. Pārbaudiet interneta savienojumu.</translation>
+<translation id="2100587595569959771">Uzziniet vairāk par reklāmu personalizēšanu pārlūkā Asil</translation>
+<translation id="1807774211756215222">Atvērt saiti jaunā Asil &amp;cilnē</translation>
+<translation id="7453070689008684791">Pārlūkā Asil tiks izmantota Diskā pieejamā informācija, lai adrešu joslā piedāvātu ieteikumus</translation>
+<translation id="2106568569080763501">Asil ļauj jums noklikšķināt uz tālruņa numura un zvanīt uz to pakalpojumā Skype!</translation>
+<translation id="2401189691232800402">Asil OS sistēma</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> — Asil</translation>
+<translation id="3744202345691150878">Saņemt palīdzību saistībā ar Asil OS</translation>
+<translation id="6009720635797285369">Piekļūstiet savam Asil saturam no konta <ph name="ACCOUNT_EMAIL"/></translation>
+<translation id="6315734375101223238">Pielāgojiet un kontrolējiet pārlūkprogrammu Asil. Ir nepieciešama jūsu uzmanība. Noklikšķiniet, lai skatītu plašāku informāciju.</translation>
+<translation id="7130675370997202556">Noklikšķiniet uz sava vārda, lai atvērtu Asil un sāktu pārlūkošanu.</translation>
+<translation id="4920958997042285125">Lietotājs <ph name="EXISTING_USER"/> jau ir pierakstījies šajā Asil profilā. Lai atdalītu pārlūkošanu, pārlūkā Asil varat sev izveidot atsevišķu profilu.</translation>
+<translation id="2337217774418822704">Jūsu kontu pārvalda <ph name="MANAGER_NAME"/>. Administrators var skatīt un rediģēt šo Asil profilu un tā datus, piemēram, grāmatzīmes, vēsturi un paroles.</translation>
+<translation id="8090497651549769448">Asil mēģina nokopēt paroles. Lai to atļautu, ierakstiet savu Windows paroli.</translation>
+<translation id="7133557675784723900">Asil iesaka pārbaudīt šo failu, jo tas var būt bīstams</translation>
+<translation id="1152920704813762236">Par Asil OS</translation>
+<translation id="3703994572283698466">Asil OS, kā arī <ph name="BEGIN_LINK_LINUX_OSS"/>Linux izstrādes vides<ph name="END_LINK_LINUX_OSS"/> darbību nodrošina papildu <ph name="BEGIN_LINK_CROS_OSS"/>atklātā pirmkoda programmatūra<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="6056473803837713617">Palīdziet uzlabot pārlūku Asil, ziņojot par <ph name="BEGIN_LINK"/>pašreizējiem iestatījumiem<ph name="END_LINK"/>.</translation>
+<translation id="4050175100176540509">Jaunākajā versijā ir pieejami svarīgi drošības uzlabojumi un jaunas funkcijas.</translation>
+<translation id="4148957013307229264">Notiek instalēšana...</translation>
+<translation id="4658486203392098459"><ph name="PAGE_TITLE"/> — pierakstīšanās tīklā — Asil</translation>
+<translation id="2871190378186459992">Atklājiet lieliskas lietotnes, spēles, paplašinājumus un motīvus, ko varat izmantot pārlūkā Asil.</translation>
+<translation id="5757460455745382269">Šī valoda tiek izmantota, lai attēlotu Asil lietotāja saskarni</translation>
+<translation id="4222932583846282852">Notiek atcelšana...</translation>
+<translation id="1853997773668795891">Vai saistīt Asil datus ar šo kontu?</translation>
+<translation id="3262506503470845422">Saņemt palīdzību par Asil</translation>
+<translation id="7691786510374174420">Instalācija neizdevās nenoteiktas kļūdas dēļ. Ja Asil šobrīd darbojas, aizveriet to un mēģiniet vēlreiz.</translation>
+<translation id="4304713468139749426">Paroļu pārvaldnieks</translation>
+<translation id="4334294535648607276">Lejupielāde pabeigta.</translation>
+<translation id="1068681683510904753"><ph name="MANAGER"/> pieprasa, lai pirms šīs ierīces lietošanas jūs izlasītu tālāk sniegtos pakalpojumu sniegšanas noteikumus un piekristu tiem. Šie noteikumi nepaplašina, nepārveido un neierobežo operētājsistēmas Asil OS noteikumus.</translation>
+<translation id="9183662282810237335">Vai tik un tā aizvērt pārlūku Asil?</translation>
+<translation id="4065288863231444640">Ļaut pārlūkam Asil darboties fonā</translation>
+<translation id="8148611988012584308">Pielāgot un kontrolēt Asil</translation>
+<translation id="4427306783828095590">Uzlabotā aizsardzība labāk bloķē pikšķerēšanas mēģinājumus un ļaunprātīgu programmatūru</translation>
+<translation id="7084397798469173252">Laipni lūdzam pārlūkā Asil (tika atvērts jauns pārlūka logs)!</translation>
+<translation id="2633397153656205379">Pārlūkprogramma Asil netika atjaunināta. Radās problēma. <ph name="BEGIN_LINK"/>Novērsiet Asil atjaunināšanas problēmas.<ph name="END_LINK"/></translation>
+<translation id="3679799810790990472">Vai turpināt jaunā Asil profilā?</translation>
+<translation id="4567424176335768812">Jūs esat pierakstījies kā <ph name="USER_EMAIL_ADDRESS"/>. Tagad varat piekļūt savām grāmatzīmēm, vēsturei un citiem iestatījumiem visās ierīcēs, kurās esat pierakstījies.</translation>
+<translation id="4594305310729380060">Tā tiks saglabāta Paroļu pārvaldniekā šajā ierīcē</translation>
+<translation id="300669147395456190">Asil lietotnes</translation>
+<translation id="4970880042055371251">Asil OS versija</translation>
+<translation id="2182657378556811785">Atjaunināšana ir gandrīz pabeigta. Lai pabeigtu atjaunināšanu, atkārtoti palaidiet pārlūku Asil.</translation>
+<translation id="7402642357351265733">Ja kopīgojat arī Asil lietojuma pārskatus, šajos pārskatos tiek iekļauti jūsu apmeklētie vietrāži URL.</translation>
+<translation id="8142245354207161805">Šķiet, ka profils tiek izmantots citā Asil procesā (<ph name="PROCESS_ID"/>) citā datorā (<ph name="HOST_NAME"/>). Lai profils netiktu bojāts, pārlūkā Asil tas ir bloķēts. Ja esat pārliecināts, ka šis profils netiek izmantots citos procesos, varat to atbloķēt un restartēt pārlūku Asil.</translation>
+<translation id="4680828127924988555">Atcelt instalēšanu</translation>
+<translation id="847561904663814268">Kāds iepriekš pierakstījās pārlūkā Asil šajā datorā, izmantojot e-pasta adresi <ph name="ACCOUNT_EMAIL_LAST"/>. Lūdzu, izveidojiet jaunu Asil lietotāju, lai nošķirtu savu informāciju.</translation>
+<translation id="3834935463915107022">Vai tik un tā aizvērt pārlūku Asil?</translation>
+<translation id="8668413672647811944">Tikko tika piemērots īpašs Asil drošības atjauninājums. Restartējiet tūlīt, un mēs atjaunosim jūsu cilnes.</translation>
+<translation id="5857638389580847844">Ja pārdomāsiet, jebkurā laikā varēsiet atbilstoši mainīt Asil iestatījumus. Izmēģinājuma laikā reklāmu rādīšanai tiek izmantotas arī pašreizējās metodes, tāpēc izmaiņas nebūs pamanāmas uzreiz.</translation>
+<translation id="4823369970559443694">Pārlūkprogrammā Asil nevar pārbaudīt jūsu paroles. Mēģiniet vēlreiz pēc 24 stundām vai <ph name="BEGIN_LINK"/>pārbaudiet paroles savā Asil kontā<ph name="END_LINK"/>.</translation>
+<translation id="215320507915280336">Šeit tiek izmantota tāds pats pareizrakstības pārbaudītājs, kāds tiek izmantots Asil meklēšanā. Pārlūkprogrammā ievadītais teksts tiek nosūtīts Asil serveriem. Jebkurā brīdī varat mainīt šo darbību iestatījumos.</translation>
+<translation id="1912973375560256099">Ienākošo savienojumu kārtula pārlūkam Asil, lai atļautu mDNS datplūsmu.</translation>
+<translation id="711601904575862069">Atkārtoti palaist, lai atjauninātu &amp;Asil</translation>
+<translation id="8797356639448065696">Asil darbojas fona režīmā.</translation>
+<translation id="7406627712452599344">Viesi var izmantot Asil, neatstājot nekādas pēdas.</translation>
+<translation id="5952898964075639679">Pievienot savu kontu pārlūkā Asil</translation>
+<translation id="8112581848375017126">Asil pēta jaunas funkcijas, kas ļauj vietnēm nodrošināt tādas pašas pārlūkošanas iespējas, izmantojot mazāk informācijas.</translation>
+<translation id="9078804073692109646">Nav saglabātu paroļu. Pārlūkprogrammā Asil var pārbaudīt jūsu paroles, ja jūs tās saglabājat.</translation>
+<translation id="729580998737807583">Lietotājs <ph name="EXISTING_USER"/> jau ir pierakstījies šajā Asil profilā. Tādējādi tiks izveidots jauns Asil profils lietotājam <ph name="USER_EMAIL_ADDRESS"/>.</translation>
+<translation id="8586264863973514035">Lai ieviestu veiktās izmaiņas, atkārtoti palaidiet pārlūku Asil.</translation>
+<translation id="300369155175407115">Ja izmēģināšana ir ieslēgta un jūs esat iesaistīts aktīvā izmēģinājumā pārlūkā Asil, jūsu pārlūkošanas vēsture ietekmē to, kādas reklāmas jums tiek rādītas, un tālāk redzamās aptuveni noteiktās intereses. Lai aizsargātu jūsu konfidencialitāti, Asil katru mēnesi pakāpeniski dzēš jūsu intereses.</translation>
+<translation id="7708394612738038097">Jūs pierakstāties ar pārvaldītu kontu, kura administrators var kontrolēt jūsu profilu. Jūsu Asil dati, piemēram, lietotnes, grāmatzīmes, vēsture, paroles un citi iestatījumi, tiks neatgriezeniski saistīti ar lietotāju <ph name="USER_NAME"/>. Varēsiet dzēst šos datus, izmantojot Asil kontu informācijas paneli, taču nevarēsiet šos datus saistīt ar citu kontu. <ph name="LEARN_MORE"/></translation>
+<translation id="1786715389543715322">Notiek Asil atjaunināšana (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="7021823858304886493">Atļaut pierakstīties pārlūkā Asil</translation>
+<translation id="5536657158619734169">Pieejama jauna Asil versija.</translation>
+<translation id="5267531627648004734">Noņemt no pārlūka Asil</translation>
+<translation id="2783637305317815247">{0,plural, =0{Asil tūlīt tiks aizvērts.}=1{Asil tiks aizvērts pēc 1 sekundes.}zero{Asil tiks aizvērts pēc # sekundēm.}one{Asil tiks aizvērts pēc # sekundes.}other{Asil tiks aizvērts pēc # sekundēm.}}</translation>
+<translation id="239760341987199724">Iestatīt Asil kā noklusējuma pārlūku</translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> — Asil beta versija</translation>
+<translation id="894936507076470937">Iespējams, pārlūks Asil nedarbosies pareizi, jo tas vairs netiek atbalstīts šajā Linux izdevumā.</translation>
+<translation id="696826782632239602">Pārlūkam Asil ir nepieciešama piekļuve jūsu atrašanās vietas datiem, lai varētu tos kopīgot ar šo vietni.</translation>
+<translation id="3809116188788099368">Lai aizsargātu jūsu konfidencialitāti, mēs automātiski dzēšam intereses, kas ir glabātas ilgāk par četrām nedēļām. Intereses var tikt atkārtoti pievienotas sarakstam, kad turpināsiet pārlūkošanu. Ja intereses pārlūkā Asil nav noteiktas pareizi vai nevēlaties skatīt konkrētas reklāmas, varat noņemt interesi.</translation>
+<translation id="1744365871163268756">Lūdzu, uzgaidiet, kamēr Asil instalē jaunākos sistēmas atjauninājumus.</translation>
+<translation id="3861679447659630159">Asil mēģina rediģēt paroles. Lai to atļautu, ierakstiet savu Windows paroli.</translation>
+<translation id="232381795826373334">Atvērt PDF failus pārlūkā Asil</translation>
+<translation id="5381032481466106256">Iestatījumam esot ieslēgtam, jūs tiksiet izrakstīts arī no pārlūka Asil.</translation>
+<translation id="1026406809507858026">{0,plural, =0{Ir pieejams Asil atjauninājums}=1{Ir pieejams Asil atjauninājums}zero{Asil atjauninājums ir pieejams jau # dienu}one{Asil atjauninājums ir pieejams jau # dienu}other{Asil atjauninājums ir pieejams jau # dienas}}</translation>
+<translation id="95624393026532554">Pārlūka Asil izmantošanai nepieciešama operētājsistēma Windows 7 vai jaunāka versija.</translation>
+<translation id="5646769069113654257">Lūdzu, nekavējoties restartējiet pārlūku Asil</translation>
+<translation id="2335583906071111058">Rādīt Asil šajā valodā</translation>
+<translation id="7207456302801184289">Laipni lūdzam pārlūkā Asil!</translation>
+<translation id="8054200348483755053">Pārlūkā Asil tika konstatēts, ka tālāk norādītie vienumi satur ļaunprātīgu programmatūru:</translation>
+<translation id="5895138241574237353">Restartēt</translation>
+<translation id="5903106910045431592"><ph name="PAGE_TITLE"/> — pierakstīšanās tīklā</translation>
+<translation id="5924017743176219022">Notiek savienojuma izveide ar internetu...</translation>
+<translation id="5941711191222866238">Minimizēt</translation>
+<translation id="3613110494561632737">Ja esat iesaistīts aktīvā izmēģinājumā pārlūkā Asil, jūsu pārlūkošanas vēsture ietekmē to, kādas reklāmas jums tiek rādītas, un tālāk redzamās aptuveni noteiktās intereses. Lai aizsargātu jūsu konfidencialitāti, Asil katru mēnesi pakāpeniski dzēš jūsu intereses. Intereses tiek atjaunotas, ja vien nenoņemat tās.</translation>
+<translation id="3598551856834560515">Lai sāktu sinhronizēšanu, atjauniniet Asil.</translation>
+<translation id="5225261774087485064">Bieži vien jūsu apmeklētajās vietnēs tiek saglabāta informācija par jūs interesējošām lietām, lai personalizētu jūsu pieredzi. Vietnes var arī glabāt informāciju par jūsu interesēm pārlūkā Asil.</translation>
+<translation id="6003112304606738118">Notiek lejupielāde... Atlikušais laiks: <ph name="HOURS"/> stunda(-as).</translation>
+<translation id="6040143037577758943">Aizvērt</translation>
+<translation id="505042220086416644">Ir pieejama jauna Asil versija, un tā ir ātrāka nekā jebkad agrāk.</translation>
+<translation id="9071554113102421877">&amp;Atvērt pārlūkā Asil</translation>
+<translation id="7861579472672677409">Paplašinājums <ph name="EXTENSION_NAME"/> ir pievienots pārlūkam Asil</translation>
+<translation id="3693188491491843187">Pārlūka Asil darbības paātrināšana</translation>
+<translation id="608006075545470555">Darba profila pievienošana šai pārlūkprogrammai</translation>
+<translation id="5849446944780602366">Pielāgojiet un pārvaldiet pārlūku Asil. Ir pieejams atjauninājums.</translation>
+<translation id="7433698744896946664">Atļaut paplašinājumam rādīt piekļuves pieprasījumus Asil rīkjoslā</translation>
+<translation id="492209281555538239">Pārlūks Asil saglabās šo paroli jūsu Asil kontā. To nav nepieciešams iegaumēt.</translation>
+<translation id="4168372721886011198">Fails <ph name="FILE_NAME"/> ir bīstams, tādēļ Asil to bloķēja.</translation>
+<translation id="7006260220514217183">Droša pārlūkošana ir izslēgta. Pārlūkā Asil tiek ieteikts to ieslēgt.</translation>
+<translation id="4060970194201477024">Šeit varat pārslēgties starp Asil profiliem.</translation>
+<translation id="4368341489795135329">Ierīcē <ph name="TARGET_DEVICE_NAME"/> pierakstieties pārlūkā Asil un pēc tam vēlreiz mēģiniet veikt sūtīšanu.</translation>
+<translation id="8320964054148936490">Šim datoram jau ir jaunākā Asil versija. Ja programmatūra nedarbojas, atinstalējiet pārlūku Asil un mēģiniet vēlreiz.</translation>
+<translation id="3574823187131579180">{0,plural, =0{Pārlūks Asil tūlīt tiks restartēts}=1{Pārlūks Asil pēc 1 sekundes tiks restartēts}zero{Pārlūks Asil pēc # sekundēm tiks restartēts}one{Pārlūks Asil pēc # sekundes tiks restartēts}other{Pārlūks Asil pēc # sekundēm tiks restartēts}}</translation>
+<translation id="5980269616827212166">Pārlūkam Asil ir nepieciešama atļauja piekļūt krātuvei, lai varētu lejupielādēt failus.</translation>
+<translation id="7651600795135059130">Vietrāži URL tiek pārbaudīti, salīdzinot ar nedrošo vietņu sarakstu, kas ir saglabāts pārlūkprogrammā Asil.</translation>
+<translation id="5019879183386042809">Padarīt Asil par noklusējuma pārlūku</translation>
+<translation id="428541510811554120">Pārlūkprogrammā Asil nevar pārbaudīt atjauninājumu pieejamību. Pārbaudiet interneta savienojumu.</translation>
+<translation id="7445061995866044926">Vai izrakstīties no Asil?</translation>
+<translation id="6273793429163604305">Lūdzu, uzgaidiet...</translation>
+<translation id="6806912298071949921">Pielāgot Asil profilu</translation>
+<translation id="3792238845239580301">Asil profila nosaukšana</translation>
+<translation id="3561569806301739367">Fails <ph name="FILE_NAME"/> var būt bīstams, tādēļ Asil to bloķēja.</translation>
+<translation id="3205074487970075628">Asil saitē tiek izmantota kamera.</translation>
+<translation id="7470405854261046555">Pārlūkā Asil tika bloķēts šis fails, jo tas ir bīstams.</translation>
+<translation id="6327105987658262776">Atjauninājums nav pieejams.</translation>
+<translation id="1819119299840995223">Tiek veikta cita darbība pārlūkā Asil. Lūdzu, vēlāk mēģiniet vēlreiz.</translation>
+<translation id="8616874628011103667">Tagad pārlūkā Asil ir vieglāk izmantot Asil kontu, kā arī ir atvieglota lietošana datoros, ko izmanto vairākas personas.</translation>
+<translation id="335632367599648646">Vai tiešām vēlaties atinstalēt pārlūku Asil?</translation>
+<translation id="4867486350347355096"><ph name="BEGIN_BOLD"/>Kā mēs izmantojam šos datus:<ph name="END_BOLD"/> pārlūkā Asil var aptuveni noteikt jūsu intereses. Vēlāk kāda jūsu apmeklēta vietne var pieprasīt pārlūkam Asil atļauju skatīt jūsu intereses, lai personalizētu jums rādāmās reklāmas.</translation>
+<translation id="6373767849825830651">Asil ir tīmekļa pārlūks, kas darbina tīmekļa lapas un lietojumprogrammas zibenīgā ātrumā. Tas ir ātrs, stabils un ērti lietojams. Pārlūkojiet tīmekli vēl drošāk ar aizsardzību pret ļaunprātīgu programmatūru un pikšķerēšanu, kas iebūvēta pārlūkā Asil.</translation>
+<translation id="2139300032719313227">Asil OS restartēšana</translation>
+<translation id="1684121725014454063">Laipni lūdzam Asil profilos!</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Pārlūks Asil tiks restartēts pēc 1 sekundes.}zero{Pārlūks Asil tiks restartēts pēc # sekundēm.}one{Pārlūks Asil tiks restartēts pēc # sekundes.}other{Pārlūks Asil tiks restartēts pēc # sekundēm.}}</translation>
+<translation id="2675662665675552980">Tas nosaka arī to, kāda lapa tiks rādīta, kad atvērsiet pārlūku Asil.</translation>
+<translation id="5590013613412457132">Atinstalēt Asil</translation>
+<translation id="8646609321956191980">Katrā profilā tiek glabāta attiecīgā Asil profila informācija, piemēram, grāmatzīmes, vēsture, paroles un citi dati.</translation>
+<translation id="2312399718665761438">Lai izlabotu pareizrakstības kļūdas, Asil nosūta teksta laukos ievadīto tekstu Asil serveriem.</translation>
+<translation id="3507835409099344374">Pāriet uz Asil paziņojumu iestatījumiem</translation>
+<translation id="9156965752763025780">Izmaiņas stāsies spēkā, kad restartēsiet Asil.</translation>
+<translation id="245693535809364497">Pārlūkam Asil ir nepieciešama atļauja izmantot kameru, lai varētu izveidot jūsu apkārtnes 3D karti.</translation>
+<translation id="6676384891291319759">Piekļūt internetam</translation>
+<translation id="1363996462118479832">Asil OS nevarēja sinhronizēt jūsu datus pierakstīšanās kļūdas dēļ.</translation>
+<translation id="1257247502847251159">Pārlūkam Asil ir nepieciešama atļauja izmantot mikrofonu šajā vietnē.</translation>
+<translation id="1489465648257900784">Jūsu profilu nevar izmantot, jo tas ir no jaunākas Asil versijas.
+
+Dažas funkcijas var nebūt pieejamas. Norādiet citu profila direktoriju vai izmantojiet jaunāku Asil versiju.</translation>
+<translation id="7870748924073900361">Atmiņas taupīšana nodrošināja ātrāku Asil darbību</translation>
+<translation id="6666624454809779082">Pārlūks Asil jau ir instalēts visiem lietotājiem jūsu datorā.</translation>
+<translation id="5360050006043219962">Lai piekļūtu savam Asil saturam visās jūsu ierīcēs, pierakstieties un pēc tam ieslēdziet sinhronizāciju.</translation>
+<translation id="8291513491595858997">Viens no jūsu vecākiem ir izslēdzis “Atļaujas vietnēm, lietotnēm un paplašinājumiem” pārlūkam Asil. Nav atļauts iespējot šo: <ph name="EXTENSION_TYPE_PARAMETER"/>.</translation>
+<translation id="1547295885616600893">Asil OS darbību nodrošina papildu <ph name="BEGIN_LINK_CROS_OSS"/>atklātā pirmkoda programmatūra<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8211837073776713955">Ja jūsu paroles kādreiz tiks apdraudētas, pārlūkā Asil saņemsiet paziņojumu</translation>
+<translation id="4879299985215961051">Pārlūkā Asil šis fails tika bloķēts, jo tajā ir ļaunprātīga programmatūra.</translation>
+<translation id="7830723774663008396">Asil — <ph name="PAGE_TITLE"/></translation>
+<translation id="2049565899730874086">Asil Pay (kopēts pārlūkā Asil)</translation>
+<translation id="3028928628792374067">Pārlūkā Asil tika konstatēts, ka paplašinājums “<ph name="EXTENSION_NAME"/>” satur ļaunprātīgu programmatūru.</translation>
+<translation id="2301993384336631869">Pārlūks Asil ir atjaunināts, bet jūs neesat to izmantojis vismaz 30 dienas.</translation>
+<translation id="8828443087767259398">Pārlūkam Asil ir nepieciešama Bluetooth piekļuve, lai turpinātu savienošanu pārī. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK"/></translation>
+<translation id="126871877963043118">Kad izmēģināšana ir ieslēgta, reklāmu izvērtēšana ļauj jūsu apmeklētajām vietnēm pieprasīt informāciju no Asil, lai efektīvāk novērtētu vietnēs rādīto reklāmu veiktspēju. Reklāmu izvērtēšana ierobežo starpvietņu izsekošanu, pārsūtot starp vietnēm pēc iespējas mazāk informācijas.</translation>
+<translation id="4392161457256085190">Vēlāk kāda jūsu apmeklēta vietne var pieprasīt pārlūkam Asil atļauju skatīt jūsu intereses, lai personalizētu jums rādāmās reklāmas. Pārlūks Asil var kopīgot līdz trim interesēm.</translation>
+<translation id="6418340404893954563">Nedrošas paroles ir viegli uzminēt. Pārlūkā Asil <ph name="BEGIN_LINK"/>var automātiski veidot un iegaumēt drošas paroles jūsu kontiem<ph name="END_LINK"/>.</translation>
+<translation id="196626648343945705">Asil nav aktīvs</translation>
+<translation id="3453763134178591239">Asil OS noteikumi</translation>
+<translation id="3335606533094650083">Pārlūkam Asil ir nepieciešama atļauja piekļūt jūsu mikrofonam šajā vietnē.</translation>
+<translation id="7025789849649390912">Instalēšana apturēta.</translation>
+<translation id="1705567146636171298">Atjaunināt Asil</translation>
+<translation id="5499063270485366718">Ja attēlam nav vērtīga apraksta, pārlūks Asil mēģinās jums tādu nodrošināt. Lai izveidotu aprakstus, attēli tiek nosūtīti uzņēmumam Asil.</translation>
+<translation id="1008530050039597147">Pārlūkam Asil ir nepieciešama atļauja izmantot kameru šajā vietnē.</translation>
+<translation id="1197672524850678392">Neizdevās palaist Asil. Mēģiniet vēlreiz.</translation>
+<translation id="3405035915691517126">Pārlūkprogrammā Asil nevar pārbaudīt jūsu paroles. Mēģiniet vēlreiz pēc 24 stundām.</translation>
+<translation id="5101812148953915496">Apmeklētajās vietnēs jūsu informācija tiks iegaumēta, līdz jūs aizvērsiet pārlūku Asil.</translation>
+<translation id="5516268345616100622">Uzdevumu pārvaldnieks — Asil</translation>
+<translation id="713191641919118540">Jūsu intereses, kas aptuveni noteiktas pārlūkā Asil</translation>
+<translation id="9068395155143628872">Reklāmu izvērtēšana ļauj jūsu apmeklētajām vietnēm pieprasīt informāciju no Asil, lai efektīvāk novērtētu vietnēs rādīto reklāmu veiktspēju. Reklāmu izvērtēšana ierobežo starpvietņu izsekošanu, pārsūtot starp vietnēm pēc iespējas mazāk informācijas.</translation>
+<translation id="1864557848095568223">Notiek Asil atjaunināšana</translation>
+<translation id="3403365884036456766">Jūsu preferenču fails ir bojāts vai nederīgs. Asil nespēj atkopt jūsu iestatījumus.</translation>
+<translation id="939305735877869636">Asil</translation>
+<translation id="7339898014177206373">Jauns logs</translation>
+<translation id="3511996232906761537">Šeit atrodas jūsu tīmekļa saturs, grāmatzīmes un cits Asil saturs.</translation>
+<translation id="5380963249588143069">Jūsu sistēmas administrators ir konfigurējis Asil atvērt <ph name="ALTERNATIVE_BROWSER_NAME"/>, lai piekļūtu <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="38294420683216447">Izmantojot Asil profilus, varat nodalīt visu savu Asil saturu. Tādējādi tiek atvieglota darba un izklaides satura nodalīšana.</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> — Asil izstrādātāju versija</translation>
+<translation id="2034072705932785495">Pārlūkam Asil ir nepieciešama atļauja piekļūt jūsu kamerai šajā vietnē.</translation>
+<translation id="5296583608321648908">Lai saņemtu turpmākus Asil atjauninājumus, nepieciešama operētājsistēma Windows 10 vai jaunāka versija. Šajā datorā tiek izmantota operētājsistēma Windows 7.</translation>
+<translation id="3962395975456095331">Vai atkārtoti palaist Asil?</translation>
+<translation id="2619516027171717873">Nevar instalēt to pašu Asil versiju, kas jau šobrīd darbojas. Aizveriet Asil un mēģiniet vēlreiz.</translation>
+<translation id="3186363903915641692">{0,plural, =1{Pārlūks Asil pēc 1 minūtes tiks restartēts}zero{Pārlūks Asil pēc # minūtēm tiks restartēts}one{Pārlūks Asil pēc # minūtes tiks restartēts}other{Pārlūks Asil pēc # minūtēm tiks restartēts}}</translation>
+<translation id="8516116288943000095">Notīrīt arī datus no Asil (<ph name="URL"/>)</translation>
+<translation id="6378857626787254617">Pārlūkā Asil var aptuveni noteikt jūsu intereses. Vēlāk kāda jūsu apmeklēta vietne var pieprasīt pārlūkam Asil atļauju skatīt jūsu intereses, lai personalizētu jums rādāmās reklāmas.</translation>
+<translation id="7583399374488819119"><ph name="COMPANY_NAME"/> instalēšanas programma</translation>
+<translation id="155309785154426906">Jūs esat ieslēdzis drošu pārlūkošanu ar papildu aizsardzību savā kontā. Tagad iespējojiet to pārlūkā Asil.</translation>
+<translation id="3293668930608086049">Pārlūkā Asil tiek izmantota jūsu kamera un mikrofons.</translation>
+<translation id="2827121003398607864">Pārlūkā Asil ir veikti uzlabojumi</translation>
+<translation id="7649070708921625228">Palīdzība</translation>
+<translation id="7631741717293858595">Asil iestatījumos varat uzzināt vairāk par šīm funkcijām.</translation>
+<translation id="8678991866891573053">Asil pēta jaunas funkcijas, kas ļauj vietnēm nodrošināt tādas pašas pārlūkošanas iespējas, izmantojot mazāk datu.</translation>
+<translation id="3343095737966473035">Asil nav jūsu noklusējuma pārlūks.</translation>
+<translation id="5477319665405831211">Asil sinhronizēšana un personalizēšana visās savās ierīcēs</translation>
+<translation id="4784414698887946907">Veicot šo darbību, no šīs ierīces tiks dzēsti pārlūkošanas dati. Lai vēlāk izgūtu datus, pierakstieties pārlūkā Asil kā <ph name="USER_EMAIL"/>.</translation>
+<translation id="7747138024166251722">Instalētājam neizdevās izveidot pagaidu katalogu. Lūdzu, pārbaudiet, vai diskā pietiek vietas un vai ir atļauja instalēt programmatūru.</translation>
+<translation id="1978509466033734608">Pārlūka Asil darbības paātrināšana</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> — Asil Canary</translation>
+<translation id="1652855885539187849">Šajā ierīcē jau pastāv Asil profils ar šādu kontu.</translation>
+<translation id="7845233973568007926">Pateicamies, ka veicāt instalēšanu. Pirms <ph name="BUNDLE_NAME"/> izmantošanas ir jārestartē dators.</translation>
+<translation id="7963515534397191222">Nevarēja atjaunināt uz jaunāko Asil versiju, tādēļ jūs nevarēsiet piekļūt jaunākajām funkcijām un drošības labojumiem.</translation>
+<translation id="7872446069773932638">Notiek lejupielāde... Atlikušais laiks: <ph name="SECONDS"/> sekunde(-es).</translation>
+<translation id="1977195831772110829"><ph name="BEGIN_BOLD"/>Kā varat pārvaldīt savus datus:<ph name="END_BOLD"/> lai aizsargātu jūsu konfidencialitāti, mēs automātiski dzēšam intereses, kas ir glabātas ilgāk par četrām nedēļām. Intereses var tikt atkārtoti pievienotas sarakstam, kad turpināsiet pārlūkošanu. Varat arī noņemt intereses, ja nevēlaties, lai Asil tās apsvērtu.</translation>
+<translation id="2925193881330501265">Operētājsistēmā Asil iepriekš pierakstījāties kā lietotājs <ph name="USER_EMAIL_ADDRESS"/>. Lai pierakstītos vēlreiz, lūdzu, izmantojiet to pašu kontu.</translation>
+<translation id="6915252145142862992">Šī ir Asil papildu instalācija, un to nevar izmantot kā noklusējuma pārlūku.</translation>
+<translation id="7685904775439037072">Tiklīdz pārlūkam Asil tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.</translation>
+<translation id="80471789339884597">Pateicamies, ka veicāt instalēšanu. Pirms <ph name="BUNDLE_NAME"/> izmantošanas ir jārestartē visas pārlūkprogrammas.</translation>
+<translation id="2061155704815580583">Pārlūkam Asil ir nepieciešama atrašanās vietas atļauja šai vietnei.</translation>
+<translation id="5334309298019785904">Asil OS nevarēja sinhronizēt jūsu datus, jo jūsu domēnā nav pieejama sinhronizācija.</translation>
+<translation id="813913629614996137">Notiek inicializēšana...</translation>
+<translation id="9067428552314418522">Šis fails ir bīstams, tāpēc Asil to bloķēja.</translation>
+<translation id="7344826952831915813">Pārlūkā Asil šis fails tika bloķēts, jo šī tipa faili ir bīstami.</translation>
+<translation id="8207657266087451193">Ja attēlam nav vērtīga apraksta, pārlūks Asil mēģinās jums tādu nodrošināt. Lai izveidotu aprakstus, attēli tiek nosūtīti uzņēmumam Asil. Jebkurā brīdī iestatījumos varat izslēgt šo iespēju.</translation>
+<translation id="8622246347342688645">Pārlūkprogrammā Asil nevar pārbaudīt jūsu paroles, jo jūs neesat pierakstījies.</translation>
+<translation id="96347285368592620">Asil mēģina nokopēt paroles.</translation>
+<translation id="89367911614620585">Šis fails var būt bīstams, tāpēc Asil to bloķēja.</translation>
+<translation id="3360368475735266712">Pierakstieties, lai sinhronizētu un personalizētu pārlūku Asil visās savās ierīcēs.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> iepriekš izmantoja Asil</translation>
+<translation id="3098618823450433881">Lai piekļūtu savam Asil saturam visās savās ierīcēs, pierakstieties un pēc tam ieslēdziet sinhronizāciju.</translation>
+<translation id="2569754604093464025">Lai saņemtu turpmākus Asil atjauninājumus, nepieciešama operētājsistēma Windows 10 vai jaunāka versija. Šajā datorā tiek izmantota operētājsistēma Windows 8.</translation>
+<translation id="5337999052834672687">{0,plural, =1{Restartējiet pārlūku Asil vienas dienas laikā}zero{Restartējiet pārlūku Asil # dienu laikā}one{Restartējiet pārlūku Asil # dienas laikā}other{Restartējiet pārlūku Asil # dienu laikā}}</translation>
+<translation id="6914496861676471566">Instalēšanas programmas arhīvs ir bojāts vai nav derīgs. Lejupielādējiet Asil vēlreiz.</translation>
+<translation id="6431861494713261006">Neobligāti: palīdziet uzlabot Asil OS funkcijas un veiktspēju, automātiski nosūtot Asil serveriem diagnostikas un lietojuma datus.</translation>
+<translation id="2097604701283463988">Asil versija ir novecojusi</translation>
+<translation id="8550334526674375523">Šis darba profils ir pilnīgi nesaistīts ar jūsu personīgo profilu.</translation>
+<translation id="2452889775041290116">Viens no jūsu vecākiem ir izslēdzis “Atļaujas vietnēm, lietotnēm un paplašinājumiem” pārlūkam Asil. Nav atļauts pievienot šo: <ph name="EXTENSION_TYPE_PARAMETER"/>.</translation>
+<translation id="8502436661255886343">Lai saņemtu turpmākus Asil atjauninājumus, ir nepieciešama operētājsistēma macOS 10.13 vai jaunāka versija. Šajā datorā tiek izmantota macOS 10.12. versija</translation>
+<translation id="227028348235968071">Pārlūkprogrammā Asil var pārbaudīt jūsu paroles, ja esat pierakstījies savā Asil kontā.</translation>
+<translation id="4226455268610449503">Kad šis iestatījums ir ieslēgts, pārlūkā Asil tiek taupīta akumulatora jauda, ierobežojot darbības fonā un vizuālos efektus, piemēram, vienmērīgu ritināšanu un video kadru nomaiņas ātrumu. <ph name="BEGIN_LINK"/>Uzziniet vairāk<ph name="END_LINK"/>.</translation>
+<translation id="8121009781989288430">Autortiesības <ph name="YEAR"/> Asil autori. Visas tiesības paturētas.</translation>
+<translation id="7890337656251106515"><ph name="BEGIN_BOLD"/>Kā mēs izmantojam šos datus:<ph name="END_BOLD"/> vietnes pārlūkā Asil var glabāt informāciju par jūsu interesēm. Piemēram, ja apmeklējat kādu vietni, lai iegādātos apavus maratona skriešanai, vietne var noteikt, ka interesējaties par maratonu skriešanu. Ja vēlāk apmeklēsiet citu vietni, lai reģistrētos sacensībām, šajā vietnē var tikt rādīta skriešanas apavu reklāma, pamatojoties uz jūsu interesēm.</translation>
+<translation id="3052349005266761501">Notiek Asil palaišana...</translation>
+<translation id="6283840329609797763">Instalēšana neizdevās nenoteiktas kļūdas dēļ. Lejupielādējiet pārlūku Asil vēlreiz.</translation>
+<translation id="2433912322225810055">Tas nosaka arī to, kāda lapa tiks rādīta, kad atvērsiet pārlūku Asil vai meklēsiet, izmantojot universālo lodziņu.</translation>
+<translation id="4100716194836114130">Šis ir jūsu Asil</translation>
+<translation id="6208136456999964972">Aizverot visus Asil logus, sīkfaili un vietņu dati tiek automātiski notīrīti.</translation>
+<translation id="6371875426681214174">Aizverot pārlūku Asil, jūs tiksiet <ph name="BEGIN_BOLD"/>izrakstīts no lielākās daļas vietņu<ph name="END_BOLD"/>. Ja sinhronizācija ir izslēgta, jūs tiksiet arī <ph name="BEGIN_BOLD"/>izrakstīts no Asil pakalpojumiem un pārlūka Asil<ph name="END_BOLD"/>.</translation>
+<translation id="4831743161813926460">Pārlūkam Asil ir nepieciešama atļauja piekļūt jūsu kamerai un mikrofonam šajā vietnē.</translation>
+<translation id="6933858244219479645">Asil OS sistēma</translation>
+<translation id="4105986395895210872"><ph name="BEGIN_BOLD"/>Kādi dati tiek izmantoti:<ph name="END_BOLD"/> jūsu pārlūkošanas vēsture, kurā tiek reģistrētas vietnes, ko šajā ierīcē apmeklējat ar pārlūku Asil.</translation>
+<translation id="8862326446509486874">Jums nav vajadzīgo tiesību, lai instalētu sistēmas līmenī. Mēģiniet vēlreiz palaist instalēšanas programmu kā administrators.</translation>
+<translation id="6412037018950369131">Ja tā ir, lūdzu, rediģējiet saglabāto paroli pārlūkprogrammā Asil, lai tā atbilstu jūsu jaunajai parolei.</translation>
+<translation id="3215652305414474626">Tas nosaka arī to, kāda lapa tiks rādīta, kad atvērsiet pārlūku Asil vai noklikšķināsiet uz pogas “Sākums”.</translation>
+<translation id="8285294305439559616">Asil mēģina rādīt paroles. Lai to atļautu, ierakstiet savu Windows paroli.</translation>
+<translation id="6514033039060816211">Asil var aptuveni noteikt jūsu intereses, balstoties uz jūsu pēdējo nedēļu pārlūkošanas vēsturi. Šī informācija tiek glabāta jūsu ierīcē.</translation>
+<translation id="6389268239133412586">Nevar atjaunināt Asil</translation>
+<translation id="7731184591599776500">Asil Enterprise logotips</translation>
+<translation id="8986207147630327271">Jūs pievienosiet šai pārlūkprogrammai darba profilu un piešķirsiet administratoram kontroli tikai pār darba profilu.</translation>
+<translation id="82609232232243542">Pierakstieties pārlūkā Asil</translation>
+<translation id="5173820533850252773">Asil versija ir novecojusi.</translation>
+<translation id="310518206836658214">{0,plural, =1{Pārlūks Asil pēc stundas tiks restartēts}zero{Pārlūks Asil pēc # stundām tiks restartēts}one{Pārlūks Asil pēc # stundas tiks restartēts}other{Pārlūks Asil pēc # stundām tiks restartēts}}</translation>
+<translation id="5190991181158966940">Lai saņemtu turpmākus Asil atjauninājumus, nepieciešama operētājsistēma Windows 10 vai jaunāka versija. Šajā datorā tiek izmantota operētājsistēma Windows 8.1.</translation>
+<translation id="7863882214613921971">Atvērt saiti jaunā Asil &amp;cilnē</translation>
+<translation id="911206726377975832">Vai dzēst arī pārlūkošanas datus?</translation>
+<translation id="5708733457516068434">Izmēģinājuma laikā varat skatīt un noņemt interešu tēmas, kas vietnēs tika izmantotas reklāmu rādīšanai. Pārlūkā Asil tiek aptuveni noteiktas jūsu intereses, ņemot vērā neseno pārlūkošanas vēsturi.</translation>
+<translation id="2444257125841652328">Sistēmas administrators ir konfigurējis Asil, lai vietne <ph name="TARGET_URL_HOSTNAME"/> tiktu atvērta papildu pārlūkā.</translation>
+<translation id="7902365066753170041">Atkārtoti palaist, lai atjauninātu &amp;Asil</translation>
+<translation id="3350544518197210895">Asil (mDNS ienākošie savienojumi)</translation>
+<translation id="7977787072794666032">Iespējams, Asil nedarbosies pareizi, jo tas vairs netiek atbalstīts operētājsistēmās Windows XP un Windows Vista.</translation>
+<translation id="8180288330711585962">Asil pārvaldītie sertifikāti</translation>
+<translation id="1611678871603620428">Lai saņemtu turpmākus Asil atjauninājumus, ir nepieciešama operētājsistēma macOS 10.13 vai jaunāka versija. Šajā datorā tiek izmantota OS X 10.11 versija.</translation>
+<translation id="4484434718272972655">Kas izmanto pārlūku Asil?</translation>
+<translation id="7173394303099002355">Visaugstākais Asil drošības līmenis</translation>
+<translation id="8992261409816268381">Asil autori</translation>
+<translation id="479793348545936567">Ja vēlaties šo kontu izmantot tikai vienreiz, Asil pārlūkā varat izmantot viesa režīmu. Ja vēlaties pievienot kontu kādam citam, <ph name="LINK_BEGIN"/>pievienojiet jaunu profilu<ph name="LINK_END"/> savam profilam <ph name="DEVICE_TYPE"/>.
+
+Atļaujas, ko jau esat piešķīris vietnēm un lietotnēm, var attiekties uz šo kontu. Asil sinhronizācijas ķēdes varat pārvaldīt <ph name="SETTINGS_LINK_BEGIN"/>Iestatījumos<ph name="SETTINGS_LINK_END"/>.</translation>
+<translation id="5359574361379286250">Ja vēlaties šo kontu izmantot tikai vienreiz, Asil pārlūkā varat izmantot <ph name="GUEST_LINK_BEGIN"/>viesa režīmu<ph name="GUEST_LINK_END"/>. Ja vēlaties pievienot kontu kādam citam, <ph name="LINK_BEGIN"/>pievienojiet jaunu profilu<ph name="LINK_END"/> savam profilam <ph name="DEVICE_TYPE"/>.
+
+Atļaujas, ko jau esat piešķīris vietnēm un lietotnēm, var attiekties uz šo kontu. Asil sinhronizācijas ķēdes varat pārvaldīt <ph name="SETTINGS_LINK_BEGIN"/>Iestatījumos<ph name="SETTINGS_LINK_END"/>.</translation>
+<translation id="1743665722170667430">Paplašinājumi, lietotnes un tēmas no nezināmiem avotiem var kaitēt jūsu ierīcei. Asil iesaka instalēt tos tikai no <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/></translation>
+<translation id="1299765473362724475">BRĪDINĀJUMS! Asil nevar novērst, ka paplašinājumi reģistrē jūsu pārlūkošanas vēsturi. Lai atspējotu šo paplašinājumu inkognito režīmā, atceliet tā atlasi.</translation>
+<translation id="1448049584457347995">Lai uzlabotu Asil drošību, mēs atspējojām dažus paplašinājumus, kas nav norādīti vietnē <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> un, iespējams, tika pievienoti, jums nezinot.</translation>
+<translation id="8848045066928358658">Lai uzlabotu Asil drošību, mēs atspējojām tālāk norādīto paplašinājumu, kas nav norādīts vietnē <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> un, iespējams, tika pievienots, jums nezinot.</translation>
+<translation id="669092380621816981">Šī lietotāja pārlūkošanas dati tiks dzēsti no šīs ierīces. Lai atkoptu datus, pierakstieties pārlūkprogrammā Asil kā lietotājs <ph name="USER_EMAIL"/>.</translation>
+<translation id="4624945300945265642">Atvērt saiti inko&amp;gnito režīma logā</translation>
+<translation id="6554952862405000915">Atvērt saiti inko&amp;gnito režīma logā</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{Pieejams Asil atjauninājums, un tas tiks lietots, tiklīdz restartēsiet pārlūku.}=1{Pieejams Asil atjauninājums, un tas tiks lietots, tiklīdz restartēsiet pārlūku. Jūsu inkognito režīma logs netiks atkārtoti atvērts.}zero{Pieejams Asil atjauninājums, un tas tiks lietots, tiklīdz restartēsiet pārlūku. # jūsu inkognito režīma logi netiks atkārtoti atvērti.}one{Pieejams Asil atjauninājums, un tas tiks lietots, tiklīdz restartēsiet pārlūku. # jūsu inkognito režīma logs netiks atkārtoti atvērts.}other{Pieejams Asil atjauninājums, un tas tiks lietots, tiklīdz restartēsiet pārlūku. # jūsu inkognito režīma logi netiks atkārtoti atvērti.}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{Lai lietotu šo atjauninājumu, administrators lūdz restartēt pārlūku Asil.}=1{Lai lietotu šo atjauninājumu, administrators lūdz restartēt pārlūku Asil. Jūsu inkognito režīma logs netiks atkārtoti atvērts.}zero{Lai lietotu šo atjauninājumu, administrators lūdz restartēt pārlūku Asil. # jūsu inkognito režīma logi netiks atkārtoti atvērti.}one{Lai lietotu šo atjauninājumu, administrators lūdz restartēt pārlūku Asil. # jūsu inkognito režīma logs netiks atkārtoti atvērts.}other{Lai lietotu šo atjauninājumu, administrators lūdz restartēt pārlūku Asil. # jūsu inkognito režīma logi netiks atkārtoti atvērti.}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{Lai lietotu atjauninājumu, administrators pieprasa restartēt pārlūku Asil.}=1{Lai lietotu atjauninājumu, administrators pieprasa restartēt pārlūku Asil. Jūsu inkognito režīma logs netiks atkārtoti atvērts.}zero{Lai lietotu atjauninājumu, administrators pieprasa restartēt pārlūku Asil. # jūsu inkognito režīma logi netiks atkārtoti atvērti.}one{Lai lietotu atjauninājumu, administrators pieprasa restartēt pārlūku Asil. # jūsu inkognito režīma logs netiks atkārtoti atvērts.}other{Lai lietotu atjauninājumu, administrators pieprasa restartēt pārlūku Asil. # jūsu inkognito režīma logi netiks atkārtoti atvērti.}}</translation>
+<translation id="2176087127109773485">Varat pārvaldīt savas pierakstītās Asil sinhronizācijas ķēdes. Jūsu Asil sinhronizācijas ķēdes tiek izmantotas Asil pārlūkā, Play veikalā, Gmail un citur. Ja vēlaties pievienot kontu kādam citam, piemēram, ģimenes loceklim, tā vietā pievienojiet jaunu profilu savam <ph name="DEVICE_TYPE"/>. <ph name="LINK_BEGIN"/>Uzzināt vairāk<ph name="LINK_END"/></translation>
+</translationbundle>

@@ -1,0 +1,40 @@
+# Copyright (c) 2022 The Asil Authors. All rights reserved.
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at https://mozilla.org/MPL/2.0/.
+
+import("//brave/browser/shell_integrations/buildflags/buildflags.gni")
+import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//brave/components/speedreader/common/buildflags/buildflags.gni")
+import("//brave/components/text_recognition/common/buildflags/buildflags.gni")
+import("//brave/resources/brave_grit.gni")
+import("//build/config/features.gni")
+import("//build/config/locales.gni")
+
+source_set("command_ids") {
+  sources = [ "brave_command_ids.h" ]
+}
+
+brave_grit("brave_generated_resources_grit") {
+  defines = [
+    "enable_speedreader=$enable_speedreader",
+    "enable_brave_vpn=$enable_brave_vpn",
+    "enable_pin_shortcut=$enable_pin_shortcut",
+    "enable_text_recognition=$enable_text_recognition",
+  ]
+  source = "brave_generated_resources.grd"
+  output_dir = "$root_gen_dir/brave"
+  outputs = [
+    "grit/brave_generated_resources.h",
+
+    # This is needed for the includes and not the localized messages
+    "brave_generated_resources.pak",
+  ]
+
+  foreach(locale, all_chrome_locales) {
+    outputs += [ "brave_generated_resources_$locale.pak" ]
+  }
+}
+
+group("app") {
+}

@@ -1,0 +1,13 @@
+diff --git a/components/content_settings/core/common/cookie_settings_base.h b/components/content_settings/core/common/cookie_settings_base.h
+index 0ee293b2c4972ba1babc232762d7b9d778182dcb..58c01489cb87f4f78578653c05729d331a842e8f 100644
+--- a/components/content_settings/core/common/cookie_settings_base.h
++++ b/components/content_settings/core/common/cookie_settings_base.h
+@@ -73,7 +73,7 @@ class CookieSettingsBase {
+   CookieSettingsBase(const CookieSettingsBase&) = delete;
+   CookieSettingsBase& operator=(const CookieSettingsBase&) = delete;
+ 
+-  virtual ~CookieSettingsBase() = default;
++  virtual ~CookieSettingsBase();
+ 
+   // Returns true if the cookie associated with |domain| should be deleted
+   // on exit.

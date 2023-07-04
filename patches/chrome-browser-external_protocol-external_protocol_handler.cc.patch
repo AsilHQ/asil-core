@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/external_protocol/external_protocol_handler.cc b/chrome/browser/external_protocol/external_protocol_handler.cc
+index 2722c3e70a8c5a75542429b23e43f884d6280b0b..c5e3ff2a505ea66d5cd4e7470d137243596f40c0 100644
+--- a/chrome/browser/external_protocol/external_protocol_handler.cc
++++ b/chrome/browser/external_protocol/external_protocol_handler.cc
+@@ -345,7 +345,7 @@ ExternalProtocolHandler::BlockState ExternalProtocolHandler::GetBlockState(
+   // Always allow the hard-coded allowed schemes.
+   for (size_t i = 0; i < std::size(kAllowedSchemes); ++i) {
+     if (kAllowedSchemes[i] == scheme)
+-      return DONT_BLOCK;
++      return UNKNOWN;
+   }
+ 
+   PrefService* profile_prefs = profile->GetPrefs();

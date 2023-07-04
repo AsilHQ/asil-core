@@ -1,0 +1,26 @@
+import("//brave/browser/shell_integrations/buildflags/buildflags.gni")
+import("//chrome/browser/resources/settings/settings.gni")
+
+settings_namespace_rewrites = [
+  "settings.BraveAppearanceBrowserProxyImpl|BraveAppearanceBrowserProxyImpl",
+  "settings.BraveIPFSBrowserProxyImpl|BraveIPFSBrowserProxyImpl",
+  "settings.BraveWalletBrowserProxyImpl|BraveWalletBrowserProxyImpl",
+  "settings.BraveDefaultExtensionsBrowserProxyImpl|BraveDefaultExtensionsBrowserProxyImpl",
+  "settings.BraveNewTabBrowserProxyImpl|BraveNewTabBrowserProxyImpl",
+  "settings.BravePrivacyBrowserProxyImpl|BravePrivacyBrowserProxyImpl",
+  "settings.BraveRewardsBrowserProxyImpl|BraveRewardsBrowserProxyImpl",
+  "settings.BraveSearchEnginesPageBrowserProxyImpl|BraveSearchEnginesPageBrowserProxyImpl",
+  "settings.BraveSyncBrowserProxy|BraveSyncBrowserProxy",
+  "settings.DefaultBraveShieldsBrowserProxyImpl|DefaultBraveShieldsBrowserProxyImpl",
+  "settings.SocialBlockingPageProxyImpl|SocialBlockingPageProxyImpl",
+  "settings.Router|Router",
+]
+
+if (enable_pin_shortcut) {
+  settings_namespace_rewrites += [
+    "settings.PinShortcutPageBrowserProxyImpl|PinShortcutPageBrowserProxyImpl",
+  ]
+}
+
+settings_auto_imports =
+    [ "chrome/browser/resources/settings/router.html|Router,Route" ]

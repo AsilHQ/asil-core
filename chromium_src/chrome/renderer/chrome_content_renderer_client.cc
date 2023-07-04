@@ -1,0 +1,16 @@
+/* Copyright (c) 2020 The Asil Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at https://mozilla.org/MPL/2.0/. */
+
+#include "brave/components/content_settings/renderer/brave_content_settings_agent_impl.h"
+#include "components/feed/content/renderer/rss_link_reader.h"
+
+// We need to do this here rather than in |BraveContentRendererClient| because
+// it needs access to the registry on ChromeRenderFrameObserver.
+#define BRAVE_RENDER_FRAME_CREATED \
+  new feed::RssLinkReader(render_frame, registry);
+
+#include "src/chrome/renderer/chrome_content_renderer_client.cc"
+
+#undef BRAVE_RENDER_FRAME_CREATED

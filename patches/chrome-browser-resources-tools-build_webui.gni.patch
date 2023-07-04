@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/tools/build_webui.gni b/chrome/browser/resources/tools/build_webui.gni
+index 4d3dcda0e79d6648fd45aed743e49171d7a23c70..6f227587e70825d8d4109a1df7fb31e04501d89d 100644
+--- a/chrome/browser/resources/tools/build_webui.gni
++++ b/chrome/browser/resources/tools/build_webui.gni
+@@ -132,6 +132,7 @@ template("build_webui") {
+     if (defined(invoker.css_files)) {
+       in_files += invoker.css_files
+     }
++    if (defined(invoker.exclude_preprocess_files)) { in_files -= invoker.exclude_preprocess_files } if (defined(invoker.preprocess_deps)) { public_deps = invoker.preprocess_deps }
+   }
+ 
+   if (defined(html_files)) {

@@ -1,0 +1,13 @@
+diff --git a/components/history/core/browser/history_types.h b/components/history/core/browser/history_types.h
+index 3cbb236c60afdbbccd4dca20801e046e768e197f..cbba111215649c9b376a4f42f45f398234e2aaaf 100644
+--- a/components/history/core/browser/history_types.h
++++ b/components/history/core/browser/history_types.h
+@@ -52,6 +52,8 @@ enum VisitSource {
+   SOURCE_FIREFOX_IMPORTED = 3,
+   SOURCE_IE_IMPORTED = 4,
+   SOURCE_SAFARI_IMPORTED = 5,
++  SOURCE_CHROME_IMPORTED = 6,
++  SOURCE_BRAVE_IMPORTED = 7,
+ };
+ 
+ // Corresponds to the "id" column of the "visits" SQL table.
