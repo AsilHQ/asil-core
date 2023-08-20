@@ -45,7 +45,7 @@ function initialize () {
       () => console.timeStamp('first react render'))
   })
   .catch((error) => {
-    console.error('Problem mounting brave new tab', error)
+    console.error('Problem mounting Asil new tab', error)
   })
 }
 

@@ -19,10 +19,10 @@ declare_args() {
   sparkle_eddsa_public_key = ""
 
   brave_product_name = "Asil"
-  brave_exe = ""
-  brave_version_major = ""
-  brave_version_minor = ""
-  brave_version_build = ""
+  brave_exe = "Asil"
+  brave_version_major = "1"
+  brave_version_minor = "0"
+  brave_version_build = "0"
   brave_version_patch = 0
   chrome_version_string = ""
   build_omaha = false
@@ -97,7 +97,7 @@ if (is_win) {
   if (target_cpu == "x86") {
     _arch = "32"
   }
-  brave_installer_exe = "brave_installer$brave_underline_full_version.exe"
+  brave_installer_exe = "asil_installer$brave_underline_full_version.exe"
   brave_stub_installer_exe =
       "BraveBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
   brave_untagged_stub_installer_exe =
@@ -131,7 +131,7 @@ if (is_win) {
     brave_product_dir_name_suffix = "-Development"
   }
   brave_product_dir_name =
-      "BraveSoftware/Brave-Browser$brave_product_dir_name_suffix"
+      "AsilSoftware/Asil-Browser$brave_product_dir_name_suffix"
 
   if (base_sparkle_update_url == "") {
     base_sparkle_update_url =

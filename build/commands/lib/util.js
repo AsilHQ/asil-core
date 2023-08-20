@@ -489,7 +489,7 @@ const util = {
     if (!fs.existsSync(dir))
       fs.mkdirSync(dir);
 
-    fs.copySync(path.join(config.outputDir, 'brave.exe'), path.join(dir, 'brave.exe'));
+    fs.copySync(path.join(config.outputDir, 'Asil.exe'), path.join(dir, 'Asil.exe'));
     fs.copySync(path.join(config.outputDir, 'chrome.dll'), path.join(dir, 'chrome.dll'));
 
     util.run('python', [path.join(config.braveCoreDir, 'script', 'sign_binaries.py'), '--build_dir=' + dir])
@@ -511,11 +511,11 @@ const util = {
 
     console.log('generate Widevine sig files...')
 
-    util.run('python', [sig_generator, '--input_file=' + path.join(src_dir, 'brave.exe'),
+    util.run('python', [sig_generator, '--input_file=' + path.join(src_dir, 'Asil.exe'),
         '--flags=1',
         '--certificate=' + cert,
         '--private_key=' + key,
-        '--output_file=' + path.join(config.outputDir, 'brave.exe.sig'),
+        '--output_file=' + path.join(config.outputDir, 'Asil.exe.sig'),
         '--private_key_passphrase=' + passwd])
     util.run('python', [sig_generator, '--input_file=' + path.join(src_dir, 'chrome.dll'),
         '--flags=0',

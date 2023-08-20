@@ -28,8 +28,7 @@ void NavigationBarDataProvider::Initialize(content::WebUIDataSource* source,
 
   source->AddBoolean(
       "brToolbarShowRewardsButton",
-      brave_rewards::IsSupportedForProfile(
-          profile, brave_rewards::IsSupportedOptions::kSkipRegionCheck));
+      false);
   source->AddBoolean("isBraveWalletAllowed",
-                     brave_wallet::IsAllowedForContext(profile));
+                     false);
 }

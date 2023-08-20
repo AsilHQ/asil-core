@@ -294,10 +294,10 @@ class InstallStaticUtilTest
   void SetMetricsReportingPolicy(DWORD value) {
 #if defined(OFFICIAL_BUILD)
     static constexpr wchar_t kPolicyKey[] =
-        L"Software\\Policies\\BraveSoftware\\Asil-Browser";
+        L"Software\\Policies\\AsilSoftware\\Asil-Browser";
 #else
     static constexpr wchar_t kPolicyKey[] =
-        L"Software\\Policies\\BraveSoftware\\Asil-Browser-Development";
+        L"Software\\Policies\\AsilSoftware\\Asil-Browser-Development";
 #endif
 
     ASSERT_EQ(ERROR_SUCCESS,
@@ -313,7 +313,7 @@ class InstallStaticUtilTest
 
     std::wstring result(L"Software\\");
 #if defined(OFFICIAL_BUILD)
-      result.append(L"BraveSoftware\\Update\\ClientState");
+      result.append(L"AsilSoftware\\Update\\ClientState");
       if (medium)
         result.append(L"Medium");
       result.push_back(L'\\');
@@ -337,16 +337,16 @@ TEST_P(InstallStaticUtilTest, GetChromeInstallSubDirectory) {
   // The directory strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kInstallDirs[] = {
-      L"BraveSoftware\\Asil-Browser",
-      L"BraveSoftware\\Asil-Browser-Beta",
-      L"BraveSoftware\\Asil-Browser-Dev",
-      L"BraveSoftware\\Asil-Browser-Nightly",
+      L"AsilSoftware\\Asil-Browser",
+      L"AsilSoftware\\Asil-Browser-Beta",
+      L"AsilSoftware\\Asil-Browser-Dev",
+      L"AsilSoftware\\Asil-Browser-Nightly",
   };
 #else
   // The directory strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kInstallDirs[] = {
-      L"BraveSoftware\\Asil-Browser-Development",
+      L"AsilSoftware\\Asil-Browser-Development",
   };
 #endif
   static_assert(std::size(kInstallDirs) == NUM_INSTALL_MODES,
@@ -360,16 +360,16 @@ TEST_P(InstallStaticUtilTest, GetRegistryPath) {
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kRegistryPaths[] = {
-      L"Software\\BraveSoftware\\Asil-Browser",
-      L"Software\\BraveSoftware\\Asil-Browser-Beta",
-      L"Software\\BraveSoftware\\Asil-Browser-Dev",
-      L"Software\\BraveSoftware\\Asil-Browser-Nightly",
+      L"Software\\AsilSoftware\\Asil-Browser",
+      L"Software\\AsilSoftware\\Asil-Browser-Beta",
+      L"Software\\AsilSoftware\\Asil-Browser-Dev",
+      L"Software\\AsilSoftware\\Asil-Browser-Nightly",
   };
 #else
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kRegistryPaths[] = {
-      L"Software\\BraveSoftware\\Asil-Browser-Development",
+      L"Software\\AsilSoftware\\Asil-Browser-Development",
   };
 #endif
   static_assert(std::size(kRegistryPaths) == NUM_INSTALL_MODES,
@@ -384,20 +384,20 @@ TEST_P(InstallStaticUtilTest, GetUninstallRegistryPath) {
   // to kInstallModes.
   static constexpr const wchar_t* kUninstallRegistryPaths[] = {
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"BraveSoftware Asil-Browser",
+      L"AsilSoftware Asil-Browser",
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"BraveSoftware Asil-Browser-Beta",
+      L"AsilSoftware Asil-Browser-Beta",
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"BraveSoftware Asil-Browser-Dev",
+      L"AsilSoftware Asil-Browser-Dev",
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"BraveSoftware Asil-Browser-Nightly",
+      L"AsilSoftware Asil-Browser-Nightly",
   };
 #else
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kUninstallRegistryPaths[] = {
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"BraveSoftware Asil-Browser-Development",
+      L"AsilSoftware Asil-Browser-Development",
   };
 #endif
   static_assert(std::size(kUninstallRegistryPaths) == NUM_INSTALL_MODES,

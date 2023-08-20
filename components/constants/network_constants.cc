@@ -8,7 +8,7 @@
 const char kExtensionUpdaterDomain[] = "extensionupdater.asil.com";
 
 const char kBraveProxyPattern[] = "https://*.asil.com/*";
-const char kBraveSoftwareProxyPattern[] = "https://*.bravesoftware.com/*";
+const char kAsilSoftwareProxyPattern[] = "https://*.bravesoftware.com/*";
 
 const char kBraveUsageStandardPath[] = "/1/usage/brave-core";
 const char kBraveUsageThresholdPath[] = "/1/usage/brave-core-threshold";

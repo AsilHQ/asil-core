@@ -9,7 +9,7 @@
 extern const char kExtensionUpdaterDomain[];
 
 extern const char kBraveProxyPattern[];
-extern const char kBraveSoftwareProxyPattern[];
+extern const char kAsilSoftwareProxyPattern[];
 
 extern const char kBraveUsageStandardPath[];
 extern const char kBraveUsageThresholdPath[];

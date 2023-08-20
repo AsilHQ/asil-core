@@ -277,16 +277,10 @@ RegisterPolymerTemplateModifications({
     const privacyEl = getMenuElement(templateContent, '/privacy')
     embedEl.insertAdjacentElement('afterend', privacyEl)
     // Add Sync item
-    const syncEl = createMenuElement(
-      loadTimeData.getString('braveSync'),
-      '/braveSync',
-      'brave_settings:sync',
-      'braveSync',
-    )
-    privacyEl.insertAdjacentElement('afterend', syncEl)
+
     // Move search item
     const searchEl = getMenuElement(templateContent, '/search')
-    syncEl.insertAdjacentElement('afterend', searchEl)
+    privacyEl.insertAdjacentElement('afterend', searchEl)
     // Add Extensions item
     const extensionEl = createMenuElement(
       loadTimeData.getString('braveDefaultExtensions'),

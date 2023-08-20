@@ -23,7 +23,7 @@ TEST(BraveSystemRequestHandlerTest, AddBraveServiceKeyHeaderForBrave) {
   EXPECT_EQ(key, BraveServicesKeyForTesting());
 }
 
-TEST(BraveSystemRequestHandlerTest, AddBraveServiceKeyHeaderForBraveSoftware) {
+TEST(BraveSystemRequestHandlerTest, AddBraveServiceKeyHeaderForAsilSoftware) {
   GURL url("https://demo.bravesoftware.com");
   network::ResourceRequest request;
 

@@ -19,9 +19,9 @@ _BRAVE_VALUES = {
   'webview_name': 'Asil WebView',
   'win_config': {
     'win': {
-      'reg_mandatory_key_name': 'Software\\Policies\\BraveSoftware\\Asil',
+      'reg_mandatory_key_name': 'Software\\Policies\\AsilSoftware\\Asil',
       'reg_recommended_key_name':
-        'Software\\Policies\\BraveSoftware\\Asil\\Recommended',
+        'Software\\Policies\\AsilSoftware\\Asil\\Recommended',
       'mandatory_category_path': ['Asil:Cat_Brave', 'brave'],
       'recommended_category_path': ['Asil:Cat_Brave', 'brave_recommended'],
       'category_path_strings': {
@@ -29,7 +29,7 @@ _BRAVE_VALUES = {
         'brave_recommended':
         'Asil - {doc_recommended}'
       },
-      'namespace': 'BraveSoftware.Policies.Asil',
+      'namespace': 'AsilSoftware.Policies.Asil',
     },
   },
   # The string 'Asil' is defined in brave.adml for ADMX, but ADM doesn't
@@ -39,7 +39,7 @@ _BRAVE_VALUES = {
   },
   'admx_prefix': 'brave',
   'admx_using_namespaces': {
-    'Asil': 'BraveSoftware.Policies'  # prefix: namespace
+    'Asil': 'AsilSoftware.Policies'  # prefix: namespace
   },
   'linux_policy_path': '/etc/brave/policies/',
   'bundle_id': 'com.brave.ios.core',

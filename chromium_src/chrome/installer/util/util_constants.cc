@@ -24,11 +24,11 @@ namespace installer {
 namespace env_vars {
 
 #if defined(OFFICIAL_BUILD)
-const char kGoogleUpdateIsMachineEnvVar[] = "BraveSoftwareUpdateIsMachine";
+const char kGoogleUpdateIsMachineEnvVar[] = "AsilSoftwareUpdateIsMachine";
 #endif
 
 }  // namespace env_vars
 
-const wchar_t kChromeExe[] = L"brave.exe";
+const wchar_t kChromeExe[] = L"Asil.exe";
 
 }  // namespace installer
