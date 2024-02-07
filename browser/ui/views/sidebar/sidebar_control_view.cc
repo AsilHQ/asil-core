@@ -203,7 +203,7 @@ void SidebarControlView::OnButtonPressed(views::View* view) {
   if (view == sidebar_settings_view_) {
     ShowSingletonTabOverwritingNTP(
         browser_,
-        GURL("brave://settings?search=" +
+        GURL("asil://settings?search=" +
              l10n_util::GetStringUTF8(
                  IDS_SETTINGS_APPEARNCE_SETTINGS_SIDEBAR_PART_TITLE)));
   }
@@ -217,7 +217,7 @@ void SidebarControlView::Update() {
 void SidebarControlView::UpdateItemAddButtonState() {
   DCHECK(sidebar_item_add_view_);
   // Determine add button enabled state.
-  bool should_enable = true;
+  bool should_enable = false;
   if (browser_->sidebar_controller()->model()->IsSidebarHasAllBuiltInItems() &&
       !sidebar::CanAddCurrentActiveTabToSidebar(browser_)) {
     should_enable = false;
@@ -248,17 +248,17 @@ bool SidebarControlView::IsItemReorderingInProgress() const {
 }
 
 bool SidebarControlView::IsBubbleWidgetVisible() const {
-  if (context_menu_runner_ && context_menu_runner_->IsRunning()) {
-    return true;
-  }
+  // if (context_menu_runner_ && context_menu_runner_->IsRunning()) {
+  //   return true;
+  // }
 
-  if (sidebar_item_add_view_->IsBubbleVisible()) {
-    return true;
-  }
+  // if (sidebar_item_add_view_->IsBubbleVisible()) {
+  //   return true;
+  // }
 
-  if (sidebar_items_view_->IsBubbleVisible()) {
-    return true;
-  }
+  // if (sidebar_items_view_->IsBubbleVisible()) {
+  //   return true;
+  // }
 
   return false;
 }

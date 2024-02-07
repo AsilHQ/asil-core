@@ -174,7 +174,7 @@ void AIChatUIPageHandler::OpenBraveLeoSettings() {
   auto* contents_to_navigate = (active_chat_tab_helper_)
                                    ? active_chat_tab_helper_->web_contents()
                                    : web_contents();
-  contents_to_navigate->OpenURL({GURL("brave://settings/leo-assistant"),
+  contents_to_navigate->OpenURL({GURL("asil://settings/leo-assistant"),
                                  content::Referrer(),
                                  WindowOpenDisposition::NEW_FOREGROUND_TAB,
                                  ui::PAGE_TRANSITION_LINK, false});

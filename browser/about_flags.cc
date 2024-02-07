@@ -170,7 +170,7 @@
       EXPAND_FEATURE_ENTRIES({                                                 \
           "brave-module-filename-patch",                                       \
           "Enable Module Filename patch",                                      \
-          "Enables patching of executable's name from brave.exe to "           \
+          "Enables patching of executable's name from asil.exe to "           \
           "chrome.exe in sandboxed processes.",                                \
           kOsWin,                                                              \
           FEATURE_VALUE_TYPE(sandbox::policy::features::kModuleFileNamePatch), \
@@ -489,7 +489,7 @@
           "brave-adblock-cookie-list-default",                                 \
           "Treat 'Easylist-Cookie List' as a default list source",             \
           "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
-          "brave://adblock hasn't otherwise been modified",                    \
+          "asil://adblock hasn't otherwise been modified",                    \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(                                                  \
               brave_shields::features::kBraveAdblockCookieListDefault),        \
@@ -535,7 +535,7 @@
           "source",                                                            \
                                                                                \
           "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
-          "its toggle in brave://adblock hasn't otherwise been modified",      \
+          "its toggle in asil://adblock hasn't otherwise been modified",      \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(brave_shields::features::                         \
                                  kBraveAdblockMobileNotificationsListDefault), \
@@ -933,7 +933,7 @@ namespace {
           .size());
 }
 
-// Called to skip feature entries on brave://flags page without affecting
+// Called to skip feature entries on asil://flags page without affecting
 // features state.
 bool BraveShouldSkipConditionalFeatureEntry(
     const flags_ui::FlagsStorage* storage,

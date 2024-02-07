@@ -190,7 +190,7 @@ void RegisterProfilePrefsForMigration(
 #endif
 
   // Added Feb 2023
-  registry->RegisterBooleanPref(brave_rewards::prefs::kShowButton, true);
+  registry->RegisterBooleanPref(brave_rewards::prefs::kShowButton, false);
 
   brave_rewards::RewardsService::RegisterProfilePrefsForMigration(registry);
 
@@ -288,7 +288,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(kBraveAutofillPrivateWindows, true);
   // appearance
   registry->RegisterBooleanPref(kShowBookmarksButton, true);
-  registry->RegisterBooleanPref(kShowSidePanelButton, true);
+  registry->RegisterBooleanPref(kShowSidePanelButton, false);
   registry->RegisterBooleanPref(kLocationBarIsWide, false);
   registry->RegisterBooleanPref(kMRUCyclingEnabled, false);
   registry->RegisterBooleanPref(kTabsSearchShow, true);
@@ -422,9 +422,9 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   // New Tab Page
   registry->RegisterBooleanPref(kNewTabPageShowClock, true);
   registry->RegisterStringPref(kNewTabPageClockFormat, "");
-  registry->RegisterBooleanPref(kNewTabPageShowStats, true);
-  registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
-  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, true);
+  registry->RegisterBooleanPref(kNewTabPageShowStats, false);
+  registry->RegisterBooleanPref(kNewTabPageShowRewards, false);
+  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, false);
   registry->RegisterBooleanPref(kNewTabPageHideAllWidgets, false);
 
 // Private New Tab Page

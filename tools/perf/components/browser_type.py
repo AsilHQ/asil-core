@@ -239,7 +239,7 @@ class BraveBrowserTypeImpl(BrowserType):
 
   def _GetWinInstallPath(self) -> str:
     return os.path.join(os.path.expanduser('~'), 'AppData', 'Local',
-                        'BraveSoftware', 'Brave-Browser-' + self.channel,
+                        'Halalz', 'Brave-Browser-' + self.channel,
                         'Application')
 
   @classmethod
@@ -280,7 +280,7 @@ class BraveBrowserTypeImpl(BrowserType):
       return _DownloadWinInstallerAndExtract(out_dir,
                                              self._GetSetupDownloadUrl(tag),
                                              self._GetWinInstallPath(),
-                                             'brave.exe')
+                                             'asil.exe')
     if target_os == 'android':
       url = _GetBraveDownloadUrl(tag, 'BraveMonoarm64.apk')
       apk_filename = os.path.join(out_dir, os.pardir, 'BraveMonoarm64.apk')

@@ -46,9 +46,9 @@ Resolves
   - [ ] https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)
   - [ ] https://github.com/brave/brave-browser/wiki/Proxy-redirected-URLs
   - [ ] https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections
-  - [ ] https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes
+  - [ ] https://github.com/brave/brave-browser/wiki/Asil%E2%80%99s-Use-of-Referral-Codes
   - [ ] https://github.com/brave/brave-browser/wiki/Custom-Headers
-  - [ ] https://github.com/brave/brave-browser/wiki/Web-Compatibility-Exceptions-in-Brave
+  - [ ] https://github.com/brave/brave-browser/wiki/Web-Compatibility-Exceptions-in-Asil
   - [ ] https://github.com/brave/brave-browser/wiki/QA-Guide
   - [ ] https://github.com/brave/brave-browser/wiki/P3A
 

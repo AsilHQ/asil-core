@@ -21,23 +21,23 @@ BraveVPNPanelController::BraveVPNPanelController(BraveBrowserView* browser_view)
 BraveVPNPanelController::~BraveVPNPanelController() = default;
 
 void BraveVPNPanelController::ShowBraveVPNPanel() {
-  auto* anchor_view = browser_view_->GetAnchorViewForBraveVPNPanel();
-  if (!anchor_view)
-    return;
+  // auto* anchor_view = browser_view_->GetAnchorViewForBraveVPNPanel();
+  // if (!anchor_view)
+  //   return;
 
-  if (!webui_bubble_manager_) {
-    auto* profile = browser_view_->browser()->profile();
-    webui_bubble_manager_ =
-        std::make_unique<BraveWebUIBubbleManager<VPNPanelUI>>(
-            anchor_view, profile, GURL(kVPNPanelURL), IDS_BRAVE_VPN_PANEL_NAME);
-  }
+  // if (!webui_bubble_manager_) {
+  //   auto* profile = browser_view_->browser()->profile();
+  //   webui_bubble_manager_ =
+  //       std::make_unique<BraveWebUIBubbleManager<VPNPanelUI>>(
+  //           anchor_view, profile, GURL(kVPNPanelURL), IDS_BRAVE_VPN_PANEL_NAME);
+  // }
 
-  if (webui_bubble_manager_->GetBubbleWidget()) {
-    webui_bubble_manager_->CloseBubble();
-    return;
-  }
+  // if (webui_bubble_manager_->GetBubbleWidget()) {
+  //   webui_bubble_manager_->CloseBubble();
+  //   return;
+  // }
 
-  webui_bubble_manager_->ShowBubble();
+  // webui_bubble_manager_->ShowBubble();
 }
 
 void BraveVPNPanelController::ResetBubbleManager() {

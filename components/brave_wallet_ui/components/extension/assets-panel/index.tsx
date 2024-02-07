@@ -111,7 +111,7 @@ export const AssetsPanel = (props: Props) => {
       () => {
         if (contractAddress === '') {
           routeToAssetDetails(
-            `brave://wallet${
+            `asil://wallet${
               WalletRoutes.PortfolioAssets //
             }/${
               chainId //
@@ -121,7 +121,7 @@ export const AssetsPanel = (props: Props) => {
         }
         if (tokenId !== '') {
           routeToAssetDetails(
-            `brave://wallet${
+            `asil://wallet${
               WalletRoutes.PortfolioNFTs //
             }/${
               chainId //
@@ -132,7 +132,7 @@ export const AssetsPanel = (props: Props) => {
           return
         }
         routeToAssetDetails(
-          `brave://wallet${
+          `asil://wallet${
             WalletRoutes.PortfolioAssets //
           }/${
             chainId //

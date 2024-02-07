@@ -1,6 +1,6 @@
-# Brave Core
+# Asil Core
 
-Brave Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Brave browser. Please also check https://github.com/brave/brave-browser
+Asil Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Asil browser. Please also check https://github.com/brave/brave-browser
 
 Follow [@brave](https://twitter.com/brave) on Twitter for important announcements.
 
@@ -14,5 +14,5 @@ Follow [@brave](https://twitter.com/brave) on Twitter for important announcement
 
 You can ask questions and interact with the community in the following
 locations:
-- [Brave Community](https://community.brave.com/)
-- [`community`](https://bravesoftware.slack.com) channel on Brave Software's Slack
+- [Asil Community](https://community.brave.com/)
+- [`community`](https://bravesoftware.slack.com) channel on Asil Software's Slack

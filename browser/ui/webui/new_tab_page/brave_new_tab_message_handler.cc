@@ -73,8 +73,7 @@ base::Value::Dict GetStatsDictionary(PrefService* prefs) {
 
 base::Value::Dict GetPreferencesDictionary(PrefService* prefs) {
   base::Value::Dict pref_data;
-  pref_data.Set("showBackgroundImage",
-                prefs->GetBoolean(kNewTabPageShowBackgroundImage));
+  pref_data.Set("showBackgroundImage", true);
   pref_data.Set(
       "brandedWallpaperOptIn",
       prefs->GetBoolean(kNewTabPageShowSponsoredImagesBackgroundImage));
@@ -225,10 +224,10 @@ void BraveNewTabMessageHandler::RegisterMessages() {
       "getWallpaperData",
       base::BindRepeating(&BraveNewTabMessageHandler::HandleGetWallpaperData,
                           base::Unretained(this)));
-  web_ui()->RegisterMessageCallback(
-      "customizeClicked",
-      base::BindRepeating(&BraveNewTabMessageHandler::HandleCustomizeClicked,
-                          base::Unretained(this)));
+  // web_ui()->RegisterMessageCallback(
+  //     "customizeClicked",
+  //     base::BindRepeating(&BraveNewTabMessageHandler::HandleCustomizeClicked,
+  //                         base::Unretained(this)));
 }
 
 void BraveNewTabMessageHandler::OnJavascriptAllowed() {

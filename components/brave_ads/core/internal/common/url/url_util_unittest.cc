@@ -64,7 +64,7 @@ TEST(BraveAdsUrlUtilTest, DoesNotSupportBraveSchemeWithFooBarHostName) {
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://foobar")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://foobar")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithWalletHostName) {
@@ -73,7 +73,7 @@ TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithWalletHostName) {
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://wallet")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://wallet")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithWalletHostNameAndPath) {
@@ -82,7 +82,7 @@ TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithWalletHostNameAndPath) {
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://wallet/foo")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://wallet/foo")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithSyncHostName) {
@@ -91,7 +91,7 @@ TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithSyncHostName) {
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://sync")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://sync")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithSyncHostNameAndPath) {
@@ -100,7 +100,7 @@ TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithSyncHostNameAndPath) {
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://sync/foo")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://sync/foo")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithRewardsHostName) {
@@ -109,7 +109,7 @@ TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithRewardsHostName) {
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://rewards")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://rewards")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithRewardsHostNameAndPath) {
@@ -118,7 +118,7 @@ TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithRewardsHostNameAndPath) {
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://rewards/foo")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://rewards/foo")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesNotSupportBraveSchemeWithSettingsHostName) {
@@ -127,7 +127,7 @@ TEST(BraveAdsUrlUtilTest, DoesNotSupportBraveSchemeWithSettingsHostName) {
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://settings")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -137,7 +137,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/foobar")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://settings/foobar")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -147,7 +147,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://settings/searchEngines")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://settings/searchEngines")));
 }
 
 TEST(
@@ -159,7 +159,7 @@ TEST(
 
   // Assert
   EXPECT_TRUE(
-      DoesSupportUrl(GURL("brave://settings/searchEngines?search=foobar")));
+      DoesSupportUrl(GURL("asil://settings/searchEngines?search=foobar")));
 }
 
 TEST(
@@ -171,7 +171,7 @@ TEST(
 
   // Assert
   EXPECT_FALSE(DoesSupportUrl(
-      GURL("brave://settings/searchEngines?search=foo&bar=baz")));
+      GURL("asil://settings/searchEngines?search=foo&bar=baz")));
 }
 
 TEST(
@@ -181,7 +181,7 @@ TEST(
 
   // Act
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/searchEngines?search")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://settings/searchEngines?search")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -191,7 +191,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://settings/search")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://settings/search")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -201,7 +201,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://settings/search?search=foobar")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("asil://settings/search?search=foobar")));
 }
 
 TEST(
@@ -213,7 +213,7 @@ TEST(
 
   // Assert
   EXPECT_FALSE(
-      DoesSupportUrl(GURL("brave://settings/search?search=foo&bar=baz")));
+      DoesSupportUrl(GURL("asil://settings/search?search=foo&bar=baz")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -223,7 +223,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/search?search")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://settings/search?search")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -233,7 +233,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/?search=foobar")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://settings/?search=foobar")));
 }
 
 TEST(BraveAdsUrlUtilTest,
@@ -243,7 +243,7 @@ TEST(BraveAdsUrlUtilTest,
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/?search")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("asil://settings/?search")));
 }
 
 TEST(BraveAdsUrlUtilTest, MalformedUrlIsNotSupported) {
@@ -252,7 +252,7 @@ TEST(BraveAdsUrlUtilTest, MalformedUrlIsNotSupported) {
   // Act
 
   // Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("http://foobar.com/brave://wallet")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("http://foobar.com/asil://wallet")));
 }
 
 TEST(BraveAdsUrlUtilTest, UrlMatchesPatternWithNoWildcards) {

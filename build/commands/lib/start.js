@@ -6,6 +6,7 @@ const config = require('../lib/config')
 const util = require('../lib/util')
 
 const start = (passthroughArgs, buildConfig = config.defaultBuildConfig, options) => {
+  
   config.buildConfig = buildConfig
   config.update(options)
 
@@ -67,11 +68,11 @@ const start = (passthroughArgs, buildConfig = config.defaultBuildConfig, options
   let user_data_dir
   if (options.user_data_dir_name) {
     if (process.platform === 'darwin') {
-      user_data_dir = path.join(process.env.HOME, 'Library', 'Application\\ Support', 'BraveSoftware', options.user_data_dir_name)
+      user_data_dir = path.join(process.env.HOME, 'Library', 'Application\\ Support', 'Halalz', options.user_data_dir_name)
     } else if (process.platform === 'win32') {
-      user_data_dir = path.join(process.env.LocalAppData, 'BraveSoftware', options.user_data_dir_name)
+      user_data_dir = path.join(process.env.LocalAppData, 'Halalz', options.user_data_dir_name)
     } else {
-      user_data_dir = path.join(process.env.HOME, '.config', 'BraveSoftware', options.user_data_dir_name)
+      user_data_dir = path.join(process.env.HOME, '.config', 'Halalz', options.user_data_dir_name)
     }
     braveArgs.push('--user-data-dir=' + user_data_dir);
   }
@@ -86,13 +87,16 @@ const start = (passthroughArgs, buildConfig = config.defaultBuildConfig, options
 
   let outputPath = options.output_path
   if (!outputPath) {
-    outputPath = path.join(config.outputDir, 'brave')
+    outputPath = path.join(config.outputDir, 'asil')
     if (process.platform === 'win32') {
       outputPath = outputPath + '.exe'
     } else if (process.platform === 'darwin') {
       outputPath = fs.readFileSync(outputPath + '_helper').toString().trim()
     }
   }
+
+  // console.log('start.js: options: ', options.output_path, "braveArgs: ", braveArgs, "cmdOptions: ", cmdOptions, "outputPath: ", outputPath);
+
   util.run(outputPath, braveArgs, cmdOptions)
 }
 

@@ -71,7 +71,7 @@ bool IsNetworkFiltersInstalled() {
 }
 
 // The service starts under sytem user so we save crashes to
-// %PROGRAMDATA%\BraveSoftware\{service name}\Crashpad
+// %PROGRAMDATA%\Halalz\{service name}\Crashpad
 base::FilePath GetVpnHelperServiceProfileDir() {
   auto program_data = install_static::GetEnvironmentString("PROGRAMDATA");
   if (program_data.empty()) {

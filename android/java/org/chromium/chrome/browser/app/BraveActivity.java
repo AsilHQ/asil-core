@@ -213,15 +213,15 @@ public abstract class BraveActivity extends ChromeActivity
                    BraveNewsConnectionErrorHandler.BraveNewsConnectionErrorHandlerDelegate,
                    MiscAndroidMetricsConnectionErrorHandler
                            .MiscAndroidMetricsConnectionErrorHandlerDelegate {
-    public static final String BRAVE_BUY_URL = "brave://wallet/crypto/fund-wallet";
-    public static final String BRAVE_SEND_URL = "brave://wallet/send";
-    public static final String BRAVE_SWAP_URL = "brave://wallet/swap";
-    public static final String BRAVE_DEPOSIT_URL = "brave://wallet/crypto/deposit-funds";
-    public static final String BRAVE_REWARDS_SETTINGS_URL = "brave://rewards/";
+    public static final String BRAVE_BUY_URL = "asil://wallet/crypto/fund-wallet";
+    public static final String BRAVE_SEND_URL = "asil://wallet/send";
+    public static final String BRAVE_SWAP_URL = "asil://wallet/swap";
+    public static final String BRAVE_DEPOSIT_URL = "asil://wallet/crypto/deposit-funds";
+    public static final String BRAVE_REWARDS_SETTINGS_URL = "asil://rewards/";
     public static final String BRAVE_REWARDS_SETTINGS_WALLET_VERIFICATION_URL =
-            "brave://rewards/#verify";
-    public static final String BRAVE_REWARDS_SETTINGS_MONTHLY_URL = "brave://rewards/#monthly";
-    public static final String REWARDS_AC_SETTINGS_URL = "brave://rewards/contribute";
+            "asil://rewards/#verify";
+    public static final String BRAVE_REWARDS_SETTINGS_MONTHLY_URL = "asil://rewards/#monthly";
+    public static final String REWARDS_AC_SETTINGS_URL = "asil://rewards/contribute";
     public static final String BRAVE_AI_CHAT_URL = "chrome-untrusted://chat";
     public static final String REWARDS_LEARN_MORE_URL =
             "https://brave.com/faq-rewards/#unclaimed-funds";

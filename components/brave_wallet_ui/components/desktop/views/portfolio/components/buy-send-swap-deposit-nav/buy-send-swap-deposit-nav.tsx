@@ -51,7 +51,7 @@ export const BuySendSwapDepositNav = () => {
         isPanel
       ) {
         chrome.tabs.create({
-          url: `brave://wallet${option.route}`
+          url: `asil://wallet${option.route}`
         })
       } else {
         history.push(option.route)

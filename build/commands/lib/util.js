@@ -550,6 +550,7 @@ const util = {
 
   buildNativeRedirectCC: (options = config.defaultOptions) => {
     // Expected path to redirect_cc.
+    console.log('buildNativeRedirectCC:: ', "config.nativeRedirectCCDir: ", config.nativeRedirectCCDir, "util.appendExeIfWin32('redirect_cc'): ", util.appendExeIfWin32('redirect_cc'), "config.braveCoreDir: ", config.braveCoreDir)
     const redirectCC = path.join(config.nativeRedirectCCDir, util.appendExeIfWin32('redirect_cc'))
 
     // Only build if the source has changed unless it's CI

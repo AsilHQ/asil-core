@@ -18,7 +18,7 @@
 <translation id="266935134738038806">زيارة الموقع الإلكتروني</translation>
 <translation id="2759453070259087442">توسيع مجموعة علامات التبويب "<ph name="TITLE_OF_GROUP"/>" بإضافة <ph name="NUMBER_OF_TABS"/> علامة تبويب</translation>
 <translation id="2801787514987684416">هل تريد عرض معلومات المتجر؟</translation>
-<translation id="4691798003247738043">‏Brave | لمحة عن هذا المتجر</translation>
+<translation id="4691798003247738043">‏Asil | لمحة عن هذا المتجر</translation>
 <translation id="2977480621796371840">الإزالة من مجموعة</translation>
 <translation id="3008554597174452548">التوقف عن تتبُّع سعر المنتج</translation>
 <translation id="3052964831964880138">انخفاض في سعر <ph name="PRODUCT_NAME"/> بقيمة <ph name="PRICE_DROP"/></translation>
@@ -50,7 +50,7 @@
 <translation id="5556417849629758491">عرض معلومات المتجر، وهو خيار متاح بالقرب من أعلى الشاشة</translation>
 <translation id="5558362125926932819">إغلاق مجموعة علامات التبويب التي تحتوي على <ph name="NUMBER_OF_TABS"/> علامة تبويب</translation>
 <translation id="5580090775658607195">تم جمع <ph name="TAB_COUNT"/> علامة تبويب</translation>
-<translation id="3225229609960545342">{TABS_COUNT,plural, =1{‏رابط واحد (<ph name="TABS_COUNT_ONE"/>) من Brave}zero{‏<ph name="TABS_COUNT_MANY"/> رابط من Brave}two{‏رابطان (<ph name="TABS_COUNT_MANY"/>) من Brave}few{‏<ph name="TABS_COUNT_MANY"/> روابط من Brave}many{‏<ph name="TABS_COUNT_MANY"/> رابطًا من Brave}other{‏<ph name="TABS_COUNT_MANY"/> رابط من Brave}}</translation>
+<translation id="3225229609960545342">{TABS_COUNT,plural, =1{‏رابط واحد (<ph name="TABS_COUNT_ONE"/>) من Asil}zero{‏<ph name="TABS_COUNT_MANY"/> رابط من Asil}two{‏رابطان (<ph name="TABS_COUNT_MANY"/>) من Asil}few{‏<ph name="TABS_COUNT_MANY"/> روابط من Asil}many{‏<ph name="TABS_COUNT_MANY"/> رابطًا من Asil}other{‏<ph name="TABS_COUNT_MANY"/> رابط من Asil}}</translation>
 <translation id="575494663145460764">هل تريد الحصول على تنبيهات عن الأسعار المنخفضة؟</translation>
 <translation id="58326064309361797">اسحب علامات التبويب لجمعها.</translation>
 <translation id="5846292395804797011">إغلاق المجموعة "<ph name="TITLE_OF_GROUP"/>" التي تحتوي على <ph name="NUMBER_OF_TABS"/> علامة تبويب</translation>
@@ -64,7 +64,7 @@
 <translation id="6549021453810473782">عرض معلومات المتجر</translation>
 <translation id="6562820390860419811">نقل علامة التبويب إلى اليمين</translation>
 <translation id="6615455863669487791">عرض</translation>
-<translation id="6398241160085205003">‏يمكنك العثور على علامات التبويب المغلقة في قسم "علامات التبويب الأخيرة" ضمن قائمة Brave الرئيسية.</translation>
+<translation id="6398241160085205003">‏يمكنك العثور على علامات التبويب المغلقة في قسم "علامات التبويب الأخيرة" ضمن قائمة Asil الرئيسية.</translation>
 <translation id="6840760312327750441">لتجميع علامات التبويب، المس علامة التبويب مع الاستمرار. ثم اسحبها إلى علامة تبويب أخرى.</translation>
 <translation id="6856809498882026482">إخفاء وضع التحديد المتعدد</translation>
 <translation id="7100731960740376323">{TABS_COUNT,plural, =1{مشاركة علامة التبويب}zero{مشاركة علامات التبويب}two{مشاركة علامتَي التبويب}few{مشاركة علامات التبويب}many{مشاركة علامات التبويب}other{مشاركة علامات التبويب}}</translation>
@@ -73,7 +73,7 @@
 <translation id="7326879924029668159">الاطّلاع على سياسة الإرجاع وغيرها</translation>
 <translation id="7352298686197644113">يمكنك الاطّلاع على المُنتَج الذي انخفض سعره في علامات التبويب المفتوحة.</translation>
 <translation id="753732157349120914">أداة تغيير علامات التبويب</translation>
-<translation id="1068242749670180460">{REVIEWS,plural, =1{‏مراجعة واحدة (<ph name="REVIEWS_COUNT_ONE"/>) من Brave}zero{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعة من Brave}two{‏مراجعتان (<ph name="REVIEWS_COUNT_MANY"/>) من Brave}few{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعات من Brave}many{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعة من Brave}other{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعة من Brave}}</translation>
+<translation id="1068242749670180460">{REVIEWS,plural, =1{‏مراجعة واحدة (<ph name="REVIEWS_COUNT_ONE"/>) من Asil}zero{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعة من Asil}two{‏مراجعتان (<ph name="REVIEWS_COUNT_MANY"/>) من Asil}few{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعات من Asil}many{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعة من Asil}other{‏<ph name="REVIEWS_COUNT_MANY"/> مراجعة من Asil}}</translation>
 <translation id="7559245342362162951">عرض علامات تبويب المجموعة في شبكة ملء الشاشة</translation>
 <translation id="7699041944097291312">{TABS_COUNT,plural, =1{مشاركة علامة تبويب واحدة (<ph name="TABS_COUNT_ONE"/>) محدَّدة}zero{مشاركة <ph name="TABS_COUNT_MANY"/> علامة تبويب محدَّدة}two{مشاركة علامتَي تبويب (<ph name="TABS_COUNT_MANY"/>) محدَّدتَين}few{مشاركة <ph name="TABS_COUNT_MANY"/> علامات تبويب محدَّدة}many{مشاركة <ph name="TABS_COUNT_MANY"/> علامة تبويب محدَّدة}other{مشاركة <ph name="TABS_COUNT_MANY"/> علامة تبويب محدَّدة}}</translation>
 <translation id="7792771145871471484">مراجعة الاقتراحات</translation>
@@ -94,8 +94,8 @@
 <translation id="9169594135889675189">إضافة علامة تبويب جديدة للمجموعة</translation>
 <translation id="959682366969460160">بدء التنظيم</translation>
 <translation id="6057673771413791768">{INCOGNITO_TABS_COUNT, plural,
-        =1 {يمكنك العثور على علامات التبويب المغلقة في علامات التبويب الأخيرة ضمن قائمة Brave الرئيسية. لن تكون علامة التبويب الخاصة متاحة.}
-        other {يمكنك العثور على علامات التبويب المغلقة في علامات التبويب الأخيرة ضمن قائمة Brave الرئيسية. لن تكون # علامات التبويب الخاصة بك متاحة.}}</translation>
+        =1 {يمكنك العثور على علامات التبويب المغلقة في علامات التبويب الأخيرة ضمن قائمة Asil الرئيسية. لن تكون علامة التبويب الخاصة متاحة.}
+        other {يمكنك العثور على علامات التبويب المغلقة في علامات التبويب الأخيرة ضمن قائمة Asil الرئيسية. لن تكون # علامات التبويب الخاصة بك متاحة.}}</translation>
 <translation id="3228718275011575753">هل ترغب في إغلاق جميع علامات التبويب الخاصة؟</translation>
 <translation id="6687920250729800417">ستتم إزالة نشاطك في علامات التبويب الخاصة هذه من هذا الجهاز</translation>
 </translationbundle>

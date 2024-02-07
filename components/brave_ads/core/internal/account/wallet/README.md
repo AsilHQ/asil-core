@@ -1,5 +1,5 @@
 # Wallet
 
-Wallet for earning Brave Rewards.
+Wallet for earning Asil Rewards.
 
 Please add to it!

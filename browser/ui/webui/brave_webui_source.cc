@@ -78,7 +78,14 @@ void CustomizeWebUIHTMLSource(content::WebUI* web_ui,
         { "314e7529efec41c8867019815f4d8dad.svg", IDR_BRAVE_NEW_TAB_IMG4 },
         { "6c337c63662ee0ba4e57f6f8156d69ce.svg", IDR_BRAVE_NEW_TAB_IMG2 },
         // New tab Backgrounds
-        { "dylan-malval_sea-min.webp", IDR_BRAVE_NEW_TAB_BACKGROUND1 },
+       { "ekrem-osmanoglu-2R0gbZXaUqM-unsplash.webp", IDR_BRAVE_NEW_TAB_BACKGROUND1 },
+        { "ayse-bek-YLdYVzHopto-unsplash.webp", IDR_BRAVE_NEW_TAB_BACKGROUND2 },
+        { "fatih-yurur-kNSREmtaGOE-unsplash.webp", IDR_BRAVE_NEW_TAB_BACKGROUND3 },
+
+        { "fahrul-azmi-gyKmF0vnfBs-unsplash.webp", IDR_BRAVE_NEW_TAB_BACKGROUND4 },
+        { "dhru-j-r7H8kkoYyCY-unsplash.webp", IDR_BRAVE_NEW_TAB_BACKGROUND5 },
+        { "abdurahman-iseini-DNwQ35LdxXQ-unsplash.webp", IDR_BRAVE_NEW_TAB_BACKGROUND6 },
+
         // private tab
         { "c168145d6bf1abf2c0322636366f7dbe.svg", IDR_BRAVE_PRIVATE_TAB_TOR_IMG },               // NOLINT
         { "dbdc336ccc651b8a7c925b3482d6e65a.svg", IDR_BRAVE_PRIVATE_TAB_IMG }
@@ -201,6 +208,7 @@ void CustomizeWebUIHTMLSource(content::WebUI* web_ui,
             IDS_BRAVE_NEWS_DISABLE_SOURCE_COMMAND},
         { "promoted", IDS_BRAVE_NEWS_PROMOTED },
         { "ad", IDS_BRAVE_NEWS_DISPLAY_AD_LABEL },
+        { "exploreSitesTitle", IDS_BRAVE_NEW_TAB_EXPLORE_SITES },
 
         { "braveNewsIntroTitle", IDS_BRAVE_NEWS_INTRO_TITLE },
         { "braveNewsIntroDescription", IDS_BRAVE_NEWS_INTRO_DESCRIPTION },

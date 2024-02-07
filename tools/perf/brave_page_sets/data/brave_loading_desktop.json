@@ -1,9 +1,9 @@
 {
     "archives": {
-        "BraveSearch_cold": {
+        "AsilSearch_cold": {
             "DEFAULT": "brave_loading_desktop_a1c972475b.wprgo"
         },
-        "BraveSearch_warm": {
+        "AsilSearch_warm": {
             "DEFAULT": "brave_loading_desktop_a1c972475b.wprgo"
         },
         "Economist_cold": {

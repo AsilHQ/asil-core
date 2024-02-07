@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grit-part>
-  <message name="IDS_CHAT_UI_TITLE" translateable="false" desc="Title for the Brave AI product">
+  <message name="IDS_CHAT_UI_TITLE" translateable="false" desc="Title for the Asil AI product">
     Leo
   </message>
   <message name="IDS_CHAT_UI_SUMMARIZE_FAILED_LABEL" desc="Label for when summarization is not possible">
@@ -16,7 +16,7 @@
     About Leo
   </message>
    <message name="IDS_CHAT_UI_ABOUT_DESCRIPTION" desc="Outlining the functioning of AIChat (paragraph 1 of 3)">
-    Brave Leo is an AI smart assistant that can summarize web pages, transcribe videos, and answer questions. Brave Leo Premium uses advanced <ph name="LINK_BEFORE">$1</ph>AI models<ph name="LINK_AFTER">$2</ph> for even more nuanced replies, and gives early access to new features.
+    Asil Leo is an AI smart assistant that can summarize web pages, transcribe videos, and answer questions. Asil Leo Premium uses advanced <ph name="LINK_BEFORE">$1</ph>AI models<ph name="LINK_AFTER">$2</ph> for even more nuanced replies, and gives early access to new features.
   </message>
   <message name="IDS_CHAT_UI_ABOUT_DESCRIPTION_2" desc="Outlining the functioning of AIChat (paragraph 2 of 3)">
     The accuracy of responses is not guaranteed, and may include inaccurate, misleading, or false information. Don't submit sensitive or private info, and use caution with any answers related to health, finance, personal safety, or similar.
@@ -58,13 +58,13 @@
      Retry
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_DEFAULT" desc="AI Chat intro message for the default model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by Brave. I'm powered by Llama 13B, a model created by Meta to be performant and applicable to many use cases.
+    Hi, I'm Leo. I'm a fully hosted AI assistant by Asil. I'm powered by Llama 13B, a model created by Meta to be performant and applicable to many use cases.
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_LEO_EXPANDED" desc="AI Chat intro message for the expanded model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by Brave. I'm powered by Llama 70B, a model created by Meta to handle more advanced tasks than 13B.
+    Hi, I'm Leo. I'm a fully hosted AI assistant by Asil. I'm powered by Llama 70B, a model created by Meta to handle more advanced tasks than 13B.
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_LEO_CLAUDE_INSTANT" desc="AI Chat intro message for the Claude Instant model">
-    Hi, I'm Leo. I'm proxied by Brave and powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks.
+    Hi, I'm Leo. I'm proxied by Asil and powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks.
   </message>
   <message name="IDS_CHAT_UI_MODEL_NAME_SYNTAX" desc="Sentence structure for model name">
     <ph name="MODEL_NAME">$1<ex>llama2-13b</ex></ph> by <ph name="COMPANY_NAME">$2<ex>Meta</ex></ph>
@@ -106,7 +106,7 @@
   <message name="IDS_CHAT_UI_PREMIUM_FEATURE_2" desc="A premium feature">
      Higher rate limits
   </message>
-  <message name="IDS_CHAT_UI_PREMIUM_LABEL" translateable="false" desc="A label for Brave premium products">
+  <message name="IDS_CHAT_UI_PREMIUM_LABEL" translateable="false" desc="A label for Asil premium products">
      Leo Premium
   </message>
   <message name="IDS_CHAT_UI_PREMIUM_PRICING" desc="Price label to subscribe for Premium model">
@@ -128,7 +128,7 @@
     Priority access and increased response limits
   </message>
   <message name="IDS_CHAT_UI_PREMIUM_REFRESH_WARNING_DESCRIPTION" desc="Warning message when AI Chat Premium authentication is expired">
-    Your Brave account session has expired. Please visit your account page to refresh, then come back to use premium features.
+    Your Asil account session has expired. Please visit your account page to refresh, then come back to use premium features.
   </message>
   <message name="IDS_CHAT_UI_PREMIUM_REFRESH_WARNING_ACTION" desc="Action to take when AI Chat Premium authentication is expired">
     Refresh
@@ -155,7 +155,7 @@
     Dislike answer
   </message>
   <message name="IDS_CHAT_UI_PROVIDE_FEEDBACK_TITLE" desc="Title for feedback provision section">
-    Provide Brave AI Feedback
+    Provide Asil AI Feedback
   </message>
   <message name="IDS_CHAT_UI_SELECT_FEEDBACK_TOPIC" desc="Prompt to select feedback topic">
     Select the topic of your feedback

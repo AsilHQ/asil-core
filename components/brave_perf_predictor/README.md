@@ -1,4 +1,4 @@
-# Brave Performance Predictor
+# Asil Performance Predictor
 
 This component is based on our [blog post](https://brave.com/accurately-predicting-ad-blocker-savings/).
 

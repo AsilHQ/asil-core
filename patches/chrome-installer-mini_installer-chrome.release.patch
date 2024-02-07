@@ -7,7 +7,7 @@ index 1bbc88ff7dd3545b94d8d5f3dd0ed60cd8c1f093..757657fb76edcf074780436e5617f4a6
  # Chrome Application dir entries, sorted alphabetically.
  #
 -chrome.exe: %(ChromeDir)s\
-+brave.exe: %(ChromeDir)s\
++asil.exe: %(ChromeDir)s\
  chrome_proxy.exe: %(ChromeDir)s\
  #
  # Chrome version dir assembly manifest.
@@ -15,7 +15,7 @@ index 1bbc88ff7dd3545b94d8d5f3dd0ed60cd8c1f093..757657fb76edcf074780436e5617f4a6
  #
  # Chrome version dir entries, sorted alphabetically.
  #
-+brave.exe.sig: %(VersionDir)s\
++asil.exe.sig: %(VersionDir)s\
 +brave_vpn_helper.exe: %(VersionDir)s\
 +brave_vpn_wireguard_service.exe: %(VersionDir)s\BraveVpnWireguardService\
 +tunnel.dll: %(VersionDir)s\BraveVpnWireguardService\
