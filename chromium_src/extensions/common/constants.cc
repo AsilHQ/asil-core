@@ -8,6 +8,9 @@
 const int kBraveActionGraphicSize = 18;
 const int kBraveActionLeftMarginExtra = -2;
 
+const char KahfTube_extension_id[] = "bciibaiaobmfedbaiidepncbmjpfbbih";
+const char SafeGaze_extension_id[] = "aaddkkmpkpcnchdggomfaehpagbekalb";
+
 const char brave_extension_id[] = "mnojpmjdmbbfmejpflffifhffcmidifd";
 const char hangouts_extension_id[] = "nkeimhogjdpnpccoofpliimaahmaaome";
 const char crl_set_extension_id[] = "hfnkpimlhhgieaddgfemjhofmfblmnib";

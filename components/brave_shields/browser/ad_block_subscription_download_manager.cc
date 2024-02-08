@@ -27,9 +27,9 @@ const net::NetworkTrafficAnnotationTag
             "brave_shields_ad_block_subscription",
             R"(
         semantics {
-          sender: "Brave Shields"
+          sender: "Asil Shields"
           description:
-            "Brave periodically downloads updates to third-party filter lists "
+            "Asil periodically downloads updates to third-party filter lists "
             "added by users on asil://adblock."
           trigger:
             "After being registered in asil://adblock, any enabled filter "

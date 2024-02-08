@@ -24,7 +24,7 @@ namespace brave_shields {
 namespace {
 
 constexpr size_t kHashSize = 32;
-const char kHTTPSEverywhereComponentName[] = "Brave HTTPS Everywhere Updater";
+const char kHTTPSEverywhereComponentName[] = "Asil HTTPS Everywhere Updater";
 const char kHTTPSEverywhereComponentId[] = "oofiananboodjbbmdelgdommihjbkfag";
 const char kHTTPSEverywhereComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn9zSMjTmhkQyrZu5UdN"

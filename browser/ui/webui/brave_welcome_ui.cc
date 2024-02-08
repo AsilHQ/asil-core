@@ -162,6 +162,7 @@ BraveWelcomeUI::BraveWelcomeUI(content::WebUI* web_ui, const std::string& name)
       IDR_BRAVE_WELCOME_HTML,
       /*disable_trusted_types_csp=*/true);
 
+
   // Lottie animations tick on a worker thread and requires the document CSP to
   // be set to "worker-src blob: 'self';".
   source->OverrideContentSecurityPolicy(

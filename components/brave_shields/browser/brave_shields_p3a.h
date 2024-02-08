@@ -30,18 +30,18 @@ constexpr char kFPStandardCountPrefName[] =
 constexpr char kFPAllowCountPrefName[] =
     "brave_shields.p3a_fp_allow_domain_count";
 
-constexpr char kAdsSettingHistogramName[] = "Brave.Shields.AdBlockSetting";
+constexpr char kAdsSettingHistogramName[] = "Asil.Shields.AdBlockSetting";
 constexpr char kFingerprintSettingHistogramName[] =
-    "Brave.Shields.FingerprintBlockSetting";
-constexpr char kUsageStatusHistogramName[] = "Brave.Shields.UsageStatus";
+    "Asil.Shields.FingerprintBlockSetting";
+constexpr char kUsageStatusHistogramName[] = "Asil.Shields.UsageStatus";
 constexpr char kDomainAdsSettingsAboveHistogramName[] =
-    "Brave.Shields.DomainAdsSettingsAboveGlobal";
+    "Asil.Shields.DomainAdsSettingsAboveGlobal";
 constexpr char kDomainAdsSettingsBelowHistogramName[] =
-    "Brave.Shields.DomainAdsSettingsBelowGlobal";
+    "Asil.Shields.DomainAdsSettingsBelowGlobal";
 constexpr char kDomainFPSettingsAboveHistogramName[] =
-    "Brave.Shields.DomainFingerprintSettingsAboveGlobal";
+    "Asil.Shields.DomainFingerprintSettingsAboveGlobal";
 constexpr char kDomainFPSettingsBelowHistogramName[] =
-    "Brave.Shields.DomainFingerprintSettingsBelowGlobal";
+    "Asil.Shields.DomainFingerprintSettingsBelowGlobal";
 // Note: append-only enumeration! Never remove any existing values, as this enum
 // is used to bucket a UMA histogram, and removing values breaks that.
 enum ShieldsIconUsage {
@@ -60,10 +60,10 @@ enum ShieldsIconUsage {
 void MaybeRecordShieldsUsageP3A(ShieldsIconUsage usage,
                                 PrefService* local_state);
 
-// Records to global ads setting histogram: Brave.Shields.AdBlockSetting
+// Records to global ads setting histogram: Asil.Shields.AdBlockSetting
 void RecordShieldsAdsSetting(ControlType setting);
 
-// Records to global FP setting histogram: Brave.Shields.FingerprintBlockSetting
+// Records to global FP setting histogram: Asil.Shields.FingerprintBlockSetting
 void RecordShieldsFingerprintSetting(ControlType setting);
 
 // To be called when the global setting changes.

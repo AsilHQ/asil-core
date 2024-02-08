@@ -19,6 +19,9 @@ EXTENSIONS_EXPORT extern const char brave_webtorrent_extension_id[];
 EXTENSIONS_EXPORT extern const char brave_webtorrent_extension_filename[];
 EXTENSIONS_EXPORT extern const char brave_webtorrent_extension_filename2[];
 
+EXTENSIONS_EXPORT extern const char KahfTube_extension_id[];
+EXTENSIONS_EXPORT extern const char SafeGaze_extension_id[];
+
 EXTENSIONS_EXPORT extern const char ipfs_companion_extension_id[];
 EXTENSIONS_EXPORT extern const char ipfs_companion_extension_name[];
 EXTENSIONS_EXPORT extern const char ipfs_companion_extension_public_key[];

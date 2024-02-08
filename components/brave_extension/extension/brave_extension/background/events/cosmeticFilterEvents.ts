@@ -32,7 +32,7 @@ export const applyCosmeticFilter = (host: string, selector: string) => {
 
 // parent menu
 chrome.contextMenus.create({
-  title: 'Brave',
+  title: 'Asil',
   id: 'brave',
   contexts: ['all']
 })

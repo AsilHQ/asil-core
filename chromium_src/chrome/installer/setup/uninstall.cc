@@ -26,6 +26,7 @@ namespace installer {
 
 namespace {
 
+#if BUILDFLAG(ENABLE_BRAVE_VPN)
 bool UninstallBraveVPNWireguardService(const base::FilePath& exe_path) {
   if (!base::PathExists(exe_path)) {
     return false;
@@ -36,6 +37,7 @@ bool UninstallBraveVPNWireguardService(const base::FilePath& exe_path) {
   options.wait = true;
   return base::LaunchProcess(cmd, options).IsValid();
 }
+#endif
 
 void DeleteBraveFileKeys(HKEY root) {
   // Delete Software\Classes\BraveXXXFile.

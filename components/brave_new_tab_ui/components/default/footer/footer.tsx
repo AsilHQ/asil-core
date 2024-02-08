@@ -9,9 +9,9 @@ import {
   Label,
   Link,
   Navigation,
-  IconButton,
-  IconButtonContainer,
-  IconButtonSideText,
+  // IconButton,
+  // IconButtonContainer,
+  // IconButtonSideText,
   IconLink,
   PhotoName
 } from '..'
@@ -19,7 +19,7 @@ import * as S from '../page'
 
 // Items
 import {
-  SettingsIcon,
+  // SettingsIcon,
   SettingsAdvancedIcon,
   BookmarkBook,
   HistoryIcon
@@ -41,11 +41,11 @@ export interface Props {
 export default class FooterInfo extends React.PureComponent<Props, {}> {
   render () {
     const {
-      textDirection,
+      // textDirection,
       supportsBraveTalk,
       backgroundImageInfo,
       showPhotoInfo,
-      onClickSettings
+      // onClickSettings
     } = this.props
 
     return (
@@ -65,14 +65,14 @@ export default class FooterInfo extends React.PureComponent<Props, {}> {
         }
         <S.GridItemNavigation>
           <Navigation>
-            <IconButtonContainer textDirection={textDirection}>
+            {/* <IconButtonContainer textDirection={textDirection}>
               <IconButtonSideText textDirection={textDirection}>
                 <IconButton onClick={onClickSettings}>
                   <SettingsIcon />
                 </IconButton>
                 {getLocale('customize')}
               </IconButtonSideText>
-            </IconButtonContainer>
+            </IconButtonContainer> */}
             <IconLink title={getLocale('preferencesPageTitle')} href='chrome://settings'>
               <SettingsAdvancedIcon />
             </IconLink>

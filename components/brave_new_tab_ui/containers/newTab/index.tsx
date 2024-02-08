@@ -33,7 +33,7 @@ import { BraveNewsState } from '../../reducers/today'
 import { MAX_GRID_SIZE } from '../../constants/new_tab_ui'
 import Settings, { TabType as SettingsTabType } from './settings'
 
-import { BraveNewsContextProvider } from '../../components/default/braveNews/customize/Context'
+// import { BraveNewsContextProvider } from '../../components/default/braveNews/customize/Context'
 import BraveNewsHint from '../../components/default/braveNews/hint'
 import GridWidget from './gridWidget'
 import SponsoredImageClickArea from '../../components/default/sponsoredImage/sponsoredImageClickArea'
@@ -366,11 +366,11 @@ class NewTabPage extends React.Component<Props, State> {
   }
 
   openSettings = (activeTab?: SettingsTabType) => {
-    this.props.actions.customizeClicked()
-    this.setState({
-      showSettingsMenu: !this.state.showSettingsMenu,
-      activeSettingsTab: activeTab || null
-    })
+    // this.props.actions.customizeClicked()
+    // this.setState({
+    //   showSettingsMenu: !this.state.showSettingsMenu,
+    //   activeSettingsTab: activeTab || null
+    // })
   }
 
   onClickLogo = () => {
@@ -402,11 +402,11 @@ class NewTabPage extends React.Component<Props, State> {
     } = this.props.newTabData
     const lookup = {
       'rewards': {
-        display: braveRewardsSupported && showRewards,
+        display: false && braveRewardsSupported && showRewards,
         render: this.renderRewardsWidget.bind(this)
       },
       'braveTalk': {
-        display: braveTalkSupported && showBraveTalk,
+        display: false&& braveTalkSupported && showBraveTalk,
         render: this.renderBraveTalkWidget.bind(this)
       }
     }
@@ -537,9 +537,10 @@ class NewTabPage extends React.Component<Props, State> {
     const { newTabData } = this.props
     const { showBraveTalk, textDirection, braveTalkSupported } = newTabData
 
-    if (!showBraveTalk || !braveTalkSupported) {
       return null
-    }
+    if (!showBraveTalk || !braveTalkSupported) 
+      return null
+    
 
     return (
       <BraveTalk
@@ -591,6 +592,12 @@ class NewTabPage extends React.Component<Props, State> {
       showClock = false
       cryptoContent = null
     }
+   showTopSites = true
+    showStats = false
+    showClock = true
+    newTabData.showToday = false;
+    newTabData.braveTalkSupported = false;
+    cryptoContent = null
 
     return (
       <Page.App
@@ -601,7 +608,6 @@ class NewTabPage extends React.Component<Props, State> {
         colorForBackground={colorForBackground}
         data-show-news-prompt={((this.state.backgroundHasLoaded || colorForBackground) && this.state.isPromptingBraveNews) ? true : undefined}>
         <OverrideReadabilityColor override={ this.shouldOverrideReadabilityColor(this.props.newTabData) } />
-        <BraveNewsContextProvider>
         <Page.Page
             hasImage={hasImage}
             imageSrc={this.imageSource}
@@ -686,13 +692,13 @@ class NewTabPage extends React.Component<Props, State> {
                 />
               </Page.FooterContent>
             </Page.Footer>
-            {newTabData.showToday &&
+            {false&& newTabData.showToday &&
               <Page.GridItemNavigationBraveNews>
                 <BraveNewsHint />
               </Page.GridItemNavigationBraveNews>
             }
           </Page.Page>
-        { newTabData.showToday &&
+        {false&& newTabData.showToday &&
         <BraveNews
           feed={this.props.todayData.feed}
           articleToScrollTo={this.props.todayData.articleScrollTo}
@@ -716,7 +722,7 @@ class NewTabPage extends React.Component<Props, State> {
           getDisplayAd={this.props.getBraveNewsDisplayAd}
         />
         }
-        <Settings
+        {showStats && false &&  <Settings
           actions={actions}
           textDirection={newTabData.textDirection}
           showSettingsMenu={showSettingsMenu}
@@ -750,7 +756,7 @@ class NewTabPage extends React.Component<Props, State> {
           toggleCards={this.props.saveSetAllStackWidgets}
           newTabData={this.props.newTabData}
           onEnableRewards={this.startRewards}
-        />
+        />}
         {
           showEditTopSite
             ? <EditTopSite
@@ -760,7 +766,6 @@ class NewTabPage extends React.Component<Props, State> {
               onSave={this.saveNewTopSite}
             /> : null
         }
-        </BraveNewsContextProvider>
       </Page.App>
     )
   }

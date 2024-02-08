@@ -153,7 +153,7 @@ bool HTTPSEverywhereService::Engine::GetHTTPSURL(
     candidate_url = candidate_url.ReplaceComponents(replacements);
   }
 
-  SCOPED_UMA_HISTOGRAM_TIMER("Brave.HTTPSE.GetHTTPSURL");
+  SCOPED_UMA_HISTOGRAM_TIMER("Asil.HTTPSE.GetHTTPSURL");
   const std::vector<std::string> domains =
       ExpandDomainForLookup(candidate_url.host());
   for (auto domain : domains) {

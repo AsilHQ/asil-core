@@ -39,8 +39,8 @@ addTrezorCommandHandler(TrezorCommand.Unlock, (command: UnlockCommand): Promise<
       connectSrc: 'https://connect.trezor.io/8/',
       lazyLoad: false,
       manifest: {
-        email: 'support@brave.com',
-        appUrl: 'https://brave.com'
+        email: 'support@asil.co',
+        appUrl: 'https://asil.co'
       }
     }).then(() => {
       resolve(createUnlockResponse(command, true))

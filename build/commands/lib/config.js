@@ -128,6 +128,7 @@ const Config = function () {
   this.braveServicesKey = getNPMConfig(['brave_services_key']) || ''
   this.braveGoogleApiKey = getNPMConfig(['brave_google_api_key']) || 'AIzaSyAREPLACEWITHYOUROWNGOOGLEAPIKEY2Q'
   this.googleApiEndpoint = getNPMConfig(['brave_google_api_endpoint']) || 'https://www.googleapis.com/geolocation/v1/geolocate?key='
+  this.enable_brave_vpn = getNPMConfig(['enable_brave_vpn']) || false
   this.googleDefaultClientId = getNPMConfig(['google_default_client_id']) || ''
   this.googleDefaultClientSecret = getNPMConfig(['google_default_client_secret']) || ''
   this.infuraProjectId = getNPMConfig(['brave_infura_project_id']) || ''
@@ -334,6 +335,7 @@ Config.prototype.buildArgs = function () {
     brave_channel: this.channel,
     brave_google_api_key: this.braveGoogleApiKey,
     brave_google_api_endpoint: this.googleApiEndpoint,
+    enable_brave_vpn: this.enable_brave_vpn,
     google_default_client_id: this.googleDefaultClientId,
     google_default_client_secret: this.googleDefaultClientSecret,
     brave_infura_project_id: this.infuraProjectId,
@@ -642,6 +644,7 @@ Config.prototype.buildArgs = function () {
     delete args.enable_widevine
     delete args.enable_hangout_services_extension
     delete args.brave_google_api_endpoint
+    delete args.enable_brave_vpn
     delete args.brave_google_api_key
     delete args.brave_stats_api_key
     delete args.brave_stats_updater_url
@@ -848,6 +851,10 @@ Config.prototype.update = function (options) {
 
   if (options.brave_google_api_endpoint) {
     this.googleApiEndpoint = options.brave_google_api_endpoint
+  }
+
+  if (options.enable_brave_vpn) {
+    this.enable_brave_vpn = options.enable_brave_vpn
   }
 
   if (options.brave_infura_project_id) {
