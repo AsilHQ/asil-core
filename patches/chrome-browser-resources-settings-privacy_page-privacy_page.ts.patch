@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/settings/privacy_page/privacy_page.ts b/chrome/browser/resources/settings/privacy_page/privacy_page.ts
+index 14f110178507683509991623c54d36b16cdd144a..97e1dece40352656e24a51baad5a16d5a2f944b4 100644
+--- a/chrome/browser/resources/settings/privacy_page/privacy_page.ts
++++ b/chrome/browser/resources/settings/privacy_page/privacy_page.ts
+@@ -21,6 +21,7 @@ import '../settings_page/settings_animated_pages.js';
+ import '../settings_page/settings_subpage.js';
+ import '../settings_shared.css.js';
+ import '../site_settings/settings_category_default_radio_group.js';
++import './personalization_options.js';
+ import './privacy_guide/privacy_guide_dialog.js';
+ 
+ import {SettingsToggleButtonElement} from '/shared/settings/controls/settings_toggle_button.js';

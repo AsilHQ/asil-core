@@ -1,0 +1,28 @@
+diff --git a/chrome/browser/ui/views/location_bar/location_bar_view.h b/chrome/browser/ui/views/location_bar/location_bar_view.h
+index 6b968634a1e79cee24d6f8848afc9fd34f0dbc46..740b07b91e150e340186c1850d66e7afd46286e8 100644
+--- a/chrome/browser/ui/views/location_bar/location_bar_view.h
++++ b/chrome/browser/ui/views/location_bar/location_bar_view.h
+@@ -109,6 +109,7 @@ class LocationBarView : public LocationBar,
+   int GetBorderRadius() const;
+ 
+   // Initializes the LocationBarView.
++  virtual
+   void Init();
+ 
+   // True if this instance has been initialized by calling Init, which can only
+@@ -162,6 +163,7 @@ class LocationBarView : public LocationBar,
+ 
+   // Updates the controller, and, if |contents| is non-null, restores saved
+   // state that the tab holds.
++  virtual
+   void Update(content::WebContents* contents);
+ 
+   // Clears the location bar's state for |contents|.
+@@ -244,6 +246,7 @@ class LocationBarView : public LocationBar,
+   std::vector<ContentSettingImageView*>& GetContentSettingViewsForTest() {
+     return content_setting_views_;
+   }
++  BRAVE_LOCATION_BAR_VIEW_H_
+ 
+   void RecordPageInfoMetrics();
+ 

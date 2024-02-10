@@ -1,0 +1,20 @@
+diff --git a/chrome/browser/ui/webui/settings/site_settings_helper.cc b/chrome/browser/ui/webui/settings/site_settings_helper.cc
+index 984a7384410497caf176efb1d73dbadd00e6bbcd..e86f71f8b0b873c13bc16e8669a1a4acad0c8e47 100644
+--- a/chrome/browser/ui/webui/settings/site_settings_helper.cc
++++ b/chrome/browser/ui/webui/settings/site_settings_helper.cc
+@@ -205,6 +205,7 @@ const ContentSettingsTypeNameEntry kContentSettingsTypeGroupNames[] = {
+     {ContentSettingsType::FILE_SYSTEM_ACCESS_EXTENDED_PERMISSION, nullptr},
+     {ContentSettingsType::TPCD_HEURISTICS_GRANTS, nullptr},
+     {ContentSettingsType::FILE_SYSTEM_ACCESS_RESTORE_PERMISSION, nullptr},
++    BRAVE_CONTENT_SETTINGS_TYPE_GROUP_NAMES_LIST
+ };
+ 
+ static_assert(std::size(kContentSettingsTypeGroupNames) ==
+@@ -466,6 +467,7 @@ bool HasRegisteredGroupName(ContentSettingsType type) {
+ }
+ 
+ ContentSettingsType ContentSettingsTypeFromGroupName(base::StringPiece name) {
++  BRAVE_SITE_SETTINGS_HELPER_CONTENT_SETTINGS_TYPE_FROM_GROUP_NAME
+   for (const auto& entry : kContentSettingsTypeGroupNames) {
+     // Content setting types that aren't represented in the settings UI
+     // will have `nullptr` as their `name`. However, converting `nullptr`

@@ -1,0 +1,103 @@
+/* Copyright (c) 2022 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+namespace swap_responses {
+  dictionary ZeroExSource {
+    DOMString name;
+    DOMString proportion;
+  };
+
+  dictionary ZeroExFee {
+    DOMString feeType;
+    DOMString feeToken;
+    DOMString feeAmount;
+    DOMString billingType;
+  };
+
+  dictionary ZeroExFees {
+    // nullable field that maps to ZeroExFee
+    any zeroExFee;
+  };
+
+  dictionary SwapResponse0x {
+    DOMString price;
+    DOMString? guaranteedPrice;
+    DOMString? to;
+    DOMString? data;
+    DOMString value;
+    DOMString gas;
+    DOMString estimatedGas;
+    DOMString gasPrice;
+    DOMString protocolFee;
+    DOMString minimumProtocolFee;
+    DOMString buyTokenAddress;
+    DOMString buyTokenAddress;
+    DOMString sellTokenAddress;
+    DOMString buyAmount;
+    DOMString sellAmount;
+    DOMString allowanceTarget;
+    DOMString sellTokenToEthRate;
+    DOMString buyTokenToEthRate;
+    DOMString estimatedPriceImpact;
+    ZeroExSource[] sources;
+    ZeroExFees fees;
+  };
+
+  dictionary SwapErrorResponseItem0x {
+    DOMString field;
+    long code;
+    DOMString reason;
+  };
+
+  dictionary SwapErrorResponse0x {
+    long code;
+    DOMString reason;
+    SwapErrorResponseItem0x[]? validationErrors;
+  };
+
+  dictionary JupiterPlatformFee {
+    DOMString amount;
+    DOMString feeBps;
+  };
+
+  dictionary JupiterSwapInfo {
+    DOMString ammKey;
+    DOMString _label;
+    DOMString inputMint;
+    DOMString outputMint;
+    DOMString inAmount;
+    DOMString outAmount;
+    DOMString feeAmount;
+    DOMString feeMint;
+  };
+
+  dictionary JupiterRouteStep {
+    JupiterSwapInfo swapInfo;
+    DOMString percent;
+  };
+
+  dictionary JupiterQuoteResponse {
+    DOMString inputMint;
+    DOMString inAmount;
+    DOMString outputMint;
+    DOMString outAmount;
+    DOMString otherAmountThreshold;
+    DOMString swapMode;
+    DOMString slippageBps;
+    any platformFee; // nullable
+    DOMString priceImpactPct;
+    JupiterRouteStep[] routePlan;
+  };
+
+  dictionary JupiterSwapTransactions {
+    DOMString swapTransaction;
+  };
+
+  dictionary JupiterErrorResponse {
+    DOMString statusCode;
+    DOMString error;
+    DOMString message;
+  };
+};
