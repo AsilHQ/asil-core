@@ -40,54 +40,54 @@ TEST(BraveAdsUrlUtilTest, DoesNotSupportUrlWithFooBarScheme) {
 
 TEST(BraveAdsUrlUtilTest, DoesNotSupportBraveSchemeWithFooBarHostName) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://foobar")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://foobar")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithWalletHostName) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://wallet")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://wallet")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithWalletHostNameAndPath) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://wallet/foo")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://wallet/foo")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithSyncHostName) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://sync")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://sync")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithSyncHostNameAndPath) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://sync/foo")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://sync/foo")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithRewardsHostName) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://rewards")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://rewards")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesSupportBraveSchemeWithRewardsHostNameAndPath) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://rewards/foo")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://rewards/foo")));
 }
 
 TEST(BraveAdsUrlUtilTest, DoesNotSupportBraveSchemeWithSettingsHostName) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://settings")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesNotSupportBraveSchemeWithSettingsHostNameAndFooBarPath) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/foobar")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://settings/foobar")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesSupportBraveSchemeWithSettingsHostNameAndSearchEnginesPath) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://settings/searchEngines")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://settings/searchEngines")));
 }
 
 TEST(
@@ -95,7 +95,7 @@ TEST(
     DoesSupportBraveSchemeWithSettingsHostNameSearchEnginesPathAndSearchQuery) {
   // Act & Assert
   EXPECT_TRUE(
-      DoesSupportUrl(GURL("brave://settings/searchEngines?search=foobar")));
+      DoesSupportUrl(GURL("kahf://settings/searchEngines?search=foobar")));
 }
 
 TEST(
@@ -103,26 +103,26 @@ TEST(
     DoesNotSupportBraveSchemeWithSettingsHostNameSearchEnginesPathAndMultipleSearchQueries) {
   // Act & Assert
   EXPECT_FALSE(DoesSupportUrl(
-      GURL("brave://settings/searchEngines?search=foo&bar=baz")));
+      GURL("kahf://settings/searchEngines?search=foo&bar=baz")));
 }
 
 TEST(
     BraveAdsUrlUtilTest,
     DoesNotSupportBraveSchemeWithSettingsHostNameSearchEnginesPathAndInvalidQuery) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/searchEngines?search")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://settings/searchEngines?search")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesSupportBraveSchemeWithSettingsHostNameAndSearchPath) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://settings/search")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://settings/search")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesSupportBraveSchemeWithSettingsHostNameSearchPathAndSearchQuery) {
   // Act & Assert
-  EXPECT_TRUE(DoesSupportUrl(GURL("brave://settings/search?search=foobar")));
+  EXPECT_TRUE(DoesSupportUrl(GURL("kahf://settings/search?search=foobar")));
 }
 
 TEST(
@@ -130,30 +130,30 @@ TEST(
     DoesNotSupportBraveSchemeWithSettingsHostNameSearchPathAndMultipleSearchQueries) {
   // Act & Assert
   EXPECT_FALSE(
-      DoesSupportUrl(GURL("brave://settings/search?search=foo&bar=baz")));
+      DoesSupportUrl(GURL("kahf://settings/search?search=foo&bar=baz")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesNotSupportBraveSchemeWithSettingsHostNameSearchPathAndInvalidQuery) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/search?search")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://settings/search?search")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesNotSupportBraveSchemeWithSettingsHostNameAndQuery) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/?search=foobar")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://settings/?search=foobar")));
 }
 
 TEST(BraveAdsUrlUtilTest,
      DoesNotSupportBraveSchemeWithSettingsHostNameAndInvalidQuery) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("brave://settings/?search")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("kahf://settings/?search")));
 }
 
 TEST(BraveAdsUrlUtilTest, MalformedUrlIsNotSupported) {
   // Act & Assert
-  EXPECT_FALSE(DoesSupportUrl(GURL("http://foobar.com/brave://wallet")));
+  EXPECT_FALSE(DoesSupportUrl(GURL("http://foobar.com/kahf://wallet")));
 }
 
 TEST(BraveAdsUrlUtilTest, UrlMatchesPatternWithNoWildcards) {

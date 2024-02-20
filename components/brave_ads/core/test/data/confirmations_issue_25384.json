@@ -23,11 +23,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -54,11 +54,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -85,11 +85,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -116,11 +116,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -147,11 +147,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -178,11 +178,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -209,11 +209,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -240,11 +240,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -271,11 +271,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ]
         }
@@ -309,11 +309,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ],
           "systemTimestamp": "2022-05-09T16:00:00.000Z",
@@ -349,11 +349,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ],
           "systemTimestamp": "2022-05-09T17:00:00.000Z",
@@ -389,11 +389,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ],
           "systemTimestamp": "2022-05-09T17:00:00.000Z",
@@ -429,11 +429,11 @@
           "studies": [
             {
               "group": "ExcludeAdIfWithinTimeWindow=0h",
-              "name": "BraveAds.FrequencyCappingStudy"
+              "name": "KahfAds.FrequencyCappingStudy"
             },
             {
               "group": "Triggers=EMPTY/Threshold=0.0/IdleTimeThreshold=5",
-              "name": "BraveAds.UserActivityStudy"
+              "name": "KahfAds.UserActivityStudy"
             }
           ],
           "systemTimestamp": "2022-05-09T17:00:00.000Z",

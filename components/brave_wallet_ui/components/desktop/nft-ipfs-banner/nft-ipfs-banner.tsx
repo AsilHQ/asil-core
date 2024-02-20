@@ -69,7 +69,7 @@ export const NftIpfsBanner = ({ onDismiss }: Props) => {
   // methods
   const onLearnMore = React.useCallback(() => {
     if (isPanel) {
-      chrome.tabs.create({ url: `brave://wallet${WalletRoutes.LocalIpfsNode}` })
+      chrome.tabs.create({ url: `kahf://wallet${WalletRoutes.LocalIpfsNode}` })
     } else {
       history.push(WalletRoutes.LocalIpfsNode)
     }

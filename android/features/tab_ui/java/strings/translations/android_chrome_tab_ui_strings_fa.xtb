@@ -20,7 +20,7 @@
 <translation id="266935134738038806">دیدن سایت</translation>
 <translation id="2759453070259087442">گسترده کردن گروه برگه <ph name="TITLE_OF_GROUP"/> با <ph name="NUMBER_OF_TABS"/> برگه.</translation>
 <translation id="2801787514987684416">اطلاعات فروشگاه نمایش داده شود؟</translation>
-<translation id="4691798003247738043">‏Brave | درباره این فروشگاه</translation>
+<translation id="4691798003247738043">‏Kahf | درباره این فروشگاه</translation>
 <translation id="2977480621796371840">برداشتن از گروه</translation>
 <translation id="3008554597174452548">توقف پیگیری محصول</translation>
 <translation id="3052964831964880138"><ph name="PRICE_DROP"/> کاهش قیمت <ph name="PRODUCT_NAME"/></translation>
@@ -54,7 +54,7 @@
 <translation id="5556417849629758491">مشاهده اطلاعات فروشگاه، گزینه مربوطه در نزدیکی بالای صفحه قرار دارد</translation>
 <translation id="5558362125926932819">بستن گروه برگه با <ph name="NUMBER_OF_TABS"/> برگه</translation>
 <translation id="5580090775658607195"><ph name="TAB_COUNT"/> برگه گروه‌بندی شد</translation>
-<translation id="3225229609960545342">{TABS_COUNT,plural, =1{‏<ph name="TABS_COUNT_ONE"/> پیوند از Brave}one{‏<ph name="TABS_COUNT_MANY"/> پیوند از Brave}other{‏<ph name="TABS_COUNT_MANY"/> پیوند از Brave}}</translation>
+<translation id="3225229609960545342">{TABS_COUNT,plural, =1{‏<ph name="TABS_COUNT_ONE"/> پیوند از Kahf}one{‏<ph name="TABS_COUNT_MANY"/> پیوند از Kahf}other{‏<ph name="TABS_COUNT_MANY"/> پیوند از Kahf}}</translation>
 <translation id="575494663145460764">برای کاهش قیمت‌ها اعلان دریافت شود؟</translation>
 <translation id="58326064309361797">برای گروه‌بندی برگه‌ها، آن‌ها را بکشید</translation>
 <translation id="5846292395804797011">بستن گروه <ph name="TITLE_OF_GROUP"/> با <ph name="NUMBER_OF_TABS"/> برگه</translation>
@@ -68,7 +68,7 @@
 <translation id="6549021453810473782">مشاهده اطلاعات فروشگاه</translation>
 <translation id="6562820390860419811">انتقال برگه به راست</translation>
 <translation id="6615455863669487791">نشانم داده شود</translation>
-<translation id="6398241160085205003">‏می‌توانید برگه‌های بسته‌شده را در «برگه‌های اخیر» تحت منوِ اصلی Brave پیدا کنید.</translation>
+<translation id="6398241160085205003">‏می‌توانید برگه‌های بسته‌شده را در «برگه‌های اخیر» تحت منوِ اصلی Kahf پیدا کنید.</translation>
 <translation id="6840760312327750441">برای ایجاد برگه‌های گروهی، برگه‌ای را لمس کنید و نگه‌دارید. سپس آن را به برگه‌ای دیگر بکشید.</translation>
 <translation id="6856809498882026482">پنهان کردن حالت چندانتخابی</translation>
 <translation id="7100731960740376323">{TABS_COUNT,plural, =1{هم‌رسانی برگه}one{هم‌رسانی برگه}other{هم‌رسانی برگه‌ها}}</translation>
@@ -77,7 +77,7 @@
 <translation id="7326879924029668159">دیدن خط‌مشی برگرداندن و موارد دیگر</translation>
 <translation id="7352298686197644113">ببینید کدام مورد در برگه‌های باز قیمت کمتری دارد</translation>
 <translation id="753732157349120914">تعویض‌کننده برگه</translation>
-<translation id="1068242749670180460">{REVIEWS,plural, =1{‏<ph name="REVIEWS_COUNT_ONE"/> مرور از Brave}one{‏<ph name="REVIEWS_COUNT_MANY"/> مرور از Brave}other{‏<ph name="REVIEWS_COUNT_MANY"/> مرور از Brave}}</translation>
+<translation id="1068242749670180460">{REVIEWS,plural, =1{‏<ph name="REVIEWS_COUNT_ONE"/> مرور از Kahf}one{‏<ph name="REVIEWS_COUNT_MANY"/> مرور از Kahf}other{‏<ph name="REVIEWS_COUNT_MANY"/> مرور از Kahf}}</translation>
 <translation id="7559245342362162951">نمایش برگه‌های گروه در شبکه تمام‌صفحه</translation>
 <translation id="7699041944097291312">{TABS_COUNT,plural, =1{هم‌رسانی <ph name="TABS_COUNT_ONE"/> برگه انتخاب‌شده}one{هم‌رسانی <ph name="TABS_COUNT_MANY"/> برگه انتخاب‌شده}other{هم‌رسانی <ph name="TABS_COUNT_MANY"/> برگه انتخاب‌شده}}</translation>
 <translation id="7792771145871471484">پیشنهاد‌ها مرور شود.</translation>
@@ -98,8 +98,8 @@
 <translation id="9169594135889675189">افزودن برگه جدید به گروه</translation>
 <translation id="959682366969460160">سازمان‌دهی شوید</translation>
 <translation id="6057673771413791768">{INCOGNITO_TABS_COUNT, plural,
-=1 {شما می‌توانید تب‌های بسته خود را در قسمت تب‌های اخیر در منوی اصلی Brave مشاهده کنید. تب خصوصی در دسترس نخواهد بود.}
-other {شما می‌توانید تب‌های بسته خود را در قسمت تب‌های اخیر در منوی اصلی Brave مشاهده کنید. تب‌های خصوصی # شما در دسترس نخواهند بود.}}</translation>
+=1 {شما می‌توانید تب‌های بسته خود را در قسمت تب‌های اخیر در منوی اصلی Kahf مشاهده کنید. تب خصوصی در دسترس نخواهد بود.}
+other {شما می‌توانید تب‌های بسته خود را در قسمت تب‌های اخیر در منوی اصلی Kahf مشاهده کنید. تب‌های خصوصی # شما در دسترس نخواهند بود.}}</translation>
 <translation id="3228718275011575753">همه زبانه‌های خصوصی بسته شود؟</translation>
 <translation id="6687920250729800417">فعالیت شما در این پنجره‌های خصوصی از این دستگاه حذف خواهد شد.</translation>
 </translationbundle>

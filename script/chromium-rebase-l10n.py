@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #
-# Copyright (c) 2022 The Brave Authors. All rights reserved.
+# Copyright (c) 2022 The Kahf Authors. All rights reserved.
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -187,40 +187,40 @@ def main():
         migrate_google_chrome_strings(xml_tree,
                                       GOOGLE_CHROME_STRINGS_MIGRATION_MAP)
         elem1 = xml_tree.xpath('//message[@name="IDS_SXS_SHORTCUT_NAME"]')[0]
-        elem1.text = 'Brave Nightly'
+        elem1.text = 'Kahf Nightly'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath('//message[@name="IDS_SHORTCUT_NAME_BETA"]')[0]
-        elem1.text = 'Brave Beta'
+        elem1.text = 'Kahf Beta'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath('//message[@name="IDS_SHORTCUT_NAME_DEV"]')[0]
-        elem1.text = 'Brave Dev'
+        elem1.text = 'Kahf Dev'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA"]')[0]
-        elem1.text = 'Brave Apps'
+        elem1.text = 'Kahf Apps'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV"]')[0]
-        elem1.text = 'Brave Apps'
+        elem1.text = 'Kahf Apps'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_NAME_BETA"]')[0]
-        elem1.text = 'Brave Beta (mDNS-In)'
+        elem1.text = 'Kahf Beta (mDNS-In)'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_NAME_CANARY"]')[0]
-        elem1.text = 'Brave Nightly (mDNS-In)'
+        elem1.text = 'Kahf Nightly (mDNS-In)'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_NAME_DEV"]')[0]
-        elem1.text = 'Brave Dev (mDNS-In)'
+        elem1.text = 'Kahf Dev (mDNS-In)'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
@@ -228,17 +228,17 @@ def main():
         elem1.attrib.pop('desc')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA"]')[0]
-        elem1.text = 'Inbound rule for Brave Beta to allow mDNS traffic.'
+        elem1.text = 'Inbound rule for Kahf Beta to allow mDNS traffic.'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY"]')[0]
-        elem1.text = 'Inbound rule for Brave Nightly to allow mDNS traffic.'
+        elem1.text = 'Inbound rule for Kahf Nightly to allow mDNS traffic.'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV"]')[0]
-        elem1.text = 'Inbound rule for Brave Dev to allow mDNS traffic.'
+        elem1.text = 'Inbound rule for Kahf Dev to allow mDNS traffic.'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(

@@ -239,7 +239,7 @@ class BraveBrowserTypeImpl(BrowserType):
 
   def _GetWinInstallPath(self) -> str:
     return os.path.join(os.path.expanduser('~'), 'AppData', 'Local',
-                        'BraveSoftware', 'Brave-Browser-' + self.channel,
+                        'Halalz', 'Brave-Browser-' + self.channel,
                         'Application')
 
   @classmethod

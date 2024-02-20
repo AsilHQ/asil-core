@@ -482,7 +482,7 @@
           "brave-adblock-cookie-list-default",                                 \
           "Treat 'Easylist-Cookie List' as a default list source",             \
           "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
-          "brave://adblock hasn't otherwise been modified",                    \
+          "kahf://adblock hasn't otherwise been modified",                    \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(                                                  \
               brave_shields::features::kBraveAdblockCookieListDefault),        \
@@ -528,7 +528,7 @@
           "source",                                                            \
                                                                                \
           "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
-          "its toggle in brave://adblock hasn't otherwise been modified",      \
+          "its toggle in kahf://adblock hasn't otherwise been modified",      \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(brave_shields::features::                         \
                                  kBraveAdblockMobileNotificationsListDefault), \
@@ -951,7 +951,7 @@ namespace {
           .size());
 }
 
-// Called to skip feature entries on brave://flags page without affecting
+// Called to skip feature entries on kahf://flags page without affecting
 // features state.
 bool BraveShouldSkipConditionalFeatureEntry(
     const flags_ui::FlagsStorage* storage,

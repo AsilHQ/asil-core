@@ -20,7 +20,7 @@
     {
       "name": "ntp-2020/2021-1",
       "source": "background-image-source.png",
-      "author": "Brave Software",
+      "author": "Halalz",
       "link": "https://brave.com/",
       "originalUrl": "Contributor sent the hi-res version through email",
       "license": "https://brave.com/about/"

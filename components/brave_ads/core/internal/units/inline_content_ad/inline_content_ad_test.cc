@@ -32,7 +32,7 @@ class BraveAdsInlineContentAdIntegrationTest : public UnitTestBase {
     UnitTestBase::SetUp(/*is_integration_test=*/true);
 
     NotifyTabDidChange(
-        /*tab_id=*/1, /*redirect_chain=*/{GURL("brave://newtab")},
+        /*tab_id=*/1, /*redirect_chain=*/{GURL("kahf://newtab")},
         /*is_visible=*/true);
   }
 

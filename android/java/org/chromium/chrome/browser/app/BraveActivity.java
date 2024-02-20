@@ -214,16 +214,16 @@ public abstract class BraveActivity extends ChromeActivity
                    BraveNewsConnectionErrorHandler.BraveNewsConnectionErrorHandlerDelegate,
                    MiscAndroidMetricsConnectionErrorHandler
                            .MiscAndroidMetricsConnectionErrorHandlerDelegate {
-    public static final String BRAVE_BUY_URL = "brave://wallet/crypto/fund-wallet";
-    public static final String BRAVE_SEND_URL = "brave://wallet/send";
-    public static final String BRAVE_SWAP_URL = "brave://wallet/swap";
-    public static final String BRAVE_DEPOSIT_URL = "brave://wallet/crypto/deposit-funds";
-    public static final String BRAVE_REWARDS_SETTINGS_URL = "brave://rewards/";
+    public static final String BRAVE_BUY_URL = "kahf://wallet/crypto/fund-wallet";
+    public static final String BRAVE_SEND_URL = "kahf://wallet/send";
+    public static final String BRAVE_SWAP_URL = "kahf://wallet/swap";
+    public static final String BRAVE_DEPOSIT_URL = "kahf://wallet/crypto/deposit-funds";
+    public static final String BRAVE_REWARDS_SETTINGS_URL = "kahf://rewards/";
     public static final String BRAVE_REWARDS_SETTINGS_WALLET_VERIFICATION_URL =
-            "brave://rewards/#verify";
-    public static final String BRAVE_REWARDS_WALLET_RECONNECT_URL = "brave://rewards/reconnect";
-    public static final String BRAVE_REWARDS_SETTINGS_MONTHLY_URL = "brave://rewards/#monthly";
-    public static final String REWARDS_AC_SETTINGS_URL = "brave://rewards/contribute";
+            "kahf://rewards/#verify";
+    public static final String BRAVE_REWARDS_WALLET_RECONNECT_URL = "kahf://rewards/reconnect";
+    public static final String BRAVE_REWARDS_SETTINGS_MONTHLY_URL = "kahf://rewards/#monthly";
+    public static final String REWARDS_AC_SETTINGS_URL = "kahf://rewards/contribute";
     public static final String BRAVE_AI_CHAT_URL = "chrome-untrusted://chat";
     public static final String REWARDS_LEARN_MORE_URL =
             "https://brave.com/faq-rewards/#unclaimed-funds";

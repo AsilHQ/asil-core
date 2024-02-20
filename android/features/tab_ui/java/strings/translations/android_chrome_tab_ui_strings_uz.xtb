@@ -21,7 +21,7 @@
 <translation id="266935134738038806">Saytni ochish</translation>
 <translation id="2759453070259087442"><ph name="NUMBER_OF_TABS"/> varaqli <ph name="TITLE_OF_GROUP"/> guruhini yoyish.</translation>
 <translation id="2801787514987684416">Doʻkon axboroti ochilsinmi?</translation>
-<translation id="4691798003247738043">Brave | Bu doʻkon haqida</translation>
+<translation id="4691798003247738043">Kahf | Bu doʻkon haqida</translation>
 <translation id="2977480621796371840">Guruhdan chiqarish</translation>
 <translation id="3008554597174452548">Mahsulot kuzatuvini toʻxtatish</translation>
 <translation id="3052964831964880138"><ph name="PRODUCT_NAME"/> narxlari <ph name="PRICE_DROP"/> ga tushdi</translation>
@@ -55,7 +55,7 @@
 <translation id="5556417849629758491">Doʻkon axboroti ekranning yuqori qismida chiqadi</translation>
 <translation id="5558362125926932819"><ph name="NUMBER_OF_TABS"/> varaqli guruhni yopish</translation>
 <translation id="5580090775658607195"><ph name="TAB_COUNT"/> ta varaq guruhlandi</translation>
-<translation id="3225229609960545342">{TABS_COUNT,plural, =1{Brave brauzeridan <ph name="TABS_COUNT_ONE"/> ta havola}other{Brave brauzeridan <ph name="TABS_COUNT_MANY"/> ta havola}}</translation>
+<translation id="3225229609960545342">{TABS_COUNT,plural, =1{Kahf brauzeridan <ph name="TABS_COUNT_ONE"/> ta havola}other{Kahf brauzeridan <ph name="TABS_COUNT_MANY"/> ta havola}}</translation>
 <translation id="575494663145460764">Narxlar tushganda xabar qilinsinmi?</translation>
 <translation id="58326064309361797">Varaqlarni guruhlash uchun bir-birining ustiga torting</translation>
 <translation id="5846292395804797011"><ph name="NUMBER_OF_TABS"/> varaqli <ph name="TITLE_OF_GROUP"/> guruhini yopish</translation>
@@ -65,12 +65,12 @@
 <translation id="6228793724645064692">(doʻkon reytingi)</translation>
 <translation id="6333260925957816943">Bu doʻkon haqidagi axborot</translation>
 <translation id="639823877092900621">{TABS_COUNT,plural, =1{Tanlangan <ph name="TABS_COUNT_ONE"/> ta varaq guruhini yechish}other{Tanlangan <ph name="TABS_COUNT_MANY"/> ta varaq guruhini yechish}}</translation>
-<translation id="6057673771413791768">{INCOGNITO_TABS_COUNT,plural, =1{Yopilgan varaqlar Brave asosiy menyusidagi Oxirgi varaqlarda chiqadi. Inkognito varagʻi chiqmaydi.}other{Yopilgan varaqlar Brave asosiy menyusidagi Oxirgi varaqlarda chiqadi. # ta inkognito varagʻi chiqmaydi.}}</translation>
+<translation id="6057673771413791768">{INCOGNITO_TABS_COUNT,plural, =1{Yopilgan varaqlar Kahf asosiy menyusidagi Oxirgi varaqlarda chiqadi. Inkognito varagʻi chiqmaydi.}other{Yopilgan varaqlar Kahf asosiy menyusidagi Oxirgi varaqlarda chiqadi. # ta inkognito varagʻi chiqmaydi.}}</translation>
 <translation id="6422650314852876533">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> ta varaq}other{<ph name="TABS_COUNT_MANY"/> ta varaq}}</translation>
 <translation id="6549021453810473782">Doʻkon axborotini ochish</translation>
 <translation id="6562820390860419811">Varaqni chapga siljitish</translation>
 <translation id="6615455863669487791">Ko‘rsatish</translation>
-<translation id="6398241160085205003">Yopilgan varaqlar Brave asosiy menyusidagi Oxirgi varaqlarda chiqadi.</translation>
+<translation id="6398241160085205003">Yopilgan varaqlar Kahf asosiy menyusidagi Oxirgi varaqlarda chiqadi.</translation>
 <translation id="6840760312327750441">Varaqlarni guruhlash uchun: bitta varaqni bosib ushlang, keyin uni boshqa varaqning ustiga tortib tashlang.</translation>
 <translation id="6856809498882026482">Bir nechta variant tanlanadigan rejimni yopish</translation>
 <translation id="7100731960740376323">{TABS_COUNT,plural, =1{Varaqni ulashish}other{Varaqlarni ulashish}}</translation>
@@ -79,7 +79,7 @@
 <translation id="7326879924029668159">Qaytarish siyosati va boshqalar</translation>
 <translation id="7352298686197644113">Ochiq varaqlardagi qaysi narsalar narxi arzonlaganini bilish</translation>
 <translation id="753732157349120914">Varaq almashtirgich</translation>
-<translation id="1068242749670180460">{REVIEWS,plural, =1{<ph name="REVIEWS_COUNT_ONE"/> ta sharh Bravedan}other{<ph name="REVIEWS_COUNT_MANY"/> ta sharh Bravedan}}</translation>
+<translation id="1068242749670180460">{REVIEWS,plural, =1{<ph name="REVIEWS_COUNT_ONE"/> ta sharh Kahfdan}other{<ph name="REVIEWS_COUNT_MANY"/> ta sharh Kahfdan}}</translation>
 <translation id="7559245342362162951">Guruh varaqlarini butun ekranga jadval shaklida chiqarish</translation>
 <translation id="7699041944097291312">{TABS_COUNT,plural, =1{Tanlangan <ph name="TABS_COUNT_ONE"/> ta varaqni ulashish}other{Tanlangan <ph name="TABS_COUNT_MANY"/> ta varaqni ulashish}}</translation>
 <translation id="7792771145871471484">Batafsil.</translation>

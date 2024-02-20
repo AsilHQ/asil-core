@@ -1,7 +1,7 @@
 {
   "name": "brave-core",
   "version": "1.62.166",
-  "description": "Brave Core is a set of changes, APIs and scripts used for customizing Chromium to make Brave.",
+  "description": "Kahf Core is a set of changes, APIs and scripts used for customizing Chromium to make Kahf.",
   "main": "index.js",
   "scripts": {
     "audit_deps": "node ./build/commands/scripts/audit.js -- --audit_dev_deps",
@@ -55,7 +55,7 @@
     "url": "git+https://github.com/brave/brave-core.git"
   },
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "Kahf Software <support@brave.com>"
   },
   "contributors": [
     {

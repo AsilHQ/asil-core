@@ -22,8 +22,8 @@
   "campaignId": "fb7ee174-5430-4fb9-8e97-29bf14e8d828",
   "logo": {
     "imageUrl": "logo.png",
-    "alt": "Visit Brave Software",
-    "companyName": "Brave Software",
+    "alt": "Visit Halalz",
+    "companyName": "Halalz",
     "destinationUrl": "https://www.brave.com/"
   },
   "wallpapers": [

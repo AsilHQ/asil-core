@@ -134,7 +134,7 @@ TEST_F(WaybackMachineURLFetcherUnitTest, WaybackURLSanitizeTest) {
   Fetch(GURL::EmptyGURL());
 
   SetResponseText(
-      R"({"archived_snapshots":{"closest":{"url":"brave://abcd"}}})");
+      R"({"archived_snapshots":{"closest":{"url":"kahf://abcd"}}})");
   Fetch(GURL::EmptyGURL());
 
   SetResponseText(

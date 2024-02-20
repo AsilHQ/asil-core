@@ -119,7 +119,7 @@ net::NetworkTrafficAnnotationTag GetENSOffchainNetworkTrafficAnnotationTag() {
       policy {
         cookies_allowed: NO
         setting:
-          "You can enable or disable ENS on brave://settings/extensions page."
+          "You can enable or disable ENS on kahf://settings/extensions page."
         policy_exception_justification:
           "Not implemented."
       }

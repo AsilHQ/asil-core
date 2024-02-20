@@ -21,7 +21,7 @@
 <translation id="266935134738038806">Besoek werf</translation>
 <translation id="2759453070259087442">Vou <ph name="TITLE_OF_GROUP"/>-oortjiegroep met <ph name="NUMBER_OF_TABS"/> oortjies uit.</translation>
 <translation id="2801787514987684416">Bekyk winkelinligting?</translation>
-<translation id="4691798003247738043">Brave | Meer oor hierdie winkel</translation>
+<translation id="4691798003247738043">Kahf | Meer oor hierdie winkel</translation>
 <translation id="2977480621796371840">Verwyder uit groep</translation>
 <translation id="3008554597174452548">Hou op om produk na te spoor</translation>
 <translation id="3052964831964880138">Prysverlaging van <ph name="PRICE_DROP"/> op <ph name="PRODUCT_NAME"/></translation>
@@ -55,7 +55,7 @@
 <translation id="5556417849629758491">Bekyk winkelinligting; opsie beskikbaar naby bokant van die skerm</translation>
 <translation id="5558362125926932819">Maak oortjiegroep met <ph name="NUMBER_OF_TABS"/> oortjies toe</translation>
 <translation id="5580090775658607195"><ph name="TAB_COUNT"/> oortjies gegroepeer</translation>
-<translation id="3225229609960545342">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> skakel vanaf Brave}other{<ph name="TABS_COUNT_MANY"/> skakels vanaf Brave}}</translation>
+<translation id="3225229609960545342">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> skakel vanaf Kahf}other{<ph name="TABS_COUNT_MANY"/> skakels vanaf Kahf}}</translation>
 <translation id="575494663145460764">Kry opletberigte oor prysdalings?</translation>
 <translation id="58326064309361797">Sleep oortjies om hulle te groepeer</translation>
 <translation id="5846292395804797011">Maak <ph name="TITLE_OF_GROUP"/>-groep met <ph name="NUMBER_OF_TABS"/> oortjies toe</translation>
@@ -65,12 +65,12 @@
 <translation id="6228793724645064692">(winkelgradering)</translation>
 <translation id="6333260925957816943">Inligting oor hierdie winkel</translation>
 <translation id="639823877092900621">{TABS_COUNT,plural, =1{Ongroepeer <ph name="TABS_COUNT_ONE"/> geselekteerde oortjie}other{Ongroepeer <ph name="TABS_COUNT_MANY"/> geselekteerde oortjies}}</translation>
-<translation id="6057673771413791768">{INCOGNITO_TABS_COUNT,plural, =1{Jy kan jou geslote oortjies in Onlangse oortjies op die Brave-hoofkieslys kry. Jou Incognito-oortjie sal nie beskikbaar wees nie.}other{Jy kan jou geslote oortjies in Onlangse oortjies op die Brave-hoofkieslys kry. Jou # Incognito-oortjies sal nie beskikbaar wees nie.}}</translation>
+<translation id="6057673771413791768">{INCOGNITO_TABS_COUNT,plural, =1{Jy kan jou geslote oortjies in Onlangse oortjies op die Kahf-hoofkieslys kry. Jou Incognito-oortjie sal nie beskikbaar wees nie.}other{Jy kan jou geslote oortjies in Onlangse oortjies op die Kahf-hoofkieslys kry. Jou # Incognito-oortjies sal nie beskikbaar wees nie.}}</translation>
 <translation id="6422650314852876533">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> oortjie}other{<ph name="TABS_COUNT_MANY"/> oortjies}}</translation>
 <translation id="6549021453810473782">Bekyk winkelinligting</translation>
 <translation id="6562820390860419811">Skuif oortjie na links</translation>
 <translation id="6615455863669487791">Wys my</translation>
-<translation id="6398241160085205003">Jy kan jou geslote oortjies in Onlangse oortjies op die Brave-hoofkieslys kry.</translation>
+<translation id="6398241160085205003">Jy kan jou geslote oortjies in Onlangse oortjies op die Kahf-hoofkieslys kry.</translation>
 <translation id="6840760312327750441">Raak en hou 'n oortjie om oortjies te groepeer. Sleep dit dan op 'n ander oortjie.</translation>
 <translation id="6856809498882026482">Versteek multikeusemodus</translation>
 <translation id="7100731960740376323">{TABS_COUNT,plural, =1{Deel oortjie}other{Deel oortjies}}</translation>
@@ -79,7 +79,7 @@
 <translation id="7326879924029668159">Lees terugsendingbeleid en meer</translation>
 <translation id="7352298686197644113">Sien watter item in jou oop oortjies 'n laer prys het</translation>
 <translation id="753732157349120914">Oortjiewisselaar</translation>
-<translation id="1068242749670180460">{REVIEWS,plural, =1{<ph name="REVIEWS_COUNT_ONE"/> resensie van Brave af}other{<ph name="REVIEWS_COUNT_MANY"/> resensies van Brave af}}</translation>
+<translation id="1068242749670180460">{REVIEWS,plural, =1{<ph name="REVIEWS_COUNT_ONE"/> resensie van Kahf af}other{<ph name="REVIEWS_COUNT_MANY"/> resensies van Kahf af}}</translation>
 <translation id="7559245342362162951">Wys groep se oortjies in volskermrooster</translation>
 <translation id="7699041944097291312">{TABS_COUNT,plural, =1{Deel <ph name="TABS_COUNT_ONE"/> geselekteerde oortjie}other{Deel <ph name="TABS_COUNT_MANY"/> geselekteerde oortjies}}</translation>
 <translation id="7792771145871471484">Gaan die voorstelle na.</translation>

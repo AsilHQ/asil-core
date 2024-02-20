@@ -1,5 +1,5 @@
 # Client
 
-Brave Ads Client communication interfaces.
+Kahf Ads Client communication interfaces.
 
 Please add to it!

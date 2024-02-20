@@ -17,14 +17,14 @@ export const defaultTopSitesData = [
     background: 'rgba(255,255,255,0.8)'
   },
   {
-    name: 'Brave Software',
+    name: 'Halalz',
     url: 'https://brave.com',
     favicon: BraveFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
   {
     name: 'Facebook',
-    url: 'https://www.facebook.com/BraveSoftware/',
+    url: 'https://www.facebook.com/Halalz/',
     favicon: FacebookFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
