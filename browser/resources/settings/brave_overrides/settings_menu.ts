@@ -244,40 +244,40 @@ RegisterPolymerTemplateModifications({
     const privacyEl = getMenuElement(templateContent, '/privacy')
     shieldsEl.insertAdjacentElement('afterend', privacyEl)
 
-    // Add Rewards item
-    const isBraveRewardsSupported = loadTimeData.getBoolean('isBraveRewardsSupported')
-    let rewardsEl = undefined
-    if (isBraveRewardsSupported) {
-      rewardsEl = createMenuElement(
-        loadTimeData.getString('braveRewards'),
-        '/rewards',
-        'product-bat-outline',
-        'rewards',
-      )
-      privacyEl.insertAdjacentElement('afterend', rewardsEl)
-    }
+    // // Add Rewards item
+    // const isBraveRewardsSupported = loadTimeData.getBoolean('isBraveRewardsSupported')
+    // let rewardsEl = undefined
+    // if (isBraveRewardsSupported) {
+    //   rewardsEl = createMenuElement(
+    //     loadTimeData.getString('braveRewards'),
+    //     '/rewards',
+    //     'product-bat-outline',
+    //     'rewards',
+    //   )
+    //   privacyEl.insertAdjacentElement('afterend', rewardsEl)
+    // }
 
-    // Add web3 item
-    const web3El = createMenuElement(
-      loadTimeData.getString('braveWeb3'),
-      '/web3',
-      'product-brave-wallet',
-      'wallet',
-    )
-    if (isBraveRewardsSupported) {
-      rewardsEl.insertAdjacentElement('afterend', web3El)
-    } else {
-      privacyEl.insertAdjacentElement('afterend', web3El)
-    }
+    // // Add web3 item
+    // const web3El = createMenuElement(
+    //   loadTimeData.getString('braveWeb3'),
+    //   '/web3',
+    //   'product-brave-wallet',
+    //   'wallet',
+    // )
+    // if (isBraveRewardsSupported) {
+    //   rewardsEl.insertAdjacentElement('afterend', web3El)
+    // } else {
+    //   privacyEl.insertAdjacentElement('afterend', web3El)
+    // }
 
-    // Add leo item
-    const leoAssistantEl = createMenuElement(
-      loadTimeData.getString('leoAssistant'),
-      '/leo-assistant',
-      'product-brave-leo',
-      'leoAssistant',
-    )
-    web3El.insertAdjacentElement('afterend', leoAssistantEl)
+    // // Add leo item
+    // const leoAssistantEl = createMenuElement(
+    //   loadTimeData.getString('leoAssistant'),
+    //   '/leo-assistant',
+    //   'product-brave-leo',
+    //   'leoAssistant',
+    // )
+    // web3El.insertAdjacentElement('afterend', leoAssistantEl)
 
     // Add Sync item
     const syncEl = createMenuElement(
