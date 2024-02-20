@@ -35,7 +35,7 @@ import Settings, { TabType as SettingsTabType } from './settings'
 
 import { BraveNewsContextProvider } from '../../../brave_news/browser/resources/shared/Context'
 import BraveNewsModal from '../../components/default/braveNews/customize/Modal'
-import BraveNewsHint from '../../components/default/braveNews/hint'
+// import BraveNewsHint from '../../components/default/braveNews/hint'
 import SponsoredImageClickArea from '../../components/default/sponsoredImage/sponsoredImageClickArea'
 import GridWidget from './gridWidget'
 
@@ -45,7 +45,7 @@ setIconBasePath('chrome://resources/brave-icons')
 import * as style from './style'
 import { defaultState } from '../../storage/new_tab_storage'
 
-const BraveNewsPeek =  React.lazy(() => import('../../../brave_news/browser/resources/Peek'))
+// const BraveNewsPeek =  React.lazy(() => import('../../../brave_news/browser/resources/Peek'))
 
 interface Props {
   newTabData: NewTab.State
@@ -611,7 +611,7 @@ class NewTabPage extends React.Component<Props, State> {
             imageSrc={this.imageSource}
             imageHasLoaded={this.state.backgroundHasLoaded}
             showClock={showClock}
-            showStats={showStats}
+            showStats={!!showStats}
             colorForBackground={colorForBackground}
             showCryptoContent={!!cryptoContent}
             showTopSites={showTopSites}
@@ -683,22 +683,22 @@ class NewTabPage extends React.Component<Props, State> {
                   </Page.GridItemBrandedLogo>}
                 <FooterInfo
                   textDirection={newTabData.textDirection}
-                  supportsBraveTalk={newTabData.braveTalkSupported}
+                  // supportsBraveTalk={newTabData.braveTalkSupported}
                   backgroundImageInfo={newTabData.backgroundWallpaper}
                   showPhotoInfo={!isShowingBrandedWallpaper && hasWallpaperInfo && newTabData.showBackgroundImage}
                   onClickSettings={this.openSettings}
                 />
               </Page.FooterContent>
             </Page.Footer>
-            {newTabData.showToday &&
-              <Page.GridItemNavigationBraveNews>
-                {defaultState.featureFlagBraveNewsFeedV2Enabled
-                  ? <React.Suspense fallback={null}>
-                    <BraveNewsPeek/>
-                  </React.Suspense>
-                  : <BraveNewsHint />}
-              </Page.GridItemNavigationBraveNews>
-            }
+            {/* {newTabData.showToday &&
+              // <Page.GridItemNavigationBraveNews>
+              //   {defaultState.featureFlagBraveNewsFeedV2Enabled
+              //     ? <React.Suspense fallback={null}>
+              //       <BraveNewsPeek/>
+              //     </React.Suspense>
+              //     : <BraveNewsHint />}
+              // </Page.GridItemNavigationBraveNews>
+            } */}
           </Page.Page>
         { newTabData.showToday &&
         <BraveNews
