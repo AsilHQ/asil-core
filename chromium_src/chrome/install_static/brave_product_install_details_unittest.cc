@@ -73,42 +73,42 @@ struct TestData {
 constexpr TestData kTestData[] = {
     {
         L"C:\\Program Files (x86)\\Halalz\\Brave-Browser\\Application"
-        L"\\brave.exe",
+        L"\\kahf.exe",
         STABLE_INDEX, true, L"",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         STABLE_INDEX, false, L"",
     },
     {
         L"C:\\Program Files (x86)\\Halalz\\Brave-Browser-Beta"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         BETA_INDEX, true, L"beta",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Beta"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         BETA_INDEX, false, L"beta",
     },
     {
         L"C:\\Program Files (x86)\\Halalz\\Brave-Browser-Dev"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         DEV_INDEX, true, L"dev",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Dev"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         DEV_INDEX, false, L"dev",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Nightly"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Nightly"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
 };
@@ -116,14 +116,14 @@ constexpr TestData kTestData[] = {
 constexpr TestData kTestData[] = {
     {
         L"C:\\Program Files (x86)\\Halalz\\Brave-Browser-Development"
-        L"\\Application\\brave.exe",
+        L"\\Application\\kahf.exe",
         DEVELOPER_INDEX,
         true,
         L"",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-"
-        L"Development\\Application\\brave.exe",
+        L"Development\\Application\\kahf.exe",
         DEVELOPER_INDEX,
         false,
         L"",
