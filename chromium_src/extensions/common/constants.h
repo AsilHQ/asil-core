@@ -11,6 +11,11 @@
 inline constexpr int kBraveActionGraphicSize = 18;
 inline constexpr int kBraveActionLeftMarginExtra = -2;
 
+inline constexpr char KahfTube_extension_id[] =
+    "bciibaiaobmfedbaiidepncbmjpfbbih";
+inline constexpr char SafeGaze_extension_id[] =
+    "aaddkkmpkpcnchdggomfaehpagbekalb";
+
 inline constexpr char brave_extension_id[] = "mnojpmjdmbbfmejpflffifhffcmidifd";
 inline constexpr char hangouts_extension_id[] =
     "nkeimhogjdpnpccoofpliimaahmaaome";

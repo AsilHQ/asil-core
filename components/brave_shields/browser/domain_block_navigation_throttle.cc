@@ -1,4 +1,4 @@
-/* Copyright (c) 2021 The Brave Authors. All rights reserved.
+/* Copyright (c) 2021 The Kahf Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -36,7 +36,7 @@ std::pair<bool, std::string> ShouldBlockDomainOnTaskRunner(
     brave_shields::AdBlockService* ad_block_service,
     const GURL& url,
     bool aggressive_setting) {
-  SCOPED_UMA_HISTOGRAM_TIMER("Brave.DomainBlock.ShouldBlock");
+  SCOPED_UMA_HISTOGRAM_TIMER("Kahf.DomainBlock.ShouldBlock");
   // force aggressive blocking to `true` for domain blocking - these requests
   // are all "first-party", but the throttle is already only called when
   // necessary.
@@ -110,7 +110,7 @@ DomainBlockNavigationThrottle::WillStartRequest() {
   domain_blocking_type_ =
       brave_shields::GetDomainBlockingType(content_settings_, request_url);
   content::WebContents* web_contents = handle->GetWebContents();
-  // Maybe don't block based on Brave Shields settings
+  // Maybe don't block based on Kahf Shields settings
   if (domain_blocking_type_ == DomainBlockingType::kNone) {
     DomainBlockTabStorage* tab_storage =
         DomainBlockTabStorage::FromWebContents(web_contents);

@@ -40,7 +40,7 @@ using brave_component_updater::BraveOnDemandUpdater;
 
 namespace {
 
-const char kAdBlockDefaultComponentName[] = "Brave Ad Block Updater";
+const char kAdBlockDefaultComponentName[] = "Kahf Ad Block Updater";
 const char kAdBlockDefaultComponentId[] = "iodkpdagapdfkphljnddpjlldadblomo";
 const char kAdBlockDefaultComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsD/B/MGdz0gh7WkcFARn"
@@ -52,7 +52,7 @@ const char kAdBlockDefaultComponentBase64PublicKey[] =
     "PQIDAQAB";
 
 const char kAdBlockExceptionComponentName[] =
-    "Brave Ad Block First Party Filters";
+    "Kahf Ad Block First Party Filters";
 const char kAdBlockExceptionComponentId[] = "adcocjohghhfpidemphmcmlmhnfgikei";
 const char kAdBlockExceptionComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvmLp4MOseThuH/vFSc7"

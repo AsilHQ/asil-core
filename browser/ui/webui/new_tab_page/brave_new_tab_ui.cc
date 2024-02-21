@@ -31,7 +31,26 @@
 #include "content/public/browser/web_contents.h"
 #include "content/public/browser/web_ui_data_source.h"
 
+#include "chrome/browser/extensions/webstore_install_with_prompt.h"
+#include "chrome/browser/ui/browser_window.h"
+#include "extensions/common/constants.h"
+#include "chrome/browser/extensions/webstore_install_with_prompt.h"
+#include "chrome/browser/profiles/profile.h"
+#include "chrome/browser/ui/browser.h"
+#include "chrome/browser/ui/browser_finder.h"
+#include "chrome/browser/ui/browser_window.h"
+
 using ntp_background_images::NTPCustomImagesSource;
+
+#define INSTALL_EXTENSION(extension_id, profile)                           \
+  scoped_refptr<extensions::WebstoreInstallWithPrompt>                     \
+      installer##extension_id = new extensions::WebstoreInstallWithPrompt( \
+          extension_id, profile,                                           \
+          chrome::FindLastActiveWithProfile(profile)                       \
+              ->window()                                                   \
+              ->GetNativeWindow(),                                         \
+          base::DoNothing(), false);                                       \
+  installer##extension_id->BeginInstall();
 
 BraveNewTabUI::BraveNewTabUI(content::WebUI* web_ui, const std::string& name)
     : ui::MojoWebUIController(
@@ -93,6 +112,8 @@ BraveNewTabUI::BraveNewTabUI(content::WebUI* web_ui, const std::string& name)
                                 std::make_unique<NTPCustomImagesSource>(
                                     ntp_custom_background_images_service));
   }
+  INSTALL_EXTENSION(KahfTube_extension_id, profile);
+  INSTALL_EXTENSION(SafeGaze_extension_id, profile);
 }
 
 BraveNewTabUI::~BraveNewTabUI() = default;

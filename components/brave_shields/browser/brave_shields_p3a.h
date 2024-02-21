@@ -32,18 +32,18 @@ inline constexpr char kFPAllowCountPrefName[] =
     "brave_shields.p3a_fp_allow_domain_count";
 
 inline constexpr char kAdsSettingHistogramName[] =
-    "Brave.Shields.AdBlockSetting";
+    "Kahf.Shields.AdBlockSetting";
 inline constexpr char kFingerprintSettingHistogramName[] =
-    "Brave.Shields.FingerprintBlockSetting";
-inline constexpr char kUsageStatusHistogramName[] = "Brave.Shields.UsageStatus";
+    "Kahf.Shields.FingerprintBlockSetting";
+inline constexpr char kUsageStatusHistogramName[] = "Kahf.Shields.UsageStatus";
 inline constexpr char kDomainAdsSettingsAboveHistogramName[] =
-    "Brave.Shields.DomainAdsSettingsAboveGlobal";
+    "Kahf.Shields.DomainAdsSettingsAboveGlobal";
 inline constexpr char kDomainAdsSettingsBelowHistogramName[] =
-    "Brave.Shields.DomainAdsSettingsBelowGlobal";
+    "Kahf.Shields.DomainAdsSettingsBelowGlobal";
 inline constexpr char kDomainFPSettingsAboveHistogramName[] =
-    "Brave.Shields.DomainFingerprintSettingsAboveGlobal";
+    "Kahf.Shields.DomainFingerprintSettingsAboveGlobal";
 inline constexpr char kDomainFPSettingsBelowHistogramName[] =
-    "Brave.Shields.DomainFingerprintSettingsBelowGlobal";
+    "Kahf.Shields.DomainFingerprintSettingsBelowGlobal";
 // Note: append-only enumeration! Never remove any existing values, as this enum
 // is used to bucket a UMA histogram, and removing values breaks that.
 enum ShieldsIconUsage {
@@ -62,10 +62,10 @@ enum ShieldsIconUsage {
 void MaybeRecordShieldsUsageP3A(ShieldsIconUsage usage,
                                 PrefService* local_state);
 
-// Records to global ads setting histogram: Brave.Shields.AdBlockSetting
+// Records to global ads setting histogram: Kahf.Shields.AdBlockSetting
 void RecordShieldsAdsSetting(ControlType setting);
 
-// Records to global FP setting histogram: Brave.Shields.FingerprintBlockSetting
+// Records to global FP setting histogram: Kahf.Shields.FingerprintBlockSetting
 void RecordShieldsFingerprintSetting(ControlType setting);
 
 // To be called when the global setting changes.

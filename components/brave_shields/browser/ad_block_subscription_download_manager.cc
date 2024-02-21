@@ -27,9 +27,9 @@ const net::NetworkTrafficAnnotationTag
             "brave_shields_ad_block_subscription",
             R"(
         semantics {
-          sender: "Brave Shields"
+          sender: "Kahf Shields"
           description:
-            "Brave periodically downloads updates to third-party filter lists "
+            "Kahf periodically downloads updates to third-party filter lists "
             "added by users on kahf://adblock."
           trigger:
             "After being registered in kahf://adblock, any enabled filter "

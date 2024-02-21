@@ -27,7 +27,7 @@ namespace brave_shields {
 namespace {
 
 constexpr size_t kHashSize = 32;
-const char kAdBlockResourceComponentName[] = "Brave Ad Block Resources Library";
+const char kAdBlockResourceComponentName[] = "Kahf Ad Block Resources Library";
 const char kAdBlockResourceComponentId[] = "mfddibmblmbccpadfndgakiopmmhebop";
 const char kAdBlockResourceComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7Qk6xtml8Siq8RD6cCbd"
@@ -39,7 +39,7 @@ const char kAdBlockResourceComponentBase64PublicKey[] =
     "XwIDAQAB";
 
 const char kAdBlockFilterListCatalogComponentName[] =
-    "Brave Ad Block List Catalog";
+    "Kahf Ad Block List Catalog";
 const char kAdBlockFilterListCatalogComponentId[] =
     "gkboaolpopklhgplhaaiboijnklogmbc";
 const char kAdBlockFilterListCatalogComponentBase64PublicKey[] =
@@ -51,7 +51,7 @@ const char kAdBlockFilterListCatalogComponentBase64PublicKey[] =
     "1H8y9SR970LqsUMozu3ioSHtFh/IVgq7Nqy4TljaKsTE+3AdtjiOyHpW9ZaOkA7j"
     "2QIDAQAB";
 
-const char kAdBlockDefaultComponentName[] = "Brave Ad Block Updater";
+const char kAdBlockDefaultComponentName[] = "Kahf Ad Block Updater";
 const char kAdBlockDefaultComponentId[] = "iodkpdagapdfkphljnddpjlldadblomo";
 const char kAdBlockDefaultComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsD/B/MGdz0gh7WkcFARn"
