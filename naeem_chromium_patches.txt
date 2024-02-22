@@ -1,0 +1,492 @@
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *extension_*.cc
+diff --git a/chrome/browser/extensions/api/developer_private/extension_info_generator.cc b/chrome/browser/extensions/api/developer_private/extension_info_generator.cc
+index fab2a25f61a2c..3bb9af6d47378 100644
+--- a/chrome/browser/extensions/api/developer_private/extension_info_generator.cc
++++ b/chrome/browser/extensions/api/developer_private/extension_info_generator.cc
+@@ -661,6 +661,7 @@ void ExtensionInfoGenerator::CreateExtensionInfoHelper(
+   info->incognito_access.is_enabled = util::CanBeIncognitoEnabled(&extension);
+   info->incognito_access.is_active =
+       util::IsIncognitoEnabled(extension.id(), browser_context_);
++  BRAVE_CREATE_EXTENSION_INFO_HELPER
+
+   // Safety check warning acknowledge status.
+   extension_prefs_->ReadPrefAsBoolean(
+diff --git a/chrome/browser/extensions/chrome_component_extension_resource_manager.cc b/chrome/browser/extensions/chrome_component_extension_resource_manager.cc
+index ef131afb1f24e..817f52c0a5d03 100644
+--- a/chrome/browser/extensions/chrome_component_extension_resource_manager.cc
++++ b/chrome/browser/extensions/chrome_component_extension_resource_manager.cc
+@@ -156,6 +156,7 @@ ChromeComponentExtensionResourceManager::Data::Data() {
+         std::move(pdf_viewer_replacements);
+   }
+ #endif
++  BRAVE_CHROME_COMPONENT_EXTENSION_RESOURCE_MANAGER_DATA_DATA
+ }
+
+ void ChromeComponentExtensionResourceManager::Data::AddComponentResourceEntries(
+diff --git a/chrome/browser/extensions/extension_management.cc b/chrome/browser/extensions/extension_management.cc
+index 7a1843341498a..ec469448142e0 100644
+--- a/chrome/browser/extensions/extension_management.cc
++++ b/chrome/browser/extensions/extension_management.cc
+@@ -944,6 +944,7 @@ ExtensionManagementFactory::BuildServiceInstanceForBrowserContext(
+     content::BrowserContext* context) const {
+   TRACE_EVENT0("browser,startup",
+                "ExtensionManagementFactory::BuildServiceInstanceFor");
++  BRAVE_EXTENSION_MANAGEMENT_FACTORY_BUILD_SERVICE_INSTANCE_FOR
+   return std::make_unique<ExtensionManagement>(
+       Profile::FromBrowserContext(context));
+ }
+diff --git a/chrome/browser/extensions/extension_tab_util.cc b/chrome/browser/extensions/extension_tab_util.cc
+index 9d848548e774e..e81c3a1056c5e 100644
+--- a/chrome/browser/extensions/extension_tab_util.cc
++++ b/chrome/browser/extensions/extension_tab_util.cc
+@@ -819,6 +819,7 @@ bool ExtensionTabUtil::IsKillURL(const GURL& url) {
+   }
+
+   if (!url.SchemeIs(content::kChromeUIScheme)) {
++    if (!url.SchemeIs(content::kBraveUIScheme))
+     return false;
+   }
+
+diff --git a/extensions/browser/api/web_request/extension_web_request_event_router.cc b/extensions/browser/api/web_request/extension_web_request_event_router.cc
+index 794dfb974bf06..4d9fc81877ccd 100644
+--- a/extensions/browser/api/web_request/extension_web_request_event_router.cc
++++ b/extensions/browser/api/web_request/extension_web_request_event_router.cc
+@@ -1183,6 +1183,7 @@ ExtensionWebRequestEventRouter::OnAuthRequired(
+                                          *request)) {
+     return AuthRequiredResponse::AUTH_REQUIRED_RESPONSE_NO_ACTION;
+   }
++  BRAVE_EXTENSION_WEB_REQUEST_EVENT_ROUTER_ON_AUTH_REQUIRED
+
+   int extra_info_spec = 0;
+   RawListeners listeners = GetMatchingListeners(
+diff --git a/extensions/browser/extension_creator.cc b/extensions/browser/extension_creator.cc
+index fba56640051f8..8992513db8bdd 100644
+--- a/extensions/browser/extension_creator.cc
++++ b/extensions/browser/extension_creator.cc
+@@ -211,7 +211,7 @@ bool ExtensionCreator::CreateCrx(
+     result = crx_file::CreateCrxWithVerifiedContentsInHeader(
+         crx_path, zip_path, private_key, compressed_verified_contents.value());
+   } else {
+-    result = crx_file::Create(crx_path, zip_path, private_key);
++    BRAVE_CREATE_CRX(crx_path, zip_path, private_key);
+   }
+   switch (result) {
+     case crx_file::CreatorResult::OK:
+diff --git a/extensions/common/extension_urls.cc b/extensions/common/extension_urls.cc
+index ef216e5e5b60e..73dea517cef9c 100644
+--- a/extensions/common/extension_urls.cc
++++ b/extensions/common/extension_urls.cc
+@@ -83,8 +83,12 @@ GURL GetDefaultWebstoreUpdateUrl() {
+
+ GURL GetWebstoreUpdateUrl() {
+   extensions::ExtensionsClient* client = extensions::ExtensionsClient::Get();
+-  if (client)
++  DLOG(ERROR) << "ExtensionsClient::GetWebstoreUpdateURL() "
++              << client->GetWebstoreUpdateURL() << " default:"<< GetDefaultWebstoreUpdateUrl();
++
++  if (client && client->GetWebstoreUpdateURL().is_empty() == false ) {
+     return client->GetWebstoreUpdateURL();
++  }
+   return GetDefaultWebstoreUpdateUrl();
+ }
+
+
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *extension_*.h
+diff --git a/extensions/renderer/native_extension_bindings_system.h b/extensions/renderer/native_extension_bindings_system.h
+index 31785e4d9052f..330fe5293dec6 100644
+--- a/extensions/renderer/native_extension_bindings_system.h
++++ b/extensions/renderer/native_extension_bindings_system.h
+@@ -42,6 +42,7 @@ class NativeExtensionBindingsSystem {
+   NativeExtensionBindingsSystem& operator=(
+       const NativeExtensionBindingsSystem&) = delete;
+
++  virtual
+   ~NativeExtensionBindingsSystem();
+
+   // Called when a new ScriptContext is created.
+
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *webstore*
+diff --git a/chrome/browser/extensions/webstore_install_with_prompt.cc b/chrome/browser/extensions/webstore_install_with_prompt.cc
+index 464c2d80b1904..c706c8e078ea9 100644
+--- a/chrome/browser/extensions/webstore_install_with_prompt.cc
++++ b/chrome/browser/extensions/webstore_install_with_prompt.cc
+@@ -29,6 +29,27 @@ WebstoreInstallWithPrompt::WebstoreInstallWithPrompt(
+   set_install_source(WebstoreInstaller::INSTALL_SOURCE_OTHER);
+ }
+
++WebstoreInstallWithPrompt::WebstoreInstallWithPrompt(
++    const std::string& webstore_item_id,
++    Profile* profile,
++    gfx::NativeWindow parent_window,
++    Callback callback,
++    bool show_prompt)
++    : WebstoreStandaloneInstaller(webstore_item_id,
++                                  profile,
++                                  std::move(callback)),
++      show_post_install_ui_(show_prompt),
++      show_pre_install_ui_(show_prompt),
++      dummy_web_contents_(
++          WebContents::Create(WebContents::CreateParams(profile))),
++      parent_window_(parent_window) {
++  if (parent_window_) {
++    parent_window_tracker_ = views::NativeWindowTracker::Create(parent_window);
++  }
++  dummy_web_contents_->SetOwnerLocationForDebug(FROM_HERE);
++  set_install_source(WebstoreInstaller::INSTALL_SOURCE_OTHER);
++}
++
+ WebstoreInstallWithPrompt::WebstoreInstallWithPrompt(
+     const std::string& webstore_item_id,
+     Profile* profile,
+diff --git a/chrome/browser/extensions/webstore_install_with_prompt.h b/chrome/browser/extensions/webstore_install_with_prompt.h
+index 0799c743d93b4..6f9f0f99fbe68 100644
+--- a/chrome/browser/extensions/webstore_install_with_prompt.h
++++ b/chrome/browser/extensions/webstore_install_with_prompt.h
+@@ -47,6 +47,12 @@ class WebstoreInstallWithPrompt : public WebstoreStandaloneInstaller {
+   WebstoreInstallWithPrompt& operator=(const WebstoreInstallWithPrompt&) =
+       delete;
+
++  WebstoreInstallWithPrompt(const std::string& webstore_item_id,
++                            Profile* profile,
++                            gfx::NativeWindow parent_window,
++                            Callback callback,
++                            bool show_prompt);
++
+  protected:
+   friend class base::RefCountedThreadSafe<WebstoreInstallWithPrompt>;
+   ~WebstoreInstallWithPrompt() override;
+@@ -63,7 +69,7 @@ class WebstoreInstallWithPrompt : public WebstoreStandaloneInstaller {
+
+  private:
+   bool show_post_install_ui_;
+-
++  bool show_pre_install_ui_;
+   // A non-visible WebContents used to download data from the webstore.
+   std::unique_ptr<content::WebContents> dummy_web_contents_;
+
+diff --git a/chrome/browser/extensions/webstore_installer.cc b/chrome/browser/extensions/webstore_installer.cc
+index 43376977685f7..694c50aa4d958 100644
+--- a/chrome/browser/extensions/webstore_installer.cc
++++ b/chrome/browser/extensions/webstore_installer.cc
+@@ -199,12 +199,16 @@ GURL WebstoreInstaller::GetWebstoreInstallURL(
+     params.push_back(installsource_param);
+   params.push_back("uc");
+   std::string url_string = extension_urls::GetWebstoreUpdateUrl().spec();
++  DLOG(ERROR) << "url_string: " << url_string;
+
+   GURL url(
+       url_string + "?response=redirect&" +
+       update_client::UpdateQueryParams::Get(
+           update_client::UpdateQueryParams::CRX) +
+       "&x=" + base::EscapeQueryParamValue(base::JoinString(params, "&"), true));
++
++  DLOG(ERROR) << "url: " << url;
++
+   DCHECK(url.is_valid());
+
+   return url;
+diff --git a/chrome/browser/extensions/webstore_reinstaller.cc b/chrome/browser/extensions/webstore_reinstaller.cc
+index f3edde3048855..86b464f9d9cac 100644
+--- a/chrome/browser/extensions/webstore_reinstaller.cc
++++ b/chrome/browser/extensions/webstore_reinstaller.cc
+@@ -40,7 +40,6 @@ WebstoreReinstaller::~WebstoreReinstaller() {
+ void WebstoreReinstaller::BeginReinstall() {
+   WebstoreStandaloneInstaller::BeginInstall();
+ }
+-
+ bool WebstoreReinstaller::CheckRequestorAlive() const {
+   return web_contents() != nullptr;
+ }
+@@ -57,6 +56,9 @@ WebstoreReinstaller::CreateInstallPrompt() const {
+   return prompt;
+ }
+
++bool WebstoreReinstaller::ShouldShowPreInstallUI() const {
++  return false;
++}
+ bool WebstoreReinstaller::ShouldShowPostInstallUI() const {
+   return false;
+ }
+diff --git a/chrome/browser/extensions/webstore_reinstaller.h b/chrome/browser/extensions/webstore_reinstaller.h
+index d44b3e59a78ce..1633cb51b787d 100644
+--- a/chrome/browser/extensions/webstore_reinstaller.h
++++ b/chrome/browser/extensions/webstore_reinstaller.h
+@@ -31,6 +31,7 @@ class WebstoreReinstaller : public WebstoreStandaloneInstaller,
+   // WebstoreStandaloneInstaller:
+   bool CheckRequestorAlive() const override;
+   bool ShouldShowPostInstallUI() const override;
++  bool ShouldShowPreInstallUI() const ;
+   content::WebContents* GetWebContents() const override;
+   std::unique_ptr<ExtensionInstallPrompt::Prompt> CreateInstallPrompt()
+       const override;
+diff --git a/chrome/browser/extensions/webstore_standalone_installer.cc b/chrome/browser/extensions/webstore_standalone_installer.cc
+index 8d4835f1de044..ca514e9b3bba7 100644
+--- a/chrome/browser/extensions/webstore_standalone_installer.cc
++++ b/chrome/browser/extensions/webstore_standalone_installer.cc
+@@ -29,6 +29,8 @@
+ #include "extensions/common/extension_urls.h"
+ #include "url/gurl.h"
+
++#include "chrome/browser/extensions/webstore_reinstaller.h"
++
+ using content::WebContents;
+
+ namespace {
+@@ -127,10 +129,10 @@ void WebstoreStandaloneInstaller::CompleteInstall(
+     RunCallback(result == webstore_install::SUCCESS, error, result);
+   CleanUp();
+ }
+-
++bool ShouldShowPostInstallUI2=false;
+ void WebstoreStandaloneInstaller::ProceedWithInstallPrompt() {
+   install_prompt_ = CreateInstallPrompt();
+-  if (install_prompt_.get()) {
++  if (install_prompt_.get() && ShouldShowPostInstallUI2) {
+     ShowInstallUI();
+     // Control flow finishes up in OnInstallPromptDone().
+   } else {
+diff --git a/chrome/browser/extensions/webstore_standalone_installer.h b/chrome/browser/extensions/webstore_standalone_installer.h
+index 441680279cb8f..8f9a42b5146b8 100644
+--- a/chrome/browser/extensions/webstore_standalone_installer.h
++++ b/chrome/browser/extensions/webstore_standalone_installer.h
+@@ -100,7 +100,6 @@ class WebstoreStandaloneInstaller
+   // Should a new tab be opened after installation to show the newly installed
+   // extension's icon?
+   virtual bool ShouldShowPostInstallUI() const = 0;
+-
+   // In the very least this should return a dummy WebContents (required
+   // by some calls even when no prompt or other UI is shown). A non-dummy
+   // WebContents is required if the prompt returned by CreateInstallPromt()
+
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *mini_installer*.cc
+diff --git a/chrome/installer/mini_installer/configuration.cc b/chrome/installer/mini_installer/configuration.cc
+index d32618c45588b..0d6bc279d7853 100644
+--- a/chrome/installer/mini_installer/configuration.cc
++++ b/chrome/installer/mini_installer/configuration.cc
+@@ -24,7 +24,11 @@ namespace {
+ bool GetGoogleUpdateIsMachineEnvVar() {
+   const DWORD kBufferSize = 2;
+   StackString<kBufferSize> value;
++#if defined(OFFICIAL_BUILD)
++  DWORD length = ::GetEnvironmentVariableW(L"BraveSoftwareUpdateIsMachine",
++#else
+   DWORD length = ::GetEnvironmentVariableW(L"GoogleUpdateIsMachine",
++#endif
+                                            value.get(), kBufferSize);
+   return length == 1 && *value.get() == L'1';
+ }
+@@ -76,7 +80,9 @@ bool Configuration::ParseCommandLine(const wchar_t* command_line) {
+   for (int i = 1; i < argument_count_; ++i) {
+     if (0 == ::lstrcmpi(args_[i], L"--system-level"))
+       is_system_level_ = true;
+-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
++#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || defined(OFFICIAL_BUILD)
++    // Use original install switch because it isn't visible to user.
++    // Sync this switch with brave/.../chromium_install_modes.cc
+     else if (0 == ::lstrcmpi(args_[i], L"--chrome-beta"))
+       chrome_app_guid_ = google_update::kBetaAppGuid;
+     else if (0 == ::lstrcmpi(args_[i], L"--chrome-dev"))
+diff --git a/chrome/installer/mini_installer/mini_installer.cc b/chrome/installer/mini_installer/mini_installer.cc
+index de83a4f601161..debd2fd2d860f 100644
+--- a/chrome/installer/mini_installer/mini_installer.cc
++++ b/chrome/installer/mini_installer/mini_installer.cc
+@@ -652,6 +652,7 @@ ProcessExitResult RunSetup(const Configuration& configuration,
+   // on to setup.exe
+   AppendCommandLineFlags(configuration.command_line(), &cmd_line);
+
++  BRAVE_RUN_SETUP
+   return RunProcessAndWait(setup_exe.get(), cmd_line.get(),
+                            RUN_SETUP_FAILED_FILE_NOT_FOUND,
+                            RUN_SETUP_FAILED_PATH_NOT_FOUND,
+
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *mini_installer*
+diff --git a/chrome/installer/mini_installer/BUILD.gn b/chrome/installer/mini_installer/BUILD.gn
+index 71803adcfbe02..41f0144d5669b 100644
+--- a/chrome/installer/mini_installer/BUILD.gn
++++ b/chrome/installer/mini_installer/BUILD.gn
+@@ -115,7 +115,7 @@ group("setup_runtime_deps") {
+
+ packed_files_rc_file = "$target_gen_dir/mini_installer/packed_files.rc"
+
+-action("mini_installer_archive") {
++import("//brave/chromium_src/chrome/installer/mini_installer/build.gni") brave_mini_installer_archive_action("mini_installer_archive") {
+   script = "//chrome/tools/build/win/create_installer_archive.py"
+
+   release_file = "chrome.release"
+@@ -229,7 +229,7 @@ action("mini_installer_archive") {
+   ]
+ }
+
+-executable("mini_installer") {
++template("mini_installer") { executable(target_name) {
+   sources = [
+     "mini_installer_exe_main.cc",
+     packed_files_rc_file,
+@@ -286,7 +286,7 @@ executable("mini_installer") {
+     no_default_deps = true
+     ldflags += [ "/ENTRY:MainEntryPoint" ]
+   }
+-}
++sources -= [packed_files_rc_file] sources += [invoker.packed_files_rc_file] if (defined(invoker.extra_deps)) { deps += invoker.extra_deps } }} mini_installer("mini_installer") { packed_files_rc_file = packed_files_rc_file } mini_installer("delta_installer_unsigned") { packed_files_rc_file = "$target_gen_dir/packed_delta_files.rc" extra_deps = [ "//brave:delta_installer_archive" ] }
+
+ # previous_version_mini_installer.exe can't be generated in an x86 Debug
+ # component build because it requires too much memory.
+diff --git a/chrome/installer/mini_installer/chrome.release b/chrome/installer/mini_installer/chrome.release
+index 1bbc88ff7dd35..5a30e4ed37682 100644
+--- a/chrome/installer/mini_installer/chrome.release
++++ b/chrome/installer/mini_installer/chrome.release
+@@ -6,7 +6,7 @@
+ #
+ # Chrome Application dir entries, sorted alphabetically.
+ #
+-chrome.exe: %(ChromeDir)s\
++asil.exe: %(ChromeDir)s\
+ chrome_proxy.exe: %(ChromeDir)s\
+ #
+ # Chrome version dir assembly manifest.
+@@ -18,9 +18,18 @@ chrome_proxy.exe: %(ChromeDir)s\
+ #
+ # Chrome version dir entries, sorted alphabetically.
+ #
++brave.exe.sig: %(VersionDir)s\
++brave_vpn_helper.exe: %(VersionDir)s\
++brave_vpn_wireguard_service.exe: %(VersionDir)s\BraveVpnWireguardService\
++tunnel.dll: %(VersionDir)s\BraveVpnWireguardService\
++wireguard.dll: %(VersionDir)s\BraveVpnWireguardService\
+ chrome.dll: %(VersionDir)s\
++chrome.dll.sig: %(VersionDir)s\
++brave_resources.pak: %(VersionDir)s\
++brave_100_percent.pak: %(VersionDir)s\
+ chrome_100_percent.pak: %(VersionDir)s\
+ chrome_child.dll: %(VersionDir)s\
++chrome_child.dll.sig: %(VersionDir)s\
+ chrome_elf.dll: %(VersionDir)s\
+ chrome_pwa_launcher.exe: %(VersionDir)s\
+ chrome_wer.dll: %(VersionDir)s\
+@@ -63,6 +72,7 @@ MEIPreload\preloaded_data.pb: %(VersionDir)s\MEIPreload\
+
+ [HIDPI]
+ chrome_200_percent.pak: %(VersionDir)s\
++brave_200_percent.pak: %(VersionDir)s\
+
+ [FFMPEG]
+ ffmpeg.dll: %(VersionDir)s\
+diff --git a/chrome/installer/mini_installer/configuration.cc b/chrome/installer/mini_installer/configuration.cc
+index d32618c45588b..0d6bc279d7853 100644
+--- a/chrome/installer/mini_installer/configuration.cc
++++ b/chrome/installer/mini_installer/configuration.cc
+@@ -24,7 +24,11 @@ namespace {
+ bool GetGoogleUpdateIsMachineEnvVar() {
+   const DWORD kBufferSize = 2;
+   StackString<kBufferSize> value;
++#if defined(OFFICIAL_BUILD)
++  DWORD length = ::GetEnvironmentVariableW(L"BraveSoftwareUpdateIsMachine",
++#else
+   DWORD length = ::GetEnvironmentVariableW(L"GoogleUpdateIsMachine",
++#endif
+                                            value.get(), kBufferSize);
+   return length == 1 && *value.get() == L'1';
+ }
+@@ -76,7 +80,9 @@ bool Configuration::ParseCommandLine(const wchar_t* command_line) {
+   for (int i = 1; i < argument_count_; ++i) {
+     if (0 == ::lstrcmpi(args_[i], L"--system-level"))
+       is_system_level_ = true;
+-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
++#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || defined(OFFICIAL_BUILD)
++    // Use original install switch because it isn't visible to user.
++    // Sync this switch with brave/.../chromium_install_modes.cc
+     else if (0 == ::lstrcmpi(args_[i], L"--chrome-beta"))
+       chrome_app_guid_ = google_update::kBetaAppGuid;
+     else if (0 == ::lstrcmpi(args_[i], L"--chrome-dev"))
+diff --git a/chrome/installer/mini_installer/mini_installer.cc b/chrome/installer/mini_installer/mini_installer.cc
+index de83a4f601161..debd2fd2d860f 100644
+--- a/chrome/installer/mini_installer/mini_installer.cc
++++ b/chrome/installer/mini_installer/mini_installer.cc
+@@ -652,6 +652,7 @@ ProcessExitResult RunSetup(const Configuration& configuration,
+   // on to setup.exe
+   AppendCommandLineFlags(configuration.command_line(), &cmd_line);
+
++  BRAVE_RUN_SETUP
+   return RunProcessAndWait(setup_exe.get(), cmd_line.get(),
+                            RUN_SETUP_FAILED_FILE_NOT_FOUND,
+                            RUN_SETUP_FAILED_PATH_NOT_FOUND,
+
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd chrome\installer\launcher_support\chrome_launcher_support.cc
+diff --git a/chrome/installer/launcher_support/chrome_launcher_support.cc b/chrome/installer/launcher_support/chrome_launcher_support.cc
+index 8f4e27ca20e17..cf2ad06d0d22d 100644
+--- a/chrome/installer/launcher_support/chrome_launcher_support.cc
++++ b/chrome/installer/launcher_support/chrome_launcher_support.cc
+@@ -27,12 +27,22 @@ const wchar_t kUpdateClientsRegKey[] = L"Software\\Google\\Update\\Clients";
+ // Copied from google_chrome_install_modes.cc.
+ const wchar_t kBrowserAppGuid[] = L"{8A69D345-D564-463c-AFF1-A69D9E530F96}";
+ const wchar_t kSxSBrowserAppGuid[] = L"{4ea16ac7-fd5a-47c3-875b-dbf4a2008c20}";
++#elif defined(OFFICIAL_BUILD)
++const wchar_t kInstallationRegKey[] =
++    L"Software\\BraveSoftware\\Update\\ClientState";
++// Copied from
++// brave/chromium_src/chrome_install_static/chromium_install_modes.cc
++const wchar_t kBrowserAppGuid[] =  L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
++const wchar_t kSxSBrowserAppGuid[] = L"{C6CB981E-DB30-4876-8639-109F8933582C}";
+ #else
+ const wchar_t kInstallationRegKey[] = L"Software\\Chromium";
+ #endif
+
+ // Copied from util_constants.cc.
++const wchar_t kChromeExe[] = L"asil.exe";
++#if 0
+ const wchar_t kChromeExe[] = L"chrome.exe";
++#endif
+ const wchar_t kUninstallStringField[] = L"UninstallString";
+ const wchar_t kVersionStringField[] = L"pv";
+
+@@ -96,7 +106,7 @@ base::FilePath GetSetupExeFromRegistry(InstallationLevel level,
+ // Returns the path to an existing setup.exe at the specified level, if it can
+ // be found via the registry.
+ base::FilePath GetSetupExeForInstallationLevel(InstallationLevel level) {
+-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
++#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || defined(OFFICIAL_BUILD)
+   // Look in the registry for Chrome.
+   return GetSetupExeFromRegistry(level, kBrowserAppGuid);
+ #else
+@@ -132,7 +142,7 @@ base::FilePath FindExeRelativeToSetupExe(const base::FilePath setup_exe_path,
+ base::FilePath GetChromePathForInstallationLevel(InstallationLevel level,
+                                                  bool is_sxs) {
+   if (is_sxs) {
+-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
++#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || defined(OFFICIAL_BUILD)
+     return FindExeRelativeToSetupExe(
+         GetSetupExeFromRegistry(level, kSxSBrowserAppGuid), kChromeExe);
+ #else
+
+D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd chrome\common\extensions\chrome_extensions_client.cc
+diff --git a/chrome/common/extensions/chrome_extensions_client.cc b/chrome/common/extensions/chrome_extensions_client.cc
+index 56e1198b3bd07..3033613aed32f 100644
+--- a/chrome/common/extensions/chrome_extensions_client.cc
++++ b/chrome/common/extensions/chrome_extensions_client.cc
+@@ -13,6 +13,7 @@
+ #include "base/metrics/histogram_macros.h"
+ #include "base/strings/string_util.h"
+ #include "base/values.h"
++#include "brave/common/extensions/brave_extensions_api_provider.h"
+ #include "chrome/common/chrome_resource_request_blocked_reason.h"
+ #include "chrome/common/chrome_switches.h"
+ #include "chrome/common/extensions/chrome_extensions_api_provider.h"
+@@ -54,6 +55,7 @@ const char kExtensionBlocklistHttpsUrlPrefix[] =
+ ChromeExtensionsClient::ChromeExtensionsClient() {
+   AddAPIProvider(std::make_unique<ChromeExtensionsAPIProvider>());
+   AddAPIProvider(std::make_unique<CoreExtensionsAPIProvider>());
++  AddAPIProvider(std::make_unique<BraveExtensionsAPIProvider>());
+ }
+
+ ChromeExtensionsClient::~ChromeExtensionsClient() {
+@@ -163,6 +165,8 @@ const GURL& ChromeExtensionsClient::GetNewWebstoreBaseURL() const {
+ }
+
+ const GURL& ChromeExtensionsClient::GetWebstoreUpdateURL() const {
++  DLOG(ERROR) << "ExtensionsClient::GetWebstoreUpdateURL() "
++              << webstore_update_url_;
+   return webstore_update_url_;
+ }
+
+
+D:\naaee\Asil\src>
