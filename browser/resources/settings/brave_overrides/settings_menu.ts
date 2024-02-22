@@ -7,10 +7,10 @@
 
 import '../brave_icons.html.js'
 
-import {RegisterPolymerTemplateModifications, RegisterStyleOverride} from 'chrome://resources/brave/polymer_overriding.js'
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js'
+import { RegisterPolymerTemplateModifications, RegisterStyleOverride } from 'chrome://resources/brave/polymer_overriding.js'
+import { html } from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js'
 
-import {loadTimeData} from '../i18n_setup.js'
+import { loadTimeData } from '../i18n_setup.js'
 import 'chrome://resources/brave/leo.bundle.js'
 
 function createMenuElement(title, href, iconName, pageVisibilitySection) {
@@ -244,19 +244,6 @@ RegisterPolymerTemplateModifications({
     const privacyEl = getMenuElement(templateContent, '/privacy')
     shieldsEl.insertAdjacentElement('afterend', privacyEl)
 
-    // // Add Rewards item
-    // const isBraveRewardsSupported = loadTimeData.getBoolean('isBraveRewardsSupported')
-    // let rewardsEl = undefined
-    // if (isBraveRewardsSupported) {
-    //   rewardsEl = createMenuElement(
-    //     loadTimeData.getString('braveRewards'),
-    //     '/rewards',
-    //     'product-bat-outline',
-    //     'rewards',
-    //   )
-    //   privacyEl.insertAdjacentElement('afterend', rewardsEl)
-    // }
-
     // // Add web3 item
     // const web3El = createMenuElement(
     //   loadTimeData.getString('braveWeb3'),
@@ -264,11 +251,7 @@ RegisterPolymerTemplateModifications({
     //   'product-brave-wallet',
     //   'wallet',
     // )
-    // if (isBraveRewardsSupported) {
-    //   rewardsEl.insertAdjacentElement('afterend', web3El)
-    // } else {
-    //   privacyEl.insertAdjacentElement('afterend', web3El)
-    // }
+    // privacyEl.insertAdjacentElement('afterend', web3El)
 
     // // Add leo item
     // const leoAssistantEl = createMenuElement(
@@ -286,7 +269,7 @@ RegisterPolymerTemplateModifications({
       'product-sync',
       'braveSync',
     )
-    leoAssistantEl.insertAdjacentElement('afterend', syncEl)
+    privacyEl.insertAdjacentElement('afterend', syncEl)
 
     // Add Playlist item
     const playlistEl = createMenuElement(
@@ -295,7 +278,7 @@ RegisterPolymerTemplateModifications({
       'product-playlist',
       'playlist',
     )
-    leoAssistantEl.insertAdjacentElement('afterend', playlistEl)
+    privacyEl.insertAdjacentElement('afterend', playlistEl)
 
     // Add search item
     const searchEl = getMenuElement(templateContent, '/search')

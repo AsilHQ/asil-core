@@ -53,7 +53,7 @@ RegisterStyleOverride(
       #container {
         /* menu and content next to each other in the horizontal center */
         justify-content: center;
-        background: #F1F3F5; /* neutral100 */
+        background: #DEE1E6; /* neutral100 */
       }
       #left {
         /* fixed size menu */
