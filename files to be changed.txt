@@ -1,0 +1,3 @@
+D:\naaee\brave50\src\brave\components\brave_shields\resources\icon-off.png
+//components/vector_icons/back_arrow.icon"
+leo_browser_back
