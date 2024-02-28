@@ -26,16 +26,16 @@ namespace installer {
 
 namespace {
 
-bool UninstallBraveVPNWireguardService(const base::FilePath& exe_path) {
-  if (!base::PathExists(exe_path)) {
-    return false;
-  }
-  base::CommandLine cmd(exe_path);
-  cmd.AppendSwitch(brave_vpn::kBraveVpnWireguardServiceUnnstallSwitchName);
-  base::LaunchOptions options = base::LaunchOptions();
-  options.wait = true;
-  return base::LaunchProcess(cmd, options).IsValid();
-}
+// bool UninstallBraveVPNWireguardService(const base::FilePath& exe_path) {
+//   // if (!base::PathExists(exe_path)) {
+//     return false;
+//   // }
+//   // base::CommandLine cmd(exe_path);
+//   // cmd.AppendSwitch(brave_vpn::kBraveVpnWireguardServiceUnnstallSwitchName);
+//   // base::LaunchOptions options = base::LaunchOptions();
+//   // options.wait = true;
+//   // return base::LaunchProcess(cmd, options).IsValid();
+// }
 
 void DeleteBraveFileKeys(HKEY root) {
   // Delete Software\Classes\BraveXXXFile.
