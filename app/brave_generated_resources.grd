@@ -1127,6 +1127,13 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>kahf://settings/exte
         Imported from <ph name="BROWSER_NAME">$1<ex>Chrome</ex></ph>.
       </message>
 
+      <message name="IDS_BOOKMARKS_SORT_CUSTOM" desc="Label for the custom order sort type">
+        Custom order
+      </message>
+      <message name="IDS_BOOKMARKS_SORT_CUSTOM_LOWER" desc="Lowercase label for the custom order sort type">
+        custom order
+      </message>
+
       <!-- Vertical tab strip -->
       <if expr="toolkit_views">
         <if expr="use_titlecase">
