@@ -52,7 +52,7 @@ index 7cd40b9c37cce8370238c3a1b3850d209ad8d4e2..19b35fdcb96d1a235b7ef2ab42cde14d
    log_cmd fakeroot dpkg-deb -Znone -b "${STAGEDIR}" "${TMPFILEDIR}"
 -  local PACKAGEFILE="${PACKAGE}-${CHANNEL}_${VERSIONFULL}_${ARCHITECTURE}.deb"
 +  local PACKAGEFILE="${PACKAGEANDCHANNEL}_${VERSIONFULL}_${ARCHITECTURE}.deb"
-   if [ ${IS_OFFICIAL_BUILD} -ne 0 ]; then
+   if [ ${is_official_brave_build} -ne 0 ]; then
      (cd "${TMPFILEDIR}" && ar -x "${TMPFILEDIR}/${PACKAGEFILE}")
      xz -z9 -T0 --lzma2='dict=256MiB' "${TMPFILEDIR}/data.tar"
 @@ -164,8 +165,11 @@ verify_channel() {

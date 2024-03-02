@@ -18,7 +18,7 @@ index 085d8472a7e0ea68af55173a4857258701841a9d..04bcf6354b8c8fc32568d6e3ea877e52
 -        "webui/help/version_updater_basic.cc",
 -        "webui/help/version_updater_basic.h",
 -      ]
-+      if (!is_official_build) {
++      if (!is_official_brave_build) {
 +        # In official build, //brave/browser/ui handles.
 +        sources += [
 +          "webui/help/version_updater_basic.cc",

@@ -79,7 +79,7 @@ function BraveSearchLogo () {
       width={244}
       height={80}
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
     >
     <path
       fillRule="evenodd"

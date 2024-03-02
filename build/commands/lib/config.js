@@ -138,6 +138,7 @@ const Config = function () {
   this.sardineClientSecret = getNPMConfig(['sardine_client_secret']) || 'brave_zero_ex_api_key'
   this.bitFlyerProductionClientId = getNPMConfig(['bitflyer_production_client_id']) || 'bitflyer_production_client_id'
   this.bitFlyerProductionClientSecret = getNPMConfig(['bitflyer_production_client_secret']) || 'bitflyer_production_client_id'
+  this.enable_brave_vpn = getNPMConfig(['enable_brave_vpn']) || 'false'
   this.bitFlyerProductionFeeAddress = getNPMConfig(['bitflyer_production_fee_address']) || 'bitflyer_production_client_id'
   this.bitFlyerProductionUrl = getNPMConfig(['bitflyer_production_url']) || 'bitflyer_production_client_id'
   this.bitFlyerSandboxClientId = getNPMConfig(['bitflyer_sandbox_client_id']) || 'bitflyer_production_client_id'
@@ -311,7 +312,7 @@ Config.prototype.buildArgs = function () {
   let args = {
     sardine_client_id: this.sardineClientId,
     sardine_client_secret: this.sardineClientSecret,
-    is_asan: this.isAsan(),
+    is_asan: false,
     enable_rust: true,
     enable_full_stack_frames_for_profiling: this.isAsan(),
     v8_enable_verify_heap: this.isAsan(),
@@ -322,7 +323,7 @@ Config.prototype.buildArgs = function () {
     // TODO: Re-enable when chromium_src overrides work for files in relative
     // paths like widevine_cmdm_compoennt_installer.cc
     // use_jumbo_build: !this.officialBuild,
-    is_component_build: this.isComponentBuild(),
+    is_component_build: false,
     is_universal_binary: this.isUniversalBinary,
     proprietary_codecs: true,
     ffmpeg_branding: "Chrome",
@@ -333,9 +334,10 @@ Config.prototype.buildArgs = function () {
     // Our copy of signature_generator.py doesn't support --ignore_missing_cert:
     ignore_missing_widevine_signing_cert: false,
     target_cpu: this.targetArch,
-    is_official_build: this.isOfficialBuild(),
-    is_debug: this.isDebug(),
-    dcheck_always_on: getNPMConfig(['dcheck_always_on']) || this.isComponentBuild(),
+    is_official_brave_build: true,
+    is_official_brave_build: this.isBraveReleaseBuild(),
+    is_debug: false,
+    dcheck_always_on: false,
     brave_channel: this.channel,
     brave_google_api_key: this.braveGoogleApiKey,
     brave_google_api_endpoint: this.googleApiEndpoint,
@@ -345,6 +347,7 @@ Config.prototype.buildArgs = function () {
     brave_zero_ex_api_key: this.braveZeroExApiKey,
     bitflyer_production_client_id: this.bitFlyerProductionClientId,
     bitflyer_production_client_secret: this.bitFlyerProductionClientSecret,
+    enable_brave_vpn: false,
     bitflyer_production_fee_address: this.bitFlyerProductionFeeAddress,
     bitflyer_production_url: this.bitFlyerProductionUrl,
     bitflyer_sandbox_client_id: this.bitFlyerSandboxClientId,
@@ -426,7 +429,7 @@ Config.prototype.buildArgs = function () {
     // Mojo targets are rebuilt (~23000) on each version bump.
     args.enable_mojom_message_id_scrambling = false
 
-    if (process.platform === 'darwin' && args.is_official_build) {
+    if (process.platform === 'darwin' && args.is_official_brave_build) {
       // Don't create dSYMs in non-true Release builds. dSYMs should be disabled
       // in order to have relocatable compilation so Goma can share the cache
       // across multiple build directories. Enabled dSYMs enforce absolute
@@ -613,7 +616,7 @@ Config.prototype.buildArgs = function () {
     // https://github.com/brave/brave-browser/issues/10334
     args.dcheck_always_on = this.isComponentBuild()
 
-    if (!args.is_official_build) {
+    if (!args.is_official_brave_build) {
       // When building locally iOS needs dSYMs in order for Xcode to map source
       // files correctly since we are using a framework build
       args.enable_dsyms = true
@@ -658,6 +661,7 @@ Config.prototype.buildArgs = function () {
     delete args.brave_stats_api_key
     delete args.brave_stats_updater_url
     delete args.bitflyer_production_client_id
+    delete args.enable_brave_vpn
     delete args.bitflyer_production_client_secret
     delete args.bitflyer_production_fee_address
     delete args.bitflyer_production_url

@@ -12,9 +12,6 @@ declare_args() {
   brave_services_key = ""
 }
 
-if (is_official_build) {
-  assert(brave_services_key != "")
-}
 
 buildflag_header("brave_services_key") {
   # Please use //brave/components/constants instead.

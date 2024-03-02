@@ -15,9 +15,7 @@ declare_args() {
   brave_services_key_id = ""
 }
 
-if (is_official_build) {
-  assert(brave_services_key_id != "")
-}
+
 
 buildflag_header("buildflags") {
   header = "buildflags.h"

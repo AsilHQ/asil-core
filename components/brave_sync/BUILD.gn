@@ -13,9 +13,7 @@ declare_args() {
   brave_sync_endpoint = ""
 }
 
-if (is_official_build) {
-  assert(brave_sync_endpoint != "")
-}
+
 
 buildflag_header("buildflags") {
   header = "buildflags.h"
