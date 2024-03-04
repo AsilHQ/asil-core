@@ -311,7 +311,7 @@ Config.prototype.buildArgs = function () {
   let args = {
     sardine_client_id: this.sardineClientId,
     sardine_client_secret: this.sardineClientSecret,
-    is_asan: false,
+    is_asan: this.isAsan(),
     enable_rust: true,
     enable_full_stack_frames_for_profiling: this.isAsan(),
     v8_enable_verify_heap: this.isAsan(),
@@ -323,19 +323,23 @@ Config.prototype.buildArgs = function () {
     // paths like widevine_cmdm_compoennt_installer.cc
     // use_jumbo_build: !this.officialBuild,
     is_component_build: false,
+
     is_universal_binary: this.isUniversalBinary,
     proprietary_codecs: true,
     ffmpeg_branding: "Chrome",
     branding_path_component: "brave",
     branding_path_product: "brave",
     enable_nacl: false,
+    blink_symbol_level : 0,
+    symbol_level : 0,
+    v8_symbol_level : 0,
     enable_widevine: true,
     // Our copy of signature_generator.py doesn't support --ignore_missing_cert:
     ignore_missing_widevine_signing_cert: false,
     target_cpu: this.targetArch,
-    is_official_build: false,
-    is_official_brave_build: this.isBraveReleaseBuild(),
+    is_official_build: this.isOfficialBuild(),
     is_debug: false,
+    treat_warnings_as_errors:false,
     dcheck_always_on: false,
     brave_channel: this.channel,
     brave_google_api_key: this.braveGoogleApiKey,
@@ -346,7 +350,6 @@ Config.prototype.buildArgs = function () {
     brave_zero_ex_api_key: this.braveZeroExApiKey,
     bitflyer_production_client_id: this.bitFlyerProductionClientId,
     bitflyer_production_client_secret: this.bitFlyerProductionClientSecret,
-    enable_brave_vpn: false,
     bitflyer_production_fee_address: this.bitFlyerProductionFeeAddress,
     bitflyer_production_url: this.bitFlyerProductionUrl,
     bitflyer_sandbox_client_id: this.bitFlyerSandboxClientId,
@@ -428,7 +431,7 @@ Config.prototype.buildArgs = function () {
     // Mojo targets are rebuilt (~23000) on each version bump.
     args.enable_mojom_message_id_scrambling = false
 
-    if (process.platform === 'darwin' && args.is_official_brave_build) {
+    if (process.platform === 'darwin' && args.is_official_build) {
       // Don't create dSYMs in non-true Release builds. dSYMs should be disabled
       // in order to have relocatable compilation so Goma can share the cache
       // across multiple build directories. Enabled dSYMs enforce absolute
@@ -615,7 +618,7 @@ Config.prototype.buildArgs = function () {
     // https://github.com/brave/brave-browser/issues/10334
     args.dcheck_always_on = this.isComponentBuild()
 
-    if (!args.is_official_brave_build) {
+    if (!args.is_official_build) {
       // When building locally iOS needs dSYMs in order for Xcode to map source
       // files correctly since we are using a framework build
       args.enable_dsyms = true
@@ -660,7 +663,6 @@ Config.prototype.buildArgs = function () {
     delete args.brave_stats_api_key
     delete args.brave_stats_updater_url
     delete args.bitflyer_production_client_id
-    delete args.enable_brave_vpn
     delete args.bitflyer_production_client_secret
     delete args.bitflyer_production_fee_address
     delete args.bitflyer_production_url

@@ -7,3 +7,6 @@ declare_args() {
   brave_variations_server_url = ""
 }
 
+if (is_official_build) {
+  assert(brave_variations_server_url != "")
+}

@@ -96,7 +96,7 @@ function getChromiumGnArgs() {
   const args = {
     target_cpu: targetArch,
     target_os: targetOs,
-    is_official_brave_build: true,
+    is_official_build: true,
     enable_keystone_registration_framework: false,
     ffmpeg_branding: 'Chrome',
     enable_widevine: true,
