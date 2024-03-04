@@ -334,7 +334,7 @@ Config.prototype.buildArgs = function () {
     // Our copy of signature_generator.py doesn't support --ignore_missing_cert:
     ignore_missing_widevine_signing_cert: false,
     target_cpu: this.targetArch,
-    is_official_brave_build: true,
+    is_official_build: false,
     is_official_brave_build: this.isBraveReleaseBuild(),
     is_debug: false,
     dcheck_always_on: false,
