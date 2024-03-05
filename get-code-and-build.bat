@@ -1,0 +1,1 @@
+git clone -b 1.62 --depth=1000 https://github.com/AsilHQ/asil-core src/brave & cd src/brave  & npm install & npm run init && npm run build && npm start
