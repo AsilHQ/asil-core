@@ -8,8 +8,8 @@ index 2eea5de1b3f379901c4cf14129f9f762e652d149..16bcff3eca9cac4e3c4d244c99c16720
  #else
 -const char kExpectedFolderName[] = "Chromium Keys";
 -const char kExpectedEntryName[] = "Chromium Safe Storage";
-+const char kExpectedFolderName[] = "Brave Keys";
-+const char kExpectedEntryName[] = "Brave Safe Storage";
++const char kExpectedFolderName[] = "Kahf Keys";
++const char kExpectedEntryName[] = "Kahf Safe Storage";
  #endif
  
  const char kAppName[] = "test-app";
