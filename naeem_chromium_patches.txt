@@ -1,77 +1,5 @@
 D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *extension_*.cc
-diff --git a/chrome/browser/extensions/api/developer_private/extension_info_generator.cc b/chrome/browser/extensions/api/developer_private/extension_info_generator.cc
-index fab2a25f61a2c..3bb9af6d47378 100644
---- a/chrome/browser/extensions/api/developer_private/extension_info_generator.cc
-+++ b/chrome/browser/extensions/api/developer_private/extension_info_generator.cc
-@@ -661,6 +661,7 @@ void ExtensionInfoGenerator::CreateExtensionInfoHelper(
-   info->incognito_access.is_enabled = util::CanBeIncognitoEnabled(&extension);
-   info->incognito_access.is_active =
-       util::IsIncognitoEnabled(extension.id(), browser_context_);
-+  BRAVE_CREATE_EXTENSION_INFO_HELPER
 
-   // Safety check warning acknowledge status.
-   extension_prefs_->ReadPrefAsBoolean(
-diff --git a/chrome/browser/extensions/chrome_component_extension_resource_manager.cc b/chrome/browser/extensions/chrome_component_extension_resource_manager.cc
-index ef131afb1f24e..817f52c0a5d03 100644
---- a/chrome/browser/extensions/chrome_component_extension_resource_manager.cc
-+++ b/chrome/browser/extensions/chrome_component_extension_resource_manager.cc
-@@ -156,6 +156,7 @@ ChromeComponentExtensionResourceManager::Data::Data() {
-         std::move(pdf_viewer_replacements);
-   }
- #endif
-+  BRAVE_CHROME_COMPONENT_EXTENSION_RESOURCE_MANAGER_DATA_DATA
- }
-
- void ChromeComponentExtensionResourceManager::Data::AddComponentResourceEntries(
-diff --git a/chrome/browser/extensions/extension_management.cc b/chrome/browser/extensions/extension_management.cc
-index 7a1843341498a..ec469448142e0 100644
---- a/chrome/browser/extensions/extension_management.cc
-+++ b/chrome/browser/extensions/extension_management.cc
-@@ -944,6 +944,7 @@ ExtensionManagementFactory::BuildServiceInstanceForBrowserContext(
-     content::BrowserContext* context) const {
-   TRACE_EVENT0("browser,startup",
-                "ExtensionManagementFactory::BuildServiceInstanceFor");
-+  BRAVE_EXTENSION_MANAGEMENT_FACTORY_BUILD_SERVICE_INSTANCE_FOR
-   return std::make_unique<ExtensionManagement>(
-       Profile::FromBrowserContext(context));
- }
-diff --git a/chrome/browser/extensions/extension_tab_util.cc b/chrome/browser/extensions/extension_tab_util.cc
-index 9d848548e774e..e81c3a1056c5e 100644
---- a/chrome/browser/extensions/extension_tab_util.cc
-+++ b/chrome/browser/extensions/extension_tab_util.cc
-@@ -819,6 +819,7 @@ bool ExtensionTabUtil::IsKillURL(const GURL& url) {
-   }
-
-   if (!url.SchemeIs(content::kChromeUIScheme)) {
-+    if (!url.SchemeIs(content::kBraveUIScheme))
-     return false;
-   }
-
-diff --git a/extensions/browser/api/web_request/extension_web_request_event_router.cc b/extensions/browser/api/web_request/extension_web_request_event_router.cc
-index 794dfb974bf06..4d9fc81877ccd 100644
---- a/extensions/browser/api/web_request/extension_web_request_event_router.cc
-+++ b/extensions/browser/api/web_request/extension_web_request_event_router.cc
-@@ -1183,6 +1183,7 @@ ExtensionWebRequestEventRouter::OnAuthRequired(
-                                          *request)) {
-     return AuthRequiredResponse::AUTH_REQUIRED_RESPONSE_NO_ACTION;
-   }
-+  BRAVE_EXTENSION_WEB_REQUEST_EVENT_ROUTER_ON_AUTH_REQUIRED
-
-   int extra_info_spec = 0;
-   RawListeners listeners = GetMatchingListeners(
-diff --git a/extensions/browser/extension_creator.cc b/extensions/browser/extension_creator.cc
-index fba56640051f8..8992513db8bdd 100644
---- a/extensions/browser/extension_creator.cc
-+++ b/extensions/browser/extension_creator.cc
-@@ -211,7 +211,7 @@ bool ExtensionCreator::CreateCrx(
-     result = crx_file::CreateCrxWithVerifiedContentsInHeader(
-         crx_path, zip_path, private_key, compressed_verified_contents.value());
-   } else {
--    result = crx_file::Create(crx_path, zip_path, private_key);
-+    BRAVE_CREATE_CRX(crx_path, zip_path, private_key);
-   }
-   switch (result) {
-     case crx_file::CreatorResult::OK:
 diff --git a/extensions/common/extension_urls.cc b/extensions/common/extension_urls.cc
 index ef216e5e5b60e..73dea517cef9c 100644
 --- a/extensions/common/extension_urls.cc
@@ -84,27 +12,13 @@ index ef216e5e5b60e..73dea517cef9c 100644
 +  DLOG(ERROR) << "ExtensionsClient::GetWebstoreUpdateURL() "
 +              << client->GetWebstoreUpdateURL() << " default:"<< GetDefaultWebstoreUpdateUrl();
 +
-+  if (client && client->GetWebstoreUpdateURL().is_empty() == false ) {
++  if (client && client->GetWebstoreUpdateURL().is_empty() == false ) 
      return client->GetWebstoreUpdateURL();
-+  }
    return GetDefaultWebstoreUpdateUrl();
  }
 
 
-D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *extension_*.h
-diff --git a/extensions/renderer/native_extension_bindings_system.h b/extensions/renderer/native_extension_bindings_system.h
-index 31785e4d9052f..330fe5293dec6 100644
---- a/extensions/renderer/native_extension_bindings_system.h
-+++ b/extensions/renderer/native_extension_bindings_system.h
-@@ -42,6 +42,7 @@ class NativeExtensionBindingsSystem {
-   NativeExtensionBindingsSystem& operator=(
-       const NativeExtensionBindingsSystem&) = delete;
-
-+  virtual
-   ~NativeExtensionBindingsSystem();
-
-   // Called when a new ScriptContext is created.
-
+ 
 D:\naaee\Asil\src>git diff 358b60139a703ea4f1ce83a30da9401aa3e96a92 53122d7e121fdb407a1b1f08fef3232dd951eabd *webstore*
 diff --git a/chrome/browser/extensions/webstore_install_with_prompt.cc b/chrome/browser/extensions/webstore_install_with_prompt.cc
 index 464c2d80b1904..c706c8e078ea9 100644
@@ -286,6 +200,7 @@ index d32618c45588b..0d6bc279d7853 100644
      else if (0 == ::lstrcmpi(args_[i], L"--chrome-beta"))
        chrome_app_guid_ = google_update::kBetaAppGuid;
      else if (0 == ::lstrcmpi(args_[i], L"--chrome-dev"))
+
 diff --git a/chrome/installer/mini_installer/mini_installer.cc b/chrome/installer/mini_installer/mini_installer.cc
 index de83a4f601161..debd2fd2d860f 100644
 --- a/chrome/installer/mini_installer/mini_installer.cc
