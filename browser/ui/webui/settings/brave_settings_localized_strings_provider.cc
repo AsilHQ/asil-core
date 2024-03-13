@@ -52,17 +52,17 @@ const char16_t kWebRTCLearnMoreURL[] =
     u"https://support.kahf.co/hc/en-us/articles/"
     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
 const char16_t kBraveBuildInstructionsUrl[] =
-    u"https://github.com/brave/brave-browser/wiki";
+    u"https://github.com/AsilHQ/asil-core";
 const char16_t kBraveLicenseUrl[] = u"https://mozilla.org/MPL/2.0/";
 const char16_t kBraveReleaseTagPrefix[] =
     u"https://github.com/brave/brave-browser/releases/tag/v";
 const char16_t kGoogleLoginLearnMoreURL[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/AsilHQ/asil-core/"
     u"Allow-Google-login---Third-Parties-and-Extensions";
 const char16_t kDNSLinkLearnMoreURL[] =
     u"https://docs.ipfs.io/concepts/dnslink/";
 const char16_t kUnstoppableDomainsLearnMoreURL[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/AsilHQ/asil-core/"
     u"Resolve-Methods-for-Unstoppable-Domains";
 const char16_t kEnsOffchainLookupLearnMoreURL[] =
     u"https://github.com/brave/brave-browser/wiki/ENS-offchain-lookup";
@@ -73,7 +73,7 @@ const char16_t kDeAmpLearnMoreUrl[] =
 const char16_t kDebounceLearnMoreUrl[] =
     u"https://kahf.co/privacy-updates/11-debouncing/";
 const char16_t kEnableNftDiscoveryLearnMoreUrl[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/AsilHQ/asil-core/"
     u"NFT-Discovery";
 
 void BraveAddCommonStrings(content::WebUIDataSource* html_source,

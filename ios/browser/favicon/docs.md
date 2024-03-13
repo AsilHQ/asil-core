@@ -5,9 +5,9 @@ This file documents the list of changes made to the Chromium iOS Favicon impleme
 
 # Changes
 
-[KahfIOSWebFaviconDriver.h](https://github.com/brave/brave-core/blob/master/ios/browser/favicon/brave_ios_web_favicon_driver.h): Modification of `WebFaviconDriver` to get rid of `web::WebState` and instead use `ChromeBrowserState` as iOS cannot use `web::WebState` since we do not use `CRWWebView` in our Swift code. This means we got rid of all the `WebStateObserver` and `UserData` as well, and instead store the class with the `ChromeBrowserState`. This is done via the `CreateForBrowserState` and `FromBrowserState` functions.
+[KahfIOSWebFaviconDriver.h](https://github.com/AsilHQ/asil-core/blob/master/ios/browser/favicon/brave_ios_web_favicon_driver.h): Modification of `WebFaviconDriver` to get rid of `web::WebState` and instead use `ChromeBrowserState` as iOS cannot use `web::WebState` since we do not use `CRWWebView` in our Swift code. This means we got rid of all the `WebStateObserver` and `UserData` as well, and instead store the class with the `ChromeBrowserState`. This is done via the `CreateForBrowserState` and `FromBrowserState` functions.
 
-[KahfIOSWebFaviconDriver.mm](https://github.com/brave/brave-core/blob/master/ios/browser/favicon/brave_ios_web_favicon_driver.mm)
+[KahfIOSWebFaviconDriver.mm](https://github.com/AsilHQ/asil-core/blob/master/ios/browser/favicon/brave_ios_web_favicon_driver.mm)
 
 The below code was added in order to setup a navigation stack for the Swift iOS WebView when navigation has just begun.
 ```c++

@@ -84,7 +84,7 @@ function buildDefaultGClientConfig(
       name: 'src/brave',
       // We do not use gclient to manage brave-core, so this should not
       // actually get used.
-      url: 'https://github.com/brave/brave-core.git'
+      url: 'https://github.com/AsilHQ/asil-core.git'
     })
   }
 

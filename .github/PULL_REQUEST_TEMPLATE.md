@@ -12,7 +12,7 @@ Resolves
 * CI/skip-all-linters - do not run presubmit and lint checks
 * CI/storybook-url (1) - deploy storybook and provide a unique URL for each build
 
-(1) applied automatically when some files are changed (see: https://github.com/brave/brave-core/blob/master/.github/labeler.yml)
+(1) applied automatically when some files are changed (see: https://github.com/AsilHQ/asil-core/blob/master/.github/labeler.yml)
 -->
 
 ## Submitter Checklist:

@@ -129,7 +129,7 @@ void MigrateObsoleteProfilePrefs(PrefService* profile_prefs) {
   NTPBackgroundPrefs(profile_prefs).MigrateOldPref();
 #endif
 
-  // Added 24/11/2022: https://github.com/brave/brave-core/pull/16027
+  // Added 24/11/2022: https://github.com/AsilHQ/asil-core/pull/16027
 #if !BUILDFLAG(IS_IOS) && !BUILDFLAG(IS_ANDROID)
   profile_prefs->ClearPref(kFTXAccessToken);
   profile_prefs->ClearPref(kFTXOauthHost);
@@ -142,7 +142,7 @@ void MigrateObsoleteProfilePrefs(PrefService* profile_prefs) {
   profile_prefs->ClearPref(kNewTabPageShowGemini);
 #endif
 
-  // Added 24/11/2022: https://github.com/brave/brave-core/pull/16027
+  // Added 24/11/2022: https://github.com/AsilHQ/asil-core/pull/16027
 #if !BUILDFLAG(IS_IOS)
   profile_prefs->ClearPref(kBinanceAccessToken);
   profile_prefs->ClearPref(kBinanceRefreshToken);

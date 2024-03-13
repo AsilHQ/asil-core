@@ -166,7 +166,7 @@ std::string URLSanitizerService::StripQueryParameter(
     const std::string& query,
     const base::flat_set<std::string>& trackers) {
   // We are using custom query string parsing code here. See
-  // https://github.com/brave/brave-core/pull/13726#discussion_r897712350
+  // https://github.com/AsilHQ/asil-core/pull/13726#discussion_r897712350
   // for more information on why this approach was selected.
   //
   // Split query string by ampersands, remove tracking parameters,

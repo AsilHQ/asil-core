@@ -242,7 +242,7 @@ IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
 // NOTE: the actual crash functionality is covered upstream in
 // chrome/browser/crash_recovery_browsertest.cc
 // This test is for the kahf:// scheme. This is a regression test added with:
-// https://github.com/brave/brave-core/pull/2229)
+// https://github.com/AsilHQ/asil-core/pull/2229)
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest, MAYBE_CrashURLTest) {
   content::RenderProcessHostWatcher crash_observer(
       browser()->tab_strip_model()->GetActiveWebContents(),

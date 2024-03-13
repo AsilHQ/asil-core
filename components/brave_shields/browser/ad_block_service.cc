@@ -249,7 +249,7 @@ base::Value::Dict AdBlockService::UrlCosmeticResources(
 // the default engine and those returned by other engines, but still comply
 // with the virtual method signature.
 // This can be improved once interfaces are decoupled in
-// https://github.com/brave/brave-core/pull/10994.
+// https://github.com/AsilHQ/asil-core/pull/10994.
 // For now, this returns a dict with two properties:
 //  - "hide_selectors" - wraps the result from the default engine
 //  - "force_hide_selectors" - wraps appended results from all other engines

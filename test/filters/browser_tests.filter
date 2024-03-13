@@ -619,7 +619,7 @@
 
 # These tests fail because of our fix to WebRequest onHeadersReceived bug. See
 # Chromium bug https://bugs.chromium.org/p/chromium/issues/detail?id=809761 and
-# our fix in https://github.com/brave/brave-core/pull/784.
+# our fix in https://github.com/AsilHQ/asil-core/pull/784.
 -PersistentBackground/ExtensionWebRequestApiAuthRequiredTest.WebRequestAuthRequired/0
 -PersistentBackground/ExtensionWebRequestApiAuthRequiredTest.WebRequestAuthRequiredAsync/0
 -PersistentBackgroundIncognito/ExtensionWebRequestApiAuthRequiredTest.WebRequestAuthRequired/0

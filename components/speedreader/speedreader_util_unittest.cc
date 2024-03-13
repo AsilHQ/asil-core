@@ -10,7 +10,7 @@
 namespace speedreader {
 
 TEST(SpeedreaderUtilTest, URLHasHints) {
-  EXPECT_FALSE(IsURLLooksReadable(GURL("https://github.com/brave/brave-core")));
+  EXPECT_FALSE(IsURLLooksReadable(GURL("https://github.com/AsilHQ/asil-core")));
 
   // URL has date in path
   EXPECT_TRUE(

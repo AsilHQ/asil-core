@@ -10,7 +10,7 @@ Moved bat-native-confirmations from rewards to ads process
 
 ### Changed API (5th June 2020)
 ##### Related PR
-[https://github.com/brave/brave-core/pull/5748](https://github.com/brave/brave-core/pull/5748)
+[https://github.com/AsilHQ/asil-core/pull/5748](https://github.com/AsilHQ/asil-core/pull/5748)
 ##### Description
 With this PR we now pass `should_refresh`
 
@@ -26,7 +26,7 @@ With this PR we now pass `should_refresh`
 
 ### Changed API (11th November 2019)
 ##### Related PR
-[https://github.com/brave/brave-core/pull/3918](https://github.com/brave/brave-core/pull/3918)
+[https://github.com/AsilHQ/asil-core/pull/3918](https://github.com/AsilHQ/asil-core/pull/3918)
 ##### Description
 With this PR we completely changed the logic of how grants work. Instead of using anonize we now used blinded tokens.
 You can read more about what is done in this issue [https://github.com/brave/brave-browser/issues/6078](https://github.com/brave/brave-browser/issues/6078).
@@ -74,7 +74,7 @@ For `ClaimPromotion` Android should use the one with `promotion_id` param
 ### Refactoring (9th October 2019)
 ##### Related PR
 
-[https://github.com/brave/brave-core/pull/3630](https://github.com/brave/brave-core/pull/3630)
+[https://github.com/AsilHQ/asil-core/pull/3630](https://github.com/AsilHQ/asil-core/pull/3630)
 
 ##### Description
 
@@ -89,7 +89,7 @@ Renamed `RewardsCategory` to `RewardsType` and added migration path.
 ### New API (16th September 2019)
 ##### Related PR
 
-[https://github.com/brave/brave-core/pull/3444](https://github.com/brave/brave-core/pull/3444)
+[https://github.com/AsilHQ/asil-core/pull/3444](https://github.com/AsilHQ/asil-core/pull/3444)
 
 ##### Description
 

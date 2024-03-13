@@ -72,7 +72,7 @@ void DecentralizedDnsOptInPage::PopulateInterstitialStrings(
       u"https://consensys.net/privacy-policy/"};
 
   const std::u16string sns_wiki_link =
-      u"https://github.com/brave/brave-browser/wiki/"
+      u"https://github.com/AsilHQ/asil-core/"
       u"Resolve-Methods-for-Solana-Name-Service";
 
   if (IsUnstoppableDomainsTLD(request_url_.host_piece())) {

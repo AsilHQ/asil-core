@@ -302,8 +302,8 @@ class InstallStaticUtilTest
 #endif
 
     ASSERT_EQ(ERROR_SUCCESS,
-              base::win::RegKey(root_key_, kPolicyKey, KEY_SET_VALUE)
-                  .WriteValue(L"MetricsReportingEnabled", value));
+              base::win::RegKey(root_key_, kPolicyKey, KEY_SET_VALUE) brave -
+                  core.WriteValue(L"MetricsReportingEnabled", value));
   }
 
  private:

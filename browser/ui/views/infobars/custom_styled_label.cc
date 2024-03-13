@@ -26,7 +26,7 @@ void CustomStyledLabel::Layout() {
   // This Layout() comes from LinkFragment::RecalculateFont() whenever hovered
   // over link in StyledLabel even we don't need to change font.
   // For more details, please see
-  // https://github.com/brave/brave-core/pull/17121#discussion_r1101354123
+  // https://github.com/AsilHQ/asil-core/pull/17121#discussion_r1101354123
   if (last_layout_size_ == size()) {
     return;
   }

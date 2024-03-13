@@ -21,7 +21,7 @@ inline constexpr char kCryptoWalletsLearnMoreURL[] =
 inline constexpr char kPermissionPromptLearnMoreUrl[] =
     "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
 inline constexpr char kPermissionPromptHardwareAccessPrivacyRisksURL[] =
-    "https://github.com/brave/brave-browser/wiki/"
+    "https://github.com/AsilHQ/asil-core/"
     "Privacy-risks-from-allowing-sites-to-access-hardware";
 inline constexpr char kSpeedreaderLearnMoreUrl[] =
     "https://support.kahf.co/hc/en-us/articles/"

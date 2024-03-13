@@ -136,7 +136,7 @@ static constexpr auto kScopedQueryStringTrackers =
 absl::optional<std::string> StripQueryParameter(const std::string_view query,
                                                 const std::string& spec) {
   // We are using custom query string parsing code here. See
-  // https://github.com/brave/brave-core/pull/13726#discussion_r897712350
+  // https://github.com/AsilHQ/asil-core/pull/13726#discussion_r897712350
   // for more information on why this approach was selected.
   //
   // Split query string by ampersands, remove tracking parameters,

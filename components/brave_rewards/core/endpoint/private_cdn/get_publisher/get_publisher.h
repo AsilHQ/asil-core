@@ -21,7 +21,7 @@
 //
 // Response body:
 // See
-// https://github.com/brave/brave-core/blob/master/components/brave_rewards/core/publisher/protos/channel_response.proto
+// https://github.com/AsilHQ/asil-core/blob/master/components/brave_rewards/core/publisher/protos/channel_response.proto
 
 namespace brave_rewards::internal {
 class RewardsEngineImpl;

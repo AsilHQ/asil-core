@@ -172,7 +172,7 @@ void RegisterProfilePrefsForMigration(
   registry->RegisterIntegerPref(kBraveSearchVisitCount, 0);
 #endif
 
-  // Added 24/11/2022: https://github.com/brave/brave-core/pull/16027
+  // Added 24/11/2022: https://github.com/AsilHQ/asil-core/pull/16027
 #if !BUILDFLAG(IS_IOS) && !BUILDFLAG(IS_ANDROID)
   registry->RegisterStringPref(kFTXAccessToken, "");
   registry->RegisterStringPref(kFTXOauthHost, "");
@@ -185,7 +185,7 @@ void RegisterProfilePrefsForMigration(
   registry->RegisterBooleanPref(kNewTabPageShowGemini, false);
 #endif
 
-  // Added 24/11/2022: https://github.com/brave/brave-core/pull/16027
+  // Added 24/11/2022: https://github.com/AsilHQ/asil-core/pull/16027
 #if !BUILDFLAG(IS_IOS)
   registry->RegisterStringPref(kBinanceAccessToken, "");
   registry->RegisterStringPref(kBinanceRefreshToken, "");
