@@ -39,7 +39,7 @@ TEST_F(BraveAdsCreativeSetConversionDatabaseTableTest,
 
   const CreativeSetConversionInfo creative_set_conversion_1 =
       test::BuildVerifiableCreativeSetConversion(
-          kCreativeSetId, /*url_pattern=*/"https://www.brave.com/*",
+          kCreativeSetId, /*url_pattern=*/"https://www.kahf.co/*",
           /*observation_window=*/base::Days(3),
           kVerifiableConversionAdvertiserPublicKey);
   creative_set_conversions.push_back(creative_set_conversion_1);
@@ -47,7 +47,7 @@ TEST_F(BraveAdsCreativeSetConversionDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion_2 =
       test::BuildCreativeSetConversion(
           /*creative_set_id=*/"4e83a23c-1194-40f8-8fdc-2f38d7ed75c8",
-          /*url_pattern=*/"https://www.brave.com/signup/*",
+          /*url_pattern=*/"https://www.kahf.co/signup/*",
           /*observation_window=*/base::Days(30));
   creative_set_conversions.push_back(creative_set_conversion_2);
 
@@ -67,7 +67,7 @@ TEST_F(BraveAdsCreativeSetConversionDatabaseTableTest,
 
   const CreativeSetConversionInfo creative_set_conversion =
       test::BuildVerifiableCreativeSetConversion(
-          kCreativeSetId, /*url_pattern=*/"https://www.brave.com/*",
+          kCreativeSetId, /*url_pattern=*/"https://www.kahf.co/*",
           /*observation_window=*/base::Days(3),
           kVerifiableConversionAdvertiserPublicKey);
   creative_set_conversions.push_back(creative_set_conversion);
@@ -91,14 +91,14 @@ TEST_F(BraveAdsCreativeSetConversionDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion_1 =
       test::BuildCreativeSetConversion(
           kCreativeSetId,
-          /*url_pattern=*/"https://www.brave.com/*",
+          /*url_pattern=*/"https://www.kahf.co/*",
           /*observation_window=*/base::Days(7));
   creative_set_conversions.push_back(creative_set_conversion_1);
 
   const CreativeSetConversionInfo creative_set_conversion_2 =
       test::BuildCreativeSetConversion(
           /*creative_set_id=*/"4e83a23c-1194-40f8-8fdc-2f38d7ed75c8",
-          /*url_pattern=*/"https://www.brave.com/signup/*",
+          /*url_pattern=*/"https://www.kahf.co/signup/*",
           /*observation_window=*/base::Days(3));  // Should be purged
   creative_set_conversions.push_back(creative_set_conversion_2);
 
@@ -124,7 +124,7 @@ TEST_F(BraveAdsCreativeSetConversionDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion_1 =
       test::BuildVerifiableCreativeSetConversion(
           kCreativeSetId,
-          /*url_pattern=*/"https://www.brave.com/1",
+          /*url_pattern=*/"https://www.kahf.co/1",
           /*observation_window=*/base::Days(3),
           kVerifiableConversionAdvertiserPublicKey);
   creative_set_conversions_1.push_back(creative_set_conversion_1);
@@ -136,7 +136,7 @@ TEST_F(BraveAdsCreativeSetConversionDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion_2 =
       test::BuildVerifiableCreativeSetConversion(
           kCreativeSetId,
-          /*url_pattern=*/"https://www.brave.com/2",
+          /*url_pattern=*/"https://www.kahf.co/2",
           /*observation_window=*/base::Days(30),
           kVerifiableConversionAdvertiserPublicKey);
   creative_set_conversions_2.push_back(creative_set_conversion_2);

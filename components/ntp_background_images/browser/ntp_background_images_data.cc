@@ -21,9 +21,9 @@
       "name": "ntp-2020/2021-1",
       "source": "background-image-source.png",
       "author": "Halalz",
-      "link": "https://brave.com/",
+      "link": "https://kahf.co/",
       "originalUrl": "Contributor sent the hi-res version through email",
-      "license": "https://brave.com/about/"
+      "license": "https://kahf.co/about/"
     },
   ]
 }

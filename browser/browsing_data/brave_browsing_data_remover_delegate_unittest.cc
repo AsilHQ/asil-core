@@ -56,7 +56,7 @@ class BraveBrowsingDataRemoverDelegateTest : public testing::Test {
 };
 
 TEST_F(BraveBrowsingDataRemoverDelegateTest, ShieldsSettingsClearTest) {
-  const GURL kBraveURL("https://www.brave.com");
+  const GURL kBraveURL("https://www.kahf.co");
   const GURL kBatURL("https://basicattentiontoken.org");
   const GURL kGoogleURL("https://www.google.com");
   const GURL kAbcURL("https://www.abc.com");

@@ -162,7 +162,7 @@ class BraveAdBlockTPNetworkDelegateHelperTest : public testing::Test {
 };
 
 TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, NoInitiatorURL) {
-  const GURL url("https://bradhatesprimes.brave.com/composite_numbers_ftw");
+  const GURL url("https://bradhatesprimes.kahf.co/composite_numbers_ftw");
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
   request_info->resource_type = blink::mojom::ResourceType::kScript;
 
@@ -207,9 +207,9 @@ TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, RequestDataURL) {
 }
 
 TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, SimpleBlocking) {
-  ResetAdblockInstance("||brave.com/test.txt", "");
+  ResetAdblockInstance("||kahf.co/test.txt", "");
 
-  const GURL url("https://brave.com/test.txt");
+  const GURL url("https://kahf.co/test.txt");
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
   request_info->request_identifier = 1;
   request_info->resource_type = blink::mojom::ResourceType::kScript;
@@ -224,13 +224,13 @@ TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, SimpleBlocking) {
 }
 
 TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, Default1pException) {
-  ResetAdblockInstance("||brave.com/test.txt", "");
+  ResetAdblockInstance("||kahf.co/test.txt", "");
 
-  const GURL url("https://brave.com/test.txt");
+  const GURL url("https://kahf.co/test.txt");
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
   request_info->request_identifier = 1;
   request_info->resource_type = blink::mojom::ResourceType::kScript;
-  request_info->initiator_url = GURL("https://brave.com");
+  request_info->initiator_url = GURL("https://kahf.co");
 
   EXPECT_TRUE(CheckRequest(request_info));
   EXPECT_EQ(request_info->blocked_by, brave::kNotBlocked);
@@ -239,13 +239,13 @@ TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, Default1pException) {
 }
 
 TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, AggressiveNo1pException) {
-  ResetAdblockInstance("||brave.com/test.txt", "");
+  ResetAdblockInstance("||kahf.co/test.txt", "");
 
-  const GURL url("https://brave.com/test.txt");
+  const GURL url("https://kahf.co/test.txt");
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
   request_info->request_identifier = 1;
   request_info->resource_type = blink::mojom::ResourceType::kScript;
-  request_info->initiator_url = GURL("https://brave.com");
+  request_info->initiator_url = GURL("https://kahf.co");
   request_info->aggressive_blocking = true;
 
   EXPECT_TRUE(CheckRequest(request_info));

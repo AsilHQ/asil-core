@@ -14,8 +14,8 @@ edition = "2021"
 name = "adblock"
 version = "0.8.4"
 authors = [
-    "Andrius Aucinas <aaucinas@brave.com>",
-    "Anton Lazarev <alazarev@brave.com>",
+    "Andrius Aucinas <aaucinas@kahf.co>",
+    "Anton Lazarev <alazarev@kahf.co>",
 ]
 exclude = [
     "*.md",

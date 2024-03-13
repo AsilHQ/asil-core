@@ -9,7 +9,7 @@ export const coinMarketMockData = [
     'symbol': 'btc',
     'name': 'Bitcoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/1/large/bitcoin.png?1547033579',
+      'https://assets.cgproxy.kahf.co/coins/images/1/large/bitcoin.png?1547033579',
     'marketCap': 586109332977,
     'marketCapRank': 1,
     'currentPrice': 30171,
@@ -22,7 +22,7 @@ export const coinMarketMockData = [
     'symbol': 'eth',
     'name': 'Ethereum',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/279/large/ethereum.png?1595348880',
+      'https://assets.cgproxy.kahf.co/coins/images/279/large/ethereum.png?1595348880',
     'marketCap': 223895622340,
     'marketCapRank': 2,
     'currentPrice': 1863.05,
@@ -35,7 +35,7 @@ export const coinMarketMockData = [
     'symbol': 'usdt',
     'name': 'Tether',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/325/large/Tether.png?1668148663',
+      'https://assets.cgproxy.kahf.co/coins/images/325/large/Tether.png?1668148663',
     'marketCap': 83341286735,
     'marketCapRank': 3,
     'currentPrice': 0.999683,
@@ -48,7 +48,7 @@ export const coinMarketMockData = [
     'symbol': 'bnb',
     'name': 'BNB',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/825/large/bnb-icon2_2x.png?1644979850',
+      'https://assets.cgproxy.kahf.co/coins/images/825/large/bnb-icon2_2x.png?1644979850',
     'marketCap': 37729831752,
     'marketCapRank': 4,
     'currentPrice': 242.26,
@@ -61,7 +61,7 @@ export const coinMarketMockData = [
     'symbol': 'usdc',
     'name': 'USD Coin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/6319/large/USD_Coin_icon.png?1547042389',
+      'https://assets.cgproxy.kahf.co/coins/images/6319/large/USD_Coin_icon.png?1547042389',
     'marketCap': 27451228632,
     'marketCapRank': 5,
     'currentPrice': 0.999579,
@@ -74,7 +74,7 @@ export const coinMarketMockData = [
     'symbol': 'xrp',
     'name': 'XRP',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/44/large/xrp-symbol-white-128.png?1605778731',
+      'https://assets.cgproxy.kahf.co/coins/images/44/large/xrp-symbol-white-128.png?1605778731',
     'marketCap': 24623403574,
     'marketCapRank': 6,
     'currentPrice': 0.471428,
@@ -87,7 +87,7 @@ export const coinMarketMockData = [
     'symbol': 'steth',
     'name': 'Lido Staked Ether',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13442/large/steth_logo.png?1608607546',
+      'https://assets.cgproxy.kahf.co/coins/images/13442/large/steth_logo.png?1608607546',
     'marketCap': 14169909948,
     'marketCapRank': 7,
     'currentPrice': 1862.83,
@@ -100,7 +100,7 @@ export const coinMarketMockData = [
     'symbol': 'ada',
     'name': 'Cardano',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/975/large/cardano.png?1547034860',
+      'https://assets.cgproxy.kahf.co/coins/images/975/large/cardano.png?1547034860',
     'marketCap': 9998367832,
     'marketCapRank': 8,
     'currentPrice': 0.285624,
@@ -113,7 +113,7 @@ export const coinMarketMockData = [
     'symbol': 'doge',
     'name': 'Dogecoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/5/large/dogecoin.png?1547792256',
+      'https://assets.cgproxy.kahf.co/coins/images/5/large/dogecoin.png?1547792256',
     'marketCap': 9049437599,
     'marketCapRank': 9,
     'currentPrice': 0.064587,
@@ -126,7 +126,7 @@ export const coinMarketMockData = [
     'symbol': 'sol',
     'name': 'Solana',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4128/large/solana.png?1640133422',
+      'https://assets.cgproxy.kahf.co/coins/images/4128/large/solana.png?1640133422',
     'marketCap': 8347467305,
     'marketCapRank': 10,
     'currentPrice': 20.73,
@@ -139,7 +139,7 @@ export const coinMarketMockData = [
     'symbol': 'ltc',
     'name': 'Litecoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/2/large/litecoin.png?1547033580',
+      'https://assets.cgproxy.kahf.co/coins/images/2/large/litecoin.png?1547033580',
     'marketCap': 6937828504,
     'marketCapRank': 11,
     'currentPrice': 94.63,
@@ -152,7 +152,7 @@ export const coinMarketMockData = [
     'symbol': 'trx',
     'name': 'TRON',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/1094/large/tron-logo.png?1547035066',
+      'https://assets.cgproxy.kahf.co/coins/images/1094/large/tron-logo.png?1547035066',
     'marketCap': 6919047069,
     'marketCapRank': 12,
     'currentPrice': 0.077061,
@@ -165,7 +165,7 @@ export const coinMarketMockData = [
     'symbol': 'matic',
     'name': 'Polygon',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4713/large/matic-token-icon.png?1624446912',
+      'https://assets.cgproxy.kahf.co/coins/images/4713/large/matic-token-icon.png?1624446912',
     'marketCap': 6494144842,
     'marketCapRank': 13,
     'currentPrice': 0.696516,
@@ -178,7 +178,7 @@ export const coinMarketMockData = [
     'symbol': 'dot',
     'name': 'Polkadot',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12171/large/polkadot.png?1639712644',
+      'https://assets.cgproxy.kahf.co/coins/images/12171/large/polkadot.png?1639712644',
     'marketCap': 6342462124,
     'marketCapRank': 14,
     'currentPrice': 5.07,
@@ -191,7 +191,7 @@ export const coinMarketMockData = [
     'symbol': 'bch',
     'name': 'Bitcoin Cash',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/780/large/bitcoin-cash-circle.png?1594689492',
+      'https://assets.cgproxy.kahf.co/coins/images/780/large/bitcoin-cash-circle.png?1594689492',
     'marketCap': 5202777161,
     'marketCapRank': 15,
     'currentPrice': 267.33,
@@ -204,7 +204,7 @@ export const coinMarketMockData = [
     'symbol': 'wbtc',
     'name': 'Wrapped Bitcoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744',
+      'https://assets.cgproxy.kahf.co/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744',
     'marketCap': 4748739622,
     'marketCapRank': 16,
     'currentPrice': 30149,
@@ -217,7 +217,7 @@ export const coinMarketMockData = [
     'symbol': 'avax',
     'name': 'Avalanche',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1670992574',
+      'https://assets.cgproxy.kahf.co/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1670992574',
     'marketCap': 4596401435,
     'marketCapRank': 17,
     'currentPrice': 13.29,
@@ -230,7 +230,7 @@ export const coinMarketMockData = [
     'symbol': 'shib',
     'name': 'Shiba Inu',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/11939/large/shiba.png?1622619446',
+      'https://assets.cgproxy.kahf.co/coins/images/11939/large/shiba.png?1622619446',
     'marketCap': 4431524767,
     'marketCapRank': 18,
     'currentPrice': 0.00000752,
@@ -243,7 +243,7 @@ export const coinMarketMockData = [
     'symbol': 'dai',
     'name': 'Dai',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/9956/large/Badge_Dai.png?1687143508',
+      'https://assets.cgproxy.kahf.co/coins/images/9956/large/Badge_Dai.png?1687143508',
     'marketCap': 4290919179,
     'marketCapRank': 19,
     'currentPrice': 0.999511,
@@ -256,7 +256,7 @@ export const coinMarketMockData = [
     'symbol': 'busd',
     'name': 'Binance USD',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/9576/large/BUSD.png?1568947766',
+      'https://assets.cgproxy.kahf.co/coins/images/9576/large/BUSD.png?1568947766',
     'marketCap': 4044876238,
     'marketCapRank': 20,
     'currentPrice': 0.999854,
@@ -269,7 +269,7 @@ export const coinMarketMockData = [
     'symbol': 'uni',
     'name': 'Uniswap',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12504/large/uni.jpg?1687143398',
+      'https://assets.cgproxy.kahf.co/coins/images/12504/large/uni.jpg?1687143398',
     'marketCap': 3894802222,
     'marketCapRank': 21,
     'currentPrice': 5.17,
@@ -282,7 +282,7 @@ export const coinMarketMockData = [
     'symbol': 'leo',
     'name': 'LEO Token',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/8418/large/leo-token.png?1558326215',
+      'https://assets.cgproxy.kahf.co/coins/images/8418/large/leo-token.png?1558326215',
     'marketCap': 3740006900,
     'marketCapRank': 22,
     'currentPrice': 3.98,
@@ -295,7 +295,7 @@ export const coinMarketMockData = [
     'symbol': 'link',
     'name': 'Chainlink',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/877/large/chainlink-new-logo.png?1547034700',
+      'https://assets.cgproxy.kahf.co/coins/images/877/large/chainlink-new-logo.png?1547034700',
     'marketCap': 3157917199,
     'marketCapRank': 23,
     'currentPrice': 6.1,
@@ -308,7 +308,7 @@ export const coinMarketMockData = [
     'symbol': 'xmr',
     'name': 'Monero',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/69/large/monero_logo.png?1547033729',
+      'https://assets.cgproxy.kahf.co/coins/images/69/large/monero_logo.png?1547033729',
     'marketCap': 3000420990,
     'marketCapRank': 24,
     'currentPrice': 165.29,
@@ -321,7 +321,7 @@ export const coinMarketMockData = [
     'symbol': 'tusd',
     'name': 'TrueUSD',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/3449/large/tusd.png?1618395665',
+      'https://assets.cgproxy.kahf.co/coins/images/3449/large/tusd.png?1618395665',
     'marketCap': 2943501956,
     'marketCapRank': 25,
     'currentPrice': 0.999343,
@@ -334,7 +334,7 @@ export const coinMarketMockData = [
     'symbol': 'atom',
     'name': 'Cosmos Hub',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/1481/large/cosmos_hub.png?1555657960',
+      'https://assets.cgproxy.kahf.co/coins/images/1481/large/cosmos_hub.png?1555657960',
     'marketCap': 2717945219,
     'marketCapRank': 26,
     'currentPrice': 9.31,
@@ -347,7 +347,7 @@ export const coinMarketMockData = [
     'symbol': 'etc',
     'name': 'Ethereum Classic',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/453/large/ethereum-classic-logo.png?1547034169',
+      'https://assets.cgproxy.kahf.co/coins/images/453/large/ethereum-classic-logo.png?1547034169',
     'marketCap': 2658447023,
     'marketCapRank': 27,
     'currentPrice': 18.74,
@@ -360,7 +360,7 @@ export const coinMarketMockData = [
     'symbol': 'xlm',
     'name': 'Stellar',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/100/large/Stellar_symbol_black_RGB.png?1552356157',
+      'https://assets.cgproxy.kahf.co/coins/images/100/large/Stellar_symbol_black_RGB.png?1552356157',
     'marketCap': 2656926901,
     'marketCapRank': 28,
     'currentPrice': 0.098203,
@@ -373,7 +373,7 @@ export const coinMarketMockData = [
     'symbol': 'okb',
     'name': 'OKB',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4463/large/WeChat_Image_20220118095654.png?1642471050',
+      'https://assets.cgproxy.kahf.co/coins/images/4463/large/WeChat_Image_20220118095654.png?1642471050',
     'marketCap': 2563765471,
     'marketCapRank': 29,
     'currentPrice': 42.73,
@@ -386,7 +386,7 @@ export const coinMarketMockData = [
     'symbol': 'ton',
     'name': 'Toncoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/17980/large/ton_symbol.png?1670498136',
+      'https://assets.cgproxy.kahf.co/coins/images/17980/large/ton_symbol.png?1670498136',
     'marketCap': 2027104839,
     'marketCapRank': 30,
     'currentPrice': 1.38,
@@ -399,7 +399,7 @@ export const coinMarketMockData = [
     'symbol': 'fil',
     'name': 'Filecoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12817/large/filecoin.png?1602753933',
+      'https://assets.cgproxy.kahf.co/coins/images/12817/large/filecoin.png?1602753933',
     'marketCap': 1838947313,
     'marketCapRank': 31,
     'currentPrice': 4.23,
@@ -412,7 +412,7 @@ export const coinMarketMockData = [
     'symbol': 'icp',
     'name': 'Internet Computer',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/14495/large/Internet_Computer_logo.png?1620703073',
+      'https://assets.cgproxy.kahf.co/coins/images/14495/large/Internet_Computer_logo.png?1620703073',
     'marketCap': 1750163150,
     'marketCapRank': 32,
     'currentPrice': 4,
@@ -425,7 +425,7 @@ export const coinMarketMockData = [
     'symbol': 'ldo',
     'name': 'Lido DAO',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13573/large/Lido_DAO.png?1609873644',
+      'https://assets.cgproxy.kahf.co/coins/images/13573/large/Lido_DAO.png?1609873644',
     'marketCap': 1669345814,
     'marketCapRank': 33,
     'currentPrice': 1.9,
@@ -438,7 +438,7 @@ export const coinMarketMockData = [
     'symbol': 'hbar',
     'name': 'Hedera',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/3688/large/hbar.png?1637045634',
+      'https://assets.cgproxy.kahf.co/coins/images/3688/large/hbar.png?1637045634',
     'marketCap': 1516032757,
     'marketCapRank': 34,
     'currentPrice': 0.04698299,
@@ -451,7 +451,7 @@ export const coinMarketMockData = [
     'symbol': 'apt',
     'name': 'Aptos',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/26455/large/aptos_round.png?1666839629',
+      'https://assets.cgproxy.kahf.co/coins/images/26455/large/aptos_round.png?1666839629',
     'marketCap': 1484652465,
     'marketCapRank': 35,
     'currentPrice': 7.05,
@@ -464,7 +464,7 @@ export const coinMarketMockData = [
     'symbol': 'qnt',
     'name': 'Quant',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/3370/large/5ZOu7brX_400x400.jpg?1612437252',
+      'https://assets.cgproxy.kahf.co/coins/images/3370/large/5ZOu7brX_400x400.jpg?1612437252',
     'marketCap': 1480126909,
     'marketCapRank': 36,
     'currentPrice': 101.81,
@@ -477,7 +477,7 @@ export const coinMarketMockData = [
     'symbol': 'cro',
     'name': 'Cronos',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/7310/large/cro_token_logo.png?1669699773',
+      'https://assets.cgproxy.kahf.co/coins/images/7310/large/cro_token_logo.png?1669699773',
     'marketCap': 1453757354,
     'marketCapRank': 37,
     'currentPrice': 0.055487,
@@ -490,7 +490,7 @@ export const coinMarketMockData = [
     'symbol': 'arb',
     'name': 'Arbitrum',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/16547/large/photo_2023-03-29_21.47.00.jpeg?1680097630',
+      'https://assets.cgproxy.kahf.co/coins/images/16547/large/photo_2023-03-29_21.47.00.jpeg?1680097630',
     'marketCap': 1418016197,
     'marketCapRank': 38,
     'currentPrice': 1.11,
@@ -503,7 +503,7 @@ export const coinMarketMockData = [
     'symbol': 'vet',
     'name': 'VeChain',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/1167/large/VET_Token_Icon.png?1680067517',
+      'https://assets.cgproxy.kahf.co/coins/images/1167/large/VET_Token_Icon.png?1680067517',
     'marketCap': 1335805232,
     'marketCapRank': 39,
     'currentPrice': 0.01836273,
@@ -516,7 +516,7 @@ export const coinMarketMockData = [
     'symbol': 'near',
     'name': 'NEAR Protocol',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/10365/large/near.jpg?1683515160',
+      'https://assets.cgproxy.kahf.co/coins/images/10365/large/near.jpg?1683515160',
     'marketCap': 1214598466,
     'marketCapRank': 40,
     'currentPrice': 1.3,
@@ -529,7 +529,7 @@ export const coinMarketMockData = [
     'symbol': 'aave',
     'name': 'Aave',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12645/large/AAVE.png?1601374110',
+      'https://assets.cgproxy.kahf.co/coins/images/12645/large/AAVE.png?1601374110',
     'marketCap': 1016750294,
     'marketCapRank': 41,
     'currentPrice': 70.19,
@@ -542,7 +542,7 @@ export const coinMarketMockData = [
     'symbol': 'grt',
     'name': 'The Graph',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13397/large/Graph_Token.png?1608145566',
+      'https://assets.cgproxy.kahf.co/coins/images/13397/large/Graph_Token.png?1608145566',
     'marketCap': 1016258593,
     'marketCapRank': 42,
     'currentPrice': 0.111905,
@@ -555,7 +555,7 @@ export const coinMarketMockData = [
     'symbol': 'frax',
     'name': 'Frax',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13422/large/FRAX_icon.png?1679886922',
+      'https://assets.cgproxy.kahf.co/coins/images/13422/large/FRAX_icon.png?1679886922',
     'marketCap': 1004716062,
     'marketCapRank': 43,
     'currentPrice': 1.001,
@@ -568,7 +568,7 @@ export const coinMarketMockData = [
     'symbol': 'reth',
     'name': 'Rocket Pool ETH',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/20764/large/reth.png?1637652366',
+      'https://assets.cgproxy.kahf.co/coins/images/20764/large/reth.png?1637652366',
     'marketCap': 939481367,
     'marketCapRank': 44,
     'currentPrice': 2005.79,
@@ -581,7 +581,7 @@ export const coinMarketMockData = [
     'symbol': 'egld',
     'name': 'MultiversX',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12335/large/egld-token-logo.png?1673490885',
+      'https://assets.cgproxy.kahf.co/coins/images/12335/large/egld-token-logo.png?1673490885',
     'marketCap': 888188942,
     'marketCapRank': 45,
     'currentPrice': 34.63,
@@ -594,7 +594,7 @@ export const coinMarketMockData = [
     'symbol': 'stx',
     'name': 'Stacks',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/2069/large/Stacks_logo_full.png?1604112510',
+      'https://assets.cgproxy.kahf.co/coins/images/2069/large/Stacks_logo_full.png?1604112510',
     'marketCap': 870608264,
     'marketCapRank': 46,
     'currentPrice': 0.625905,
@@ -607,7 +607,7 @@ export const coinMarketMockData = [
     'symbol': 'mkr',
     'name': 'Maker',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/1364/large/Mark_Maker.png?1585191826',
+      'https://assets.cgproxy.kahf.co/coins/images/1364/large/Mark_Maker.png?1585191826',
     'marketCap': 839588638,
     'marketCapRank': 47,
     'currentPrice': 931.3,
@@ -620,7 +620,7 @@ export const coinMarketMockData = [
     'symbol': 'algo',
     'name': 'Algorand',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4380/large/download.png?1547039725',
+      'https://assets.cgproxy.kahf.co/coins/images/4380/large/download.png?1547039725',
     'marketCap': 834739128,
     'marketCapRank': 48,
     'currentPrice': 0.110241,
@@ -633,7 +633,7 @@ export const coinMarketMockData = [
     'symbol': 'eos',
     'name': 'EOS',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/738/large/eos-eos-logo.png?1547034481',
+      'https://assets.cgproxy.kahf.co/coins/images/738/large/eos-eos-logo.png?1547034481',
     'marketCap': 793469645,
     'marketCapRank': 49,
     'currentPrice': 0.713568,
@@ -646,7 +646,7 @@ export const coinMarketMockData = [
     'symbol': 'wbt',
     'name': 'WhiteBIT Token',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/27045/large/wbt_token.png?1667923752',
+      'https://assets.cgproxy.kahf.co/coins/images/27045/large/wbt_token.png?1667923752',
     'marketCap': 774902464,
     'marketCapRank': 50,
     'currentPrice': 5.38,
@@ -659,7 +659,7 @@ export const coinMarketMockData = [
     'symbol': 'usdp',
     'name': 'Pax Dollar',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/6013/large/Pax_Dollar.png?1629877204',
+      'https://assets.cgproxy.kahf.co/coins/images/6013/large/Pax_Dollar.png?1629877204',
     'marketCap': 768221395,
     'marketCapRank': 52,
     'currentPrice': 0.999482,
@@ -672,7 +672,7 @@ export const coinMarketMockData = [
     'symbol': 'bsv',
     'name': 'Bitcoin SV',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/6799/large/BSV.png?1558947902',
+      'https://assets.cgproxy.kahf.co/coins/images/6799/large/BSV.png?1558947902',
     'marketCap': 765440267,
     'marketCapRank': 51,
     'currentPrice': 39.71,
@@ -685,7 +685,7 @@ export const coinMarketMockData = [
     'symbol': 'op',
     'name': 'Optimism',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/25244/large/Optimism.png?1660904599',
+      'https://assets.cgproxy.kahf.co/coins/images/25244/large/Optimism.png?1660904599',
     'marketCap': 764881904,
     'marketCapRank': 53,
     'currentPrice': 1.19,
@@ -698,7 +698,7 @@ export const coinMarketMockData = [
     'symbol': 'xtz',
     'name': 'Tezos',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/976/large/Tezos-logo.png?1547034862',
+      'https://assets.cgproxy.kahf.co/coins/images/976/large/Tezos-logo.png?1547034862',
     'marketCap': 759963436,
     'marketCapRank': 54,
     'currentPrice': 0.811108,
@@ -711,7 +711,7 @@ export const coinMarketMockData = [
     'symbol': 'sand',
     'name': 'The Sandbox',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12129/large/sandbox_logo.jpg?1597397942',
+      'https://assets.cgproxy.kahf.co/coins/images/12129/large/sandbox_logo.jpg?1597397942',
     'marketCap': 757920351,
     'marketCapRank': 55,
     'currentPrice': 0.405233,
@@ -724,7 +724,7 @@ export const coinMarketMockData = [
     'symbol': 'ftm',
     'name': 'Fantom',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4001/large/Fantom_round.png?1669652346',
+      'https://assets.cgproxy.kahf.co/coins/images/4001/large/Fantom_round.png?1669652346',
     'marketCap': 740694791,
     'marketCapRank': 56,
     'currentPrice': 0.264459,
@@ -737,7 +737,7 @@ export const coinMarketMockData = [
     'symbol': 'usdd',
     'name': 'USDD',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/25380/large/UUSD.jpg?1651823371',
+      'https://assets.cgproxy.kahf.co/coins/images/25380/large/UUSD.jpg?1651823371',
     'marketCap': 733389975,
     'marketCapRank': 57,
     'currentPrice': 0.998555,
@@ -750,7 +750,7 @@ export const coinMarketMockData = [
     'symbol': 'theta',
     'name': 'Theta Network',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/2538/large/theta-token-logo.png?1548387191',
+      'https://assets.cgproxy.kahf.co/coins/images/2538/large/theta-token-logo.png?1548387191',
     'marketCap': 713308427,
     'marketCapRank': 58,
     'currentPrice': 0.713584,
@@ -763,7 +763,7 @@ export const coinMarketMockData = [
     'symbol': 'imx',
     'name': 'ImmutableX',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/17233/large/immutableX-symbol-BLK-RGB.png?1665110648',
+      'https://assets.cgproxy.kahf.co/coins/images/17233/large/immutableX-symbol-BLK-RGB.png?1665110648',
     'marketCap': 712978229,
     'marketCapRank': 59,
     'currentPrice': 0.685521,
@@ -776,7 +776,7 @@ export const coinMarketMockData = [
     'symbol': 'rpl',
     'name': 'Rocket Pool',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/2090/large/rocket_pool_%28RPL%29.png?1637662441',
+      'https://assets.cgproxy.kahf.co/coins/images/2090/large/rocket_pool_%28RPL%29.png?1637662441',
     'marketCap': 710210730,
     'marketCapRank': 60,
     'currentPrice': 36.34,
@@ -789,7 +789,7 @@ export const coinMarketMockData = [
     'symbol': 'ape',
     'name': 'ApeCoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/24383/large/apecoin.jpg?1647476455',
+      'https://assets.cgproxy.kahf.co/coins/images/24383/large/apecoin.jpg?1647476455',
     'marketCap': 696845206,
     'marketCapRank': 61,
     'currentPrice': 1.89,
@@ -802,7 +802,7 @@ export const coinMarketMockData = [
     'symbol': 'rndr',
     'name': 'Render',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/11636/large/rndr.png?1638840934',
+      'https://assets.cgproxy.kahf.co/coins/images/11636/large/rndr.png?1638840934',
     'marketCap': 694749253,
     'marketCapRank': 62,
     'currentPrice': 1.88,
@@ -815,7 +815,7 @@ export const coinMarketMockData = [
     'symbol': 'mana',
     'name': 'Decentraland',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/878/large/decentraland-mana.png?1550108745',
+      'https://assets.cgproxy.kahf.co/coins/images/878/large/decentraland-mana.png?1550108745',
     'marketCap': 691167332,
     'marketCapRank': 63,
     'currentPrice': 0.375755,
@@ -828,7 +828,7 @@ export const coinMarketMockData = [
     'symbol': 'crv',
     'name': 'Curve DAO',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12124/large/Curve.png?1597369484',
+      'https://assets.cgproxy.kahf.co/coins/images/12124/large/Curve.png?1597369484',
     'marketCap': 689178986,
     'marketCapRank': 64,
     'currentPrice': 0.793916,
@@ -841,7 +841,7 @@ export const coinMarketMockData = [
     'symbol': 'xec',
     'name': 'eCash',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/16646/large/Logo_final-22.png?1628239446',
+      'https://assets.cgproxy.kahf.co/coins/images/16646/large/Logo_final-22.png?1628239446',
     'marketCap': 676380998,
     'marketCapRank': 65,
     'currentPrice': 0.0000348,
@@ -854,7 +854,7 @@ export const coinMarketMockData = [
     'symbol': 'axs',
     'name': 'Axie Infinity',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13029/large/axie_infinity_logo.png?1604471082',
+      'https://assets.cgproxy.kahf.co/coins/images/13029/large/axie_infinity_logo.png?1604471082',
     'marketCap': 666230522,
     'marketCapRank': 66,
     'currentPrice': 5.76,
@@ -867,7 +867,7 @@ export const coinMarketMockData = [
     'symbol': 'bgb',
     'name': 'Bitget Token',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/11610/large/photo_2022-01-24_14-08-03.jpg?1643019457',
+      'https://assets.cgproxy.kahf.co/coins/images/11610/large/photo_2022-01-24_14-08-03.jpg?1643019457',
     'marketCap': 658426506,
     'marketCapRank': 67,
     'currentPrice': 0.470411,
@@ -880,7 +880,7 @@ export const coinMarketMockData = [
     'symbol': 'snx',
     'name': 'Synthetix Network',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/3406/large/SNX.png?1598631139',
+      'https://assets.cgproxy.kahf.co/coins/images/3406/large/SNX.png?1598631139',
     'marketCap': 640557089,
     'marketCapRank': 68,
     'currentPrice': 2,
@@ -893,7 +893,7 @@ export const coinMarketMockData = [
     'symbol': 'inj',
     'name': 'Injective',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12882/large/Secondary_Symbol.png?1628233237',
+      'https://assets.cgproxy.kahf.co/coins/images/12882/large/Secondary_Symbol.png?1628233237',
     'marketCap': 638179331,
     'marketCapRank': 69,
     'currentPrice': 7.98,
@@ -906,7 +906,7 @@ export const coinMarketMockData = [
     'symbol': 'pepe',
     'name': 'Pepe',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/29850/large/pepe-token.jpeg?1682922725',
+      'https://assets.cgproxy.kahf.co/coins/images/29850/large/pepe-token.jpeg?1682922725',
     'marketCap': 626443252,
     'marketCapRank': 70,
     'currentPrice': 0.00000149,
@@ -919,7 +919,7 @@ export const coinMarketMockData = [
     'symbol': 'bit',
     'name': 'BitDAO',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/17627/large/rI_YptK8.png?1653983088',
+      'https://assets.cgproxy.kahf.co/coins/images/17627/large/rI_YptK8.png?1653983088',
     'marketCap': 620293268,
     'marketCapRank': 71,
     'currentPrice': 0.426687,
@@ -932,7 +932,7 @@ export const coinMarketMockData = [
     'symbol': 'neo',
     'name': 'NEO',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/480/large/NEO_512_512.png?1594357361',
+      'https://assets.cgproxy.kahf.co/coins/images/480/large/NEO_512_512.png?1594357361',
     'marketCap': 619989558,
     'marketCapRank': 72,
     'currentPrice': 8.8,
@@ -945,7 +945,7 @@ export const coinMarketMockData = [
     'symbol': 'flow',
     'name': 'Flow',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13446/large/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1631696776',
+      'https://assets.cgproxy.kahf.co/coins/images/13446/large/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1631696776',
     'marketCap': 619640774,
     'marketCapRank': 73,
     'currentPrice': 0.594207,
@@ -958,7 +958,7 @@ export const coinMarketMockData = [
     'symbol': 'kava',
     'name': 'Kava',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/9761/large/kava.png?1663638871',
+      'https://assets.cgproxy.kahf.co/coins/images/9761/large/kava.png?1663638871',
     'marketCap': 608998978,
     'marketCapRank': 74,
     'currentPrice': 0.983102,
@@ -971,7 +971,7 @@ export const coinMarketMockData = [
     'symbol': 'kcs',
     'name': 'KuCoin',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/1047/large/sa9z79.png?1610678720',
+      'https://assets.cgproxy.kahf.co/coins/images/1047/large/sa9z79.png?1610678720',
     'marketCap': 608066893,
     'marketCapRank': 75,
     'currentPrice': 6.28,
@@ -984,7 +984,7 @@ export const coinMarketMockData = [
     'symbol': 'gt',
     'name': 'Gate',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/8183/large/gate.png?1687143308',
+      'https://assets.cgproxy.kahf.co/coins/images/8183/large/gate.png?1687143308',
     'marketCap': 588177365,
     'marketCapRank': 76,
     'currentPrice': 4.23,
@@ -997,7 +997,7 @@ export const coinMarketMockData = [
     'symbol': 'gala',
     'name': 'GALA',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/12493/large/GALA-COINGECKO.png?1600233435',
+      'https://assets.cgproxy.kahf.co/coins/images/12493/large/GALA-COINGECKO.png?1600233435',
     'marketCap': 583557641,
     'marketCapRank': 77,
     'currentPrice': 0.02394785,
@@ -1010,7 +1010,7 @@ export const coinMarketMockData = [
     'symbol': 'xrd',
     'name': 'Radix',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4374/large/Radix.png?1629701658',
+      'https://assets.cgproxy.kahf.co/coins/images/4374/large/Radix.png?1629701658',
     'marketCap': 577432319,
     'marketCapRank': 78,
     'currentPrice': 0.056578,
@@ -1023,7 +1023,7 @@ export const coinMarketMockData = [
     'symbol': 'gusd',
     'name': 'Gemini Dollar',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278',
+      'https://assets.cgproxy.kahf.co/coins/images/5992/large/gemini-dollar-gusd.png?1536745278',
     'marketCap': 564351910,
     'marketCapRank': 79,
     'currentPrice': 1.001,
@@ -1036,7 +1036,7 @@ export const coinMarketMockData = [
     'symbol': 'chz',
     'name': 'Chiliz',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/8834/large/CHZ_Token_updated.png?1675848257',
+      'https://assets.cgproxy.kahf.co/coins/images/8834/large/CHZ_Token_updated.png?1675848257',
     'marketCap': 528661282,
     'marketCapRank': 80,
     'currentPrice': 0.075764,
@@ -1049,7 +1049,7 @@ export const coinMarketMockData = [
     'symbol': 'klay',
     'name': 'Klaytn',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/9672/large/klaytn.png?1660288824',
+      'https://assets.cgproxy.kahf.co/coins/images/9672/large/klaytn.png?1660288824',
     'marketCap': 508768861,
     'marketCapRank': 81,
     'currentPrice': 0.161801,
@@ -1062,7 +1062,7 @@ export const coinMarketMockData = [
     'symbol': 'miota',
     'name': 'IOTA',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/692/large/IOTA_Swirl.png?1604238557',
+      'https://assets.cgproxy.kahf.co/coins/images/692/large/IOTA_Swirl.png?1604238557',
     'marketCap': 496517956,
     'marketCapRank': 82,
     'currentPrice': 0.17856,
@@ -1075,7 +1075,7 @@ export const coinMarketMockData = [
     'symbol': 'gmx',
     'name': 'GMX',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/18323/large/arbit.png?1631532468',
+      'https://assets.cgproxy.kahf.co/coins/images/18323/large/arbit.png?1631532468',
     'marketCap': 486192473,
     'marketCapRank': 83,
     'currentPrice': 54.88,
@@ -1088,7 +1088,7 @@ export const coinMarketMockData = [
     'symbol': 'ceth',
     'name': 'cETH',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/10643/large/ceth.png?1687143191',
+      'https://assets.cgproxy.kahf.co/coins/images/10643/large/ceth.png?1687143191',
     'marketCap': 483313437,
     'marketCapRank': 84,
     'currentPrice': 37.4,
@@ -1101,7 +1101,7 @@ export const coinMarketMockData = [
     'symbol': 'paxg',
     'name': 'PAX Gold',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/9519/large/paxgold.png?1687143101',
+      'https://assets.cgproxy.kahf.co/coins/images/9519/large/paxgold.png?1687143101',
     'marketCap': 481072817,
     'marketCapRank': 85,
     'currentPrice': 1901.55,
@@ -1114,7 +1114,7 @@ export const coinMarketMockData = [
     'symbol': 'lunc',
     'name': 'Terra Luna Classic',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/8284/large/01_LunaClassic_color.png?1653547790',
+      'https://assets.cgproxy.kahf.co/coins/images/8284/large/01_LunaClassic_color.png?1653547790',
     'marketCap': 474322228,
     'marketCapRank': 86,
     'currentPrice': 0.00008147,
@@ -1127,7 +1127,7 @@ export const coinMarketMockData = [
     'symbol': 'xaut',
     'name': 'Tether Gold',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/10481/large/Tether_Gold.png?1668148656',
+      'https://assets.cgproxy.kahf.co/coins/images/10481/large/Tether_Gold.png?1668148656',
     'marketCap': 472572724,
     'marketCapRank': 87,
     'currentPrice': 1918.9,
@@ -1140,7 +1140,7 @@ export const coinMarketMockData = [
     'symbol': 'kas',
     'name': 'Kaspa',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/25751/large/kaspa-icon-exchanges.png?1653891958',
+      'https://assets.cgproxy.kahf.co/coins/images/25751/large/kaspa-icon-exchanges.png?1653891958',
     'marketCap': 465746023,
     'marketCapRank': 88,
     'currentPrice': 0.02382791,
@@ -1153,7 +1153,7 @@ export const coinMarketMockData = [
     'symbol': 'tkx',
     'name': 'Tokenize Xchange',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/4984/large/TKX_-_Logo_-_RGB-15.png?1672912391',
+      'https://assets.cgproxy.kahf.co/coins/images/4984/large/TKX_-_Logo_-_RGB-15.png?1672912391',
     'marketCap': 460945486,
     'marketCapRank': 89,
     'currentPrice': 5.77,
@@ -1166,7 +1166,7 @@ export const coinMarketMockData = [
     'symbol': 'fxs',
     'name': 'Frax Share',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/13423/large/Frax_Shares_icon.png?1679886947',
+      'https://assets.cgproxy.kahf.co/coins/images/13423/large/Frax_Shares_icon.png?1679886947',
     'marketCap': 459550512,
     'marketCapRank': 90,
     'currentPrice': 6.31,
@@ -1179,7 +1179,7 @@ export const coinMarketMockData = [
     'symbol': 'btt',
     'name': 'BitTorrent',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/22457/large/btt_logo.png?1643857231',
+      'https://assets.cgproxy.kahf.co/coins/images/22457/large/btt_logo.png?1643857231',
     'marketCap': 450400587,
     'marketCapRank': 91,
     'currentPrice': 4.72097e-7,
@@ -1192,7 +1192,7 @@ export const coinMarketMockData = [
     'symbol': 'frxeth',
     'name': 'Frax Ether',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/28284/large/frxETH_icon.png?1679886981',
+      'https://assets.cgproxy.kahf.co/coins/images/28284/large/frxETH_icon.png?1679886981',
     'marketCap': 439412567,
     'marketCapRank': 92,
     'currentPrice': 1861.94,
@@ -1205,7 +1205,7 @@ export const coinMarketMockData = [
     'symbol': 'ht',
     'name': 'Huobi',
     'image':
-      'https://assets.cgproxy.brave.com/coins/images/2822/large/huobi-token-logo.png?1547036992',
+      'https://assets.cgproxy.kahf.co/coins/images/2822/large/huobi-token-logo.png?1547036992',
     'marketCap': 438805704,
     'marketCapRank': 93,
     'currentPrice': 2.7,

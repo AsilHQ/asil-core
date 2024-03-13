@@ -1,7 +1,7 @@
 [package]
 name = "adblock"
 version = "0.8.3"
-authors = ["Andrius Aucinas <aaucinas@brave.com>", "Anton Lazarev <alazarev@brave.com>"]
+authors = ["Andrius Aucinas <aaucinas@kahf.co>", "Anton Lazarev <alazarev@kahf.co>"]
 edition = "2021"
 
 description = "Native Rust module for Adblock Plus syntax (e.g. EasyList, EasyPrivacy) filter parsing and matching."

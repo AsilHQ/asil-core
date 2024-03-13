@@ -263,13 +263,13 @@ mod tests {
             "adv$tag=stuff",
             "somelongpath/test$tag=stuff",
             "||brianbondy.com/$tag=brian",
-            "||brave.com$tag=brian",
+            "||kahf.co$tag=brian",
         ];
         let url_results = [
             ("http://example.com/advert.html", true),
             ("http://example.com/somelongpath/test/2.html", true),
             ("https://brianbondy.com/about", true),
-            ("https://brave.com/about", true),
+            ("https://kahf.co/about", true),
         ];
 
         let mut engine = Engine::from_rules(&filters, Default::default());
@@ -293,13 +293,13 @@ mod tests {
             "adv$tag=stuff",
             "somelongpath/test$tag=stuff",
             "||brianbondy.com/$tag=brian",
-            "||brave.com$tag=brian",
+            "||kahf.co$tag=brian",
         ];
         let url_results = [
             ("http://example.com/advert.html", false),
             ("http://example.com/somelongpath/test/2.html", false),
             ("https://brianbondy.com/about", true),
-            ("https://brave.com/about", true),
+            ("https://kahf.co/about", true),
         ];
 
         let mut engine = Engine::from_rules(&filters, Default::default());
@@ -376,13 +376,13 @@ mod tests {
             "adv$tag=stuff",
             "somelongpath/test$tag=stuff",
             "||brianbondy.com/$tag=brian",
-            "||brave.com$tag=brian",
+            "||kahf.co$tag=brian",
         ];
         let url_results = [
             ("http://example.com/advert.html", true),
             ("http://example.com/somelongpath/test/2.html", true),
             ("https://brianbondy.com/about", false),
-            ("https://brave.com/about", false),
+            ("https://kahf.co/about", false),
         ];
 
         let mut engine = Engine::from_rules(&filters, Default::default());

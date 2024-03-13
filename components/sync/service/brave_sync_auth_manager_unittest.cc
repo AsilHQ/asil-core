@@ -40,7 +40,7 @@ const char kAccountId[] =
 
 const char kAccountEmail[] =
     "502042270C8145247ED70A18F87022A3 "
-    "9886900AB36F2FFF655635DBE516765E @brave.com";
+    "9886900AB36F2FFF655635DBE516765E @kahf.co";
 
 class BraveSyncAuthManagerTest : public testing::Test {
  protected:

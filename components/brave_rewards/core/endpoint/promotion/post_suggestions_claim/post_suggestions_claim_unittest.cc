@@ -34,7 +34,7 @@ class PostSuggestionsClaimTest : public testing::Test {
         "FtEyZ7nebNGRoUDxObiUni9u8BB0DIT2aya6rYWko64IrXJWpbf0SVHnQFVYNyX64NjW9R"
         "6";  // NOLINT
     token.public_key = "dvpysTSiJdZUPihius7pvGOfngRWfDiIbrowykgMi1I=";
-    redeem_.publisher_key = "brave.com";
+    redeem_.publisher_key = "kahf.co";
     redeem_.type = mojom::RewardsType::ONE_TIME_TIP;
     redeem_.processor = mojom::ContributionProcessor::BRAVE_TOKENS;
     redeem_.token_list = {token};

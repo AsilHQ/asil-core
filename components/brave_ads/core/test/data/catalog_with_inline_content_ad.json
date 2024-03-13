@@ -17,10 +17,10 @@
               "payload": {
                 "title": "Test Title",
                 "description": "Test Description",
-                "imageUrl": "https://www.brave.com",
+                "imageUrl": "https://www.kahf.co",
                 "dimensions": "200x100",
                 "ctaText": "Test Call to Action Text",
-                "targetUrl": "https://brave.com"
+                "targetUrl": "https://kahf.co"
               }
             }
           ],
@@ -34,7 +34,7 @@
           "conversions": [
             {
               "observationWindow": 30,
-              "urlPattern": "https://www.brave.com/*",
+              "urlPattern": "https://www.kahf.co/*",
               "type": "postview"
             }
           ],

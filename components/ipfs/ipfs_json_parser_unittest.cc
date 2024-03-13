@@ -141,24 +141,24 @@ TEST_F(IPFSJSONParserTest, GetGarbageCollectionFromJSON) {
 TEST_F(IPFSJSONParserTest, GetImportResponseFromJSON) {
   ipfs::ImportedData success;
   ASSERT_TRUE(IPFSJSONParser::GetImportResponseFromJSON(R"({
-    "Name":"brave.com",
+    "Name":"kahf.co",
     "Hash":"QmYbK4SLaSvTKKAKvNZMwyzYPy4P3GqBPN6CZzbS73FxxU",
     "Size":"567857"
     })",
                                                         &success));
   ASSERT_EQ(success.hash, "QmYbK4SLaSvTKKAKvNZMwyzYPy4P3GqBPN6CZzbS73FxxU");
-  // EXPECT_EQ(success.name, "brave.com");
+  // EXPECT_EQ(success.name, "kahf.co");
   ASSERT_EQ(success.size, 567857);
 
   ipfs::ImportedData failed;
   ASSERT_TRUE(IPFSJSONParser::GetImportResponseFromJSON(R"({
-    "Name":"brave.com",
+    "Name":"kahf.co",
     "Hash":"",
     "Size":"-1"
     })",
                                                         &failed));
   EXPECT_EQ(failed.hash, "");
-  // EXPECT_EQ(failed.name, "brave.com");
+  // EXPECT_EQ(failed.name, "kahf.co");
   ASSERT_EQ(failed.size, -1);
 
   ipfs::ImportedData failed2;

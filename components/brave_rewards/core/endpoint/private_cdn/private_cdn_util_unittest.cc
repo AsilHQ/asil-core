@@ -31,7 +31,7 @@ TEST(PrivateCDNTest, GetServerUrlStaging) {
 TEST(PrivateCDNTest, GetServerUrlProduction) {
   _environment = mojom::Environment::PRODUCTION;
   const std::string url = GetServerUrl("/test");
-  ASSERT_EQ(url, "https://pcdn.brave.com/test");
+  ASSERT_EQ(url, "https://pcdn.kahf.co/test");
 }
 
 }  // namespace private_cdn

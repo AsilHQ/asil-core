@@ -17,7 +17,7 @@
               "payload": {
                 "body": "Test Ad 1 Campaign 1 Body",
                 "title": "Test Ad 1 Campaign 1 Title",
-                "targetUrl": "https://brave.com/1"
+                "targetUrl": "https://kahf.co/1"
               }
             },
             {
@@ -31,7 +31,7 @@
               "payload": {
                 "body": "Test Ad 2 Campaign 1 Body",
                 "title": "Test Ad 2 Campaign 1 Title",
-                "targetUrl": "https://brave.com/2"
+                "targetUrl": "https://kahf.co/2"
               }
             },
             {
@@ -43,7 +43,7 @@
                 "version": 1
               },
               "payload": {
-                "feed": "https://brave.com/3",
+                "feed": "https://kahf.co/3",
                 "title": "Test Ad 3 Campaign 1 Title",
                 "domain": "Domain",
                 "category": "Category",
@@ -63,10 +63,10 @@
               "payload": {
                 "title": "Inline Content 1",
                 "description": "Test Inline Content Ad Campaign 1",
-                "imageUrl": "https://www.brave.com/1/image.png",
+                "imageUrl": "https://www.kahf.co/1/image.png",
                 "dimensions": "200x100",
                 "ctaText": "Call to Action Text 1",
-                "targetUrl": "https://brave.com/1/inline_content_ad"
+                "targetUrl": "https://kahf.co/1/inline_content_ad"
               }
             }
           ],
@@ -80,7 +80,7 @@
           "conversions": [
             {
               "observationWindow": 30,
-              "urlPattern": "https://www.brave.com/*",
+              "urlPattern": "https://www.kahf.co/*",
               "type": "postview"
             }
           ],
@@ -123,9 +123,9 @@
               "payload": {
                 "logo": {
                   "alt": "This is a test NTP creative",
-                  "imageUrl": "https://brave.com/test.jpg",
+                  "imageUrl": "https://kahf.co/test.jpg",
                   "companyName": "Kahf",
-                  "destinationUrl": "https://brave.com"
+                  "destinationUrl": "https://kahf.co"
                 },
                 "wallpapers": [
                   {
@@ -133,14 +133,14 @@
                       "x": 1200,
                       "y": 1400
                     },
-                    "imageUrl": "https://brave.com/test2.jpg"
+                    "imageUrl": "https://kahf.co/test2.jpg"
                   },
                   {
                     "focalPoint": {
                       "x": 1200,
                       "y": 1400
                     },
-                    "imageUrl": "https://brave.com/test3.jpg"
+                    "imageUrl": "https://kahf.co/test3.jpg"
                   }
                 ]
               }
@@ -193,7 +193,7 @@
               "payload": {
                 "body": "Test Ad 1 Campaign 2 Body",
                 "title": "Test Ad 1 Campaign 2 Title",
-                "targetUrl": "https://brave.com/1"
+                "targetUrl": "https://kahf.co/1"
               }
             }
           ],
@@ -207,7 +207,7 @@
           "conversions": [
             {
               "observationWindow": 7,
-              "urlPattern": "https://www.brave.com/*",
+              "urlPattern": "https://www.kahf.co/*",
               "type": "postclick"
             }
           ],

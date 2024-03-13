@@ -39,7 +39,7 @@ TEST_F(BraveAdsPurchaseIntentModelTest,
        DoNotGetSegmentsForUnitializedResource) {
   // Arrange
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
 
   // Act
   const SegmentList segments = GetPurchaseIntentSegments();
@@ -53,7 +53,7 @@ TEST_F(BraveAdsPurchaseIntentModelTest, DoNotGetSegmentsForExpiredSignals) {
   ASSERT_TRUE(LoadResource());
 
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
 
   AdvanceClockBy(base::Days(1));
 
@@ -97,9 +97,9 @@ TEST_F(BraveAdsPurchaseIntentModelTest, GetSegmentsForPreviouslyMatchedSite) {
   ASSERT_TRUE(LoadResource());
 
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
   processor.Process(GURL("https://www.basicattentiontoken.org/test?bar=foo"));
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
 
   // Act & Assert
   const SegmentList expected_segments = {"segment 3", "segment 2"};

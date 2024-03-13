@@ -111,7 +111,7 @@ class OnionDomainThrottleBrowserTest : public InProcessBrowserTest {
                                                         : "->Normal Window"));
       ASSERT_TRUE(ui_test_utils::NavigateToURL(
           test_case.browser,
-          https_server_->GetURL("brave.com", "/simple.html")));
+          https_server_->GetURL("kahf.co", "/simple.html")));
       content::WebContents* contents =
           test_case.browser->tab_strip_model()->GetActiveWebContents();
       auto loaded = EvalJs(contents, image_script(test_case.src));

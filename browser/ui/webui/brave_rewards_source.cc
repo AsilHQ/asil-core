@@ -39,7 +39,7 @@ void BraveRewardsSource::StartDataRequest(
     const content::WebContents::Getter& wc_getter,
     content::URLDataSource::GotDataCallback got_data_callback) {
   // URL here comes in the form of
-  // chrome://rewards-image/https://rewards.brave.com/...
+  // chrome://rewards-image/https://rewards.kahf.co/...
   // We need to take the path and make it into a URL.
   GURL actual_url(URLDataSource::URLToRequestPath(url));
   if (!actual_url.is_valid()) {

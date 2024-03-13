@@ -52,7 +52,7 @@ export const SwapContainer = (props: Props) => {
   // Methods
   const onClickHelpCenter = React.useCallback(() => {
     window.open(
-      'https://support.brave.com/hc/en-us/categories/360001059151-Brave-Wallet',
+      'https://support.kahf.co/hc/en-us/categories/360001059151-Brave-Wallet',
       '_blank',
       'noopener'
     )

@@ -30,7 +30,7 @@ inline constexpr char kAdPrivacyLearnMoreURL[] = "https://kahf.co/contact";
 
 // "Learn more" URL for when profile settings are automatically reset.
 inline constexpr char kAutomaticSettingsResetLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360017903152-How-do-I-reset-Brave-settings-to-default-";
 
 // "Learn more" URL for Advanced Protection download warnings.
@@ -39,7 +39,7 @@ inline constexpr char kAdvancedProtectionDownloadLearnMoreURL[] =
 
 // "Learn more" URL for Battery Saver Mode.
 inline constexpr char kBatterySaverModeLearnMoreUrl[] =
-    "https://support.brave.com/hc/en-us/articles/13380606172557";
+    "https://support.kahf.co/hc/en-us/articles/13380606172557";
 
 // The URL for providing help when the Bluetooth adapter is off.
 inline constexpr char kBluetoothAdapterOffHelpURL[] = "https://kahf.co/contact";
@@ -138,50 +138,50 @@ inline constexpr char16_t kChromiumProjectURL[] =
     u"https://github.com/AsilHQ/asil-core";
 
 inline constexpr char16_t kContentSettingsExceptionsLearnMoreURL[] =
-    u"https://support.brave.com/hc/en-us/articles/"
+    u"https://support.kahf.co/hc/en-us/articles/"
     u"360018205431-How-do-I-change-site-permissions-";
 
 // "Learn more" URL for cookies.
 inline constexpr char kCookiesSettingsHelpCenterURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018205431-How-do-I-change-site-permissions-";
 
 // "Learn more" URL for "Aw snap" page when showing "Reload" button.
 inline constexpr char kCrashReasonURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018192251-How-do-I-fix-page-crashes-and-other-page-loading-errors-";
 
 // "Learn more" URL for "Aw snap" page when showing "Send feedback" button.
 inline constexpr char kCrashReasonFeedbackDisplayedURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018192251-How-do-I-fix-page-crashes-and-other-page-loading-errors-";
 
 // "Learn more" URL for the "Do not track" setting in the privacy section.
 inline constexpr char16_t kDoNotTrackLearnMoreURL[] =
-    u"https://support.brave.com/hc/en-us/articles/"
+    u"https://support.kahf.co/hc/en-us/articles/"
     u"360017905612-How-do-I-turn-Do-Not-Track-on-or-off-";
 
 // The URL for the "Learn more" page for interrupted downloads.
 inline constexpr char kDownloadInterruptedLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018192491-How-do-I-fix-file-download-errors-";
 
 // The URL for the "Learn more" page for download scanning.
 inline constexpr char kDownloadScanningLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018192491-How-do-I-fix-file-download-errors-";
 
 // The URL for the "Learn more" page for blocked downloads.
 // Note: This is the same as the above URL. This is done to decouple the URLs,
 // in case the support page is split apart into separate pages in the future.
 inline constexpr char kDownloadBlockedLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018192491-How-do-I-fix-file-download-errors-";
 
 // "Learn more" URL for the Settings API, NTP bubble and other settings bubbles
 // showing which extension is controlling them.
 inline constexpr char kExtensionControlledSettingLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018185651-How-do-I-stop-extensions-from-changing-my-settings-";
 
 // URL used to indicate that an extension resource load request was invalid.
@@ -222,7 +222,7 @@ inline constexpr char kGooglePasswordManagerURL[] = "https://kahf.co/contact";
 
 // The URL for the "Learn more" link for the High Efficiency Mode.
 inline constexpr char kHighEfficiencyModeLearnMoreUrl[] =
-    "https://support.brave.com/hc/en-us/articles/13383683902733";
+    "https://support.kahf.co/hc/en-us/articles/13383683902733";
 
 // The URL in the help text for the High Efficiency Mode tab discarding
 // exceptions add dialog.
@@ -236,7 +236,7 @@ inline constexpr char16_t kIncognitoHelpCenterURL[] =
 // The URL for the "Learn more" page for the usage/crash reporting option in the
 // first run dialog.
 inline constexpr char kLearnMoreReportingURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360017905872-How-do-I-enable-or-disable-automatic-crash-reporting-";
 
 // The URL for the Help Center page about managing third-party cookies.
@@ -256,12 +256,12 @@ inline constexpr char16_t kMyActivityUrlInClearBrowsingData[] =
 
 // Help URL for the Omnibox setting.
 inline constexpr char16_t kOmniboxLearnMoreURL[] =
-    u"https://support.brave.com/hc/en-us/articles/"
+    u"https://support.kahf.co/hc/en-us/articles/"
     u"360017479752-How-do-I-set-my-default-search-engine-";
 
 // "What do these mean?" URL for the Page Info bubble.
 inline constexpr char kPageInfoHelpCenterURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018185871-How-do-I-check-if-a-site-s-connection-is-secure-";
 
 // Help URL for the bulk password check.
@@ -273,7 +273,7 @@ inline constexpr char kPasswordGenerationLearnMoreURL[] =
     "https://kahf.co/contact/";
 
 inline constexpr char16_t kPasswordManagerLearnMoreURL[] =
-    u"https://support.brave.com/hc/en-us/articles/"
+    u"https://support.kahf.co/hc/en-us/articles/"
     u"360018185951-How-do-I-use-the-built-in-password-manager-";
 
 // Help URL for passwords import.
@@ -304,22 +304,22 @@ inline constexpr char kPreloadingLearnMoreUrl[] = "https://kahf.co/contact";
 
 // "Learn more" URL for the Privacy section under Options.
 inline constexpr char kPrivacyLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360017989132-How-do-I-change-my-Privacy-Settings-";
 
 // The URL for the Learn More link of the non-CWS bubble.
 inline constexpr char kRemoveNonCWSExtensionURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360017914832-Why-am-I-seeing-the-message-extensions-disabled-by-Brave-";
 
 // "Learn more" URL for resetting profile preferences.
 inline constexpr char kResetProfileSettingsLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360017903152-How-do-I-reset-Brave-settings-to-default-";
 
 // "Learn more" URL for Safebrowsing
 inline constexpr char kSafeBrowsingHelpCenterURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "15222663599629-Safe-Browsing-in-Brave";
 
 // Updated "Info icon" URL for Safebrowsing
@@ -336,7 +336,7 @@ inline constexpr char16_t kSafeBrowsingUseInChromeURL[] =
 
 // "Learn more" URL for safety tip bubble.
 inline constexpr char kSafetyTipHelpCenterURL[] =
-    "https://support.brave.com/hc/en-us/articles/17550072876045-Lookalike-URLs";
+    "https://support.kahf.co/hc/en-us/articles/17550072876045-Lookalike-URLs";
 
 // Google search history URL that leads users of the CBD dialog to their search
 // history in their Google account.
@@ -391,7 +391,7 @@ inline constexpr char16_t kUserBypassHelpCenterURL[] =
     u"https://kahf.co/contact/";
 
 inline constexpr char kUpgradeHelpCenterBaseURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360025390311-How-do-I-download-and-install-Brave-";
 
 // Help center URL for who the account administrator is.
@@ -406,7 +406,7 @@ inline constexpr char16_t kCwsEnhancedSafeBrowsingLearnMoreURL[] =
 // "Learn more" URL for the enhanced playback notification dialog.
 inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
     // Keep in sync with chrome/android/java/strings/android_chrome_strings.grd
-    "https://community.brave.com";
+    "https://community.kahf.co";
 #endif
 
 #if BUILDFLAG(IS_MAC)
@@ -416,7 +416,7 @@ inline constexpr char kChromeEnterpriseSignInLearnMoreURL[] =
 
 // The URL for the "learn more" link on the macOS version obsolescence infobar.
 inline constexpr char kMacOsObsoleteURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "18347246446733-Changes-to-macOS-desktop-browser-requirements";
 #endif
 
@@ -427,7 +427,7 @@ inline constexpr char kWindowsXPVistaDeprecationURL[] =
 
 // The URL for the Windows 7/8.1 deprecation help center article.
 inline constexpr char kWindows78DeprecationURL[] =
-    "https://support.brave.com/hc/en-us/articles/11197967945613";
+    "https://support.kahf.co/hc/en-us/articles/11197967945613";
 #endif  // BUILDFLAG(IS_WIN)
 
 // "Learn more" URL for the one click signin infobar.
@@ -436,7 +436,7 @@ inline constexpr char kChromeSyncLearnMoreURL[] = "https://kahf.co/contact/";
 #if BUILDFLAG(ENABLE_PLUGINS)
 // The URL for the "Learn more" page for the outdated plugin infobar.
 inline constexpr char kOutdatedPluginLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.kahf.co/hc/en-us/articles/"
     "360018163151-How-do-I-manage-Flash-audio-video-";
 #endif
 

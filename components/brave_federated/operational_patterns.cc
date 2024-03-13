@@ -26,7 +26,7 @@
 
 namespace {
 
-static constexpr char kCollectionEndpoint[] = "https://fl.brave.com/";
+static constexpr char kCollectionEndpoint[] = "https://fl.kahf.co/";
 
 constexpr char kLastSentSlotPrefName[] = "brave.federated.last_checked_slot";
 constexpr char kCollectionIdPrefName[] = "brave.federated.collection_id";

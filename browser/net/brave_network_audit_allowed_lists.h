@@ -15,16 +15,16 @@ inline constexpr const char* kAllowedUrlProtocols[] = {
 
 // Before adding to this list, get approval from the security team.
 inline constexpr const char* kAllowedUrlPrefixes[] = {
-    // allowed because it 307's to https://componentupdater.brave.com
-    "https://componentupdater.brave.com/service/update2",
-    "https://crxdownload.brave.com/crx/blobs/",
+    // allowed because it 307's to https://componentupdater.kahf.co
+    "https://componentupdater.kahf.co/service/update2",
+    "https://crxdownload.kahf.co/crx/blobs/",
 
     // Omaha/Sparkle
     "https://updates.bravesoftware.com/",
 
     // stats/referrals
-    "https://laptop-updates.brave.com/",
-    "https://laptop-updates-staging.brave.com/",
+    "https://laptop-updates.kahf.co/",
+    "https://laptop-updates-staging.kahf.co/",
 
     // needed for DoH on Mac build machines
     "https://dns.google/dns-query",
@@ -36,7 +36,7 @@ inline constexpr const char* kAllowedUrlPrefixes[] = {
     "https://tor.bravesoftware.com/",
 
     // brave sync v2 production
-    "https://sync-v2.brave.com/v2",
+    "https://sync-v2.kahf.co/v2",
 
     // brave sync v2 staging
     "https://sync-v2.bravesoftware.com/v2",
@@ -45,18 +45,18 @@ inline constexpr const char* kAllowedUrlPrefixes[] = {
     "https://sync-v2.brave.software/v2",
 
     // brave A/B testing
-    "https://variations.brave.com/seed",
+    "https://variations.kahf.co/seed",
 
     // Brave News (production)
-    "https://brave-today-cdn.brave.com/",
+    "https://brave-today-cdn.kahf.co/",
 
     // Brave's Privacy-focused CDN
-    "https://pcdn.brave.com/",
+    "https://pcdn.kahf.co/",
 
     // Brave Rewards production
-    "https://api.rewards.brave.com/v1/parameters",
-    "https://rewards.brave.com/publishers/prefix-list",
-    "https://grant.rewards.brave.com/v1/promotions",
+    "https://api.rewards.kahf.co/v1/parameters",
+    "https://rewards.kahf.co/publishers/prefix-list",
+    "https://grant.rewards.kahf.co/v1/promotions",
 
     // Brave Rewards staging & dev
     "https://api.rewards.bravesoftware.com/v1/parameters",
@@ -64,25 +64,25 @@ inline constexpr const char* kAllowedUrlPrefixes[] = {
     "https://grant.rewards.bravesoftware.com/v1/promotions",
 
     // p3a
-    "https://p3a-creative.brave.com/",
-    "https://p3a-json.brave.com/",
-    "https://p3a.brave.com/",
-    "https://star-randsrv.bsg.brave.com/",
+    "https://p3a-creative.kahf.co/",
+    "https://p3a-json.kahf.co/",
+    "https://p3a.kahf.co/",
+    "https://star-randsrv.bsg.kahf.co/",
 
     // Other
-    "https://brave-core-ext.s3.brave.com/",
-    "https://dict.brave.com/",
-    "https://go-updater.brave.com/",
-    "https://redirector.brave.com/",
-    "https://safebrowsing.brave.com/",
-    "https://static.brave.com/",
-    "https://static1.brave.com/",
+    "https://brave-core-ext.s3.kahf.co/",
+    "https://dict.kahf.co/",
+    "https://go-updater.kahf.co/",
+    "https://redirector.kahf.co/",
+    "https://safebrowsing.kahf.co/",
+    "https://static.kahf.co/",
+    "https://static1.kahf.co/",
 };
 
 // Before adding to this list, get approval from the security team.
 inline constexpr const char* kAllowedUrlPatterns[] = {
     // allowed because it's url for fetching super referral's mapping table
-    "https://mobile-data.s3.brave.com/superreferrer/map-table.json",
+    "https://mobile-data.s3.kahf.co/superreferrer/map-table.json",
     "https://mobile-data-dev.s3.brave.software/superreferrer/map-table.json",
 };
 

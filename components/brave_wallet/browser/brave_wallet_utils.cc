@@ -355,7 +355,7 @@ const mojom::NetworkInfo* GetSolMainnet() {
        {"https://explorer.solana.com/"},
        {},
        0,
-       {GURL("https://mainnet-beta-solana.brave.com/rpc")},
+       {GURL("https://mainnet-beta-solana.kahf.co/rpc")},
        "SOL",
        "Solana",
        9,
@@ -517,7 +517,7 @@ GURL BitcoinMainnetRpcUrl() {
     return switch_url;
   }
 
-  return GURL("https://bitcoin-mainnet.wallet.brave.com/");
+  return GURL("https://bitcoin-mainnet.wallet.kahf.co/");
 }
 
 GURL BitcoinTestnetRpcUrl() {
@@ -873,7 +873,7 @@ GURL GetInfuraURLForKnownChainId(const std::string& chain_id) {
     return GURL();
   }
   return GURL(
-      base::StringPrintf("https://%s-infura.brave.com/", subdomain.c_str()));
+      base::StringPrintf("https://%s-infura.kahf.co/", subdomain.c_str()));
 }
 
 std::string GetInfuraEndpointForKnownChainId(const std::string& chain_id) {

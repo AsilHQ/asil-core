@@ -143,7 +143,7 @@ IN_PROC_BROWSER_TEST_F(RewardsPublisherBrowserTest, VisitUnverifiedPublisher) {
   rewards_service_->SetAutoContributeEnabled(true);
   context_helper_->LoadRewardsPage();
   context_helper_->VisitPublisher(
-      test_util::GetUrl(https_server_.get(), "brave.com"), false);
+      test_util::GetUrl(https_server_.get(), "kahf.co"), false);
 }
 
 // Registered publishers without a wallet address are displayed as not verified

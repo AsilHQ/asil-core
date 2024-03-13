@@ -10,9 +10,9 @@ import getPageHandlerInstance, * as mojom from '../api/page_handler'
 import DataContext, { AIChatContext } from './context'
 
 // TODO(petemill): Build account urls in the browser
-const URL_REFRESH_PREMIUM_SESSION = 'https://account.brave.com/?intent=recover&product=leo'
-const URL_GO_PREMIUM = 'https://account.brave.com/account/?intent=checkout&product=leo'
-const URL_MANAGE_PREMIUM = 'https://account.brave.com/'
+const URL_REFRESH_PREMIUM_SESSION = 'https://account.kahf.co/?intent=recover&product=leo'
+const URL_GO_PREMIUM = 'https://account.kahf.co/account/?intent=checkout&product=leo'
+const URL_MANAGE_PREMIUM = 'https://account.kahf.co/'
 
 function toBlobURL(data: number[] | null) {
   if (!data) return undefined

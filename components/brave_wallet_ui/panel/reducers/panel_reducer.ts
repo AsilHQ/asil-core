@@ -40,7 +40,7 @@ const defaultState: PanelState = {
       chainId: BraveWallet.MAINNET_CHAIN_ID,
       chainName: 'Ethereum Mainnet',
       activeRpcEndpointIndex: 0,
-      rpcEndpoints: [{ url: 'https://mainnet-infura.brave.com/' }],
+      rpcEndpoints: [{ url: 'https://mainnet-infura.kahf.co/' }],
       blockExplorerUrls: [],
       iconUrls: [],
       symbol: 'ETH',

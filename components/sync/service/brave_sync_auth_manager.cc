@@ -83,7 +83,7 @@ SyncAccountInfo BraveSyncAuthManager::DetermineAccountToUse() const {
     // data within specific width. (ex. client_version and encrypted_types)
     account_info.email =
         std::string(client_id).insert(client_id.length() / 2, 1, ' ') +
-        " @brave.com";
+        " @kahf.co";
     VLOG(1) << "brave client id=" << client_id;
     return SyncAccountInfo(account_info, true);
   } else {

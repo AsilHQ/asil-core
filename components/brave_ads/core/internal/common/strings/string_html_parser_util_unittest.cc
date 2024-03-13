@@ -24,7 +24,7 @@ TEST_F(BraveAdsStringHtmlParserUtilTest, ParseHtmlTagNameAttributeSimple) {
   const std::string html_meta_with_foobar_tag =
       R"(<meta property="og:title" foo="bar" content="this is info ">)";
   const std::string non_html_meta_tag =
-      R"(<div href="brave.com" content="this is info ">)";
+      R"(<div href="kahf.co" content="this is info ">)";
   const std::vector<std::tuple<
       /*html=*/std::string, /*tag_substr=*/std::string,
       /*tag_attribute=*/std::string,

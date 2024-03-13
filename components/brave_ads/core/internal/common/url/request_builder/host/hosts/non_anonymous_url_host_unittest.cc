@@ -20,7 +20,7 @@ TEST_F(BraveAdsNonAnonymousUrlHostTest, GetProductionUrlHost) {
       mojom::EnvironmentType::kProduction;
 
   // Act & Assert
-  EXPECT_EQ("https://mywallet.ads.brave.com", GetNonAnonymousUrlHost());
+  EXPECT_EQ("https://mywallet.ads.kahf.co", GetNonAnonymousUrlHost());
 }
 
 TEST_F(BraveAdsNonAnonymousUrlHostTest, GetStagingUrlHost) {

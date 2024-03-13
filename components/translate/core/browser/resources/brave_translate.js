@@ -2,7 +2,7 @@
 const securityOriginHost = new URL(securityOrigin).host;
 
 // A method to rewrite URL in the scripts:
-// 1. change the domain to translate.brave.com;
+// 1. change the domain to translate.kahf.co;
 // 2. adjust static paths to use braveTranslateStaticPath.
 const rewriteUrl = (url) => {
   try {

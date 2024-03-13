@@ -29,9 +29,9 @@ constexpr char kJson[] =
           "ctaText": "Call to action text",
           "description": "Test Ad Description",
           "dimensions": "200x100",
-          "imageUrl": "https://brave.com/image",
+          "imageUrl": "https://kahf.co/image",
           "segment": "untargeted",
-          "targetUrl": "https://brave.com/",
+          "targetUrl": "https://kahf.co/",
           "title": "Test Ad Title",
           "type": "inline_content_ad",
           "uuid": "9bac9ae4-693c-4569-9b3e-300e357780cf"

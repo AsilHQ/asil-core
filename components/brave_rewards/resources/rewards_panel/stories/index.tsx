@@ -88,10 +88,10 @@ function createHost (): Host {
       uphold: 'complete'
     },
     publisherInfo: {
-      id: 'brave.com',
-      name: 'brave.com',
+      id: 'kahf.co',
+      name: 'kahf.co',
       verified: true,
-      icon: 'https://brave.com/static-assets/images/brave-favicon.png',
+      icon: 'https://kahf.co/static-assets/images/brave-favicon.png',
       platform: null,
       attentionScore: 0.17,
       autoContributeEnabled: true,

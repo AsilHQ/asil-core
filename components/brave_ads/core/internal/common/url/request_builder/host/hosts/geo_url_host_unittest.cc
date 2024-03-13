@@ -20,7 +20,7 @@ TEST_F(BraveAdsGeoUrlHostTest, GetProductionUrlHost) {
       mojom::EnvironmentType::kProduction;
 
   // Act & Assert
-  EXPECT_EQ("https://geo.ads.brave.com", GetGeoUrlHost());
+  EXPECT_EQ("https://geo.ads.kahf.co", GetGeoUrlHost());
 }
 
 TEST_F(BraveAdsGeoUrlHostTest, GetStagingUrlHost) {

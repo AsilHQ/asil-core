@@ -42,7 +42,7 @@ inline constexpr char kCoinbaseURL[] = "https://pay.coinbase.com";
 inline constexpr char kCoinbaseAppId[] = "8072ff71-8469-4fef-9404-7c905e2359c9";
 inline constexpr char kSimpleHashUrl[] = "https://api.simplehash.com";
 inline constexpr char kSimpleHashBraveProxyUrl[] =
-    "https://simplehash.wallet.brave.com";
+    "https://simplehash.wallet.kahf.co";
 
 inline constexpr webui::LocalizedString kLocalizedStrings[] = {
     {"braveWalletSpenderAddress", IDS_BRAVE_WALLET_SPENDER_ADDRESS},
@@ -1375,7 +1375,7 @@ inline constexpr char kJupiterReferralProgramHeader[] = "referral_ata";
 
 // Blowfish simulations constants
 inline constexpr char kBlowfishBaseAPIURL[] =
-    "https://blowfish.wallet.brave.com";
+    "https://blowfish.wallet.kahf.co";
 inline constexpr char kBlowfishAPIVersionHeader[] = "X-Api-Version";
 inline constexpr char kBlowfishAPIVersion[] = "2023-03-08";
 
@@ -1383,11 +1383,11 @@ constexpr int64_t kBlockTrackerDefaultTimeInSeconds = 20;
 constexpr int64_t kLogTrackerDefaultTimeInSeconds = 20;
 
 inline constexpr char kPolygonMainnetEndpoint[] =
-    "https://mainnet-polygon.brave.com/";
+    "https://mainnet-polygon.kahf.co/";
 
 // Ankr constants
 inline constexpr char kAnkrAdvancedAPIBaseURL[] =
-    "https://multichain.ankr.wallet.brave.com/";
+    "https://multichain.ankr.wallet.kahf.co/";
 
 // Unstoppable domains record key for ethereum address.
 inline constexpr char kCryptoEthAddressKey[] = "crypto.ETH.address";

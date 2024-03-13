@@ -68,8 +68,8 @@ TEST(DebounceRuleUnitTest, CheckBaseCase) {
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
     CheckApplyResult(rule.get(),
-                     GURL("https://test.com/https://brave.com/test/abc.jpg"),
-                     "https://brave.com/test/abc.jpg", false);
+                     GURL("https://test.com/https://kahf.co/test/abc.jpg"),
+                     "https://kahf.co/test/abc.jpg", false);
   }
 }
 
@@ -90,7 +90,7 @@ TEST(DebounceRuleUnitTest, MalformedParam) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://kahf.co"), "",
                      true);
   }
 }
@@ -105,14 +105,14 @@ TEST(DebounceRuleUnitTest, ParamCapturesNoStrings) {
           "exclude": [
           ],
           "action": "regex-path",
-          "param": "brave.com"
+          "param": "kahf.co"
       }]
       
       )json";
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://kahf.co"), "",
                      true);
   }
 }
@@ -134,7 +134,7 @@ TEST(DebounceRuleUnitTest, ParamCapturesMoreThanOneString) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://kahf.co"), "",
                      true);
   }
 }
@@ -156,7 +156,7 @@ TEST(DebounceRuleUnitTest, ParamCapturesNonURLNoPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", true);
+    CheckApplyResult(rule.get(), GURL("https://test.com/kahf.co"), "", true);
   }
 }
 
@@ -178,8 +178,8 @@ TEST(DebounceRuleUnitTest, ParamCapturesNonURLWithPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"),
-                     "http://brave.com/", false);
+    CheckApplyResult(rule.get(), GURL("https://test.com/kahf.co"),
+                     "http://kahf.co/", false);
   }
 }
 
@@ -201,8 +201,8 @@ TEST(DebounceRuleUnitTest, TwoCaptureGroups) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com/xyz/abc.jpg"),
-                     "https://brave.com/abc.jpg", false);
+    CheckApplyResult(rule.get(), GURL("https://test.com/kahf.co/xyz/abc.jpg"),
+                     "https://kahf.co/abc.jpg", false);
   }
 }
 
@@ -246,8 +246,8 @@ TEST(DebounceRuleUnitTest, ThreeCaptureGroups) {
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
     CheckApplyResult(
         rule.get(),
-        GURL("https://test.com/turbo/brave.com/xyz/2022/xyzzy/abc.jpg"),
-        "https://brave.com/2022/abc.jpg", false);
+        GURL("https://test.com/turbo/kahf.co/xyz/2022/xyzzy/abc.jpg"),
+        "https://kahf.co/2022/abc.jpg", false);
   }
 }
 
@@ -269,7 +269,7 @@ TEST(DebounceRuleUnitTest, ParamCapturesURLWithPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://kahf.co"), "",
                      true);
   }
 }
@@ -292,7 +292,7 @@ TEST(DebounceRuleUnitTest, IncorrectPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", true);
+    CheckApplyResult(rule.get(), GURL("https://test.com/kahf.co"), "", true);
   }
 }
 
@@ -316,14 +316,14 @@ TEST(DebounceRuleUnitTest, PrefToggle) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", &prefs,
+    CheckApplyResult(rule.get(), GURL("https://test.com/kahf.co"), "", &prefs,
                      true);
   }
   prefs.SetBoolean("brave.de_amp.enabled", true);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/http://brave.com"),
-                     "http://brave.com/", &prefs, false);
+    CheckApplyResult(rule.get(), GURL("https://test.com/http://kahf.co"),
+                     "http://kahf.co/", &prefs, false);
   }
 }
 
@@ -345,7 +345,7 @@ TEST(DebounceRuleUnitTest, PrefDoesNotExist) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", true);
+    CheckApplyResult(rule.get(), GURL("https://test.com/kahf.co"), "", true);
   }
 }
 

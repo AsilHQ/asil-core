@@ -16,7 +16,7 @@ version = "0.6.1"
 authors = [
     "Aitor Ruano <codearm@pm.me>",
     "Alex Davidson <coela@alxdavids.xyz>",
-    "Ralph Giles <rgiles@brave.com>",
+    "Ralph Giles <rgiles@kahf.co>",
 ]
 description = "Shamir's Secret Sharing library for the STAR protocol"
 readme = "README.md"

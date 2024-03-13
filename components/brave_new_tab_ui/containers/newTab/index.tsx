@@ -390,7 +390,7 @@ class NewTabPage extends React.Component<Props, State> {
   }
 
   learnMoreRewards = () => {
-    window.open('https://brave.com/brave-rewards/', '_blank', 'noopener')
+    window.open('https://kahf.co/brave-rewards/', '_blank', 'noopener')
   }
 
   getCryptoContent () {

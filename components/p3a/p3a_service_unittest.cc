@@ -40,9 +40,9 @@ constexpr char kTestCreativeMetric2[] = "creativeInstanceId.abc.clicks";
 constexpr char kTestExpressMetric[] = "Brave.Core.UsageDaily";
 constexpr char kTestExampleMetric[] = "Brave.Core.TestMetric";
 
-constexpr char kTestP3AJsonHost[] = "https://p3a-json.brave.com";
-constexpr char kTestP2AJsonHost[] = "https://p2a-json.brave.com";
-constexpr char kTestP3ACreativeHost[] = "https://p3a-creative.brave.com";
+constexpr char kTestP3AJsonHost[] = "https://p3a-json.kahf.co";
+constexpr char kTestP2AJsonHost[] = "https://p2a-json.kahf.co";
+constexpr char kTestP3ACreativeHost[] = "https://p3a-creative.kahf.co";
 
 constexpr char kTestEphemeralMetric[] = "Brave.Wallet.UsageWeekly";
 

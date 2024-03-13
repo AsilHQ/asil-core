@@ -17,7 +17,7 @@ public class BraveWalletProvider {
     public static final String BITFLYER_REDIRECT_URL = "rewards://bitflyer";
     public static final String ZEBPAY_REDIRECT_URL = "rewards://zebpay";
 
-    public static final String BRAVE_SUPPORT_URL = "https://community.brave.com";
+    public static final String BRAVE_SUPPORT_URL = "https://community.kahf.co";
     public static final String UPHOLD_ORIGIN_URL = "http://uphold.com";
 
     // Wallet types

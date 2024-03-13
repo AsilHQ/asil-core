@@ -17,9 +17,9 @@
               "payload": {
                 "logo": {
                   "alt": "Test Alt",
-                  "imageUrl": "https://brave.com/image.jpg",
+                  "imageUrl": "https://kahf.co/image.jpg",
                   "companyName": "Test Company Name",
-                  "destinationUrl": "https://brave.com"
+                  "destinationUrl": "https://kahf.co"
                 },
                 "wallpapers": [
                   {
@@ -27,14 +27,14 @@
                       "x": 1200,
                       "y": 1400
                     },
-                    "imageUrl": "https://brave.com/wallpaper_1.jpg"
+                    "imageUrl": "https://kahf.co/wallpaper_1.jpg"
                   },
                   {
                     "focalPoint": {
                       "x": 1200,
                       "y": 1400
                     },
-                    "imageUrl": "https://brave.com/wallpaper_2.jpg"
+                    "imageUrl": "https://kahf.co/wallpaper_2.jpg"
                   }
                 ]
               }
@@ -50,7 +50,7 @@
           "conversions": [
             {
               "observationWindow": 30,
-              "urlPattern": "https://www.brave.com/*",
+              "urlPattern": "https://www.kahf.co/*",
               "type": "postview"
             }
           ],

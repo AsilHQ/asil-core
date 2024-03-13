@@ -1874,13 +1874,13 @@ fn test_removeparam_same_tokens() {
             "adv$tag=stuff",
             "somelongpath/test$tag=stuff",
             "||brianbondy.com/$tag=brian",
-            "||brave.com$tag=brian",
+            "||kahf.co$tag=brian",
         ];
         let url_results = [
             ("http://example.com/advert.html", true),
             ("http://example.com/somelongpath/test/2.html", true),
             ("https://brianbondy.com/about", false),
-            ("https://brave.com/about", false),
+            ("https://kahf.co/about", false),
         ];
 
         let request_expectations: Vec<_> = url_results
@@ -1918,13 +1918,13 @@ fn test_removeparam_same_tokens() {
             "adv$tag=stuff",
             "somelongpath/test$tag=stuff",
             "||brianbondy.com/$tag=brian",
-            "||brave.com$tag=brian",
+            "||kahf.co$tag=brian",
         ];
         let url_results = [
             ("http://example.com/advert.html", true),
             ("http://example.com/somelongpath/test/2.html", true),
             ("https://brianbondy.com/about", true),
-            ("https://brave.com/about", true),
+            ("https://kahf.co/about", true),
         ];
 
         let request_expectations: Vec<_> = url_results
@@ -1963,13 +1963,13 @@ fn test_removeparam_same_tokens() {
             "adv$tag=stuff",
             "somelongpath/test$tag=stuff",
             "||brianbondy.com/$tag=brian",
-            "||brave.com$tag=brian",
+            "||kahf.co$tag=brian",
         ];
         let url_results = [
             ("http://example.com/advert.html", false),
             ("http://example.com/somelongpath/test/2.html", false),
             ("https://brianbondy.com/about", true),
-            ("https://brave.com/about", true),
+            ("https://kahf.co/about", true),
         ];
 
         let request_expectations: Vec<_> = url_results
@@ -2065,13 +2065,13 @@ fn test_removeparam_same_tokens() {
         blocker.add_filter(NetworkFilter::parse("adv$tag=stuff", true, Default::default()).unwrap()).unwrap();
         blocker.add_filter(NetworkFilter::parse("somelongpath/test$tag=stuff", true, Default::default()).unwrap()).unwrap();
         blocker.add_filter(NetworkFilter::parse("||brianbondy.com/$tag=brian", true, Default::default()).unwrap()).unwrap();
-        blocker.add_filter(NetworkFilter::parse("||brave.com$tag=brian", true, Default::default()).unwrap()).unwrap();
+        blocker.add_filter(NetworkFilter::parse("||kahf.co$tag=brian", true, Default::default()).unwrap()).unwrap();
 
         let url_results = [
             ("http://example.com/advert.html", false),
             ("http://example.com/somelongpath/test/2.html", false),
             ("https://brianbondy.com/about", true),
-            ("https://brave.com/about", true),
+            ("https://kahf.co/about", true),
         ];
 
         let request_expectations: Vec<_> = url_results

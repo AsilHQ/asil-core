@@ -24,7 +24,7 @@
     "imageUrl": "logo.png",
     "alt": "Visit Halalz",
     "companyName": "Halalz",
-    "destinationUrl": "https://www.brave.com/"
+    "destinationUrl": "https://www.kahf.co/"
   },
   "wallpapers": [
     {

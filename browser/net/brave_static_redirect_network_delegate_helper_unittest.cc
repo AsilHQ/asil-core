@@ -20,7 +20,7 @@
 using brave::ResponseCallback;
 
 TEST(BraveStaticRedirectNetworkDelegateHelperTest, NoModifyTypicalURL) {
-  const GURL url("https://bradhatesprimes.brave.com/composite_numbers_ftw");
+  const GURL url("https://bradhatesprimes.kahf.co/composite_numbers_ftw");
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
   int rc =
       OnBeforeURLRequest_StaticRedirectWork(ResponseCallback(), request_info);
@@ -45,7 +45,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet1) {
       "https://dl.google.com/release2/chrome_component/AJ4r388iQSJq_4819/"
       "4819_all_crl-set-5934829738003798040.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/release2/chrome_component/"
+      "https://redirector.kahf.co/release2/chrome_component/"
       "AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
@@ -61,7 +61,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet2) {
       "chrome_component/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040"
       ".data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/edgedl/release2/chrome_compone"
+      "https://redirector.kahf.co/edgedl/release2/chrome_compone"
       "nt/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
@@ -77,7 +77,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet3) {
       "LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/dl/release2/chrome_component/"
+      "https://redirector.kahf.co/dl/release2/chrome_component/"
       "LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
 
@@ -97,7 +97,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRXDownload) {
       "extension_2_0_67"
       "3_0.crx");
   const GURL expected_url(
-      "https://crxdownload.brave.com/crx/blobs/QgAAAC6"
+      "https://crxdownload.kahf.co/crx/blobs/QgAAAC6"
       "zw0qH2DJtnXe8Z7rUJP1RM6lX7kVcwkQ56ujmG3AWYOAkxoNnIdnEBUz_"
       "3z4keVhjzzAF10sr"
       "saL7lrntfBIflcYIrTziwX3SUS9i_P-CAMZSmuV5tdQl-Roo6cnVC_GRzKsnZSKm1Q/"
@@ -116,7 +116,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet1_http) {
       "http://dl.google.com/release2/chrome_component/AJ4r388iQSJq_4819/"
       "4819_all_crl-set-5934829738003798040.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/release2/chrome_component/"
+      "https://redirector.kahf.co/release2/chrome_component/"
       "AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
@@ -132,7 +132,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet2_http) {
       "chrome_component/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040"
       ".data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/edgedl/release2/chrome_compone"
+      "https://redirector.kahf.co/edgedl/release2/chrome_compone"
       "nt/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
@@ -147,7 +147,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet3_http) {
       "http://www.google.com/dl/release2/chrome_component/LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/dl/release2/chrome_component/"
+      "https://redirector.kahf.co/dl/release2/chrome_component/"
       "LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
 
@@ -165,7 +165,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet5_http) {
       "khaoiebndkojlmppeemjhbpbandiljpe_58_win_advr4ucepztwtigvw3fduftsvbeq."
       "crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/dl/release2/chrome_component/"
+      "https://redirector.kahf.co/dl/release2/chrome_component/"
       "cxpsjblnoxgjoqggdsbvujtof4_58/"
       "khaoiebndkojlmppeemjhbpbandiljpe_58_win_advr4ucepztwtigvw3fduftsvbeq."
       "crx3");
@@ -186,7 +186,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRXDownload_http) {
       "extension_2_0_67"
       "3_0.crx");
   const GURL expected_url(
-      "https://crxdownload.brave.com/crx/blobs/QgAAAC6"
+      "https://crxdownload.kahf.co/crx/blobs/QgAAAC6"
       "zw0qH2DJtnXe8Z7rUJP1RM6lX7kVcwkQ56ujmG3AWYOAkxoNnIdnEBUz_"
       "3z4keVhjzzAF10sr"
       "saL7lrntfBIflcYIrTziwX3SUS9i_P-CAMZSmuV5tdQl-Roo6cnVC_GRzKsnZSKm1Q/"
@@ -237,7 +237,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyGvt1) {
       "http://redirector.gvt1.com/edgedl/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
   const GURL expected_url(
-      "https://redirector.brave.com/edgedl/release2/"
+      "https://redirector.kahf.co/edgedl/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
@@ -252,7 +252,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyGoogleDl) {
       "http://dl.google.com/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
   const GURL expected_url(
-      "https://redirector.brave.com/release2/"
+      "https://redirector.kahf.co/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
@@ -296,7 +296,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest,
       "https://sb-ssl.google.com/safebrowsing/clientreport/download?"
       "key=DUMMY_KEY");
   GURL expected_url(
-      "https://sb-ssl.brave.com/safebrowsing/clientreport/download?"
+      "https://sb-ssl.kahf.co/safebrowsing/clientreport/download?"
       "key=DUMMY_KEY");
 
   auto request_info = std::make_shared<brave::BraveRequestInfo>(url);

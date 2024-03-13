@@ -103,7 +103,7 @@ export interface Props {
 
 const onClickLearnMore = () => {
   chrome.tabs.create(
-    { url: 'https://support.brave.com/hc/en-us/articles/4441999049101' },
+    { url: 'https://support.kahf.co/hc/en-us/articles/4441999049101' },
     () => {
       if (chrome.runtime.lastError) {
         console.error(

@@ -94,7 +94,7 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
 
   // Add one more item to test with 5 items.
   SidebarItem new_item = SidebarItem::Create(
-      GURL("https://www.brave.com/"), u"brave software",
+      GURL("https://www.kahf.co/"), u"brave software",
       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
 
   service()->AddItem(new_item);
@@ -104,8 +104,8 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
   // Update last item w/ url change.
   SidebarItemUpdate expected_update{(items_count - 1), false, true};
   EXPECT_CALL(observer_, OnItemUpdated(testing::_, expected_update)).Times(1);
-  service()->UpdateItem(GURL("https://www.brave.com/"),
-                        GURL("https://brave.com/"), u"brave software",
+  service()->UpdateItem(GURL("https://www.kahf.co/"),
+                        GURL("https://kahf.co/"), u"brave software",
                         u"brave software");
   testing::Mock::VerifyAndClearExpectations(&observer_);
 
@@ -113,7 +113,7 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
   expected_update.url_updated = false;
   expected_update.title_updated = true;
   EXPECT_CALL(observer_, OnItemUpdated(testing::_, expected_update)).Times(1);
-  service()->UpdateItem(GURL("https://brave.com/"), GURL("https://brave.com/"),
+  service()->UpdateItem(GURL("https://kahf.co/"), GURL("https://kahf.co/"),
                         u"brave software", u"brave");
   testing::Mock::VerifyAndClearExpectations(&observer_);
 
@@ -167,7 +167,7 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
 }
 
 TEST_F(SidebarModelTest, CanUseNotAddedBuiltInItemInsteadOfTest) {
-  GURL talk("https://talk.brave.com/1Ar1vHfLBWX2sAdi");
+  GURL talk("https://talk.kahf.co/1Ar1vHfLBWX2sAdi");
   // False because builtin talk item is already added.
   EXPECT_FALSE(HiddenDefaultSidebarItemsContains(service(), talk));
 
@@ -182,7 +182,7 @@ TEST_F(SidebarModelTest, ActiveIndexChangedAfterItemAdded) {
   EXPECT_THAT(model()->active_index(), Optional(1u));
 
   SidebarItem item_1 = SidebarItem::Create(
-      GURL("https://www.brave.com/"), u"brave software",
+      GURL("https://www.kahf.co/"), u"brave software",
       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
 
   // Check active index is still 1 when new item is added at 2.
@@ -200,16 +200,16 @@ TEST_F(SidebarModelTest, ActiveIndexChangedAfterItemAdded) {
 
 TEST(SidebarUtilTest, ConvertURLToBuiltInItemURLTest) {
   EXPECT_EQ(GURL(kBraveTalkURL),
-            ConvertURLToBuiltInItemURL(GURL("https://talk.brave.com")));
+            ConvertURLToBuiltInItemURL(GURL("https://talk.kahf.co")));
   EXPECT_EQ(GURL(kBraveTalkURL),
             ConvertURLToBuiltInItemURL(
-                GURL("https://talk.brave.com/1Ar1vHfLBWX2sAdi")));
+                GURL("https://talk.kahf.co/1Ar1vHfLBWX2sAdi")));
   EXPECT_EQ(
       GURL(kBraveUIWalletPageURL),
       ConvertURLToBuiltInItemURL(GURL("chrome://wallet/crypto/onboarding")));
 
   // Not converted for url that doesn't relavant builtin item.
-  GURL brave_com("https://www.brave.com/");
+  GURL brave_com("https://www.kahf.co/");
   EXPECT_EQ(brave_com, ConvertURLToBuiltInItemURL(brave_com));
 }
 

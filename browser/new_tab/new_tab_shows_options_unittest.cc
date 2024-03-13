@@ -55,7 +55,7 @@ TEST_F(BraveNewTabTest, BasicTest) {
   prefs->SetInteger(
       kNewTabPageShowsOptions,
       static_cast<int>(brave::NewTabPageShowsOptions::kHomepage));
-  prefs->SetString(prefs::kHomePage, "https://www.brave.com/");
+  prefs->SetString(prefs::kHomePage, "https://www.kahf.co/");
   prefs->SetBoolean(prefs::kHomePageIsNewTabPage, true);
   EXPECT_EQ(GURL(), brave::GetNewTabPageURL(profile));
   EXPECT_EQ(GURL(), brave::GetNewTabPageURL(otr_profile));
@@ -65,7 +65,7 @@ TEST_F(BraveNewTabTest, BasicTest) {
   // Check NTP url is configured url when option is HOMEPAGE and
   // kHomePageIsNewTabPage is false.
   prefs->SetBoolean(prefs::kHomePageIsNewTabPage, false);
-  EXPECT_EQ(GURL("https://www.brave.com/"), brave::GetNewTabPageURL(profile));
+  EXPECT_EQ(GURL("https://www.kahf.co/"), brave::GetNewTabPageURL(profile));
   EXPECT_EQ(GURL(), brave::GetNewTabPageURL(otr_profile));
   EXPECT_FALSE(brave::ShouldUseNewTabURLForNewTab(profile));
   EXPECT_FALSE(brave::ShouldNewTabShowDashboard(profile));

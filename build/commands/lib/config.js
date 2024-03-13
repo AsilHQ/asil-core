@@ -176,7 +176,7 @@ const Config = function () {
   this.safeBrowsingApiEndpoint = getNPMConfig(['safebrowsing_api_endpoint']) || ''
   this.updaterProdEndpoint = getNPMConfig(['updater_prod_endpoint']) || ''
   this.updaterDevEndpoint = getNPMConfig(['updater_dev_endpoint']) || ''
-  this.webcompatReportApiEndpoint = getNPMConfig(['webcompat_report_api_endpoint']) || 'https://webcompat.brave.com/1/webcompat'
+  this.webcompatReportApiEndpoint = getNPMConfig(['webcompat_report_api_endpoint']) || 'https://webcompat.kahf.co/1/webcompat'
   this.rewardsGrantDevEndpoint = getNPMConfig(['rewards_grant_dev_endpoint']) || ''
   this.rewardsGrantStagingEndpoint = getNPMConfig(['rewards_grant_staging_endpoint']) || ''
   this.rewardsGrantProdEndpoint = getNPMConfig(['rewards_grant_prod_endpoint']) || ''
@@ -231,8 +231,8 @@ const Config = function () {
   this.androidAabToApk = false
   this.enable_dangling_raw_ptr_checks = false
   this.useBraveHermeticToolchain =
-    this.gomaServerHost.endsWith('.brave.com') ||
-    this.rbeService.includes('.brave.com:') ||
+    this.gomaServerHost.endsWith('.kahf.co') ||
+    this.rbeService.includes('.kahf.co:') ||
     this.rbeService.includes('.engflow.com:')
   this.brave_services_key_id = getNPMConfig(['brave_services_key_id']) || ''
   this.service_key_aichat = getNPMConfig(['service_key_aichat']) || ''
@@ -1205,7 +1205,7 @@ Object.defineProperty(Config.prototype, 'defaultOptions', {
       env.USE_BRAVE_HERMETIC_TOOLCHAIN = '1'
       env.DEPOT_TOOLS_WIN_TOOLCHAIN = '1'
       env.GYP_MSVS_HASH_27370823e7 = '01b3b59461'
-      env.DEPOT_TOOLS_WIN_TOOLCHAIN_BASE_URL = 'https://brave-build-deps-public.s3.brave.com/windows-hermetic-toolchain/'
+      env.DEPOT_TOOLS_WIN_TOOLCHAIN_BASE_URL = 'https://brave-build-deps-public.s3.kahf.co/windows-hermetic-toolchain/'
     }
 
     if (this.getCachePath()) {

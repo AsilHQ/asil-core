@@ -65,17 +65,17 @@ TEST_F(GetPublisherTest, ServerError404) {
   mojom::Result result;
   mojom::ServerPublisherInfoPtr info;
 
-  result = Request("brave.com", "ce55", &info);
+  result = Request("kahf.co", "ce55", &info);
   EXPECT_EQ(result, mojom::Result::OK);
   ASSERT_TRUE(info);
-  EXPECT_EQ(info->publisher_key, "brave.com");
+  EXPECT_EQ(info->publisher_key, "kahf.co");
   EXPECT_EQ(info->status, mojom::PublisherStatus::NOT_VERIFIED);
 }
 
 TEST_F(GetPublisherTest, UpholdVerified) {
   publishers_pb::ChannelResponseList message;
   auto* channel = message.add_channel_responses();
-  channel->set_channel_identifier("brave.com");
+  channel->set_channel_identifier("kahf.co");
 
   auto* uphold_wallet = channel->add_wallets()->mutable_uphold_wallet();
   uphold_wallet->set_wallet_state(publishers_pb::UPHOLD_ACCOUNT_KYC);
@@ -91,10 +91,10 @@ TEST_F(GetPublisherTest, UpholdVerified) {
   mojom::Result result;
   mojom::ServerPublisherInfoPtr info;
 
-  result = Request("brave.com", "ce55", &info);
+  result = Request("kahf.co", "ce55", &info);
   EXPECT_EQ(result, mojom::Result::OK);
   ASSERT_TRUE(info);
-  EXPECT_EQ(info->publisher_key, "brave.com");
+  EXPECT_EQ(info->publisher_key, "kahf.co");
   EXPECT_EQ(info->status, mojom::PublisherStatus::UPHOLD_VERIFIED);
   EXPECT_EQ(info->address, "abcd");
 }
@@ -102,7 +102,7 @@ TEST_F(GetPublisherTest, UpholdVerified) {
 TEST_F(GetPublisherTest, EmptyWalletAddress) {
   publishers_pb::ChannelResponseList message;
   auto* channel = message.add_channel_responses();
-  channel->set_channel_identifier("brave.com");
+  channel->set_channel_identifier("kahf.co");
 
   auto* uphold_wallet = channel->add_wallets()->mutable_uphold_wallet();
   uphold_wallet->set_wallet_state(publishers_pb::UPHOLD_ACCOUNT_KYC);
@@ -118,10 +118,10 @@ TEST_F(GetPublisherTest, EmptyWalletAddress) {
   mojom::Result result;
   mojom::ServerPublisherInfoPtr info;
 
-  result = Request("brave.com", "ce55", &info);
+  result = Request("kahf.co", "ce55", &info);
   EXPECT_EQ(result, mojom::Result::OK);
   ASSERT_TRUE(info);
-  EXPECT_EQ(info->publisher_key, "brave.com");
+  EXPECT_EQ(info->publisher_key, "kahf.co");
   EXPECT_EQ(info->status, mojom::PublisherStatus::NOT_VERIFIED);
   EXPECT_EQ(info->address, "");
 }

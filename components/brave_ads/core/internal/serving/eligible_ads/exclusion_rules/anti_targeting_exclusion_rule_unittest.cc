@@ -19,7 +19,7 @@
 namespace brave_ads {
 
 namespace {
-constexpr char kAntiTargetedSite[] = "https://www.brave.com";
+constexpr char kAntiTargetedSite[] = "https://www.kahf.co";
 }  // namespace
 
 class BraveAdsAntiTargetingExclusionRuleTest : public UnitTestBase {

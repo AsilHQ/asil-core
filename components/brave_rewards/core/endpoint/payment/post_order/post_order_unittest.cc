@@ -45,7 +45,7 @@ TEST_F(PostOrderTest, ServerOK) {
               "updatedAt": "2020-06-10T18:58:21.378752Z",
               "totalPrice": "1",
               "merchantId": "",
-              "location": "brave.com",
+              "location": "kahf.co",
               "status": "pending",
               "items": [
                {
@@ -58,7 +58,7 @@ TEST_F(PostOrderTest, ServerOK) {
                  "quantity": 4,
                  "price": "0.25",
                  "subtotal": "1",
-                 "location": "brave.com",
+                 "location": "kahf.co",
                  "description": ""
                }
               ]
@@ -89,7 +89,7 @@ TEST_F(PostOrderTest, ServerOK) {
         mojom::SKUOrder expected_order;
         expected_order.order_id = "f2e6494e-fb21-44d1-90e9-b5408799acd8";
         expected_order.total_amount = 1;
-        expected_order.location = "brave.com";
+        expected_order.location = "kahf.co";
         expected_order.status = mojom::SKUOrderStatus::PENDING;
         expected_order.items.push_back(std::move(expected_order_item));
 

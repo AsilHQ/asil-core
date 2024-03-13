@@ -95,7 +95,7 @@ TEST_F(EthTxStateManagerUnitTest, TxMetaAndValue) {
   meta.set_tx_receipt(tx_receipt);
   meta.set_tx_hash(
       "0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238");
-  meta.set_origin(url::Origin::Create(GURL("https://test.brave.com")));
+  meta.set_origin(url::Origin::Create(GURL("https://test.kahf.co")));
   meta.set_chain_id(mojom::kMainnetChainId);
 
   base::Value::Dict meta_value = meta.ToValue();

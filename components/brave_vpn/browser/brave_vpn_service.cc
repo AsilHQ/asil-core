@@ -363,7 +363,7 @@ void BraveVpnService::GetPurchaseToken(GetPurchaseTokenCallback callback) {
   std::string product_id_string = "brave-firewall-vpn-premium";
 
   // Get the Android purchase token (for Google Play Store).
-  // The value for this is validated on the account.brave.com side
+  // The value for this is validated on the account.kahf.co side
   auto* purchase_token =
       profile_prefs_->FindPreference(prefs::kBraveVPNPurchaseTokenAndroid);
   if (purchase_token && !purchase_token->IsDefaultValue()) {

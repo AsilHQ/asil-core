@@ -173,7 +173,7 @@ std::string GetOrderCreateResponse(mojom::SKUOrderPtr sku_order) {
         "currency": "BAT",
         "updatedAt": "2020-04-08T08:22:26.288974Z",
         "totalPrice": "%g",
-        "location": "brave.com",
+        "location": "kahf.co",
         "status": "pending",
         "items": [%s]
       })",

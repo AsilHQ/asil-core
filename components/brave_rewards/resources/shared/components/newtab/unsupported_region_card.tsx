@@ -25,7 +25,7 @@ export function UnsupportedRegionCard () {
               formatMessage(getString('rewardsUnsupportedRegionNoticeLearnMore'), {
                 tags: {
                   $1: (content) => (
-                    <NewTabLink key='learn' href='https://support.brave.com/hc/en-us/articles/9053832354957'>
+                    <NewTabLink key='learn' href='https://support.kahf.co/hc/en-us/articles/9053832354957'>
                       {content}
                     </NewTabLink>
                   )

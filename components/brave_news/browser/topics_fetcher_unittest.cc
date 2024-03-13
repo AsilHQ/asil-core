@@ -22,7 +22,7 @@
 namespace brave_news {
 
 constexpr char kTopicsUrl[] =
-    "https://brave-today-cdn.brave.com/news-topic-clustering/topics.en_US.json";
+    "https://brave-today-cdn.kahf.co/news-topic-clustering/topics.en_US.json";
 constexpr char kTopicsResponse[] = R"([
   {
     "topic_index": 0,
@@ -66,7 +66,7 @@ constexpr char kTopicsResponse[] = R"([
 ])";
 
 constexpr char kTopicsNewsUrl[] =
-    "https://brave-today-cdn.brave.com/news-topic-clustering/"
+    "https://brave-today-cdn.kahf.co/news-topic-clustering/"
     "topics_news.en_US.json";
 constexpr char kTopicsNewsResponse[] = R"([
   {

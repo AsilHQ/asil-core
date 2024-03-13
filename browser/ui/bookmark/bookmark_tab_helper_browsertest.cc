@@ -40,7 +40,7 @@ bool IsNTP(content::WebContents* web_contents) {
 }
 
 void AddBookmarkNode(Profile* profile) {
-  const GURL url = GURL("https://www.brave.com");
+  const GURL url = GURL("https://www.kahf.co");
   bookmarks::BookmarkModel* bookmark_model =
       BookmarkModelFactory::GetForBrowserContext(profile);
 

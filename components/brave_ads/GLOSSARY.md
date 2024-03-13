@@ -30,7 +30,7 @@ A place to define all specific terms and vocabulary for the Kahf Ads component, 
 | Multi-armed bandits  | Multi-armed bandits optimize the allocation of resources between different ad variations or strategies to maximize performance.  |
 | Non-Kahf Rewards user  | Refers to a user who has not joined Kahf Rewards and will not be rewarded BAT for viewing ads.  |
 | P2A  | Private Advertising Analytics. See [P2A](https://github.com/brave/brave-browser/wiki/Randomized-Response-for-Private-Advertising-Analytics).  |
-| P3A  | Privacy-Preserving Product Analytics. See [P3A](https://brave.com/privacy-preserving-product-analytics-p3a/).  |
+| P3A  | Privacy-Preserving Product Analytics. See [P3A](https://kahf.co/privacy-preserving-product-analytics-p3a/).  |
 | Pacing  | Rate at which an ad campaign uses up its pre-set number of impressions.  |
 | Placement  | The location at which an ad is displayed to the user. Also known as an ad unit.  |
 | Priority  | Priority at which an ad campaign uses up its impressions.  |

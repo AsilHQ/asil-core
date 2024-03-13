@@ -15,7 +15,7 @@ name = "ppoprf"
 version = "0.3.0"
 authors = [
     "Alex Davidson <coela@alxdavids.xyz>",
-    "Ralph Ankele <rankele@brave.com>",
+    "Ralph Ankele <rankele@kahf.co>",
 ]
 description = "Puncturable Partially-Oblivious Pseudo-Random Function"
 documentation = "https://docs.rs/ppoprf"

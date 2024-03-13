@@ -44,7 +44,7 @@ namespace {
 const char kEmbeddedTestServerDirectory[] = "brave-search";
 const char kAllowedDomain[] = "search.brave.com";
 const char kAllowedDomainDev[] = "search.brave.software";
-const char kNotAllowedDomain[] = "brave.com";
+const char kNotAllowedDomain[] = "kahf.co";
 const char kBraveSearchPath[] = "/bravesearch.html";
 const char kPageWithCookie[] = "/simple_page_with_cookie.html";
 const char kPageWithoutCookie[] = "/simple_page_without_cookie.html";

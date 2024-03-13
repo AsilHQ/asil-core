@@ -64,7 +64,7 @@ TEST(SolanaTxMetaUnitTest, ToTransactionInfo) {
   meta.set_tx_hash(
       "5VERv8NMvzbJMEkV8xnrLkEaWRtSz9CosKDYjCJjBRnbJLgp8uirBgmQpjKhoR4tjF3ZpRzr"
       "FmBV6UjKdiSZkQUW");
-  meta.set_origin(url::Origin::Create(GURL("https://test.brave.com/")));
+  meta.set_origin(url::Origin::Create(GURL("https://test.kahf.co/")));
 
   mojom::TransactionInfoPtr ti = meta.ToTransactionInfo();
   EXPECT_EQ(ti->id, meta.id());
@@ -74,7 +74,7 @@ TEST(SolanaTxMetaUnitTest, ToTransactionInfo) {
   EXPECT_EQ(ti->tx_hash, meta.tx_hash());
   EXPECT_EQ(
       ti->origin_info,
-      MakeOriginInfo(url::Origin::Create(GURL("https://test.brave.com/"))));
+      MakeOriginInfo(url::Origin::Create(GURL("https://test.kahf.co/"))));
 
   EXPECT_EQ(meta.created_time().InMillisecondsSinceUnixEpoch(),
             ti->created_time.InMilliseconds());
@@ -167,7 +167,7 @@ TEST(SolanaTxMetaUnitTest, ToValue) {
   meta.set_tx_hash(
       "5VERv8NMvzbJMEkV8xnrLkEaWRtSz9CosKDYjCJjBRnbJLgp8uirBgmQpjKhoR4tjF3ZpRzr"
       "FmBV6UjKdiSZkQUW");
-  meta.set_origin(url::Origin::Create(GURL("https://test.brave.com/")));
+  meta.set_origin(url::Origin::Create(GURL("https://test.kahf.co/")));
   meta.set_chain_id("0x66");
 
   base::Value::Dict value = meta.ToValue();
@@ -178,7 +178,7 @@ TEST(SolanaTxMetaUnitTest, ToValue) {
       "status": 4,
       "from_account_id": "501_1_0_BrG44HdsEhzapvs8bEqzvkq4egwevS3fRE6ze2ENo6S8",
       "tx_hash": "5VERv8NMvzbJMEkV8xnrLkEaWRtSz9CosKDYjCJjBRnbJLgp8uirBgmQpjKhoR4tjF3ZpRzrFmBV6UjKdiSZkQUW",
-      "origin": "https://test.brave.com/",
+      "origin": "https://test.kahf.co/",
       "confirmed_time": "11996733600000000",
       "created_time": "11996733540000000",
       "submitted_time": "11996733597000000",

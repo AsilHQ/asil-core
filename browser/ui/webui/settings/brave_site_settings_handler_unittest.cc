@@ -80,7 +80,7 @@ class TestBraveSiteSettingsHandlerUnittest : public testing::Test {
 TEST_F(TestBraveSiteSettingsHandlerUnittest, InValidShieldsType) {
   base::Value::List args;
   args.Append(base::Value("id"));
-  args.Append(base::Value("[*.]brave.com"));
+  args.Append(base::Value("[*.]kahf.co"));
   args.Append(base::Value(site_settings::ContentSettingsTypeToGroupName(
       ContentSettingsType::BRAVE_SHIELDS)));
   HandleIsPatternValidForType(args);
@@ -95,7 +95,7 @@ TEST_F(TestBraveSiteSettingsHandlerUnittest, InValidShieldsType) {
 TEST_F(TestBraveSiteSettingsHandlerUnittest, ValidShieldsType) {
   base::Value::List args;
   args.Append(base::Value("id"));
-  args.Append(base::Value("brave.com"));
+  args.Append(base::Value("kahf.co"));
   args.Append(base::Value(site_settings::ContentSettingsTypeToGroupName(
       ContentSettingsType::BRAVE_SHIELDS)));
   HandleIsPatternValidForType(args);
@@ -107,7 +107,7 @@ TEST_F(TestBraveSiteSettingsHandlerUnittest, ValidShieldsType) {
 TEST_F(TestBraveSiteSettingsHandlerUnittest, ValidNonShieldsType) {
   base::Value::List args;
   args.Append(base::Value("id"));
-  args.Append(base::Value("[*.]brave.com"));
+  args.Append(base::Value("[*.]kahf.co"));
   args.Append(base::Value(site_settings::ContentSettingsTypeToGroupName(
       ContentSettingsType::COOKIES)));
   HandleIsPatternValidForType(args);

@@ -144,7 +144,7 @@ SimpleHashClient::SimpleHashClient(
 SimpleHashClient::~SimpleHashClient() = default;
 
 // Calls
-// https://simplehash.wallet.brave.com/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
+// https://simplehash.wallet.kahf.co/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
 void SimpleHashClient::FetchNFTsFromSimpleHash(
     const std::string& account_address,
     const std::vector<std::string>& chain_ids,
@@ -596,7 +596,7 @@ SimpleHashClient::ParseNFTsFromSimpleHash(const base::Value& json_value,
 
 // static
 // Creates a URL like
-// https://simplehash.wallet.brave.com/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
+// https://simplehash.wallet.kahf.co/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
 GURL SimpleHashClient::GetSimpleHashNftsByWalletUrl(
     const std::string& account_address,
     const std::vector<std::string>& chain_ids,

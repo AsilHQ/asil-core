@@ -97,8 +97,8 @@ export const getMockedTransactionInfo =
       submittedTime: { microseconds: 0 },
       confirmedTime: { microseconds: 0 },
       originInfo: {
-        originSpec: 'https://brave.com',
-        eTldPlusOne: 'brave.com'
+        originSpec: 'https://kahf.co',
+        eTldPlusOne: 'kahf.co'
       },
       effectiveRecipient: '0x8b52c24d6e2600bdb8dbb6e8da849ed38ab7e81f'
     }
@@ -138,7 +138,7 @@ export const mockFilecoinTestnetNetwork: BraveWallet.NetworkInfo = {
   chainId: 't',
   chainName: 'Filecoin Testnet',
   activeRpcEndpointIndex: 0,
-  rpcEndpoints: [{ url: 'https://mainnet-beta-solana.brave.com/rpc' }],
+  rpcEndpoints: [{ url: 'https://mainnet-beta-solana.kahf.co/rpc' }],
   blockExplorerUrls: ['https://calibration.filscan.io/tipset/message-detail'],
   symbol: 'FIL',
   symbolName: 'Filecoin',
@@ -183,7 +183,7 @@ export const mockBtcMainnetNetwork: BraveWallet.NetworkInfo = {
   chainId: 'bitcoin_mainnet',
   chainName: 'Bitcoin Mainnet',
   activeRpcEndpointIndex: 0,
-  rpcEndpoints: [{ url: 'https://bitcoin-mainnet.wallet.brave.com/' }],
+  rpcEndpoints: [{ url: 'https://bitcoin-mainnet.wallet.kahf.co/' }],
   blockExplorerUrls: ['https://www.blockchain.com/explorer'],
   symbol: 'BTC',
   symbolName: 'Bitcoin',

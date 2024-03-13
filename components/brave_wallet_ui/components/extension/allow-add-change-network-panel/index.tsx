@@ -53,7 +53,7 @@ const onLearnMore = () => {
   chrome.tabs
     .create({
       url:
-        'https://support.brave.com' +
+        'https://support.kahf.co' +
         '/hc/en-us/articles/4415497656461-Brave-Wallet-FAQ'
     })
     .catch((e) => {

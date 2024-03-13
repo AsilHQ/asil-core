@@ -14,7 +14,7 @@ export function createModel (): Model {
     error: null,
     monthlyContributionSet: false,
     creatorBanner: {
-      name: 'brave.com',
+      name: 'kahf.co',
       provider: '',
       title: 'Halalz',
       description:
@@ -23,14 +23,14 @@ export function createModel (): Model {
         'while growing support for content creators through a new ' +
         'attention-based ecosystem of rewards. Join us. It’s time to fix the ' +
         'web together!',
-      logo: 'https://rewards.brave.com/LH3yQwkb78iP28pJDSSFPJwU',
+      logo: 'https://rewards.kahf.co/LH3yQwkb78iP28pJDSSFPJwU',
       background: '',
       links: {
         twitter: 'https://twitter.com/brave',
         youtube: 'https://www.youtube.com/bravesoftware',
         twitch: 'https://twitch.tv/bravesoftware'
       },
-      web3Url: 'https://www.brave.com'
+      web3Url: 'https://www.kahf.co'
     },
     creatorVerified: true,
     creatorWallets: ['gemini'],

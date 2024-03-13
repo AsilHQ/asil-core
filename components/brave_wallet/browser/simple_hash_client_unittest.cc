@@ -129,7 +129,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
   EXPECT_EQ(simple_hash_client_->GetSimpleHashNftsByWalletUrl(
                 "0x0000000000000000000000000000000000000000",
                 {mojom::kMainnetChainId}, absl::nullopt),
-            GURL("https://simplehash.wallet.brave.com/api/v0/nfts/"
+            GURL("https://simplehash.wallet.kahf.co/api/v0/nfts/"
                  "owners?chains=ethereum&wallet_addresses="
                  "0x0000000000000000000000000000000000000000"));
 
@@ -138,7 +138,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
                 "0x0000000000000000000000000000000000000000",
                 {mojom::kMainnetChainId, mojom::kOptimismMainnetChainId},
                 absl::nullopt),
-            GURL("https://simplehash.wallet.brave.com/api/v0/nfts/"
+            GURL("https://simplehash.wallet.kahf.co/api/v0/nfts/"
                  "owners?chains=ethereum%2Coptimism&wallet_addresses="
                  "0x0000000000000000000000000000000000000000"));
 
@@ -154,7 +154,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
       simple_hash_client_->GetSimpleHashNftsByWalletUrl(
           "0x0000000000000000000000000000000000000000",
           {mojom::kMainnetChainId}, cursor),
-      GURL("https://simplehash.wallet.brave.com/api/v0/nfts/"
+      GURL("https://simplehash.wallet.kahf.co/api/v0/nfts/"
            "owners?chains=ethereum&wallet_addresses="
            "0x0000000000000000000000000000000000000000&cursor=example_cursor"));
 
@@ -163,7 +163,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
       simple_hash_client_->GetSimpleHashNftsByWalletUrl(
           "0x0000000000000000000000000000000000000000",
           {mojom::kMainnetChainId, mojom::kOptimismMainnetChainId}, cursor),
-      GURL("https://simplehash.wallet.brave.com/api/v0/nfts/"
+      GURL("https://simplehash.wallet.kahf.co/api/v0/nfts/"
            "owners?chains=ethereum%2Coptimism&wallet_addresses="
            "0x0000000000000000000000000000000000000000&cursor=example_cursor"));
 }
@@ -762,7 +762,7 @@ TEST_F(SimpleHashClientUnitTest, FetchAllNFTsFromSimpleHash) {
   nft1->coin = mojom::CoinType::ETH;
   expected_nfts.push_back(std::move(nft1));
   url = GURL(
-      "https://simplehash.wallet.brave.com/api/v0/nfts/"
+      "https://simplehash.wallet.kahf.co/api/v0/nfts/"
       "owners?chains=ethereum%2Coptimism&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   responses[url] = json;
@@ -796,7 +796,7 @@ TEST_F(SimpleHashClientUnitTest, FetchAllNFTsFromSimpleHash) {
   })";
   responses[url] = json;
   GURL next_url = GURL(
-      "https://simplehash.wallet.brave.com/api/v0/nfts/"
+      "https://simplehash.wallet.kahf.co/api/v0/nfts/"
       "owners?chains=ethereum%2Coptimism&wallet_addresses="
       "0x0000000000000000000000000000000000000000&cursor=abc123");
   json2 = R"({
@@ -904,7 +904,7 @@ TEST_F(SimpleHashClientUnitTest, FetchNFTsFromSimpleHash) {
   })";
 
   url = GURL(
-      "https://simplehash.wallet.brave.com/api/v0/nfts/"
+      "https://simplehash.wallet.kahf.co/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   responses[url] = json;
@@ -917,7 +917,7 @@ TEST_F(SimpleHashClientUnitTest, FetchNFTsFromSimpleHash) {
 
   // Single NFT fetched with cursor argument also returning a cursor
   url = GURL(
-      "https://simplehash.wallet.brave.com/api/v0/nfts/"
+      "https://simplehash.wallet.kahf.co/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000&cursor=abc123");
   json = R"({
@@ -947,7 +947,7 @@ TEST_F(SimpleHashClientUnitTest, FetchNFTsFromSimpleHash) {
 
   // Test fetching only spam NFTs
   url = GURL(
-      "https://simplehash.wallet.brave.com/api/v0/nfts/"
+      "https://simplehash.wallet.kahf.co/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   std::string json2 = R"({

@@ -266,7 +266,7 @@ IN_PROC_BROWSER_TEST_F(RewardsContributionBrowserTest,
   order->order_id = "a38b211b-bf78-42c8-9479-b11e92e3a76c";
   order->total_amount = 20;
   order->merchant_id = "";
-  order->location = "brave.com";
+  order->location = "kahf.co";
   order->items = std::move(items);
   response_->SetSKUOrder(std::move(order));
 
@@ -330,7 +330,7 @@ IN_PROC_BROWSER_TEST_F(RewardsContributionBrowserTest, TipUnverifiedPublisher) {
   contribution_->AddBalance(promotion_->ClaimPromotionViaCode());
 
   contribution_->TipPublisher(
-      test_util::GetUrl(https_server_.get(), "brave.com"), false);
+      test_util::GetUrl(https_server_.get(), "kahf.co"), false);
 }
 
 IN_PROC_BROWSER_TEST_F(RewardsContributionBrowserTest,
@@ -440,7 +440,7 @@ IN_PROC_BROWSER_TEST_F(RewardsContributionBrowserTest,
                             mojom::PublisherStatus::UPHOLD_VERIFIED, true);
 
   context_helper_->VisitPublisher(
-      test_util::GetUrl(https_server_.get(), "brave.com"), !verified);
+      test_util::GetUrl(https_server_.get(), "kahf.co"), !verified);
 
   // Trigger contribution process
   rewards_service_->StartContributionsForTesting();
@@ -531,7 +531,7 @@ IN_PROC_BROWSER_TEST_F(RewardsContributionBrowserTest,
   order->order_id = "a38b211b-bf78-42c8-9479-b11e92e3a76c";
   order->total_amount = 20;
   order->merchant_id = "";
-  order->location = "brave.com";
+  order->location = "kahf.co";
   order->items = std::move(items);
   response_->SetSKUOrder(std::move(order));
 

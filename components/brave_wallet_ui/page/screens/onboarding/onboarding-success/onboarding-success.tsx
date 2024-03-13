@@ -92,7 +92,7 @@ export const OnboardingSuccess = () => {
           <LinkText
             rel='noreferrer'
             target='_blank'
-            href='https://brave.com/learn/what-is-crypto-wallet/#how-to-use-a-crypto-wallet'
+            href='https://kahf.co/learn/what-is-crypto-wallet/#how-to-use-a-crypto-wallet'
           >
             {getLocale('braveWalletLearnAboutMyWallet')}
           </LinkText>

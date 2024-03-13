@@ -52,7 +52,7 @@ export interface Props {
 }
 
 const onClickInstructions = () => {
-  const url = 'https://support.brave.com/hc/en-us/articles/4409309138701'
+  const url = 'https://support.kahf.co/hc/en-us/articles/4409309138701'
 
   chrome.tabs.create({ url }, () => {
     if (chrome.runtime.lastError) {

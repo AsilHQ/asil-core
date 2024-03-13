@@ -315,8 +315,8 @@ TEST_F(BravePrefProviderTest, TestShieldsSettingsMigration) {
   ShieldsEnabledSetting enabled_settings(&provider);
   ShieldsScriptSetting script_settings(&provider);
 
-  GURL url("http://brave.com:8080/");
-  GURL url2("http://allowed.brave.com:3030");
+  GURL url("http://kahf.co:8080/");
+  GURL url2("http://allowed.kahf.co:3030");
   // Check that the settings for the url are default values.
   cookie_settings.CheckSettingsAreDefault(url);
   cookie_settings.CheckSettingsAreDefault(url2);
@@ -337,42 +337,42 @@ TEST_F(BravePrefProviderTest, TestShieldsSettingsMigration) {
   cookie_settings.SetPreMigrationSettings(pattern2, CONTENT_SETTING_ALLOW);
   // Pattern that doesn't need to be migrated.
   cookie_settings.SetPreMigrationSettings(
-      ContentSettingsPattern::FromString("*://help.brave.com/*"),
+      ContentSettingsPattern::FromString("*://help.kahf.co/*"),
       CONTENT_SETTING_BLOCK);
-  // Check that settings would block brave.com:8080, but not brave.com:5555.
+  // Check that settings would block kahf.co:8080, but not kahf.co:5555.
   cookie_settings.CheckSettingsWouldBlock(url);
   cookie_settings.CheckSettingsWouldAllow(url2);
-  cookie_settings.CheckSettingsAreDefault(GURL("http://brave.com:5555"));
+  cookie_settings.CheckSettingsAreDefault(GURL("http://kahf.co:5555"));
 
   // Finterprinting.
   fp_settings.SetPreMigrationSettings(pattern, CONTENT_SETTING_ALLOW);
-  // Check that settings would allow brave.com:8080, but not brave.com:5555.
+  // Check that settings would allow kahf.co:8080, but not kahf.co:5555.
   fp_settings.CheckSettingsWouldAllow(url);
-  fp_settings.CheckSettingsAreDefault(GURL("http://brave.com:5555"));
+  fp_settings.CheckSettingsAreDefault(GURL("http://kahf.co:5555"));
 
   // HTTPSE.
   httpse_settings.SetPreMigrationSettings(pattern, CONTENT_SETTING_BLOCK);
-  // Check that settings would block brave.com:8080, but not brave.com:5555.
+  // Check that settings would block kahf.co:8080, but not kahf.co:5555.
   httpse_settings.CheckSettingsWouldBlock(url);
-  httpse_settings.CheckSettingsAreDefault(GURL("http://brave.com:5555"));
+  httpse_settings.CheckSettingsAreDefault(GURL("http://kahf.co:5555"));
 
   // Ads.
   ads_settings.SetPreMigrationSettings(pattern, CONTENT_SETTING_ALLOW);
-  // Check that settings would allow brave.com:8080, but not brave.com:5555.
+  // Check that settings would allow kahf.co:8080, but not kahf.co:5555.
   ads_settings.CheckSettingsWouldAllow(url);
-  ads_settings.CheckSettingsAreDefault(GURL("http://brave.com:5555"));
+  ads_settings.CheckSettingsAreDefault(GURL("http://kahf.co:5555"));
 
   // Enabled.
   enabled_settings.SetPreMigrationSettings(pattern, CONTENT_SETTING_BLOCK);
-  // Check that settings would block brave.com:8080, but not brave.com:5555.
+  // Check that settings would block kahf.co:8080, but not kahf.co:5555.
   httpse_settings.CheckSettingsWouldBlock(url);
-  httpse_settings.CheckSettingsAreDefault(GURL("http://brave.com:5555"));
+  httpse_settings.CheckSettingsAreDefault(GURL("http://kahf.co:5555"));
 
   // Scripts.
   script_settings.SetPreMigrationSettings(pattern, CONTENT_SETTING_BLOCK);
-  // Check that settings would block brave.com:8080, but not brave.com:5555.
+  // Check that settings would block kahf.co:8080, but not kahf.co:5555.
   script_settings.CheckSettingsWouldBlock(url);
-  script_settings.CheckSettingsAreDefault(GURL("http://brave.com:5555"));
+  script_settings.CheckSettingsAreDefault(GURL("http://kahf.co:5555"));
 
   // Migrate settings.
   // ------------------------------------------------------
@@ -382,55 +382,55 @@ TEST_F(BravePrefProviderTest, TestShieldsSettingsMigration) {
   // Check post-migration settings.
   // ------------------------------------------------------
   // Cookies.
-  // Check that settings would block brave.com with any protocol and port.
+  // Check that settings would block kahf.co with any protocol and port.
   cookie_settings.CheckSettingsWouldBlock(url);
-  cookie_settings.CheckSettingsWouldBlock(GURL("http://brave.com:5555"));
-  cookie_settings.CheckSettingsWouldBlock(GURL("https://brave.com"));
-  // Check that settings would allow allow.brave.com with any protocol and port.
+  cookie_settings.CheckSettingsWouldBlock(GURL("http://kahf.co:5555"));
+  cookie_settings.CheckSettingsWouldBlock(GURL("https://kahf.co"));
+  // Check that settings would allow allow.kahf.co with any protocol and port.
   cookie_settings.CheckSettingsWouldAllow(url2);
-  cookie_settings.CheckSettingsWouldAllow(GURL("https://allowed.brave.com"));
+  cookie_settings.CheckSettingsWouldAllow(GURL("https://allowed.kahf.co"));
   // Check the pattern that didn't need to be migrated.
   cookie_settings.CheckSettingsWouldBlock(
-      GURL("https://help.brave.com/article1.html"));
+      GURL("https://help.kahf.co/article1.html"));
   // Would not block a different domain.
   cookie_settings.CheckSettingsAreDefault(GURL("http://brave2.com"));
 
   // Fingerprinting.
-  // Check that settings would allow brave.com with any protocol and port.
+  // Check that settings would allow kahf.co with any protocol and port.
   fp_settings.CheckSettingsWouldAllow(url);
-  fp_settings.CheckSettingsWouldAllow(GURL("http://brave.com:5555"));
-  fp_settings.CheckSettingsWouldAllow(GURL("https://brave.com"));
+  fp_settings.CheckSettingsWouldAllow(GURL("http://kahf.co:5555"));
+  fp_settings.CheckSettingsWouldAllow(GURL("https://kahf.co"));
   // Would not allow a different domain.
   fp_settings.CheckSettingsAreDefault(GURL("http://brave2.com"));
 
   // HTTPSE.
-  // Check that settings would block brave.com with any protocol and port.
+  // Check that settings would block kahf.co with any protocol and port.
   httpse_settings.CheckSettingsWouldBlock(url);
-  httpse_settings.CheckSettingsWouldBlock(GURL("http://brave.com:5555"));
+  httpse_settings.CheckSettingsWouldBlock(GURL("http://kahf.co:5555"));
   // Would not block a different domain.
   httpse_settings.CheckSettingsAreDefault(GURL("http://brave2.com"));
 
   // Ads.
-  // Check that settings would allow brave.com with any protocol and port.
+  // Check that settings would allow kahf.co with any protocol and port.
   ads_settings.CheckSettingsWouldAllow(url);
-  ads_settings.CheckSettingsWouldAllow(GURL("http://brave.com:5555"));
-  ads_settings.CheckSettingsWouldAllow(GURL("https://brave.com"));
+  ads_settings.CheckSettingsWouldAllow(GURL("http://kahf.co:5555"));
+  ads_settings.CheckSettingsWouldAllow(GURL("https://kahf.co"));
   // Would not allow a different domain.
   ads_settings.CheckSettingsAreDefault(GURL("http://brave2.com"));
 
   // Enabled.
-  // Check that settings would block brave.com with any protocol and port.
+  // Check that settings would block kahf.co with any protocol and port.
   httpse_settings.CheckSettingsWouldBlock(url);
-  httpse_settings.CheckSettingsWouldBlock(GURL("http://brave.com:5555"));
-  httpse_settings.CheckSettingsWouldBlock(GURL("https://brave.com"));
+  httpse_settings.CheckSettingsWouldBlock(GURL("http://kahf.co:5555"));
+  httpse_settings.CheckSettingsWouldBlock(GURL("https://kahf.co"));
   // Would not block a different domain.
   httpse_settings.CheckSettingsAreDefault(GURL("http://brave2.com"));
 
   // Scripts.
-  // Check that settings would block brave.com with any protocol and port.
+  // Check that settings would block kahf.co with any protocol and port.
   script_settings.CheckSettingsWouldBlock(url);
-  script_settings.CheckSettingsWouldBlock(GURL("http://brave.com:5555"));
-  script_settings.CheckSettingsWouldBlock(GURL("https://brave.com"));
+  script_settings.CheckSettingsWouldBlock(GURL("http://kahf.co:5555"));
+  script_settings.CheckSettingsWouldBlock(GURL("https://kahf.co"));
   // Would not block a different domain.
   script_settings.CheckSettingsAreDefault(GURL("http://brave2.com"));
 
@@ -466,21 +466,21 @@ TEST_F(BravePrefProviderTest, MigrateFPShieldsSettings) {
 
   ShieldsFingerprintingSetting fp_settings(&provider);
 
-  GURL url("http://brave.com:8080/");
+  GURL url("http://kahf.co:8080/");
   ContentSettingsPattern pattern = ContentSettingsPattern::FromURL(url);
   fp_settings.SetPreMigrationSettings(pattern, CONTENT_SETTING_BLOCK);
 
-  GURL url2("http://brave.com:3030");
+  GURL url2("http://kahf.co:3030");
   ContentSettingsPattern pattern2 = ContentSettingsPattern::FromURL(url2);
   fp_settings.SetPreMigrationSettingsWithSecondary(
       pattern2, ContentSettingsPattern::FromString("https://balanced/*"),
       CONTENT_SETTING_BLOCK);
 
-  GURL url3("http://brave.com:8181/");
+  GURL url3("http://kahf.co:8181/");
   ContentSettingsPattern pattern3 = ContentSettingsPattern::FromURL(url3);
   fp_settings.SetPreMigrationSettings(pattern3, CONTENT_SETTING_ALLOW);
 
-  GURL url4("http://brave.com:8282/");
+  GURL url4("http://kahf.co:8282/");
   ContentSettingsPattern pattern4 = ContentSettingsPattern::FromURL(url4);
   fp_settings.SetPreMigrationSettings(pattern4, CONTENT_SETTING_ASK);
 
@@ -550,9 +550,9 @@ TEST_F(BravePrefProviderTest, TestShieldsSettingsMigrationFromResourceIDs) {
                                           expected_last_modified,
                                           expected_example_com_settings_value);
 
-  // Disable Brave Shields for www.brave.com.
+  // Disable Brave Shields for www.kahf.co.
   base::Value::Dict* brave_settings =
-      plugins.value()->EnsureDict("www.brave.com,*");
+      plugins.value()->EnsureDict("www.kahf.co,*");
 
   const int expected_brave_com_settings_value = 1;
   InitializeBraveShieldsSettingInDictionary(brave_settings,
@@ -572,9 +572,9 @@ TEST_F(BravePrefProviderTest, TestShieldsSettingsMigrationFromResourceIDs) {
             GetShieldsContentTypeName(content_type)));
 
     if (content_type == ContentSettingsType::BRAVE_SHIELDS) {
-      // We only changed the value of BRAVE_SHIELDS in www.brave.com.
+      // We only changed the value of BRAVE_SHIELDS in www.kahf.co.
       CheckMigrationFromResourceIdentifierForDictionary(
-          brave_shields_dict, "www.brave.com,*", expected_last_modified,
+          brave_shields_dict, "www.kahf.co,*", expected_last_modified,
           expected_brave_com_settings_value);
     } else {
       // All the other settings we changed them globally and in www.example.com.
@@ -645,8 +645,8 @@ TEST_F(BravePrefProviderTest, TestShieldsSettingsMigrationV2toV4) {
   CookieSettings cookie_settings(&provider);
   ShieldsEnabledSetting shields_enabled_settings(&provider);
 
-  GURL blocked("http://brave.com:8080/");
-  GURL allowed("http://allowed.brave.com:3030");
+  GURL blocked("http://kahf.co:8080/");
+  GURL allowed("http://allowed.kahf.co:3030");
 
   ContentSettingsPattern allowed_pattern =
       ContentSettingsPattern::FromURL(blocked);

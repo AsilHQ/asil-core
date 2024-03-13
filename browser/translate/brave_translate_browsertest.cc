@@ -128,10 +128,10 @@ class BraveTranslateBrowserTest : public InProcessBrowserTest {
     InProcessBrowserTest::SetUpCommandLine(command_line);
     mock_cert_verifier_.SetUpCommandLine(command_line);
 
-    // Remap translate.brave.com requests to the https test server.
+    // Remap translate.kahf.co requests to the https test server.
     const std::string host_port = https_server_->host_port_pair().ToString();
     command_line->AppendSwitchASCII(network::switches::kHostResolverRules,
-                                    "MAP translate.brave.com:443 " + host_port +
+                                    "MAP translate.kahf.co:443 " + host_port +
                                         ", MAP translate.google.com:443 " +
                                         host_port);
   }
@@ -299,9 +299,9 @@ IN_PROC_BROWSER_TEST_F(BraveTranslateBrowserTest, InternalTranslation) {
 
   // Check used urls.
   EXPECT_EQ(language_list->LanguageFetchURLForTesting().host(),
-            "translate.brave.com");
+            "translate.kahf.co");
   EXPECT_EQ(TranslateScript::GetTranslateScriptURL().host(),
-            "translate.brave.com");
+            "translate.kahf.co");
 
   // Check no bad flags infobar is shown (about the different translate
   // script/origin).
@@ -341,7 +341,7 @@ class BraveTranslateBrowserGoogleRedirectTest
     const std::string host_port = https_server_->host_port_pair().ToString();
     // Add translate.google.com redirection to the https test server.
     command_line->AppendSwitchASCII(network::switches::kHostResolverRules,
-                                    "MAP translate.brave.com:443 " + host_port +
+                                    "MAP translate.kahf.co:443 " + host_port +
                                         ", MAP translate.google.com:443 " +
                                         host_port);
   }
@@ -377,7 +377,7 @@ IN_PROC_BROWSER_TEST_F(BraveTranslateBrowserGoogleRedirectTest,
                           do_xhr_and_get_final_url));
 
   // Check that the same page request from translate world will be redirected.
-  EXPECT_EQ("https://translate.brave.com/something.svg",
+  EXPECT_EQ("https://translate.kahf.co/something.svg",
             EvalTranslateJs(do_xhr_and_get_final_url));
 
   const char kLoadImageTemplate[] = R"(

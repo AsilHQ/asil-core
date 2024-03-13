@@ -171,7 +171,7 @@ std::string GetManageUrl(const std::string& env) {
 }
 
 // On desktop, the environment is tied to SKUs because you would purchase it
-// from `account.brave.com` (or similar, based on env). The credentials for VPN
+// from `account.kahf.co` (or similar, based on env). The credentials for VPN
 // will always be in the same environment as the SKU environment.
 //
 // When the vendor receives a credential from us during auth, it also includes

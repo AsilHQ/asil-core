@@ -57,7 +57,7 @@ UntrustedMarketUI::UntrustedMarketUI(content::WebUI* web_ui)
       std::string("font-src 'self' data: chrome-untrusted://resources;"));
   untrusted_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ImgSrc,
-      std::string("img-src 'self' https://assets.cgproxy.brave.com "
+      std::string("img-src 'self' https://assets.cgproxy.kahf.co "
                   "chrome-untrusted://resources;"));
 
   untrusted_source->AddResourcePath("load_time_data_deprecated.js",

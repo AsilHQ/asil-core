@@ -83,7 +83,7 @@ TEST_F(BraveFarblingServiceTest, InvalidDomains) {
       GURL("about:blank"),
       GURL("kahf://settings"),
       GURL("chrome://version"),
-      GURL("gopher://brave.com"),
+      GURL("gopher://kahf.co"),
       GURL("file:///etc/passwd"),
       GURL("javascript:alert(1)"),
       GURL("data:text/plain;base64,"),

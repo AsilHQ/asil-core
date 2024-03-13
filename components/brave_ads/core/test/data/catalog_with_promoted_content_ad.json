@@ -15,7 +15,7 @@
                 "version": 1
               },
               "payload": {
-                "feed": "https://brave.com",
+                "feed": "https://kahf.co",
                 "title": "Test Title",
                 "domain": "Test Domain",
                 "category": "Test Category",
@@ -35,7 +35,7 @@
           "conversions": [
             {
               "observationWindow": 30,
-              "urlPattern": "https://www.brave.com/*",
+              "urlPattern": "https://www.kahf.co/*",
               "type": "postview"
             }
           ],

@@ -43,7 +43,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest,
   PurchaseIntentProcessor processor(*resource_);
 
   // Act
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
 
   // Assert
   const PurchaseIntentSignalHistoryMap& history =
@@ -83,7 +83,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest, ProcessUrl) {
   PurchaseIntentProcessor processor(*resource_);
 
   // Act
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
 
   // Assert
   const PurchaseIntentSignalHistoryMap& history =
@@ -99,7 +99,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest, ProcessMultipleMatchingUrls) {
   // Arrange
   ASSERT_TRUE(LoadResource());
 
-  const GURL url = GURL("https://www.brave.com/test?foo=bar");
+  const GURL url = GURL("https://www.kahf.co/test?foo=bar");
 
   PurchaseIntentProcessor processor(*resource_);
 
@@ -128,7 +128,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest, ProcessMultipleUniqueUrls) {
   const base::Time now_before_advancing_clock = Now();
 
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.kahf.co/test?foo=bar"));
 
   AdvanceClockBy(base::Minutes(5));
 

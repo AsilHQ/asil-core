@@ -35,9 +35,9 @@ constexpr char kClicksEventType[] = "clicks";
 constexpr char kViewsEventType[] = "views";
 constexpr char kLandsEventType[] = "lands";
 
-constexpr char kTestP3AJsonHost[] = "https://p3a-json.brave.com";
-constexpr char kTestP2AJsonHost[] = "https://p2a-json.brave.com";
-constexpr char kTestP3ACreativeHost[] = "https://p3a-creative.brave.com";
+constexpr char kTestP3AJsonHost[] = "https://p3a-json.kahf.co";
+constexpr char kTestP2AJsonHost[] = "https://p2a-json.kahf.co";
+constexpr char kTestP3ACreativeHost[] = "https://p3a-creative.kahf.co";
 }  // namespace
 
 class NTPP3AHelperImplTest : public testing::Test {

@@ -114,7 +114,7 @@ TEST_F(BraveRenderViewContextMenuTest, MenuForPlainText) {
 }
 
 TEST_F(BraveRenderViewContextMenuTest, MenuForSelectedUrl) {
-  content::ContextMenuParams params = CreateSelectedTextParams(u"brave.com");
+  content::ContextMenuParams params = CreateSelectedTextParams(u"kahf.co");
   auto context_menu = CreateContextMenu(GetWebContents(), params);
   EXPECT_TRUE(context_menu);
   absl::optional<size_t> clean_link_index =
@@ -125,7 +125,7 @@ TEST_F(BraveRenderViewContextMenuTest, MenuForSelectedUrl) {
 
 TEST_F(BraveRenderViewContextMenuTest, MenuForLink) {
   content::ContextMenuParams params =
-      CreateLinkParams(GURL("https://brave.com"));
+      CreateLinkParams(GURL("https://kahf.co"));
   auto context_menu = CreateContextMenu(GetWebContents(), params);
   EXPECT_TRUE(context_menu);
   absl::optional<size_t> clean_link_index =

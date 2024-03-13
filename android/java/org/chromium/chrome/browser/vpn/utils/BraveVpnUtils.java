@@ -50,7 +50,7 @@ public class BraveVpnUtils {
     public static final String DESKTOP_CREDENTIAL = "desktop_credential";
 
     private static final String BRAVE_ACCOUNT_PROD_PAGE_URL =
-            "https://account.brave.com?intent=connect-receipt&product=vpn";
+            "https://account.kahf.co?intent=connect-receipt&product=vpn";
     private static final String BRAVE_ACCOUNT_STAGING_PAGE_URL =
             "https://account.bravesoftware.com?intent=connect-receipt&product=vpn";
 

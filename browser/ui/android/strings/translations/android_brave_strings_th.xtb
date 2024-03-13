@@ -79,7 +79,7 @@
 <translation id="4324735664183300693">เปิดการแจ้งเตือน</translation>
 <translation id="6395059271589866759">Kahf จะเรียกเก็บเงิน 5% ของเงินที่ส่งเป็นค่าธรรมเนียมในการประมวลผล</translation>
 <translation id="6661699662755460155">แลกเปลี่ยน</translation>
-<translation id="6790981891677399838">ฉันเพิ่งจะสนับสนุน <ph name="AMOUNT"/> BAT โดยใช้เบราว์เซอร์ Kahf ดูว่าคุณจะสนับสนุนผู้สร้างและเว็บไซต์โปรดของคุณด้วยได้อย่างไร: https://brave.com/rewards</translation>
+<translation id="6790981891677399838">ฉันเพิ่งจะสนับสนุน <ph name="AMOUNT"/> BAT โดยใช้เบราว์เซอร์ Kahf ดูว่าคุณจะสนับสนุนผู้สร้างและเว็บไซต์โปรดของคุณด้วยได้อย่างไร: https://kahf.co/rewards</translation>
 <translation id="5510493033031835532">เปลี่ยนเส้นทางหน้า AMP อัตโนมัติ</translation>
 <translation id="5197219128592971597">ไปที่ URL หน้าเดิม (ที่ไม่ใช่ AMP) เสมอแทนเวอร์ชัน Accelerated Mobile Page ของ Google</translation>
 <translation id="920638232916443453">เปลี่ยนเส้นทาง URL ติดตามอัตโนมัติ</translation>
@@ -499,7 +499,7 @@
 <translation id="1118508688433541158">ท่องเว็บเร็วขึ้นและบล็อกโฆษณาด้วย Kahf</translation>
 <translation id="7427391215172269363">ฉันบันทึกข้อมูลด้วยการท่องเว็บด้วย Kahf ทุกวัน</translation>
 <translation id="4776948189086901857">Kahf ทำงานได้ทุกที่</translation>
-<translation id="1606322780901645965">ดาวน์โหลด Kahf ที่ brave.com  บนแล็บท็อปหรือแท็บเล็ตเพื่อเว็บที่เร็วและเป็นส่วนตัวมากขึ้น</translation>
+<translation id="1606322780901645965">ดาวน์โหลด Kahf ที่ kahf.co  บนแล็บท็อปหรือแท็บเล็ตเพื่อเว็บที่เร็วและเป็นส่วนตัวมากขึ้น</translation>
 <translation id="8374242949413616101">การป้องกันความเป็นส่วนตัว</translation>
 <translation id="4955406228638026265">Kahf หยุดแอปติดตามและโฆษณาจากการเก็บข้อมูลเกี่ยวกับตัวคุณโดยไม่ได้รับอนุญาต</translation>
 <translation id="752842701893882688">ประหยัดข้อมูลและแบตเตอรี่</translation>

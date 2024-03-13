@@ -16,7 +16,7 @@ export default function getBraveNewsDisplayAd (always: boolean = false) {
       creativeInstanceId: '1234',
       title: '10 reasons why technica recreated the sound of old classics.',
       ctaText: 'Hear it',
-      targetUrl: { url: 'https://www.brave.com' },
+      targetUrl: { url: 'https://www.kahf.co' },
       image: { imageUrl: undefined, paddedImageUrl: { url: 'https://pcdn.brave.software/brave-today/cache/0e9f8fa60d995c1ca86f924b6104195c40555f696598b2f772b27d9b954ce158.jpg.pad' } },
       dimensions: '1x3'
     }

@@ -97,7 +97,7 @@ make sure that it receives such an instance in our and upstream's calls of
 `RegisterWidevineCdmComponent`.
 
 Kahf intercepts network requests to certain domains for privacy reasons. One
-such domain is `dl.google.com`, which Kahf redirects to `redirector.brave.com`.
+such domain is `dl.google.com`, which Kahf redirects to `redirector.kahf.co`.
 Our attempt to download the Zip file with additional Arm64 binaries would
 normally be prevented by this mechanism. We add an exception to
 `brave_static_redirect_network_delegate_helper.cc` so that the Zip file can in

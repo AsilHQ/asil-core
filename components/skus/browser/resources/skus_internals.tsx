@@ -56,7 +56,7 @@ function App() {
       <h2>SKUs internals</h2>
       <ButtonContainer>
         <button onClick={() => {
-            if (window.confirm('Resetting SKUs state will count the next sign in for account.brave.com as a new device. If you do this more than once you may run out of devices/credentials. Are you sure you want to reset SKUs state?')) {
+            if (window.confirm('Resetting SKUs state will count the next sign in for account.kahf.co as a new device. If you do this more than once you may run out of devices/credentials. Are you sure you want to reset SKUs state?')) {
               resetSkusState()
             }
           }}>

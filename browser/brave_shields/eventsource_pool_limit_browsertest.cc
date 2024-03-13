@@ -242,7 +242,7 @@ IN_PROC_BROWSER_TEST_F(EventSourcePoolLimitBrowserTest,
 
   // Expect the limit is NOT active in the first-party a.com frame, bc the pool
   // is located in the a.com renderer process.
-  // TODO(aedelstein@brave.com): Check why -- possible concern?
+  // TODO(aedelstein@kahf.co): Check why -- possible concern?
   auto* a_com_in_a_com_rfh = GetNthChildFrameWithHost(a_com_rfh, "a.com");
   OpenEventSources(a_com_in_a_com_rfh, kEventSourcesOpenScript, 1);
 
