@@ -138,11 +138,11 @@ if (is_win) {
     brave_product_dir_name_suffix = "-Development"
   }
   brave_product_dir_name =
-      "Halalz/Brave-Browser$brave_product_dir_name_suffix"
+      "Halalz/Kahf-Browser$brave_product_dir_name_suffix"
 
   if (base_sparkle_update_url == "") {
     base_sparkle_update_url =
-        "https://updates.bravesoftware.com/sparkle/Brave-Browser"
+        "https://updates.bravesoftware.com/sparkle/Kahf-Browser"
   }
 }
 

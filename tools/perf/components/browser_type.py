@@ -239,7 +239,7 @@ class BraveBrowserTypeImpl(BrowserType):
 
   def _GetWinInstallPath(self) -> str:
     return os.path.join(os.path.expanduser('~'), 'AppData', 'Local',
-                        'Halalz', 'Brave-Browser-' + self.channel,
+                        'Halalz', 'Kahf-Browser-' + self.channel,
                         'Application')
 
   @classmethod
@@ -255,7 +255,7 @@ class BraveBrowserTypeImpl(BrowserType):
   def _DownloadDmgAndExtract(self, tag: BraveVersion, out_dir: str):
     assert sys.platform == 'darwin'
     mac_platform = 'arm64' if platform.processor() == 'arm' else 'x64'
-    dmg_name = f'Brave-Browser-{self._channel}-{mac_platform}.dmg'
+    dmg_name = f'Kahf-Browser-{self._channel}-{mac_platform}.dmg'
     dmg_path = os.path.join(out_dir, dmg_name)
 
     DownloadFile(_GetBraveDownloadUrl(tag, dmg_name), dmg_path)

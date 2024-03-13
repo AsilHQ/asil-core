@@ -72,42 +72,42 @@ struct TestData {
 #if defined(OFFICIAL_BUILD)
 constexpr TestData kTestData[] = {
     {
-        L"C:\\Program Files (x86)\\Halalz\\Brave-Browser\\Application"
+        L"C:\\Program Files (x86)\\Halalz\\Kahf-Browser\\Application"
         L"\\kahf.exe",
         STABLE_INDEX, true, L"",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser"
+        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Kahf-Browser"
         L"\\Application\\kahf.exe",
         STABLE_INDEX, false, L"",
     },
     {
-        L"C:\\Program Files (x86)\\Halalz\\Brave-Browser-Beta"
+        L"C:\\Program Files (x86)\\Halalz\\Kahf-Browser-Beta"
         L"\\Application\\kahf.exe",
         BETA_INDEX, true, L"beta",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Beta"
+        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Kahf-Browser-Beta"
         L"\\Application\\kahf.exe",
         BETA_INDEX, false, L"beta",
     },
     {
-        L"C:\\Program Files (x86)\\Halalz\\Brave-Browser-Dev"
+        L"C:\\Program Files (x86)\\Halalz\\Kahf-Browser-Dev"
         L"\\Application\\kahf.exe",
         DEV_INDEX, true, L"dev",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Dev"
+        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Kahf-Browser-Dev"
         L"\\Application\\kahf.exe",
         DEV_INDEX, false, L"dev",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Nightly"
+        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Kahf-Browser-Nightly"
         L"\\Application\\kahf.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-Nightly"
+        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Kahf-Browser-Nightly"
         L"\\Application\\kahf.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
@@ -115,14 +115,14 @@ constexpr TestData kTestData[] = {
 #else   // OFFICIAL_BUILD
 constexpr TestData kTestData[] = {
     {
-        L"C:\\Program Files (x86)\\Halalz\\Brave-Browser-Development"
+        L"C:\\Program Files (x86)\\Halalz\\Kahf-Browser-Development"
         L"\\Application\\kahf.exe",
         DEVELOPER_INDEX,
         true,
         L"",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Brave-Browser-"
+        L"C:\\Users\\user\\AppData\\Local\\Halalz\\Kahf-Browser-"
         L"Development\\Application\\kahf.exe",
         DEVELOPER_INDEX,
         false,
