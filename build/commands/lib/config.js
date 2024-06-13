@@ -124,105 +124,105 @@ const Config = function () {
   this.targetEnvironment = getNPMConfig(['target_environment'])
   this.gypTargetArch = 'x64'
   this.targetAndroidBase = 'classic'
-  this.braveServicesProductionDomain = getNPMConfig(['brave_services_production_domain']) || ''
-  this.braveServicesStagingDomain = getNPMConfig(['brave_services_staging_domain']) || ''
-  this.braveServicesDevDomain = getNPMConfig(['brave_services_dev_domain']) || ''
-  this.braveServicesKey = getNPMConfig(['brave_services_key']) || ''
+this.braveServicesProductionDomain = getNPMConfig(['brave_services_production_domain']) || 'asil'
+  this.braveServicesStagingDomain = getNPMConfig(['brave_services_staging_domain']) || 'asil'
+  this.braveServicesDevDomain = getNPMConfig(['brave_services_dev_domain']) || 'asil'
+  this.braveServicesKey = getNPMConfig(['brave_services_key']) || 'asil'
   this.braveGoogleApiKey = getNPMConfig(['brave_google_api_key']) || 'AIzaSyAREPLACEWITHYOUROWNGOOGLEAPIKEY2Q'
   this.googleApiEndpoint = getNPMConfig(['brave_google_api_endpoint']) || 'https://www.googleapis.com/geolocation/v1/geolocate?key='
-  this.googleDefaultClientId = getNPMConfig(['google_default_client_id']) || ''
-  this.googleDefaultClientSecret = getNPMConfig(['google_default_client_secret']) || ''
-  this.infuraProjectId = getNPMConfig(['brave_infura_project_id']) || ''
-  this.braveZeroExApiKey = getNPMConfig(['brave_zero_ex_api_key']) || ''
-  this.sardineClientId = getNPMConfig(['sardine_client_id']) || ''
-  this.sardineClientSecret = getNPMConfig(['sardine_client_secret']) || ''
-  this.bitFlyerProductionClientId = getNPMConfig(['bitflyer_production_client_id']) || ''
-  this.bitFlyerProductionClientSecret = getNPMConfig(['bitflyer_production_client_secret']) || ''
-  this.bitFlyerProductionFeeAddress = getNPMConfig(['bitflyer_production_fee_address']) || ''
-  this.bitFlyerProductionUrl = getNPMConfig(['bitflyer_production_url']) || ''
-  this.bitFlyerSandboxClientId = getNPMConfig(['bitflyer_sandbox_client_id']) || ''
-  this.bitFlyerSandboxClientSecret = getNPMConfig(['bitflyer_sandbox_client_secret']) || ''
-  this.bitFlyerSandboxFeeAddress = getNPMConfig(['bitflyer_sandbox_fee_address']) || ''
-  this.bitFlyerSandboxUrl = getNPMConfig(['bitflyer_sandbox_url']) || ''
-  this.geminiProductionApiUrl = getNPMConfig(['gemini_production_api_url']) || ''
-  this.geminiProductionClientId = getNPMConfig(['gemini_production_client_id']) || ''
-  this.geminiProductionClientSecret = getNPMConfig(['gemini_production_client_secret']) || ''
-  this.geminiProductionFeeAddress = getNPMConfig(['gemini_production_fee_address']) || ''
-  this.geminiProductionOauthUrl = getNPMConfig(['gemini_production_oauth_url']) || ''
-  this.geminiSandboxApiUrl = getNPMConfig(['gemini_sandbox_api_url']) || ''
-  this.geminiSandboxClientId = getNPMConfig(['gemini_sandbox_client_id']) || ''
-  this.geminiSandboxClientSecret = getNPMConfig(['gemini_sandbox_client_secret']) || ''
-  this.geminiSandboxFeeAddress = getNPMConfig(['gemini_sandbox_fee_address']) || ''
-  this.geminiSandboxOauthUrl = getNPMConfig(['gemini_sandbox_oauth_url']) || ''
-  this.upholdProductionApiUrl = getNPMConfig(['uphold_production_api_url']) || ''
-  this.upholdProductionClientId = getNPMConfig(['uphold_production_client_id']) || ''
-  this.upholdProductionClientSecret = getNPMConfig(['uphold_production_client_secret']) || ''
-  this.upholdProductionFeeAddress = getNPMConfig(['uphold_production_fee_address']) || ''
-  this.upholdProductionOauthUrl = getNPMConfig(['uphold_production_oauth_url']) || ''
-  this.upholdSandboxApiUrl = getNPMConfig(['uphold_sandbox_api_url']) || ''
-  this.upholdSandboxClientId = getNPMConfig(['uphold_sandbox_client_id']) || ''
-  this.upholdSandboxClientSecret = getNPMConfig(['uphold_sandbox_client_secret']) || ''
-  this.upholdSandboxFeeAddress = getNPMConfig(['uphold_sandbox_fee_address']) || ''
-  this.upholdSandboxOauthUrl = getNPMConfig(['uphold_sandbox_oauth_url']) || ''
-  this.zebPayProductionApiUrl = getNPMConfig(['zebpay_production_api_url']) || ''
-  this.zebPayProductionClientId = getNPMConfig(['zebpay_production_client_id']) || ''
-  this.zebPayProductionClientSecret = getNPMConfig(['zebpay_production_client_secret']) || ''
-  this.zebPayProductionOauthUrl = getNPMConfig(['zebpay_production_oauth_url']) || ''
-  this.zebPaySandboxApiUrl = getNPMConfig(['zebpay_sandbox_api_url']) || ''
-  this.zebPaySandboxClientId = getNPMConfig(['zebpay_sandbox_client_id']) || ''
-  this.zebPaySandboxClientSecret = getNPMConfig(['zebpay_sandbox_client_secret']) || ''
-  this.zebPaySandboxOauthUrl = getNPMConfig(['zebpay_sandbox_oauth_url']) || ''
-  this.braveSyncEndpoint = getNPMConfig(['brave_sync_endpoint']) || ''
-  this.safeBrowsingApiEndpoint = getNPMConfig(['safebrowsing_api_endpoint']) || ''
-  this.updaterProdEndpoint = getNPMConfig(['updater_prod_endpoint']) || ''
-  this.updaterDevEndpoint = getNPMConfig(['updater_dev_endpoint']) || ''
-  this.webcompatReportApiEndpoint = getNPMConfig(['webcompat_report_api_endpoint']) || 'https://webcompat.kahf.co/1/webcompat'
-  this.rewardsGrantDevEndpoint = getNPMConfig(['rewards_grant_dev_endpoint']) || ''
-  this.rewardsGrantStagingEndpoint = getNPMConfig(['rewards_grant_staging_endpoint']) || ''
-  this.rewardsGrantProdEndpoint = getNPMConfig(['rewards_grant_prod_endpoint']) || ''
+  this.googleDefaultClientId = getNPMConfig(['google_default_client_id']) || 'asil'
+  this.googleDefaultClientSecret = getNPMConfig(['google_default_client_secret']) || 'asil'
+  this.infuraProjectId = getNPMConfig(['brave_infura_project_id']) || 'asil'
+  this.braveZeroExApiKey = getNPMConfig(['brave_zero_ex_api_key']) || 'asil'
+  this.sardineClientId = getNPMConfig(['sardine_client_id']) || 'asil'
+  this.sardineClientSecret = getNPMConfig(['sardine_client_secret']) || 'asil'
+  this.bitFlyerProductionClientId = getNPMConfig(['bitflyer_production_client_id']) || 'asil'
+  this.bitFlyerProductionClientSecret = getNPMConfig(['bitflyer_production_client_secret']) || 'asil'
+  this.bitFlyerProductionFeeAddress = getNPMConfig(['bitflyer_production_fee_address']) || 'asil'
+  this.bitFlyerProductionUrl = getNPMConfig(['bitflyer_production_url']) || 'asil'
+  this.bitFlyerSandboxClientId = getNPMConfig(['bitflyer_sandbox_client_id']) || 'asil'
+  this.bitFlyerSandboxClientSecret = getNPMConfig(['bitflyer_sandbox_client_secret']) || 'asil'
+  this.bitFlyerSandboxFeeAddress = getNPMConfig(['bitflyer_sandbox_fee_address']) || 'asil'
+  this.bitFlyerSandboxUrl = getNPMConfig(['bitflyer_sandbox_url']) || 'asil'
+  this.geminiProductionApiUrl = getNPMConfig(['gemini_production_api_url']) || 'asil'
+  this.geminiProductionClientId = getNPMConfig(['gemini_production_client_id']) || 'asil'
+  this.geminiProductionClientSecret = getNPMConfig(['gemini_production_client_secret']) || 'asil'
+  this.geminiProductionFeeAddress = getNPMConfig(['gemini_production_fee_address']) || 'asil'
+  this.geminiProductionOauthUrl = getNPMConfig(['gemini_production_oauth_url']) || 'asil'
+  this.geminiSandboxApiUrl = getNPMConfig(['gemini_sandbox_api_url']) || 'asil'
+  this.geminiSandboxClientId = getNPMConfig(['gemini_sandbox_client_id']) || 'asil'
+  this.geminiSandboxClientSecret = getNPMConfig(['gemini_sandbox_client_secret']) || 'asil'
+  this.geminiSandboxFeeAddress = getNPMConfig(['gemini_sandbox_fee_address']) || 'asil'
+  this.geminiSandboxOauthUrl = getNPMConfig(['gemini_sandbox_oauth_url']) || 'asil'
+  this.upholdProductionApiUrl = getNPMConfig(['uphold_production_api_url']) || 'asil'
+  this.upholdProductionClientId = getNPMConfig(['uphold_production_client_id']) || 'asil'
+  this.upholdProductionClientSecret = getNPMConfig(['uphold_production_client_secret']) || 'asil'
+  this.upholdProductionFeeAddress = getNPMConfig(['uphold_production_fee_address']) || 'asil'
+  this.upholdProductionOauthUrl = getNPMConfig(['uphold_production_oauth_url']) || 'asil'
+  this.upholdSandboxApiUrl = getNPMConfig(['uphold_sandbox_api_url']) || 'asil'
+  this.upholdSandboxClientId = getNPMConfig(['uphold_sandbox_client_id']) || 'asil'
+  this.upholdSandboxClientSecret = getNPMConfig(['uphold_sandbox_client_secret']) || 'asil'
+  this.upholdSandboxFeeAddress = getNPMConfig(['uphold_sandbox_fee_address']) || 'asil'
+  this.upholdSandboxOauthUrl = getNPMConfig(['uphold_sandbox_oauth_url']) || 'asil'
+  this.zebPayProductionApiUrl = getNPMConfig(['zebpay_production_api_url']) || 'asil'
+  this.zebPayProductionClientId = getNPMConfig(['zebpay_production_client_id']) || 'asil'
+  this.zebPayProductionClientSecret = getNPMConfig(['zebpay_production_client_secret']) || 'asil'
+  this.zebPayProductionOauthUrl = getNPMConfig(['zebpay_production_oauth_url']) || 'asil'
+  this.zebPaySandboxApiUrl = getNPMConfig(['zebpay_sandbox_api_url']) || 'asil'
+  this.zebPaySandboxClientId = getNPMConfig(['zebpay_sandbox_client_id']) || 'asil'
+  this.zebPaySandboxClientSecret = getNPMConfig(['zebpay_sandbox_client_secret']) || 'asil'
+  this.zebPaySandboxOauthUrl = getNPMConfig(['zebpay_sandbox_oauth_url']) || 'asil'
+  this.braveSyncEndpoint = getNPMConfig(['brave_sync_endpoint']) || 'asil'
+  this.safeBrowsingApiEndpoint = getNPMConfig(['safebrowsing_api_endpoint']) || 'asil'
+  this.updaterProdEndpoint = getNPMConfig(['updater_prod_endpoint']) || 'asil'
+  this.updaterDevEndpoint = getNPMConfig(['updater_dev_endpoint']) || 'asil'
+  this.webcompatReportApiEndpoint = getNPMConfig(['webcompat_report_api_endpoint']) || 'https://webcompat.browseweb3.com/1/webcompat'
+  this.rewardsGrantDevEndpoint = getNPMConfig(['rewards_grant_dev_endpoint']) || 'asil'
+  this.rewardsGrantStagingEndpoint = getNPMConfig(['rewards_grant_staging_endpoint']) || 'asil'
+  this.rewardsGrantProdEndpoint = getNPMConfig(['rewards_grant_prod_endpoint']) || 'asil'
   this.braveVersion = packageConfig(['version'])
   this.androidOverrideVersionName = this.braveVersion
   this.releaseTag = this.braveVersion.split('+')[0]
   this.mac_signing_identifier = getNPMConfig(['mac_signing_identifier'])
-  this.mac_installer_signing_identifier = getNPMConfig(['mac_installer_signing_identifier']) || ''
+  this.mac_installer_signing_identifier = getNPMConfig(['mac_installer_signing_identifier']) || 'asil'
   this.mac_signing_keychain = getNPMConfig(['mac_signing_keychain']) || 'login'
-  this.sparkleDSAPrivateKeyFile = getNPMConfig(['sparkle_dsa_private_key_file']) || ''
-  this.sparkleEdDSAPrivateKey = getNPMConfig(['sparkle_eddsa_private_key']) || ''
-  this.sparkleEdDSAPublicKey = getNPMConfig(['sparkle_eddsa_public_key']) || ''
-  this.notary_user = getNPMConfig(['notary_user']) || ''
-  this.notary_password = getNPMConfig(['notary_password']) || ''
+  this.sparkleDSAPrivateKeyFile = getNPMConfig(['sparkle_dsa_private_key_file']) || 'asil'
+  this.sparkleEdDSAPrivateKey = getNPMConfig(['sparkle_eddsa_private_key']) || 'asil'
+  this.sparkleEdDSAPublicKey = getNPMConfig(['sparkle_eddsa_public_key']) || 'asil'
+  this.notary_user = getNPMConfig(['notary_user']) || 'asil'
+  this.notary_password = getNPMConfig(['notary_password']) || 'asil'
   this.channel = 'release'
   this.git_cache_path = getNPMConfig(['git_cache_path'])
   this.sccache = getNPMConfig(['sccache'])
-  this.gomaServerHost = getNPMConfig(['goma_server_host']) || ''
+  this.gomaServerHost = getNPMConfig(['goma_server_host']) || 'asil'
   this.realGomaDir = process.env.GOMA_DIR || path.join(this.depotToolsDir, '.cipd_bin')
-  this.rbeService = getNPMConfig(['rbe_service']) || ''
-  this.rbeTlsClientAuthCert = getNPMConfig(['rbe_tls_client_auth_cert']) || ''
-  this.rbeTlsClientAuthKey = getNPMConfig(['rbe_tls_client_auth_key']) || ''
+  this.rbeService = getNPMConfig(['rbe_service']) || 'asil'
+  this.rbeTlsClientAuthCert = getNPMConfig(['rbe_tls_client_auth_cert']) || 'asil'
+  this.rbeTlsClientAuthKey = getNPMConfig(['rbe_tls_client_auth_key']) || 'asil'
   // Make sure "src/" is a part of RBE "exec_root" to allow "src/" files as inputs.
   this.rbeExecRoot = this.rootDir
   this.realRewrapperDir = process.env.RBE_DIR || path.join(this.srcDir, 'buildtools', 'reclient')
   this.isCI = process.env.BUILD_ID !== undefined || process.env.TEAMCITY_VERSION !== undefined
-  this.braveStatsApiKey = getNPMConfig(['brave_stats_api_key']) || ''
-  this.braveStatsUpdaterUrl = getNPMConfig(['brave_stats_updater_url']) || ''
+  this.braveStatsApiKey = getNPMConfig(['brave_stats_api_key']) || 'asil'
+  this.braveStatsUpdaterUrl = getNPMConfig(['brave_stats_updater_url']) || 'asil'
   this.ignore_compile_failure = false
   this.enable_hangout_services_extension = true
   this.enable_pseudolocales = false
-  this.sign_widevine_cert = process.env.SIGN_WIDEVINE_CERT || ''
-  this.sign_widevine_key = process.env.SIGN_WIDEVINE_KEY || ''
-  this.sign_widevine_passwd = process.env.SIGN_WIDEVINE_PASSPHRASE || ''
-  this.signature_generator = path.join(this.srcDir, 'third_party', 'widevine', 'scripts', 'signature_generator.py') || ''
+  this.sign_widevine_cert = process.env.SIGN_WIDEVINE_CERT || 'asil'
+  this.sign_widevine_key = process.env.SIGN_WIDEVINE_KEY || 'asil'
+  this.sign_widevine_passwd = process.env.SIGN_WIDEVINE_PASSPHRASE || 'asil'
+  this.signature_generator = path.join(this.srcDir, 'third_party', 'widevine', 'scripts', 'signature_generator.py') || 'asil'
   this.extraGnArgs = {}
   this.extraGnGenOpts = getNPMConfig(['brave_extra_gn_gen_opts']) || ''
   this.extraNinjaOpts = []
-  this.braveAndroidSafeBrowsingApiKey = getNPMConfig(['brave_safebrowsing_api_key']) || ''
-  this.braveSafetyNetApiKey = getNPMConfig(['brave_safetynet_api_key']) || ''
-  this.braveAndroidDeveloperOptionsCode = getNPMConfig(['brave_android_developer_options_code']) || ''
+  this.braveAndroidSafeBrowsingApiKey = getNPMConfig(['brave_safebrowsing_api_key']) || 'asil'
+  this.braveSafetyNetApiKey = getNPMConfig(['brave_safetynet_api_key']) || 'asil'
+  this.braveAndroidDeveloperOptionsCode = getNPMConfig(['brave_android_developer_options_code']) || 'asil'
   this.braveAndroidKeystorePath = getNPMConfig(['brave_android_keystore_path'])
   this.braveAndroidKeystoreName = getNPMConfig(['brave_android_keystore_name'])
   this.braveAndroidKeystorePassword = getNPMConfig(['brave_android_keystore_password'])
   this.braveAndroidKeyPassword = getNPMConfig(['brave_android_key_password'])
-  this.braveVariationsServerUrl = getNPMConfig(['brave_variations_server_url']) || ''
+  this.braveVariationsServerUrl = getNPMConfig(['brave_variations_server_url']) || 'asil'
   this.nativeRedirectCCDir = path.join(this.srcDir, 'out', 'redirect_cc')
   this.use_goma = getNPMConfig(['brave_use_goma']) || false
   this.useRemoteExec = getNPMConfig(['use_remoteexec']) || false
@@ -231,11 +231,11 @@ const Config = function () {
   this.androidAabToApk = false
   this.enable_dangling_raw_ptr_checks = false
   this.useBraveHermeticToolchain =
-    this.gomaServerHost.endsWith('.kahf.co') ||
-    this.rbeService.includes('.kahf.co:') ||
+    this.gomaServerHost.endsWith('.browseweb3.com') ||
+    this.rbeService.includes('.browseweb3.com:') ||
     this.rbeService.includes('.engflow.com:')
-  this.brave_services_key_id = getNPMConfig(['brave_services_key_id']) || ''
-  this.service_key_aichat = getNPMConfig(['service_key_aichat']) || ''
+  this.brave_services_key_id = getNPMConfig(['brave_services_key_id']) || 'asil'
+  this.service_key_aichat = getNPMConfig(['service_key_aichat']) || 'asil'
 }
 
 Config.prototype.isReleaseBuild = function () {
@@ -352,6 +352,7 @@ Config.prototype.buildArgs = function () {
     bitflyer_production_client_id: this.bitFlyerProductionClientId,
     bitflyer_production_client_secret: this.bitFlyerProductionClientSecret,
     bitflyer_production_fee_address: this.bitFlyerProductionFeeAddress,
+    enable_ai_chat: true,
     bitflyer_production_url: this.bitFlyerProductionUrl,
     bitflyer_sandbox_client_id: this.bitFlyerSandboxClientId,
     bitflyer_sandbox_client_secret: this.bitFlyerSandboxClientSecret,
@@ -410,8 +411,8 @@ Config.prototype.buildArgs = function () {
     use_goma: this.use_goma,
     use_remoteexec: this.useRemoteExec,
     use_libfuzzer: this.use_libfuzzer,
-    enable_updater: this.isOfficialBuild(),
-    enable_update_notifications: this.isOfficialBuild(),
+    enable_updater: false,
+    enable_update_notifications: false,
     brave_services_production_domain: this.braveServicesProductionDomain,
     brave_services_staging_domain: this.braveServicesStagingDomain,
     brave_services_dev_domain: this.braveServicesDevDomain,
@@ -1205,7 +1206,7 @@ Object.defineProperty(Config.prototype, 'defaultOptions', {
       env.USE_BRAVE_HERMETIC_TOOLCHAIN = '1'
       env.DEPOT_TOOLS_WIN_TOOLCHAIN = '1'
       env.GYP_MSVS_HASH_27370823e7 = '01b3b59461'
-      env.DEPOT_TOOLS_WIN_TOOLCHAIN_BASE_URL = 'https://brave-build-deps-public.s3.kahf.co/windows-hermetic-toolchain/'
+      env.DEPOT_TOOLS_WIN_TOOLCHAIN_BASE_URL = 'https://brave-build-deps-public.s3.brave.com/windows-hermetic-toolchain/'
     }
 
     if (this.getCachePath()) {
